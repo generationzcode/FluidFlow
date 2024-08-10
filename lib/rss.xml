@@ -1,7 +1,9 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 09 Aug 2024 16:27:12 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 09 Aug 2024 16:26:59 GMT</pubDate><copyright><![CDATA[graphegg]]></copyright><ttl>60</ttl><dc:creator>graphegg</dc:creator><item><title><![CDATA[2024-08-07]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 10 Aug 2024 05:04:47 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 10 Aug 2024 05:04:29 GMT</pubDate><copyright><![CDATA[graphegg]]></copyright><ttl>60</ttl><dc:creator>graphegg</dc:creator><item><title><![CDATA[2024-08-07]]></title><description><![CDATA[ 
  <br>2 supreme tomorrow]]></description><link>2024-08-07.html</link><guid isPermaLink="false">2024-08-07.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Wed, 07 Aug 2024 16:54:15 GMT</pubDate></item><item><title><![CDATA[Accounting]]></title><description><![CDATA[ 
  <br>The sales or revenue is also called the top line of a company<br>
 Accounting merely means recounting; and this process involves recording, classifying and summarizing of past events and transactions of financial nature with a view to enabling the user of accounts to interpret the resulting summary
+<br>Quote
+“This planet has—or rather had—a problem, which was this: most of the people living on it were unhappy for pretty much of the time. Many solutions were suggested for this problem, but most of these were largely concerned with the movement of small green pieces of paper, which was odd because on the whole it wasn't the small green pieces of paper that were unhappy.” — Douglas Adams
 <br><br>
 <br>Inflow - Income (money coming in that isn't repayable), Debt/Liabilities (money coming in that is repayable), Selling Asset
 <br>Outflow - Expense (Something you're spending money on that you are getting the rewards of instantly, you don't get the money back), Assets (Something you're spending money on that you will get rewards of in long term and you get the money back - recoverable, whatever a firm holds and uses for a long period), Clearing Liability
@@ -49,6 +51,7 @@ HW - How many accounts would I have?
 <br>Accounting for things in the right period
 <br><br>
 <br>you will account for a transaction even if actual cash isn't coming in
+<br>If it's coming in then account for it for sure
 <br>receivables are accounted for when they are accounted for not when they aren't<br>
 Treat every transaction in isolation<br>
 receivable account exists brother
@@ -66,7 +69,113 @@ receivable account exists brother
 <br>Basically if you're happy, stop being happy because accounting doesn't want that
 <br>inventory is products unsold by the end of the year - matching principle says what didn't get sold cannot be taken as an expense. inventory is an asset 
 <br>inventory is to be valued at market value or net realizable value, whichever is lower - exception to cost principle
-]]></description><link>Accounting.html</link><guid isPermaLink="false">Accounting.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Thu, 25 Jul 2024 05:16:05 GMT</pubDate></item><item><title><![CDATA[Agastya's solution]]></title><description><![CDATA[ 
+<br>Todo
+Prepare your own balance sheet and your own P and L<br>
+be
+<br><br><br><br>
+<br>Revenue expenditure is everything that is expense - whatever is used for day to day operations
+<br><br>
+<br>When the benefits of the expenditure is not exhausted in the year in which it was incurred
+<br>An example of expenditures incurred is in purchase of fixed assets
+<br>Faq
+Assets that aren't fixed assets:
+
+<br>Inventory
+<br>Short term loans
+
+These are called current assets
+<br><br>
+<br>Proprietor - the person who invests his money in the business and bears all risks connected with the business is called the proprietor
+<br>Capital - It means amount invested by the proprietor in the business. For the business, capital is a liability towards the owner.
+<br>Drawings - It is the amount of money taken away by the proprietor for personal use
+<br><br>
+<br>Debtor is someone who owns money to you - usually someone you've sold goods on credit
+<br>Other terms for debtor are - receivables, trade receivables, account receivables
+<br>Creditor is the person from whom the company has a debt from. Generally the vendor from whom they've bought stuff on credit
+<br>Payables, trade payables, accounts payables
+<br>Debtor is asset and creditor is liability
+<br><br>
+<br>Goods - Purchased for resale or to produce finished products which are also meant to be sold
+<br>What the company trades or manufactures
+<br>Companies can be classified broadly into companies that sell goods and companies that sell services
+<br>In goods, companies can be classified into traders and manufacturers
+<br>There'll be a purchase account for all the inward movement of goods and a sales account for the outward movement of goods
+Hint
+The purchase account is expense, the other effect of purchase is cash (goes down)<br>
+The expense account is income and the other effect is cash (goes up)
+whatever you haven't sold at the end of the accounting period, is called the closing stock, whatever is in closing stock, in the next accounting period, becomes the opening stock
+"When you're buying, its expense, when you're selling it's sales, jo bachgaya hai, becomes inventory"
+Inventory isn't a transaction, but since you own it, it's an asset
+
+
+<br>Returns - Accounted as sales returns, when the customer doesn't like your stuff
+<br>Return inward
+<br>Return from you - accounted as purchase return, when you don'tlike your suppliers stuff 
+<br>Return Outward
+<br>Goods which are in the transition stage if the processing time is high is called "work in progress"
+<br><br>
+<br>Solvent - A person who is in a position to pay his debts as they become due
+<br>Insolvent - A person who is not in a position to pay his debts as they become due
+<br>When a customer doesn't have enough money to pay their dues, they are declared insolvent, you must write off this asset, call it bad debt. Non performing asset
+<br>If, later on the customer gives the money, you account it as an income
+<br>Following the principle of conservatism, companies are required to keep a provision for "doubtful" debts
+<br><br>
+<br>Wages is what is paid to the blue collar staff and salary is what is paid to the white collar staff
+<br>Losses are something against which the business receives no benefit
+<br>Profit -&gt; Income-Expenses
+<br><br>Say soma starts a tea stall, he brings in 1000 rupees and borrows 1000 rupees. It is borrowed on the condition that at the end of every month he will have to pay 300 rupees. That's all he can borrow at the present
+Soma starts with 2000 rupees. Total capital employed is 1000 rupees (owner's funds/ shareholders funds) and 1000 rupees of borrowed money (debt/borrowings)
+Hot plate, vessels, crockery, etc is bought by soma for 1000 rupees. These are fixed assets.
+Then He buys his raw material like tea, milk, etc. These are his stock/inventory of working capital for 500 rupees. 500 rupees is left
+On day 1 he sells 100 cups of tea at 5 rupees each. The tradition in the area is that you're paid the next day. Soma hasn't received a single rupee yet but he knows he will receive tomorrow(accounts receivable)
+He is left with 200 rupees worth of stock which is usable on the next day
+He has hired a helper wjo will cost him 50 rupees a day. The helpers salary will be paid on a weekly basis. Besides,he has to pay 10 rupees as interest on the loan
+Soma has not recieved a single penny at the end of day 1, but we know that he generated sales of 500 rupees and material cost was only 300 rupees. In other words,his gross profit was 200 rupees. Sales-direct revenue expenditure = gross profit
+We are taking into account sales and expenses only without any cash coming in, this is called the accrual principle
+Consider material cost on day 1. Logically,we take material cost at 300 rupees
+If soma has to close his business the next day, his fixed assets will barely sell for 200 rupees, so do we take this as a loss of 800 rupees? no cus going converna and all so we gotta keep positive
+If at the end of the day someone promises you that he will buy 200 cups at 6 rupees, you cant mark that as a profit cus conservatism
+Copy<br><br>
+<br>Fixed assets- form the productive capacity for any business and are not traded in the course of the business
+<br>Current assets - the ones that will get converted into cash within a regular operator cycle
+<br>Current liabilities - are liabilities expected to e paid in cash in normal business cycle
+<br><br>
+<br>Refer to ppt
+<br><br>
+<br>Nominal accounts - all accounts related to income or expenses
+<br>Real accounts - Anything that can be owned - only fixed assets EVERYTHINGGGGGG OH YEAHHHHH
+<br>Personal accounts - personal account, related to an entity, like bank account, customer account, vendor account, loan taken from a bank. They are personal accounts since they represent an entity, they can be assets or liabilities
+<br>Jaise sales is nomial account, customer is personal account, 
+<br>Golden matrix (refer to ppt)
+<br>Cash and stock are real and bank and debtors are personal
+<br>Liabilities are all personal since they are all related directly to an entity
+<br><br>Quote
+"Whatever notions you have about debit and credit, please maro CTR+ALT+DELETE"
+<br>
+<br>
+For personal account, treating every transaction in isolation, in a particular transaction, debit the receiver, credit the giver
+
+<br>
+For real account, debit what comes in, credit what goes out
+
+<br>
+For nominal account, debit all expenses and losses, credit all incomes and gains
+Example
+cash sales - sales and cash accounts. Sales is nominal, cash is real. Sales mein credit, cash mein debit
+
+
+<br>
+debit and credit are only accounting operators
+
+<br><br>
+<br>STep 1 - identify the accounts affected
+<br>STep 2 - for each account, identify the type (real, nominal, personal)
+<br>STep 3 - ask the appropriate question based on the type (questions given above) to register it as credit or debit
+Done
+Up till here in the presentation
+
+
+]]></description><link>Accounting.html</link><guid isPermaLink="false">Accounting.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Sat, 10 Aug 2024 05:04:19 GMT</pubDate></item><item><title><![CDATA[Agastya's solution]]></title><description><![CDATA[ 
  <br>Important
 Agastya appreciation note for actually trying to solve this problem, when I disregarded it
 <br>If I had more time, I'd run a gradient descent or genetic algorithm on the guess parameters to better find the global minimum. I enjoy sleep so I avoided that - heres the solution. Pretty simple but feels weird to make a CSTR a constraint :/<br>Info
@@ -898,6 +1007,7 @@ Apple may deny this but their battery level icon indicator is not linear with pe
 A non apple device has this for 33% charge and an apple device has the same icon for 10%...
 <br>These are my notes. My notes. I hope you like them. Send me images of your notes if you'd like them included here - you probably have my whatsapp number<br>
 <br><a data-href="Polymers" href="Polymers.html" class="internal-link" target="_self" rel="noopener">Polymers</a> - polymers notes
+<br><a data-href="Accounting" href="Accounting.html" class="internal-link" target="_self" rel="noopener">Accounting</a> - money money money
 <br><a data-href="Engineering thermodynamics" href="Engineering thermodynamics.html" class="internal-link" target="_self" rel="noopener">Engineering thermodynamics</a> - Thermodynamics notes
 <br><a data-href="Fluid mechanics" href="Fluid mechanics.html" class="internal-link" target="_self" rel="noopener">Fluid mechanics</a> - Ayush wanted these I recall
 <br><a data-href="Process safety" href="Process safety.html" class="internal-link" target="_self" rel="noopener">Process safety</a> - These are mostly useless as we have ppts so these are just for me
@@ -906,7 +1016,7 @@ A non apple device has this for 33% charge and an apple device has the same icon
 <br><a data-href="CHT 1013" href="CHT 1013.html" class="internal-link" target="_self" rel="noopener">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
 <br>Quote
 “If there's anything more important than my ego around, I want it caught and shot now.”
-<br>(for my reference)]]></description><link>Index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Fri, 09 Aug 2024 16:16:02 GMT</pubDate><enclosure url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAAAuCAYAAADEHVzQAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAtdEVYdENyZWF0aW9uIFRpbWUAV2VkIDA3IEF1ZyAyMDI0IDEwOjE0OjE3IFBNIElTVNwByHkAAALxSURBVHic7ZkxT+pQGIZPLzfYiRAIDeEfKKthEFclJP4JJrow8y+M7V9gx4RRnVoH4ZSlDG4KLQkDZSOs711uCfECipT66f2e5FvISd9z+pxz2lMUIQQEQ5ZfX90BZjssiDgsiDgsiDgsiDgsiDgsiDgs6JPYti0ACADCtu2DZuG7VzqdRrfbjTXzLQfMiu5iqVQK9Xod7XYbw+EQi8UCi8UCo9EIt7e30HUdqVQq0gEkk0k8PDwc+iZBVVWYponZbPaPnJDZbAbTNKGqKi1BiUQCzWZza+dXB9FsNpFIJPbOVRQFrVYrjlkM0zTfHVuIYRh0BGWzWdzd3S07Z1kWdF1HsVhEJpNBJpNBsViEruuwLGvZ7v7+Htlsdq/s6+vruLYZBEEAADg7O9vYplwuAwCCIKAjSEoJAJhMJri4uHi3/eXlJSaTCQCg1+vtnHd1dYXxeLx25oZtHh8fIaWEpmnQNA2O48C27b3G+dFJcIDJst8FbNuGlBKFQgHi7zOh0Wjg6ekJ8/kc8/kcvV4PjUYDyWQSQggUCgVIKWFZ1s55m+Ss3hTHcQAAg8EAg8EAACCl/D8FrZamacsVtY5ut4tcLhfJjdomKJfLwXXd5e/Pz8/I5/PfUlCk56BOpyNOT0/Fy8uLqNVq4vj4WJycnIharSZeX19FqVQSnU4nysgPoyjKl+RGQWS2+/0+XNddu0o0TYPrunAcZ68Mz/N4i4uiqtUqfN+H7/uoVquRXbdSqWyUFLYJn4vhS8Jnn3c/WpDv+8vO+r5/kIw4X7NXM7at4G8pyPO8g2TEeVD9cYLCLc7zvEi3uLcV16ee8KBaLpc3tjk/PwcATKdT+oLirHQ6/alD7y61y6eem5sbFhR3qaoKwzCWK2kdQRDAMAwcHR1FlquElhia8B92xGFBxGFBxGFBxGFBxGFBxGFBxPldKpW+ug/MFngFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEecPZ1xsh0+QXO4AAAAASUVORK5CYII=" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAAAuCAYAAADEHVzQAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAtdEVYdENyZWF0aW9uIFRpbWUAV2VkIDA3IEF1ZyAyMDI0IDEwOjE0OjE3IFBNIElTVNwByHkAAALxSURBVHic7ZkxT+pQGIZPLzfYiRAIDeEfKKthEFclJP4JJrow8y+M7V9gx4RRnVoH4ZSlDG4KLQkDZSOs711uCfECipT66f2e5FvISd9z+pxz2lMUIQQEQ5ZfX90BZjssiDgsiDgsiDgsiDgsiDgsiDgs6JPYti0ACADCtu2DZuG7VzqdRrfbjTXzLQfMiu5iqVQK9Xod7XYbw+EQi8UCi8UCo9EIt7e30HUdqVQq0gEkk0k8PDwc+iZBVVWYponZbPaPnJDZbAbTNKGqKi1BiUQCzWZza+dXB9FsNpFIJPbOVRQFrVYrjlkM0zTfHVuIYRh0BGWzWdzd3S07Z1kWdF1HsVhEJpNBJpNBsViEruuwLGvZ7v7+Htlsdq/s6+vruLYZBEEAADg7O9vYplwuAwCCIKAjSEoJAJhMJri4uHi3/eXlJSaTCQCg1+vtnHd1dYXxeLx25oZtHh8fIaWEpmnQNA2O48C27b3G+dFJcIDJst8FbNuGlBKFQgHi7zOh0Wjg6ekJ8/kc8/kcvV4PjUYDyWQSQggUCgVIKWFZ1s55m+Ss3hTHcQAAg8EAg8EAACCl/D8FrZamacsVtY5ut4tcLhfJjdomKJfLwXXd5e/Pz8/I5/PfUlCk56BOpyNOT0/Fy8uLqNVq4vj4WJycnIharSZeX19FqVQSnU4nysgPoyjKl+RGQWS2+/0+XNddu0o0TYPrunAcZ68Mz/N4i4uiqtUqfN+H7/uoVquRXbdSqWyUFLYJn4vhS8Jnn3c/WpDv+8vO+r5/kIw4X7NXM7at4G8pyPO8g2TEeVD9cYLCLc7zvEi3uLcV16ee8KBaLpc3tjk/PwcATKdT+oLirHQ6/alD7y61y6eem5sbFhR3qaoKwzCWK2kdQRDAMAwcHR1FlquElhia8B92xGFBxGFBxGFBxGFBxGFBxGFBxPldKpW+ug/MFngFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEecPZ1xsh0+QXO4AAAAASUVORK5CYII="&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Industry]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+<br>(for my reference)]]></description><link>Index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Sat, 10 Aug 2024 03:11:28 GMT</pubDate><enclosure url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAAAuCAYAAADEHVzQAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAtdEVYdENyZWF0aW9uIFRpbWUAV2VkIDA3IEF1ZyAyMDI0IDEwOjE0OjE3IFBNIElTVNwByHkAAALxSURBVHic7ZkxT+pQGIZPLzfYiRAIDeEfKKthEFclJP4JJrow8y+M7V9gx4RRnVoH4ZSlDG4KLQkDZSOs711uCfECipT66f2e5FvISd9z+pxz2lMUIQQEQ5ZfX90BZjssiDgsiDgsiDgsiDgsiDgsiDgs6JPYti0ACADCtu2DZuG7VzqdRrfbjTXzLQfMiu5iqVQK9Xod7XYbw+EQi8UCi8UCo9EIt7e30HUdqVQq0gEkk0k8PDwc+iZBVVWYponZbPaPnJDZbAbTNKGqKi1BiUQCzWZza+dXB9FsNpFIJPbOVRQFrVYrjlkM0zTfHVuIYRh0BGWzWdzd3S07Z1kWdF1HsVhEJpNBJpNBsViEruuwLGvZ7v7+Htlsdq/s6+vruLYZBEEAADg7O9vYplwuAwCCIKAjSEoJAJhMJri4uHi3/eXlJSaTCQCg1+vtnHd1dYXxeLx25oZtHh8fIaWEpmnQNA2O48C27b3G+dFJcIDJst8FbNuGlBKFQgHi7zOh0Wjg6ekJ8/kc8/kcvV4PjUYDyWQSQggUCgVIKWFZ1s55m+Ss3hTHcQAAg8EAg8EAACCl/D8FrZamacsVtY5ut4tcLhfJjdomKJfLwXXd5e/Pz8/I5/PfUlCk56BOpyNOT0/Fy8uLqNVq4vj4WJycnIharSZeX19FqVQSnU4nysgPoyjKl+RGQWS2+/0+XNddu0o0TYPrunAcZ68Mz/N4i4uiqtUqfN+H7/uoVquRXbdSqWyUFLYJn4vhS8Jnn3c/WpDv+8vO+r5/kIw4X7NXM7at4G8pyPO8g2TEeVD9cYLCLc7zvEi3uLcV16ee8KBaLpc3tjk/PwcATKdT+oLirHQ6/alD7y61y6eem5sbFhR3qaoKwzCWK2kdQRDAMAwcHR1FlquElhia8B92xGFBxGFBxGFBxGFBxGFBxGFBxPldKpW+ug/MFngFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEecPZ1xsh0+QXO4AAAAASUVORK5CYII=" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAAAuCAYAAADEHVzQAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAtdEVYdENyZWF0aW9uIFRpbWUAV2VkIDA3IEF1ZyAyMDI0IDEwOjE0OjE3IFBNIElTVNwByHkAAALxSURBVHic7ZkxT+pQGIZPLzfYiRAIDeEfKKthEFclJP4JJrow8y+M7V9gx4RRnVoH4ZSlDG4KLQkDZSOs711uCfECipT66f2e5FvISd9z+pxz2lMUIQQEQ5ZfX90BZjssiDgsiDgsiDgsiDgsiDgsiDgs6JPYti0ACADCtu2DZuG7VzqdRrfbjTXzLQfMiu5iqVQK9Xod7XYbw+EQi8UCi8UCo9EIt7e30HUdqVQq0gEkk0k8PDwc+iZBVVWYponZbPaPnJDZbAbTNKGqKi1BiUQCzWZza+dXB9FsNpFIJPbOVRQFrVYrjlkM0zTfHVuIYRh0BGWzWdzd3S07Z1kWdF1HsVhEJpNBJpNBsViEruuwLGvZ7v7+Htlsdq/s6+vruLYZBEEAADg7O9vYplwuAwCCIKAjSEoJAJhMJri4uHi3/eXlJSaTCQCg1+vtnHd1dYXxeLx25oZtHh8fIaWEpmnQNA2O48C27b3G+dFJcIDJst8FbNuGlBKFQgHi7zOh0Wjg6ekJ8/kc8/kcvV4PjUYDyWQSQggUCgVIKWFZ1s55m+Ss3hTHcQAAg8EAg8EAACCl/D8FrZamacsVtY5ut4tcLhfJjdomKJfLwXXd5e/Pz8/I5/PfUlCk56BOpyNOT0/Fy8uLqNVq4vj4WJycnIharSZeX19FqVQSnU4nysgPoyjKl+RGQWS2+/0+XNddu0o0TYPrunAcZ68Mz/N4i4uiqtUqfN+H7/uoVquRXbdSqWyUFLYJn4vhS8Jnn3c/WpDv+8vO+r5/kIw4X7NXM7at4G8pyPO8g2TEeVD9cYLCLc7zvEi3uLcV16ee8KBaLpc3tjk/PwcATKdT+oLirHQ6/alD7y61y6eem5sbFhR3qaoKwzCWK2kdQRDAMAwcHR1FlquElhia8B92xGFBxGFBxGFBxGFBxGFBxGFBxPldKpW+ug/MFngFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEYcFEecPZ1xsh0+QXO4AAAAASUVORK5CYII="&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Industry]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
  <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener">#polymers</a><br>
 The below is a list of the polymer companies I can find on the internet in india (classified). The classifications can be incorrect, they are just meant to separate the companies from the surface<br><br>
 <br><a data-href="Supreme Industries" href="Supreme Industries.html" class="internal-link" target="_self" rel="noopener">Supreme Industries</a>
