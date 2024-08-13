@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 11:26:44 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 11:26:30 GMT</pubDate><copyright><![CDATA[graphegg]]></copyright><ttl>60</ttl><dc:creator>graphegg</dc:creator><item><title><![CDATA[2024-08-07]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 11:49:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 11:48:57 GMT</pubDate><copyright><![CDATA[graphegg]]></copyright><ttl>60</ttl><dc:creator>graphegg</dc:creator><item><title><![CDATA[2024-08-07]]></title><description><![CDATA[ 
  <br>2 supreme tomorrow]]></description><link>2024-08-07.html</link><guid isPermaLink="false">2024-08-07.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Wed, 07 Aug 2024 16:54:15 GMT</pubDate></item><item><title><![CDATA[Accounting]]></title><description><![CDATA[ 
  <br>The sales or revenue is also called the top line of a company<br>
 Accounting merely means recounting; and this process involves recording, classifying and summarizing of past events and transactions of financial nature with a view to enabling the user of accounts to interpret the resulting summary
@@ -566,7 +566,10 @@ These respirable size particles when inhaled are retained in the lungs and cause
 <br>Risk group 2 - can cause disease in humans/animals but won't be a serious hazard like ecoli and all
 <br>Risk group 3 - A pathogen that can cause serious animal or human disease but wont spread. Foot and mouth disease virus
 <br>Risk group 4 - pathogen that usually causes serious human or animal disease and can be readily transmitted from one individual to another
-<br><br>any combination of vector and host must be chosen to limit the the infectivity of vector to specific hosts and control the host vector survival in the environment]]></description><link>Bio-safety.html</link><guid isPermaLink="false">Bio-safety.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 05:31:42 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
+<br><br>any combination of vector and host must be chosen to limit the the infectivity of vector to specific hosts and control the host vector survival in the environment]]></description><link>Bio-safety.html</link><guid isPermaLink="false">Bio-safety.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 05:31:42 GMT</pubDate></item><item><title><![CDATA[Calculator]]></title><description><![CDATA[ 
+ <br>just testing whether obsidian sanitizes<br><br>
+click me
+]]></description><link>Calculator.html</link><guid isPermaLink="false">Calculator.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 11:48:41 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
  <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time?<br>
 <br><a data-href="Kinetics Homogeneous" href="Kinetics Homogeneous.html" class="internal-link" target="_self" rel="noopener">Kinetics Homogeneous</a>
 <br><a data-href="Experimental Kinetics" href="Experimental Kinetics.html" class="internal-link" target="_self" rel="noopener">Experimental Kinetics</a>
@@ -708,7 +711,10 @@ One part for for separation processes
 <a data-href="EOS" href="EOS.html" class="internal-link" target="_self" rel="noopener">EOS</a>
 
 <br>
-]]></description><link>Engineering thermodynamics.html</link><guid isPermaLink="false">Engineering thermodynamics.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 05:31:07 GMT</pubDate></item><item><title><![CDATA[Enthalpy Accumulation]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+<a data-href="Calculator" href="Calculator.html" class="internal-link" target="_self" rel="noopener">Calculator</a>
+
+<br>
+]]></description><link>Engineering thermodynamics.html</link><guid isPermaLink="false">Engineering thermodynamics.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 11:43:25 GMT</pubDate></item><item><title><![CDATA[Enthalpy Accumulation]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
  <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener">#thermo</a><br>
 <br>
 <br>Q is the rate of energy supplied on the left side<br>
@@ -1967,8 +1973,10 @@ I need kreyzig because I don't want to remember variable separable solution of d
 <br><br>
 We haven't done this in class so don't you worry you stupid little
 <br>
-<br>
-]]></description><link>Unsteady Heat Conduction.html</link><guid isPermaLink="false">Unsteady Heat Conduction.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 11:17:20 GMT</pubDate></item><item><title><![CDATA[Volume]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+<br>What I understood of this is basically you gotta take the average bulk temperature as the temperature of the substance thats in unsteady state and pretend that's it's steady state temperature.
+<br>Times have changed and we don't need such jugaad but heres the example they gave for spherical particles
+<br>feelin lazy
+]]></description><link>Unsteady Heat Conduction.html</link><guid isPermaLink="false">Unsteady Heat Conduction.md</guid><dc:creator><![CDATA[graphegg]]></dc:creator><pubDate>Tue, 13 Aug 2024 11:42:32 GMT</pubDate></item><item><title><![CDATA[Volume]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
  <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener">#thermo</a> <br>
 First years need steam tables and charts. We are now second year
 <br>In an explosion, the expansion of a gas is adiabatic<br>
