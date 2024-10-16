@@ -1,3 +1,840 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Oct 2024 05:38:51 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Oct 2024 05:38:49 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Oct 2024 08:52:46 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Oct 2024 08:52:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[CRE]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  ]]></description><link>excalidraw/cre.html</link><guid isPermaLink="false">Excalidraw/CRE.md</guid><pubDate>Fri, 11 Oct 2024 08:54:18 GMT</pubDate></item><item><title><![CDATA[thermo]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  ]]></description><link>excalidraw/thermo.html</link><guid isPermaLink="false">Excalidraw/thermo.md</guid><pubDate>Wed, 09 Oct 2024 06:23:58 GMT</pubDate></item><item><title><![CDATA[Thermo 2]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  ]]></description><link>excalidraw/thermo-2.html</link><guid isPermaLink="false">Excalidraw/Thermo 2.md</guid><pubDate>Thu, 10 Oct 2024 07:05:27 GMT</pubDate></item><item><title><![CDATA[thermo 3]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  ]]></description><link>excalidraw/thermo-3.html</link><guid isPermaLink="false">Excalidraw/thermo 3.md</guid><pubDate>Fri, 11 Oct 2024 10:35:56 GMT</pubDate></item><item><title><![CDATA[Accounting]]></title><description><![CDATA[ 
+ <br>The sales or revenue is also called the top line of a company<br>Important
+Accounting merely means recounting; and this process involves recording, classifying and summarizing of past events and transactions of financial nature with a view to enabling the user of accounts to interpret the resulting summary
+<br>Quote
+“This planet has—or rather had—a problem, which was this: most of the people living on it were unhappy for pretty much of the time. Many solutions were suggested for this problem, but most of these were largely concerned with the movement of small green pieces of paper, which was odd because on the whole it wasn't the small green pieces of paper that were unhappy.” — Douglas Adams
+<br><br>
+<br>Inflow - Income (money coming in that isn't repayable), Debt/Liabilities (money coming in that is repayable), Selling Asset
+<br>Outflow - Expense (Something you're spending money on that you are getting the rewards of instantly, you don't get the money back), Assets (Something you're spending money on that you will get rewards of in long term and you get the money back - recoverable, whatever a firm holds and uses for a long period), Clearing Liability
+<br>Classification of transactions happens in these 6 areas ^
+<br>Income - Not repayable inflow
+<br>Liability - Repayable inflow
+<br>Expense - Not recoverable outflow
+<br>Assets  - Recoverable in the future
+<br>Profit and loss is , P&amp;L account deals with revenue
+<br>Balance sheet is in liabilities and assets, BL sheet deals with capital
+<br>To account for asset usage, depreciation cost is kept in expenses
+<br>Depreciation is a non cash expense
+<br><br>
+<br>Tangible - Land, plant, machinery, etc.
+<br>Intangible - Goodwill, etc.
+<br>Whatever is payable is a liability, whatever is receivable is an asset
+<br>Whatever you use for a long period of time is also an asset
+<br><br>
+<br>You buy a machine and depreciate it to 0 over 5 years in the machinery account, when you sell it, you log it as: income
+<br>If the machine breaks down before depreciation makes it 0, you file the rest as expense
+<br><br>
+<br>Is an earning as a result of normal business activity or otherwise. It is also called sales turnover
+<br>Whatever is from the main core of the business is operating income
+<br><br>
+<br>An expense is an outflow of money in return for a product or service. It is also known as cost
+<br><br>
+<br>An asset is a resource which has economic usefulness in business operations over several years
+<br><br>
+<br>A liability is an obligation owed by the business to any external stakeholder<br>
+Every transaction has atleast 2 effects in 1 or more of these 4 buckets<br>
+HW - ask about the number of accounts<br>
+HW - How many accounts would I have?
+<br><br><br>business owner and business are separate entities<br>
+<br>the profits minus dividends are shown as a liability to the owner
+<br><br>
+<br>each company is an ongoing operation - accounting is to be done with the idea that the company will never close down
+<br><br>
+<br>Every transaction needs monetary term - no bartering
+<br><br>
+<br>In the books of accounting, everything is accounted for at historical costs only
+<br>No notional or market values
+<br><br>
+<br>whatever you're earning has to be matched - P&amp;L is accurately depicted - transactions must be accounted for when its coming in
+<br><br>
+<br>Accounting for things in the right period
+<br><br>
+<br>you will account for a transaction even if actual cash isn't coming in
+<br>If it's coming in then account for it for sure
+<br>receivables are accounted for when they are accounted for not when they aren't<br>
+Treat every transaction in isolation<br>
+receivable account exists brother
+<br><br>
+<br>anything that is significant enough for decision making should be disclosed separately
+<br>If any transaction is above a certain threshold, it has to be shown separately in the reports - the thresholds are set by the companies act
+<br>Some classifications have to be disclosed separately even if they aren't above the thresholds set by the companies act
+<br>any major event has to be disclosed
+<br><br>
+<br>there are accounting standards - international, indian, etc.
+<br>bunch of rules that tell you how to account for different stuff
+<br>Although you are free to choose a standard, stick with it
+<br><br>
+<br>You cannot record for a notional or forseeable profit but you must record for forseeable losses
+<br>Basically if you're happy, stop being happy because accounting doesn't want that
+<br>inventory is products unsold by the end of the year - matching principle says what didn't get sold cannot be taken as an expense. inventory is an asset 
+<br>inventory is to be valued at market value or net realizable value, whichever is lower - exception to cost principle
+<br>Todo
+Prepare your own balance sheet and your own P and L<br>
+be
+<br><br><br><br>
+<br>Revenue expenditure is everything that is expense - whatever is used for day to day operations
+<br><br>
+<br>When the benefits of the expenditure is not exhausted in the year in which it was incurred
+<br>An example of expenditures incurred is in purchase of fixed assets
+<br>Faq
+Assets that aren't fixed assets:
+
+<br>Inventory
+<br>Short term loans
+
+These are called current assets
+<br><br>
+<br>Proprietor - the person who invests his money in the business and bears all risks connected with the business is called the proprietor
+<br>Capital - It means amount invested by the proprietor in the business. For the business, capital is a liability towards the owner.
+<br>Drawings - It is the amount of money taken away by the proprietor for personal use
+<br><br>
+<br>Debtor is someone who owns money to you - usually someone you've sold goods on credit
+<br>Other terms for debtor are - receivables, trade receivables, account receivables
+<br>Creditor is the person from whom the company has a debt from. Generally the vendor from whom they've bought stuff on credit
+<br>Payables, trade payables, accounts payables
+<br>Debtor is asset and creditor is liability
+<br><br>
+<br>Goods - Purchased for resale or to produce finished products which are also meant to be sold
+<br>What the company trades or manufactures
+<br>Companies can be classified broadly into companies that sell goods and companies that sell services
+<br>In goods, companies can be classified into traders and manufacturers
+<br>There'll be a purchase account for all the inward movement of goods and a sales account for the outward movement of goods
+Hint
+The purchase account is expense, the other effect of purchase is cash (goes down)<br>
+The expense account is income and the other effect is cash (goes up)
+whatever you haven't sold at the end of the accounting period, is called the closing stock, whatever is in closing stock, in the next accounting period, becomes the opening stock
+"When you're buying, its expense, when you're selling it's sales, jo bachgaya hai, becomes inventory"
+Inventory isn't a transaction, but since you own it, it's an asset
+
+
+<br>Returns - Accounted as sales returns, when the customer doesn't like your stuff
+<br>Return inward
+<br>Return from you - accounted as purchase return, when you don't like your suppliers stuff 
+<br>Return Outward
+<br>Goods which are in the transition stage if the processing time is high is called "work in progress"
+<br><br>
+<br>Solvent - A person who is in a position to pay his debts as they become due
+<br>Insolvent - A person who is not in a position to pay his debts as they become due
+<br>When a customer doesn't have enough money to pay their dues, they are declared insolvent, you must write off this asset, call it bad debt. Non performing asset
+<br>If, later on the customer gives the money, you account it as an income
+<br>Following the principle of conservatism, companies are required to keep a provision for "doubtful" debts
+<br><br>
+<br>Wages is what is paid to the blue collar staff and salary is what is paid to the white collar staff
+<br>Losses are something against which the business receives no benefit
+<br>Profit -&gt; Income-Expenses
+<br><br>Say soma starts a tea stall, he brings in 1000 rupees and borrows 1000 rupees. It is borrowed on the condition that at the end of every month he will have to pay 300 rupees. That's all he can borrow at the present
+Soma starts with 2000 rupees. Total capital employed is 1000 rupees (owner's funds/ shareholders funds) and 1000 rupees of borrowed money (debt/borrowings)
+Hot plate, vessels, crockery, etc is bought by soma for 1000 rupees. These are fixed assets.
+Then He buys his raw material like tea, milk, etc. These are his stock/inventory of working capital for 500 rupees. 500 rupees is left
+On day 1 he sells 100 cups of tea at 5 rupees each. The tradition in the area is that you're paid the next day. Soma hasn't received a single rupee yet but he knows he will receive tomorrow(accounts receivable)
+He is left with 200 rupees worth of stock which is usable on the next day
+He has hired a helper wjo will cost him 50 rupees a day. The helpers salary will be paid on a weekly basis. Besides,he has to pay 10 rupees as interest on the loan
+Soma has not recieved a single penny at the end of day 1, but we know that he generated sales of 500 rupees and material cost was only 300 rupees. In other words,his gross profit was 200 rupees. Sales-direct revenue expenditure = gross profit
+We are taking into account sales and expenses only without any cash coming in, this is called the accrual principle
+Consider material cost on day 1. Logically,we take material cost at 300 rupees
+If soma has to close his business the next day, his fixed assets will barely sell for 200 rupees, so do we take this as a loss of 800 rupees? no cus going converna and all so we gotta keep positive
+If at the end of the day someone promises you that he will buy 200 cups at 6 rupees, you cant mark that as a profit cus conservatism
+Copy<br><br>
+<br>Fixed assets- form the productive capacity for any business and are not traded in the course of the business
+<br>Current assets - the ones that will get converted into cash within a regular operator cycle
+<br>Current liabilities - are liabilities expected to e paid in cash in normal business cycle
+<br><br>
+<br>Refer to ppt - vishy says its the set of all accounts
+<br><br>
+<br>Nominal accounts - all accounts related to income or expenses
+<br>Real accounts - Anything that can be owned - only fixed assets,stocks and cash- Whatever you can hear see, touch
+<br>Personal accounts - personal account, related to an entity, like bank account, customer account, vendor account, loan taken from a bank. They are personal accounts since they represent an entity, they can be assets or liabilities
+<br>Jaise sales is nomial account, customer is personal account, 
+<br>Golden matrix (refer to ppt)
+<br>Cash and stock are real and bank and debtors are personal
+<br>Liabilities are all personal since they are all related directly to an entity
+<br><br>Quote
+"Whatever notions you have about debit and credit, please maro CTR+ALT+DELETE"
+<br>
+<br>
+For personal account, debit the receiver, credit the giver
+
+<br>
+For real account, debit what comes in, credit what goes out
+
+<br>
+For nominal account, debit all expenses and losses, credit all incomes and gains
+Example
+cash sales - sales and cash accounts. Sales is nominal, cash is real. Sales mein credit, cash mein debit
+
+
+<br>
+debit and credit are only accounting operators
+
+<br><br>
+<br>STep 1 - identify the accounts affected
+<br>STep 2 - for each account, identify the type (real, nominal, personal)
+<br>STep 3 - ask the appropriate question based on the type (questions given above) to register it as credit or debit
+Done
+Up till here in the presentation
+
+
+<br>
+Gross is the value, and net is the gross minus deductions<br>
+Gross is usually the higher value and net is the lower value<br>
+Eg. net profit = gross profit - taxes, expenses, depreciation
+<br>
+How is the cash discount accounted for? 
+<br><a data-href="Accounts quiz 1" href="accounts-quiz-1.html" class="internal-link" target="_self" rel="noopener">Accounts quiz 1</a><br>
+A personal account is impacted only when it is an unsettled transaction or it is a settlement of a previously unsettled transaction. The exception to this rule is the bank account, whenever you receive a cheque, it goes straight ot the bank account<br>Tip
+Advance is an unsettled transaction, it's like a loan to someone 
+<br>sundry means miscellaneous <br><br>
+<br>The process of accounting:
+<br>Identifying the event
+<br>converting the event into monetary terms
+<br>recording the journal entry
+<br>posting to ledger account - its a place where all the accounts are kept, so that you know whether you're insolvent or not
+<br>Preparing the trial balance - this is a quick check of whether your accounts are correct and you can check this using the credit and debit totalling 0. If they don't, you need to fix a few things and adjust some transactions
+<br>Preparing the final acounts: Profit and loss account and balance sheet
+<br><br>
+<br>Usually in a business, transactions that are debited and credited are recorded in a systematic manner and the book in which they are recorded, in a chronological order is called the journal.
+<br>The fields that exist in a journal- date, particulars, LF, debit, credit
+<br>particulars is the account to be credited or debited and if it's to be debited, it's suffixed by Dr and if it's to be credited, its prefixed by to
+<br>After a particular entry is written, a narration must be written for an audit trail
+<br>LF- ledger folio, folio means page number.Once an entry is passed, it's posted in a ledger and the page it's posted on is called the LF
+<br><br>The book which contains accounts is called the ledger<br>Problem
+Sourabh sent it as a photo on the main group
+<br>Important
+Provision for doubtful debts is from the amount of doubtful debts that didnt become bad debts and they collected on it
+<br>
+<br>To Bad Debts
+<br>Add Bad Debts
+<br>Add Doubtful Debts
+<br>Less Opening Provisions<br>
+<img alt="Pasted image 20241003103043.png" src="pasted-image-20241003103043.png"><br>
+<img alt="Pasted image 20241003103051.png" src="pasted-image-20241003103051.png"><br>
+<img alt="Pasted image 20241003103114.png" src="pasted-image-20241003103114.png"><br>
+Note the imbalance in credit and debit - I don't know where I went wrong
+]]></description><link>accounting.html</link><guid isPermaLink="false">Accounting.md</guid><pubDate>Thu, 10 Oct 2024 02:57:29 GMT</pubDate><enclosure url="pasted-image-20241003103043.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241003103043.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Critical Thinking]]></title><description><![CDATA[ 
+ <br>
+Not my advice, just stuff my sister, professors and books say
+<br>I'd like to keep philosophy out of these notes, but this seems really interesting and important. <br>This section will be about how to assimilate knowledge and really understand it critically and understand all the little kinks about it<br><br><img alt="Pasted image 20241011145250.png" src="pasted-image-20241011145250.png"><br>
+<br>These are "at the heart of critical thinking", to unde
+<br>Questions for clarification: clarifying the thinking behind a certain concept - "Why do you say that?", "Could you explain further?", "How does the concentration suddenly reduce on entry of a stream to a CSTR", "Whats the blow off cock there for in a boiler?", "How does the triple product of these partial derivatives equal -1?", "Whats the physical significance of exergy, gibbs free energy, enthalpy,etc"
+<br>Questions that probe assumptions - "Why is there no temperature gradient from the boundary layer to the center of the fluid in the pipe?", "Why does entropy always increase?"("just cus")
+<br>Questions that probe reasons and evidence - "Could the cold vodka be cause for the antidote not neutralizing the poison?"
+<br>Questions about viewpoints and perspectives - "Why don't we use exergy balance here instead of gibbs energy balance?", "Why did maxwell come up with his relations in thermodynamics? What was going on in his mind? Why did he feel the need for it?", "When should I use -this concept- over -that concept-"
+<br>Questions about implications and consequences: "If I did exergy balance for this instead of energy balance, what would be different? Isn't it still correct?"
+<br>Questions about the question: "What was the point of this question?", "Was that question easy?", "Would we use the concept of entropy in this question?", "How does this question relate to the lecture taken today?"
+<br><br>
+<br>Basically analyzing, applying standards, discriminating, information seeking, logical reasoning, predicting and transforming knowledge over different situations
+<br>These actions aren't too helpful to a student since it's difficult to use this list to develop a critical understanding of a subject. This is probably for teachers to assess students and all
+<br><br>
+<br>For the theory, ask socratic questions (good ones)
+<br>For the questions - ask another question or different calculations for the problem, think of all the ways you could solve the problem incorrectly (and why they're incorrect), think of how to make the problem easier, more difficult or more exciting, make a list of concepts taught in the problem and what the point of the problem was, vary parameters of the questions and study their consequences, try to come up with better ways of solving the problem (more elegant ways - my own addition)
+]]></description><link>critical-thinking.html</link><guid isPermaLink="false">Critical Thinking.md</guid><pubDate>Fri, 11 Oct 2024 09:42:20 GMT</pubDate><enclosure url="pasted-image-20241011145250.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011145250.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Engineering thermodynamics]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br>
+What is the most dangerous thing in ICT?
+
+<br>Gas cylinders
+
+<br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener">#thermo</a> <br>Quote
+“Perhaps I'm old and tired, but I always think that the chances of finding out what really is going on are so absurdly remote that the only thing to do is to say hang the sense of it and just keep yourself occupied.”— Douglas Adams, The Restaurant at the End of the Universe
+<br>After midems - we're looking at mixtures, so we want to find the entropy, enthalpy, G,etc for mixtures. To find all this, we need to find the pure component property and change due to mixing<br>There are two parts to this course:<br>
+<br>
+One part for a singular equation to not need mollier diagrams or steam tables
+
+<br>
+One part for for separation processes
+
+<br>
+<a data-href="Real Gases" href="real-gases.html" class="internal-link" target="_self" rel="noopener">Real Gases</a>
+
+<br>
+<a data-href="Enthalpy Accumulation" href="enthalpy-accumulation.html" class="internal-link" target="_self" rel="noopener">Enthalpy Accumulation</a>
+
+<br>
+<a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener">Entropy</a>
+
+<br>
+<a data-href="gibbs free energy" href="gibbs-free-energy.html" class="internal-link" target="_self" rel="noopener">gibbs free energy</a>
+
+<br>
+<a data-href="exergy special" href="exergy-special.html" class="internal-link" target="_self" rel="noopener">exergy special</a>
+
+<br>
+<a data-href="Volume" href="volume.html" class="internal-link" target="_self" rel="noopener">Volume</a>
+
+<br>
+<a data-href="doubt session" href="doubt-session.html" class="internal-link" target="_self" rel="noopener">doubt session</a>
+
+<br>
+<a data-href="EOS" href="eos.html" class="internal-link" target="_self" rel="noopener">EOS</a>
+
+<br>
+<a data-href="Calculator" href="calculator.html" class="internal-link" target="_self" rel="noopener">Calculator</a>
+
+<br>
+<a data-href="Lec 8" href="lec-8.html" class="internal-link" target="_self" rel="noopener">Lec 8</a>
+
+<br>
+<a data-href="Mixtures" href="mixtures.html" class="internal-link" target="_self" rel="noopener">Mixtures</a>
+
+<br>
+<a data-href="Vapour Liquid Equilibrium" href="vapour-liquid-equilibrium.html" class="internal-link" target="_self" rel="noopener">Vapour Liquid Equilibrium</a>
+
+]]></description><link>engineering-thermodynamics.html</link><guid isPermaLink="false">Engineering thermodynamics.md</guid><pubDate>Thu, 10 Oct 2024 05:20:48 GMT</pubDate></item><item><title><![CDATA[Environmental Science]]></title><description><![CDATA[<a class="tag" href="?query=tag:Environment" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Environment</a> 
+ <br><a href=".?query=tag:Environment" class="tag" target="_blank" rel="noopener">#Environment</a><br>
+Environment good, don't destroy for profit or something
+<br>Quote
+“Anyone who is capable of getting themselves made President should on no account be allowed to do the job.”
+<br>
+<br><a data-href="Water Pollution" href="water-pollution.html" class="internal-link" target="_self" rel="noopener">Water Pollution</a>
+<br>for civilized life you need food, shelter and sustainable infrastructure
+<br><a data-href="NIMBY" href="nimby.html" class="internal-link" target="_self" rel="noopener">NIMBY</a> - not in my backyard
+Example of environmental science in action
+China produces 100 million tonnes of methanol a year, they get this from a coal bed, using coal bed methanation (CBM). India uses the synthetic route of using crude oil to make methanol. China is more sustainable? I'm not sure what the example was
+
+
+<br>
+Bill and Melinda gate foundation has put up a challenge on how to stop antibiotics from going in common areas outside of the human body and causing resistant bug
+<br><br><br>
+<br>people would boil water 
+<br>mid 19th century filtration began
+<br>clogged filters were a big problem
+<br>alum was introduced as a water treatment technique in the 18th century and widely used in the 19th century
+<br>chlorination became common in the 20th century
+<br>Now people are concerned about adverse effects of chlorination, so work into potassium permanganate is being done
+<br>Weird fact
+The concentration in water of oxygen is 7-8 mg per litre for fish. Fish cannot survive in 4 mg per litre.
+<br><br>
+<br>People would hurl shit out of their windows in absence of a proper sewage system in Paris. I personally suppose this was not because of absence of sewage systems but simply because they were French
+<br>Napolean ended up building a sewage system so this maybe stopped
+<br><br>
+<br>Many cities combine their waste systems and cause pollution this way
+<br>Cesspools and vaults were common, carting waste (ew)
+<br>Non centralized sewage systems - not successful
+<br>Untreated sewage - increases BOD of water and kills the fish, also causes insane amounts of pollution 
+<br><br>
+Ecosystems are composed of interacting living organisms and their physical environment
+<br>
+<br>populations generally maintain a balance state (homeostasis)
+<br>there is a dynamic equilibrium which is whats behind homeostasis with stabilizing (for negative feedback) and destabilizing (for positive feedback) effects. This maintains the population in a balanced state
+<br>A classic example of predator prey interactions is the hare and lynx relationship
+<br><br>
+A system of weakness that the incompetent perpetuate so they can fool themselves
+<br>
+<br>Ministry of environment and forestry is the section of Indian government associated with environmental science and engineering
+<br>environmental science in these days is very cha ching cha ching. MONEY is BIG. Big projects need such work so they don't fail in the eyes of public and government
+<br>anthropological activities - industrial, man made, civilized activities
+<br>Cause and effect of anthropological activities need to be weighed
+<br>Sustainability is - leaving the planet in a better condition for the next generation
+
+Look at online undergraduate competitions. TOMORROW FOR SURE
+
+
+<br><br>
+You need to the the due diligence for the consequences for your project before you start it
+<br>
+<br>EIA  report - environmental impact assessment
+<br>Prepare one
+<br>It's a detailing of all the activities you're proposing to carry out. What all will be included in this? Carbon footprint, emissions, how you're dealing with your waste and emissions, environment management plan, HSE (health, safety and environment), event management plan (if accident happens)
+<br>Types of projects - class A (of scale enough to be of national importance), class B1 (little less, get the license from the state government), class B2 (get license from district agency)
+<br>No project that comes under this -redacted- if it is any department. No chemical which comes in category 25 - synthetic organic chemicals
+Important
+More from less for more
+
+
+]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Mon, 14 Oct 2024 04:54:15 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
+“If there's anything more important than my ego around, I want it caught and shot now.”
+<br>I write a lot<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener">Accounting</a> - money money money
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener">Engineering thermodynamics</a> - Thermodynamics notes
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener">Process safety</a> - These are mostly useless as we have ppts so these are just for me
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener">Critical Thinking</a> - How to learn stuff, allegedly
+<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
+<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
+<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Fri, 11 Oct 2024 10:27:03 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fogler]]></title><description><![CDATA[ 
+ <br>A homogeneous reaction is a reaction where all reactants are of the same phase<br>
+<br>rate expression is expressed as  
+<br>the powers of each concentration is usually same as molecularity of that substance in the reaction for elementary reactions
+<br>temperature dependency of k is  Where E is the activation energy of the reaction, R is the ideal gas constant and T is the temperature in kelvin. A is a factor that represents number of collisions and is also called the frequency factor
+<br>As it gets more complicated, just use common sense man.
+<br>Series reactions can be modeled by simply taking the each reaction and calculating the rate for every intermediate
+<br>Same with parallel
+<br><br>
+<br>Conversion - always defined on the limiting reagant. In different situations, different elements of the reaction may be limiting and thus choosing it is not possible from just the reaction equation
+<br><img alt="Pasted image 20241001152222.png" src="pasted-image-20241001152222.png">
+<br>The symbol for conversion is X
+<br><br>
+<br>The design equation for a batch reactor
+<br>In the following derivation all subscripts refer to the reactant identity and from when the value was provided. N is moles of a substance, X is conversion, r is rate, V is volume
+<br><img alt="Pasted image 20241001153051.png" src="pasted-image-20241001153051.png">
+<br>integrate this and get what you want
+<br>Batch reactors are pretty obvious really
+<br><br>
+<br>Unlike batch reactors, the real biggies are the continuous flow reactors that keep taking in chemicals and outputting chemicals continuously
+<br>There are two types of flow reactors - plug flow and continuous stir tank reactors(AKA backmix reactors)
+<br>The basic equations have symbols F = molar flow rate, C = concentration, V = control volume
+<br><img alt="Pasted image 20241001153708.png" src="pasted-image-20241001153708.png">
+<br><br><img alt="Pasted image 20241001154208.png" src="pasted-image-20241001154208.png"><br>
+<br>This is not differential, just one block. Very simple
+<br>All the contents are perfectly mixed at all times (homogeneous). The reaction happens at a concentration lower than inlet.
+<br>This reactor is difficult to understand so take a minute to visualize
+<br><img alt="Pasted image 20241001154105.png" src="pasted-image-20241001154105.png">
+<br><br>
+<br>Also known as a tubular flow reactor
+<br><img alt="Pasted image 20241001160229.png" src="pasted-image-20241001160229.png">
+<br>each part of the PFR is perfectly axially mixed but not longitudinally (?) mixed
+<br><img alt="Pasted image 20241001161740.png" src="pasted-image-20241001161740.png">
+<br><br>
+<br>A homogeneous reaction involves only one phase
+<br>The molecularity of a reaction is how many molecules are colliding in a reaction step
+<br>for an elementary reaction (only one step), the order of the reaction is the same as it's molecularity
+<br>Why is most of this so simple?
+<br>Levenspiel explained it in greater depth I feel
+<br><br>
+<br>We all hate variable volume, such a pointless thing but gotta derive it. :smh: :angryface:
+<br>Latorzzz
+<br>After this whedon with this easy af chapter
+<br><img alt="Pasted image 20241011142441.png" src="pasted-image-20241011142441.png">
+<br>A rough idea of how it goes
+<br>
+]]></description><link>kinetics-homogeneous.html</link><guid isPermaLink="false">Kinetics Homogeneous.md</guid><pubDate>Fri, 11 Oct 2024 08:54:49 GMT</pubDate><enclosure url="pasted-image-20241001152222.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241001152222.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mixtures]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener">#thermo</a><br>
+<img alt="Pasted image 20240911105458.png" src="pasted-image-20240911105458.png"><br>
+<img alt="Pasted image 20240926122107.png" src="pasted-image-20240926122107.png"><br>
+suppose we mix 3kg of water and 1kg of pure H2SO4 at 21.1 C adiabatically, what will the final temperature be?<br>
+<img alt="Pasted image 20240911110600.png" src="pasted-image-20240911110600.png"><br>Info
+if we actually did this isothermally, we'd have to remove energy since the total enthalpy of the mixture reduces. This is because of hydrogen bonding formed between h2so4 and h20
+<br><br>
+<br>The above equation can be used for any of the variables like gibbs free energy, entropy, etc
+<br><br>
+<br>This is a polynomial fitted for delta H mix
+<br>
+<br>x1 and x2 are the mole fractions of the two components
+Todo
+Fit a redlich kister expansion to H2SO4
+
+
+<br><br>
+<br>One of the things that separates chemical engineers from the rest of humanity is that we are able to separate stuff.
+<br>Distillation, crystallization, liquid liquid extraction, etc.
+<br>So we'll have a mixture and a process which outputs a number of pure components
+<br>Now if we want to know the minimum work or heat required to separate something, we can use this
+<br><br>
+<br>Imagine we have a phase equilibrium between a liquid and it's vapour:
+<br><img alt="Pasted image 20240925112145.png" src="pasted-image-20240925112145.png">
+<br>I don't know why you should imagine this I just copied this off the board
+<br><img alt="Pasted image 20240925113256.png" src="pasted-image-20240925113256.png">
+<br>The above can be written for vapour as well
+<br>the derivative of G with respect to components in the mixture is called the chemical potential of that particular component in whichever phase it's in
+<br><img alt="Pasted image 20240925114057.png" src="pasted-image-20240925114057.png">This is also called the partial molar gibbs energy
+<br><img alt="Pasted image 20240925114641.png" src="pasted-image-20240925114641.png">
+<br>An interesting derivation later we see that at equilibrium, the chemical potential of each component in the liquid phase must be equal to the chemical potential of that component in the vapour phase
+<br><br><img alt="Pasted image 20240925121402.png" src="pasted-image-20240925121402.png"><br>
+<br>Last year we had learnt that enthalpy is the addition of enthalpy multiplied by the mole fraction of each component, THIS WAS WRONG
+<br>It's the partial molar enthalpy of a component multiplied by it's mole fraction and added up with all the other components - thats the actual enthalpy
+<br>Gibbs duhem - get familiar
+<br><br><img alt="Pasted image 20240926110930.png" src="pasted-image-20240926110930.png"><br>
+Now, using the Redlich Kister expansion<br>
+<img alt="Pasted image 20240926111833.png" src="pasted-image-20240926111833.png"><br><br>
+<br>N number of ideal gases are being mixed at a certain temperature 
+<br>Volume change due to mixing is 0, 
+<br><img alt="Pasted image 20240926115354.png" src="pasted-image-20240926115354.png">
+<br>This means that the partial molar volume is equal to the volume of the pure substance
+<br><img alt="Pasted image 20240926115840.png" src="pasted-image-20240926115840.png">
+<br><img alt="Pasted image 20240926120504.png" src="pasted-image-20240926120504.png">
+<br><img alt="Pasted image 20240926120640.png" src="pasted-image-20240926120640.png">
+Problem
+Suppose we have an isothermal separation like:<br>
+<img alt="Pasted image 20240926120951.png" src="pasted-image-20240926120951.png">
+
+
+<br>Solution
+<img alt="Pasted image 20240926121734.png" src="pasted-image-20240926121734.png">
+<br><br>
+<br>The Partial Molar gibbs free energy of all components has to be the same
+Problem
+A problem from the green envelope
+
+
+<br><img alt="Pasted image 20241003114806.png" src="pasted-image-20241003114806.png"><br>
+Bdababsoia eiasid<br>
+The del mix when x tends to 0 also ends up tending to 0<br>Todo
+I need to study sandler later today after the graph theory and all ka kaam
+<br>Danger
+Another problem. I am so hungry I don't think I can solve it I shouldn't have skipped breakfast
+<br>
+<br>
+Non ideal mixture - 
+
+<br>
+Mex is the excess property of a real gas
+Important
+A reminder for why we are doing all this - we are doing this to get to raoults law, henry's law and solubility
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+You might notice a pattern here, but that's because you are stupid and actually for quantities like entropy and gibbs free energy and the sort, there is another term after the delta mix to get the excess
+
+<br><br>
+<br>
+<br>
+<br>Now, using summability relation
+<br>
+<br>
+<br>Now if we want the partial molar excess property (what a mouthful) at constant temperature, pressure and other components' moles:
+<br>
+<br>Now wat dis look lyk?
+<br>
+<br>
+<br><br>
+<br>
+<br>The above is for one component. The below is for multiple components
+<br>
+<br>The f_i bar is the fugacity of the component in the mixture, NOT the partial molar fugacity
+<br>Pyi is the partial pressure of the gas
+<br>
+<br>
+<br>=&gt;
+<br>
+<br>
+<br><br>At equilibrium:<br>
+the above only works for ideal mixtures - like the fi bar related to the pure component fugacity<br>for the non ideal condition:<br>
+the a_i is the activity coefficient<br>Quote
+If Prathamesh were normal, his activity coefficient would be 1/88, but since he interacts with 7 people in the class at any point in time, his activity coefficient is 7/88
+<br>for vapour phase, IM:<br>
+phi is the fugacity coefficient, which is the ratio of fugacity to the actual pressure<br>
+since the vapour phase is an IM, it's pressure is low enough and the pressure is equal to the fugacity<br>
+the exponent to e is small enough for that part of the equation to be equal to 1<br>
+If liquid phase is also an ideal mixture then,<br>
+Dis is raoults law<br>Danger
+WHAAAA. THIS IS SO OBVIOUS WHY DID WE SPEND LIKE 5 CLASSES PROVING IT? AND NOW WE HAVE A TEST. I HATE THIS LIFE I HATE EVERYTHING AND NOW PROF SAID THAT WE WILL NEVER USE IT
+<br><br><img alt="Pasted image 20241009115411.png" src="pasted-image-20241009115411.png"><br>
+<img alt="Pasted image 20241009115634.png" src="pasted-image-20241009115634.png"><br>
+<br>So now all we do is get the enthalpies of all the streams and we assume the mixing process is at steady state. The difference between the in and out enthalpies give you the heat you need to remove from the process
+<br>So just mass balance and energy balance
+<br>This is below our level
+<br>No calculation will be done!
+<br><br>
+<br>
+]]></description><link>mixtures.html</link><guid isPermaLink="false">Mixtures.md</guid><pubDate>Wed, 16 Oct 2024 05:39:50 GMT</pubDate><enclosure url="pasted-image-20240911105458.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240911105458.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Utility Network]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener">#fluidmech</a> <br><br>
+<br>Used to increase the contact area between two phases
+<br>To increase retention time to ensure reaction completion (more so if the packing is a catalyst)
+<br><img alt="Pasted image 20240924112140.png" src="pasted-image-20240924112140.png">
+<br>to have a plug flow in the reactor
+<br>In the true sense of laminar flow, a packed bed can never have laminar flow, since it's constantly being disturbed. It is still in laminar flow because of the friction factor curve
+<br>packed beds can also be used in drying by passing dry air up wet packing
+<br><br><img alt="Pasted image 20240924115012.png" src="pasted-image-20240924115012.png"><br>
+<br>Darcy showed that average velocity was directly proportional to  and inversely proportional to bed thickness
+<br>This is expressed as Darcy's law:
+<br>
+<br>The linear relation between flow rate and pressure indicates that the flow is laminar
+<br>This is because the reynolds number through the pore spaces is low
+<br>Resistance to flow arises mainly from viscous drag:
+<br>
+<br>B is the permeability coefficient. It's completely dependent on the properties of the packed bed
+<br>Info
+In real life, flow isn't always laminar, it can also be turbulent with a high enough head. Many scientists have developed turbulent derived equations 
+<br>
+Derivations are a part of the syllabus and will be asked in the examination
+<br><br>
+<br>specific surface area is just surface area/volume 
+<br>S_B is the specific surface area of an entire packed bed
+<br><img alt="Pasted image 20240924115730.png" src="pasted-image-20240924115730.png">
+<br>assuming only point contact between the particles, . Epsilon is the voidage
+<br><img alt="Pasted image 20240924122749.png" src="pasted-image-20240924122749.png">
+<br><br>
+<br>
+These guys tried to derive a general equation for pressure drop across packed beds
+
+<br>
+They began with getting an analogy between streamline flow in an empty pipe and a packed pipe
+
+<br>
+<img alt="Pasted image 20240925090907.png" src="pasted-image-20240925090907.png">
+
+<br>
+<img alt="Pasted image 20240925091658.png" src="pasted-image-20240925091658.png">
+
+<br>
+If free space between particles is assumed to consist of a series of tortuous channels, the hagen poiseuille equation can be rewritten as:
+
+<br>
+<img alt="Pasted image 20240925091938.png" src="pasted-image-20240925091938.png">
+
+<br>
+where K1 is a function of the bed structure, and is a dimensionless constant
+
+<br>
+Ltube is actually L1 here and is the length of tortuous channel
+Faq
+What is a tortuous channel?<br>
+randomly formed channels
+
+
+<br>
+The length of a tortuous channel will be higher than the actual length of the pipe.
+
+<br>
+V1 and L1 represent conditions in the pores and are not the same as v_avg and packing length. Both will be higher than their normal values
+
+<br>
+It is assumed that at any length the length of a tortuous path will be directly proportional to length of a tube
+
+<br>
+d1 is the equivalent diameter of the tortuous pore space
+
+<br>
+Kozeny said d1 = <img alt="Pasted image 20240925093749.png" src="pasted-image-20240925093749.png">
+
+<br>
+<img alt="Pasted image 20240925094112.png" src="pasted-image-20240925094112.png">
+
+<br>
+K2 accounts for the proportionality between L1 and Ltube and we can use Ltube since we know only Ltube not L1
+
+<br>
+180 = k^2*S
+
+<br>
+Modified friction factor is R/pv^2
+
+<br>
+<img alt="Pasted image 20240925100350.png" src="pasted-image-20240925100350.png">
+
+<br>
+R1 is drag force, rho is density and v is v1
+
+<br>
+for flow to occur, pressure drop is required.
+
+<br>
+This pressure drop should be exactly equal to the resistance faced by the fluid
+
+<br>
+<img alt="Pasted image 20240925101524.png" src="pasted-image-20240925101524.png">
+
+<br>
+
+
+<br>
+The above is a fitted correlation for packed beds by carman
+
+<br>
+It's similar to the equation proposed by Forchheimer, who suggested that resistance to flow should be considered in two parts:
+
+<br>
+Viscous force at particle surface
+
+<br>
+Loss in turbulent eddies and at sudden changes in cross section of channels, therefore
+
+<br>
+
+
+<br>
+The first term predominates at low flow rates where losses are mainly due to skin friction
+
+<br>
+Second term predominates at high flow rates and in very thin beds where the enlargement and contraction losses become very important. AT very high flow rates the effects of viscous forces are negligible
+
+<br>
+For Re &lt; 2, second term = 0, hence
+
+<br>
+
+
+<br>
+Learn the derivation of the Forchheimer equation
+
+<br>
+Sawitowski proposed for flow of fluids through hollow packings:
+
+<br>
+
+
+<br>
+Note the lack of 0.4 on the numerator of the second term
+
+<br>
+For flow through ring packings, another relation was created (semi empirical):
+
+<br>
+
+
+<br>
+This is analogous to hejun poisuelle equation
+
+<br>
+Using 6/S, it transforms to something else
+
+<br>
+This is not worth remembering and thus I wont write about it here
+
+<br>
+All these equations will be provided in the exam
+Important
+Prof's recommendation - When designing a packed bed column there are softwares that fit a curve on the packed column readings and get you a relation
+
+
+<br><br>
+<br>A fluid cannot be fluidized
+<br>Fluidised beds were known only to academicians for many years, until adoption of fluidized catalysts by the petroleum industry
+<br>Fluidized beds behave as a single fluid of density equal to that of mixture of solids
+<br>It is assumed in fluidized beds that one phase is a solid
+The danger of saying today
+Some drunk johnny boy was taking round and met his commanding officer. His commanding officer was sober. Johnny boy wrote in his diary, "today, my commanding officer was not drunk". Think on the danger of this statement
+
+
+<br><img alt="Pasted image 20241008110607.png" src="pasted-image-20241008110607.png"><br>
+<br>Fluidised catalytic bed reactors
+<br>fluidisation - make solids behave as if they were liquid. The upward thrust should be exactly and equal to the downward force
+<br><img alt="Pasted image 20241008111251.png" src="pasted-image-20241008111251.png">
+<br>The above graph is the effect of fluid velocity on pressure gradient and delta P
+<br>So basically this shows how the friction factor changes with velocity
+<br>When fluidisation just starts, its called minimum or incipient fluidisation
+<br>The del P per unit length decreases on start of fluidisation since the length increases since the particles move upwards
+<br>In fluidization you do not want to carry away the solids.
+<br>When a fluid flows slowly upwards through a bed of very fine particles, the flow is streamline and a linear relation exists between the pressure gradient and flow rate
+<br>If log(delP/Ltube) is plotted against log(Vavg), a straight line of slope 1 is obtained
+<br>In a fluidised bed, total frictional force on particles = effective weight of bed
+<br>Thus in a bed of cross sectional area A, depth Ltube, and porosity epsilon, additional pressure drop across bed due to layout weight of particles is given by:
+<br>
+<br>The area cancels out
+<br>This relationship applies between the initial expansion of the bed till the transport of the bed
+<br><img alt="Pasted image 20241008120111.png" src="pasted-image-20241008120111.png">
+<br>Sheeeeeeeeeeeesh
+<br><img alt="Pasted image 20241008121052.png" src="pasted-image-20241008121052.png">
+<br>Discrepancies between calculated and measured velocities are - channeling, electrostatic forces, agglomeration, friction between fluid and walls of the vessels and friction between particles hitting the walls
+<br>Channeling results in drag force reducing
+<br>Agglomeration - particles come together
+<br>Higher the density difference more are the chances of irregularities in the channels
+<br><br>
+<br>At the point of incipient fluidisation, equations for packed bed flow are applicable.
+<br>Take a look at the carman kozeny equation and the packed bed equation
+<br>
+<br>This was derived after substituting the delta P from fluidization in the carman kozeny equation
+<br>
+<br>A value of 3.36 rather than 5 for the carman kozeny constant is used - it matches the experimental data better
+<br>minimum fluidisation velocity is given by: 
+<br>the value of epsilon mf is a function of the size distribution, shape and surface properties of the particles - its the voidage lol
+<br>for turbulent flow, use the ergun equation:
+<br>
+<br>dp = diameter of the sphere having the same V/S ratio as the actual particles
+<br>substituting the delta P in the above equation:
+<br>
+<br>
+<br>this is after multiplying both sides with:
+<br>
+<br>I dont want to go any further :cry:
+<br><br>
+<br>A particle shape factor is defined as the ratio of the diameter of the sphere with the same volume as the particle having diameter d_p to the particle diameter d_p
+<br>
+<br>What is a particle diameter? I have no clue
+<br>Wen and Yu made another empiricism:
+<br>they proposed: 
+<br>They did some stuff and fit an equation
+Quote
+"Although it is adhoc and emperical, it can't be senseless" - on the meaning of life
+
+
+<br>Quote
+"The other person may find it rude if I cut the call, so I do it very softly" - on handling calls
+<br>Quote
+"This question naturally occurs to me and I'm sure to 10 and  a half people it must be occurring" - me in any lecture
+<br>Quote
+"I don't mind being harassed" - Janvi when I send her reels
+<br>
+<br>
+Velocity,  viscous force and convective terms and conductive terms. ( I have no clue what this is about)
+
+<br>
+Equation of motion, heat transfer counterpart is equation of energy
+Info
+"cartesian coordinate system is the easiest system to derive for because there is symmetry of axes"
+
+
+<br>
+Equation of motion - just study it man<br>
+do cylindrical coords
+
+]]></description><link>utility-network.html</link><guid isPermaLink="false">Utility Network.md</guid><pubDate>Tue, 15 Oct 2024 06:45:52 GMT</pubDate><enclosure url="pasted-image-20240924112140.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924112140.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Vapour Liquid Equilibrium]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener">#thermo</a><br>
+Most of the content relating to this is in <a data-href="mixtures" href="mixtures.html" class="internal-link" target="_self" rel="noopener">mixtures</a>. It's basically the partial molar gibbs free energy must be the same<br>
+and gibbs free energy must be the same between the vapour and the liquid<br>
+Don't ask. I dont know<br><br>
+<br>Some random rule relating fugacity of a component of a mixture to it's actual fugacity
+<br>This is only applicable to ideal mixtures
+<br>
+<br>For real mixtures:
+<br>
+<br>gamma is the activity coefficient
+<br>gamma * y_i is the activity<br>
+Now we doeth problems
+<br><br>In more than two phases, we have like, lets say c components, so c-1 independent variables (the mole fractions, say) per phase. On top of that T and P are independent variables for single phase so:<br>
+total number of independent variables - P(c-1)+2, where P is the number of phases<br>
+And number of equilibrium relationships is (P-1)c<br><br>
+<br>
+<br>This gives degrees of freedom
+<br>So like on the saturated lines, with two phases, for a single component, you have 1 degree of freedom and for single phase,single component, you have 2 degrees of freedom as mentioned before in thermodynamics.THIS IS HOW IT CAME ABOUT. Big epik
+Important
+After the end semester, it's OK to forget everything in this class.<br>
+The only things to remember are the following<br>
+<img alt="Pasted image 20241010114229.png" src="pasted-image-20241010114229.png">
+
+
+<br>Danger
+DONT FORGET EVERYTHING BEFORE EXAM THOUGH. Unless you have a girlfriend. Then toh life sort
+<br><br>
+<br>
+]]></description><link>vapour-liquid-equilibrium.html</link><guid isPermaLink="false">Vapour Liquid Equilibrium.md</guid><pubDate>Wed, 16 Oct 2024 04:13:37 GMT</pubDate><enclosure url="pasted-image-20241010114229.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241010114229.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br>go here<br>
 <a data-href="Index" href="index.html" class="internal-link" target="_self" rel="noopener">Index</a>]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sat, 05 Oct 2024 05:36:44 GMT</pubDate></item></channel></rss>
