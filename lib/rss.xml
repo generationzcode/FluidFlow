@@ -1,4 +1,302 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Oct 2024 08:52:46 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Oct 2024 08:52:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[CRE]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 18 Oct 2024 04:23:15 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 18 Oct 2024 04:23:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Boiling]]></title><description><![CDATA[ 
+ <br>
+We were lied to
+<br>Water boils at 100 C here on Earth. It is converted from liquid to steam, characterized by bubbling. This is not the only phenomenon that converts water to steam, evaporation also does the same. Evaporation happens at just about any temperature of the liquid, unlike boiling, which happens only at one point. We were all taught this at school. Reality, however, is a little more complex and boiling is not nearly as absolute as they'd like us to believe.<br>To illustrate this, lets take an example. Imagine a closed vessel with liquid water and air. The vessel is initially at ]]></description><link>boiling.html</link><guid isPermaLink="false">Boiling.md</guid><pubDate>Thu, 17 Oct 2024 18:27:23 GMT</pubDate></item><item><title><![CDATA[Bulk Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+Simple - uses monomer and monomer soluble initiator. The monomer is where the reactions occur for polymerization, not in any other medium<br>
+This is good for high purity, high molar mass products, good for polycondensation. Polyaddition is better suited for <a data-href="Solution Polymerization" href="solution-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Solution Polymerization</a>, its also good for polycondensation<br>Issues with bulk polymerization are with heat transfer (if heat is generated, it's difficult to remove and causes autoacceleration) and viscosity buildup. These are solved by only allowing low conversion.<br>Polystyrene is an example of a polymer made using bulk polymerization<br>
+Advantages<br>
+<br>High yield per reactor volume
+<br>Easy Polymer Recovery
+<br>The option of casting the polymerization mixture into final product form<br>
+Limitations:
+<br>Difficulty in removing last traces of monomer
+<br>The problem of dissipating heat produced during the reaction. This can be improved by providing special baffles
+<br>The problem of viscosity buildup in the reactor
+]]></description><link>bulk-polymerization.html</link><guid isPermaLink="false">Bulk Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:41:37 GMT</pubDate></item><item><title><![CDATA[Emulsion Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+This has one basic difference to <a data-href="Suspension Polymerization" href="suspension-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Suspension Polymerization</a>, the initiator is soluble in the solvent, and its insoluble in the monomer<br>Particles of size 0.1 to 1 micrometer<br>Because molecular weight distribution is better<br><br>Anionic surfactants (?) are used at 1-5 wt%  of the monomer. they have hydrophobic hydrocarbon molecules on one end and a hydrophillic anionic head group. These surfactant molecules, when dissolved in water, above their "critical micelle concentration", begin associating into groups of spherical aggregates called micelles, which contain about 100 molecules.<br>
+These micelles contain a hydrophobic core, which can absorb a good amount of water insoluble substances<br>When monomer is added, 3 phases develop - aqueous phase with small amounts of monomer and surfactant, large droplets containing lots of monomer and surfactant, small droplets (very very common) containing some monomer and surfactant around <br><br><br>This is the stage where particles are formed. What are particles? The book doesn't say - I guess they are drops but polymer. Particle nucleation occurs through three methods:<br>
+<br>Micellular Nucleation - Micelle receives oligomeric radical formed from initiator and monomer in aqueous phase. Micelle keeps growing and attracting more monomer until no more micelles left without radical.
+<br>Homogeneous nucleation - chain radical formed, attracted surfactant for colloidal stability and monomers for propagation. Ends when these particles get big enough to attract even oligomeric radicals
+<br>Coagulation nucleation - A bunch of oligomeric radicals clump up together until the molecule is big enough to achieve colloidal stability itself and then starts absorbing monomer and propagates<br>
+Micellular nucleation happens when the solution is well above CMC, homogeneous is when surfactant is little and coagulation is when surfactant is even less
+<br><br>in the first part of particle growth (AKA interval 2), monomers are provided by monomer droplets to the particles, to keep them propagating. When all the monomer droplets are used up, we enter interval 3, when rate of polymerization continuously decreases<br><br><img alt="Pasted image 20240913212427.png" src="pasted-image-20240913212427.png"><br>
+Taking Smith Ewart's Case 2, each particle can be assumed to have only one radical at a time and when another enters, the two react extremely fast to terminate. This way, each particle has, on average one radical, half the time:<br>
+<img alt="Pasted image 20240913213016.png" src="pasted-image-20240913213016.png"><br><br>Formation of core shell structures, Good for the environment, widely used in industry<br>
+Contamination by inorganic salts and dispersion stabilizers is the biggest problem<br><br>Developed with the objective of controlling number of particles. A miniemulsion is formed with droplets large in number and size to capture all radicals in the solution. The number of droplets are the number of particles<br>Danger
+What? how is this different from regular emulsion polymerization? weirdddd
+]]></description><link>emulsion-polymerization.html</link><guid isPermaLink="false">Emulsion Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:33:00 GMT</pubDate><enclosure url="pasted-image-20240913212427.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240913212427.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Equation of motion]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>Warning
+This will be tricky
+<br><br>
+<br>On a solid fluid boundary, fluid layers adjacent to the solid move with the same velocity as the solid - This is the no slip condition
+<br>For liquid gas interface, the shear stress is negligible. 
+<br>For liquid liquid interface, the shear stress is continuous over the interface. The momentum flux is perpendicular to the interface
+<br><br>
+<br>Equation of continuity is mass rate balance and equation of motion is a momentum rate balance
+
+Try and understand the equation of motion
+
+
+<br>The diagram, while I cannot draw right now, is very similar to the equation of continuity
+<br>the things moving through are the momenum fluxes
+<br>There are two types of stresses, conductive (viscous) stress and convective stress
+<br>Equation of motion is developed by writing a momentum balance over a volume element fixed in space, through which a fluid is flowing
+<br>
+<br>x component is developed as follows, convective and molecular transport (conductive)
+<br>Rate at which x momentum enters and leaves the faces at x and x+ are (convective)
+<br>Rate at which x momentum enters and leaves the faces at Y and Y+ are (Conductive)
+<br>Rate at which x momentum enters and leaves the faces at Z and Z+ are (Conductive)
+<br>Addition of the above 3 components gives the net rate of addition of x momentum. 
+<br><br><br>
+<br>Rate at which Y momentum enters and leaves the faces at x and x+ are (convective)
+<br>Rate at which Y momentum enters and leaves the faces at Y and Y+ are (Conductive)
+<br>Rate at which Y momentum enters and leaves the faces at Z and Z+ are (Conductive)
+<br><br>you know how to do this<br><br>
+<br>Net rate of addition of X-momentum is:
+<br>
+<br>In addition there is an external force (typically the gravitation) acting on the fluid in volume element. X component of this force is (mass * g_x basically lol). The g_x is the g in the x direction, which is 0 na lmao 
+<br>Total of the above 4 terms gives x-component only, and should be equal to the rate of accumulation of x-momentum within the volume element
+<br>
+<br>This gives: 
+<br>dividing both sides by the control volume:
+<br>
+<br>similarly can be written for y and z elements
+<br>phi actually contains both convective and molecular transport elements
+<br>
+<br>
+]]></description><link>equation-of-motion.html</link><guid isPermaLink="false">Equation of motion.md</guid><pubDate>Thu, 17 Oct 2024 05:15:55 GMT</pubDate></item><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
+Course taught by Prof. AVP<br>
+bird stewart lightfoot, transport phenomena<br>
+FW white fluid mechanics - using this <br>Faq
+The below quote is a reference to out defined area of doubt and uncertainty in momentum transfer
+<br>Quote
+“We demand rigidly defined areas of doubt and uncertainty!” — Douglas Adams
+<br><br>
+This course is an industrially relevant course which help students to understand various components of fluid<br>
+transport systems used in industry such as pipes, fittings, valves, pumps, blowers, compressors, vacuum<br>
+pumps etc. The industrial operations involve heating, cooling of the reactors and other mixing/separation<br>
+equipment which is provided by steam boilers, thermic fluid heaters, chillers, cooling towers etc. Many<br>
+reactions and separation equipment also require understanding of fluid flow at design, operation and<br>
+troubleshooting stage.<br>
+<img alt="Pasted image 20240626172127.png" src="pasted-image-20240626172127.png">
+<br><br>
+<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
+<br><a data-href="Bernoulli's Equation" href="bernoulli's-equation.html" class="internal-link" target="_self" rel="noopener nofollow">Bernoulli's Equation</a>
+<br><a data-href="Utility Network" href="utility-network.html" class="internal-link" target="_self" rel="noopener nofollow">Utility Network</a> - anything that isn't part of a process is utility, like chilled water, heating water, steam and nitrogen. Nitrogen is inert (relatively). Brines to reduce freezing point without corroding the machinery
+<br><a data-href="Fluid Moving Machinery" href="fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Moving Machinery</a> - pumps, vacuum systems, etc
+<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
+<br><a data-href="Particle Dynamics" href="Particle Dynamics" class="internal-link" target="_self" rel="noopener nofollow">Particle Dynamics</a> - i have no fucking clue what this is 
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Thu, 17 Oct 2024 03:09:35 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
+“If there's anything more important than my ego around, I want it caught and shot now.”
+<br>I write a lot<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money mone
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - Thermodynamics notes
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
+<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
+<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 17 Oct 2024 03:08:58 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[PHA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br>
+This is process hazard analysis<br>Recent advances in process safety<br>
+<br><a data-href="HAZOP" href="hazop.html" class="internal-link" target="_self" rel="noopener nofollow">HAZOP</a> - hazard and operability study
+<br>LOPA
+<br>RBPS
+<br>ISD
+<br>PHA:<br>
+<br>Hazop
+<br>Five why's -&gt;
+<br>Root cause analysis
+<br>Fault tree analysis
+<br>Event tree analysis
+<br>]]></description><link>pha.html</link><guid isPermaLink="false">PHA.md</guid><pubDate>Thu, 17 Oct 2024 06:09:51 GMT</pubDate></item><item><title><![CDATA[Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br>Tip
+These are my notes from Introduction to Polymers, Robert J. Young and college classes<br>
+<a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> 
+<br>Quote
+“So once you do know what the question actually is, you'll know what the answer means.”
+<br><br>SYllabus for midems:<br>
+<br>classification of polymers
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>
+A polymer is a substance composed of long sequences of one or more species of atoms or groups of aton of polymers
+<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>ms linked together by primary, usually covalent bonds<br>
+n of polymers<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>Usually two plastics are mixed to make blends to make one with exactly the properties one wants<br>
+PET - poly(ethylene terepthalate) is a blend of PE and PT<br>
+<br>blends differ from composites in the sense that composites have one material that is reinforcing mechanically
+<br>both blends and composites are binary phase mix
+<br>Danger
+The history is NOT IN THE SYLLABUS (i think)
+<br><br>
+<br>1820 -&gt; This guy, Thomas Hancock, found a way to blend additives to rubber (a natural polymer) by beating it up (masticating it)         <img alt="Pasted image 20240713172639.png" src="pasted-image-20240713172639.png">
+<br>1839 -&gt; Charles Goodyear added sulphur to rubber and found it got stronger. This process was named vulcanization.
+<br>1846 - 1870 -&gt; Some guy prepared nitrocellulose, sold it as an explosive. Another guy thought to mold it and make items out of it as it was found it be a hard elastic material that is also soluble and easily mold-able. Two other guys thought it would be smart to do this with something that isn't an explosive - celluloid. Instant commercial success.
+<br>1892 -&gt; Cross, Bevan and Beadle patented the viscose process for dissolving and regenerating cellulose
+<br>1920s -&gt; This absolute chad of a human, Hermann Staudinger studied the synthesis, structure and properties of polyoxymethylene and polystyrene to give emprical evidence of his idea that polymers are really just macromolecules  containing large sequences of monomers. Everyone doubted him, but the haters were proven wrong
+<br><br>
+<br><a data-href="Types of polymers" href="types-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Types of polymers</a>
+<br><a data-href="Molar Mass" href="molar-mass.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass</a> 
+<br><a data-href="Polymerization" href="polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Polymerization</a> 
+<br><a data-href="Processing" href="processing.html" class="internal-link" target="_self" rel="noopener nofollow">Processing</a>
+<br><a data-href="Industry" href="industry.html" class="internal-link" target="_self" rel="noopener nofollow">Industry</a> - not in syllabus
+<br><a data-href="Properties of Polymers" href="properties-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Properties of Polymers</a>
+]]></description><link>polymers.html</link><guid isPermaLink="false">Polymers.md</guid><pubDate>Wed, 16 Oct 2024 11:51:10 GMT</pubDate><enclosure url="pasted-image-20240713172639.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240713172639.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Properties of Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> <br>
+<br>Polymers are always covalently bonded
+<br>With high inductive effect, low molar mass molecules are liberated as the electronegative group abstracts hydrogen from the carbon
+<br>Primary bonding - covalent and ionic
+<br>Secondary - Configuration and conformation
+<br>Configuration - you cant change this without breaking the bonds
+<br>Conformation - this is related to the rotation of the bonds
+<br>Tacticity - relating to the stereochemistry of repeating units
+<br>Tacticity - isotacticity, atacticity and syndiostereotacticity
+<br><img alt="Pasted image 20240927093303.png" src="pasted-image-20240927093303.png">
+<br>The above is isotactic
+<br>Glass transition temperature - when you heat the polymer, there is a transition phase, called glass transition. Mostly polymers are semicrystalline or amorphous - glass transition is when the polymer is in amorphous state. The lower this temperature, the more flexible the polymer is. Used in thermoplastic. Above , polymer is flexible and below it it is glassy.  is the temperature below which the polymer is mostly rigid
+<br>Tg causes a second order phase change
+<br><img alt="Pasted image 20241004101559.png" src="pasted-image-20241004101559.png">
+<br>The  is the temperature when the specific volume vs temperature graph has a change in slope
+<br>DSC - differential scanning calorimetry, can find the , , , gel point, everything
+<br>DMTA - dynamic mechanical and thermal analysis
+<br>DSC and DMTA are two techniques to get the  value
+<br>Melting temperature - Used in thermoplastic. 
+<br>Melting temperature - related to heat gain
+<br>Crystallization temperature,  - Used in thermoplastic. When you cool the polymer it starts crystallizing. When the entropy change is the highest - peak crystallization temperature
+<br>Semi crystalline polymer shows ,  and . Amorphous only shows 
+<br>Semi Crystalline polymers is defined by how regular the packing of the polymer is. 
+<br>Amorphous Polymers have a completely irregular packing
+<br>Gel point - Used in thermoset. When the degree of polymerization of a thermoset tends to infinity
+<br>Curing temperature - Used in thermoset. When the polymer cures
+<br><img alt="Pasted image 20241004103217.png" src="pasted-image-20241004103217.png">
+<br>in conformation you have gauch, trans and eclipsed
+<br>isotactic means that if it's arranged in a regular pattern
+<br>in polymerization there are three types of configuration - cis or trans - cis will give better machanical properties - also called diene polymerization, strereoregularity - tacticity, configuration based on structure - head to head, tail to tail or head to tail
+<br>head to head and tail to tail dont occur much, mostly head to tail
+<br><br>
+<br>Tg more flexible above. Dis be'eth a mechanical property
+<br><br>
+<br>In case of polymers, there are two types of crystals - lamella, and spherulites
+<br>Lamella - forms around the nucleation point, the chain folds
+<br>The many lamella form spherulite, spherulites are big spherical crystals
+<br>If the rate of cooling is high, crystals arent formed well. Slow rate of cooling forms good polymers
+<br>
+<br><br>
+<br>dialatency - shear thickening
+<br>Shear thinning - pseudoplasticity
+]]></description><link>properties-of-polymers.html</link><guid isPermaLink="false">Properties of Polymers.md</guid><pubDate>Wed, 16 Oct 2024 11:16:11 GMT</pubDate><enclosure url="pasted-image-20240927093303.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240927093303.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Radical Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+-All these notes are derived from intro to polymerization, I don't hide this fact, it's the truth-<br><br>If <a data-href="step growth" href="step-growth.html" class="internal-link" target="_self" rel="noopener nofollow">step growth</a> was about simple reactions occurring between monomers and polymers to grow the chain, radical polymerization is about the propagation of a free radical end which keeps growing it. <br>It's used for unsaturated monomers<br><br>Radical polymerization undergoes several chemical reactions that determine the end polymers' structures. These reactions include:<br>
+<br><a data-href="Radical Polymerization Initiation" href="radical-polymerization-initiation.html" class="internal-link" target="_self" rel="noopener nofollow">Radical Polymerization Initiation</a> - Specific chemicals that generate free radicals, which react with monomers that cause free radical polymer chains
+<br><a data-href="Radical Polymerization Propagation" href="radical-polymerization-propagation.html" class="internal-link" target="_self" rel="noopener nofollow">Radical Polymerization Propagation</a> - How the free radical polymer chains keep growing
+<br><a data-href="Radical Polymerization Termination" href="radical-polymerization-termination.html" class="internal-link" target="_self" rel="noopener nofollow">Radical Polymerization Termination</a> - How the free radical polymer chains lose their free radicals and become "dead chains"
+<br><a data-href="Radical Polymerization Chain Transfer" href="radical-polymerization-chain-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Radical Polymerization Chain Transfer</a> - Where the free radical area gets transferred to a different chain
+<br><br>A lot of this has been covered in the previous section, I'm just developing it here - getting it all together <br><br>
+<br>Using kinetics analysis, without taking into account chain transfer:<br>
+<img alt="Pasted image 20240913181336.png" src="pasted-image-20240913181336.png">
+<br>Using kinetics analysis, taking into account chain transfer to get the Mayo Walling Equation<br>
+<img alt="Pasted image 20240913183908.png" src="pasted-image-20240913183908.png">
+<br><br>At different conversions, the diffusive properties of the chains differ (lol). This is important because these diffusive properties, control how molecules meet each other and react. Thus if they are low enough in any area they can cause certain parts of the radical polymerization mechanism to go slower or faster. Certain parts can be "diffusion controlled"<br>Types of diffusion<br>
+<br>Segmental Diffusion - Refers to orientation of molecules reacting. Propagation and termination are controlled by this at low conversions since they molecules have to be in correct orientation to react and translational diffusion when the chain is small is good
+<br>Translational Diffusion - Refers to actual diffusion (the centre of mass moves). Controls the termination step at high conversions. An interesting effect, known as autoacceleration or the Trommsdorf-Norrish effect occurs when reaction mixtures become translational diffusion controlled - the termination step decreases and since propagation is not affected by translational diffusion (monomers still diffuse about easily), the conversion increases and the termination step decreases more, so on and so on. The reaction mixture becomes really viscous and even glass like (vitrifies)
+<br>Reactive diffusion - everything slow, chains move only by adding new monomers
+<br><br><a data-href="Molar Mass Distribution" href="molar-mass-distribution.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass Distribution</a> - when I finally make this page, I'm including this there<br>
+<img alt="Pasted image 20240913185147.png" src="pasted-image-20240913185147.png"><br>
+Situation is different for combination and Mn/Mw ends up being (2+B)/2<br><br>Let some things be mysteries. Why spoil the magic of not knowing the dirty reality of how these constants are found out?<br><br>I'm not going into the details - they used the arrhenius equation and they found the dependence of the rate ofndex.html polymerization and thus degree of polymerization with temperature<br><br><br>
+<br>Ceiling temperature - the temperature at with propagation stops due to the reaction becoming non spontaneous. There's an equation for this, I'll add it later, when they teach us this stuff probably
+<br><br>
+<br><a data-href="Bulk Polymerization" href="bulk-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Bulk Polymerization</a> - Homogeneous polymerization process
+<br><a data-href="Solution Polymerization" href="solution-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Solution Polymerization</a> - homogeneous polymerization process
+<br><a data-href="Suspension Polymerization" href="suspension-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Suspension Polymerization</a> - Heterogeneous Polymerization Process
+<br><a data-href="Emulsion Polymerization" href="emulsion-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Emulsion Polymerization</a> - Heterogeneous Polymerization Process
+<br><br>Chain polymerizations where termination reactions are very very small in number are called living polymerizations as they dont get dead chains.<br>
+We come real close to that in Radical polymerization using two separate techniques - rapid capping and uncapping of active sites and exchange of caps between radical chains to prevent their reactions and thus termination<br><br>This is an application of the first technique using nitroxide to cap and uncap active sites real quick. This suffers from issues such as side reactions causing disproportionation in the chain radical with nitroxide<br>
+<img alt="Pasted image 20240913220702.png" src="pasted-image-20240913220702.png"><br>
+You also got stuff like TEMPO, TIPNO and SG1, which are better than nitroxide in many ways<br>
+The kinetics of these kind of reactions shouldn't be covered by bozos like me, read the book for this. Sorry<br><br>
+<br>I'll write this part on a reread
+<br><br><br><br>
+Section for stuff I don't understand and maybe reddit questions I end up posting
+<br>
+<br>Other than rapid end capping and uncapping, how can termination be reduced? I don't suppose they use reversible deactivation radical polymerization in industry - so how do they control degree of polymerization?
+<br>In emulsion polymerization are the monomers soluble in water? If not, then how are small quantities of monomer dissolved in the aqueous phase?How is micellar nucleation even possible?
+<br><br><br>calculate half life of benzoyl peroxide in benzene as an initiator with rate constant 8 * 10^(-6)<br>
+<img alt="Pasted image 20240913102948.png" src="pasted-image-20240913102948.png"><br><br>Question 4.2 in the book introduction to polymer science<br>
+<img alt="Pasted image 20240913104505.png" src="pasted-image-20240913104505.png"><br>
+Part B is so similar to part A that it's a waste of my time to cover it<br><br><img alt="Pasted image 20240913111546.png" src="pasted-image-20240913111546.png"><br>
+<img alt="Pasted image 20240913111614.png" src="pasted-image-20240913111614.png"><br>
+I'm guessing the propagation and initiation and thus termination also includes a chain formed from the non side of styrene having the radical so this above reaction scheme is not complete and also I'm not sure what I have here is a reaction scheme - what is a reaction scheme??<br>
+<img alt="Pasted image 20240913112355.png" src="pasted-image-20240913112355.png"><br><br><img alt="Pasted image 20240913115408.png" src="pasted-image-20240913115408.png"><br><br>All seem to be simple formula application so I'm NOT doing :/]]></description><link>radical-polymerization.html</link><guid isPermaLink="false">Radical Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:52:40 GMT</pubDate><enclosure url="pasted-image-20240913181336.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240913181336.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Solution Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+Monomer and initiator are placed in a solvent, where they react<br>
+Solves the heat transfer and viscosity issue with <a data-href="Bulk Polymerization" href="bulk-polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Bulk Polymerization</a> but causes new issues like chain transfer to solvent.<br>
+To isolate the polymer from the solvent, we either evaporate it off and if the polymer is insoluble in the solvent, we precipitate it off. Both these processes are inefficient and aren't used widely in industry<br>Prof's PPT<br>
+<br>Heat removed during polymerization can be facilitated by conducting the polymerization in an organic solvent or water
+<br>Both the initiator and the monomer must be soluble in it
+<br>the solvent must have acceptable chain transfer characteristics and suitable melting and boiling points for the conditions of the polymerization and subsequent solvent removal step
+<br>Solvent choice may be influences by other factors such as flash point, cost and toxicity
+<br>Reactors are usually stainless steel or glass lined
+]]></description><link>solution-polymerization.html</link><guid isPermaLink="false">Solution Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:49:05 GMT</pubDate></item><item><title><![CDATA[Suspension Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+Better than solution polymerization. This requires the monomer and initiator to be insoluble in the solvent. The monomer and initiator are added, a suspension(whats the difference between a suspension and an emulsion?) is created, this is agitated at high speeds to create small droplets in which the polymerization reactions are taken into completion. After its complete, the polymer is filtered or centrifuged out. Dispersion stabilizers are also used (what are dispersion stabilizers? How do they work?)<br>This is great because the heat transfer surface is amazing, viscosity doesn't matter too much, widely used in industry.<br>According to sir, the only process that gives beads (not powder, much more than 10 micrometer), is suspension. So in exam write this<br>particles of size 10-1000 micrometer<br>1500 RPM]]></description><link>suspension-polymerization.html</link><guid isPermaLink="false">Suspension Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 04:23:03 GMT</pubDate></item><item><title><![CDATA[Water Water Everywhere]]></title><description><![CDATA[ 
+ <br>Water water everywhere<br>
+It's all up in my underwear<br>
+But it didn't come from out<br>
+My rectum had but a nasty shout<br>I have some bad news to share<br>
+The smell of poop you'll have to bear<br>
+Excrement flowing down my pants<br>
+Like a marching row of ants<br>You would do well, to be aware<br>
+Of my folly, my shame to bear<br>
+for last night i had taco bell<br>
+And now I'm on my way to hell<br>Oh! My bowels scream and shout<br>
+Please do let the feces out<br>
+I say nay, you shall not pass!<br>
+I'm feeling gay, it's up my arse ;)<br>But the flavours burn and sear<br>
+as the horrors leave my rear<br>
+I should have listened, I should have heard<br>
+My mother when she gave me curd<br>The wet flow of my diarrhoea<br>
+giving me hypothermia<br>
+for my underpants are soaked<br>
+and the AC is so cold!<br>In front of me, is straight brown hair<br>
+smells like flowers and all things fair<br>
+the girl I like, so unaware<br>
+of the smell behind her chair<br>For 3 years, 2 months and 15 days<br>
+I've tried so hard, that she just may<br>
+look upon me in a different light<br>
+more than friends, dare I might<br>A second passes, an eternity for me<br>
+is this the theory of relativity?<br>
+But sad to say, making me tear<br>
+in my inertial frame she does leer<br>She looks about, she turns around,<br>
+as if a dirty rat she found<br>
+her face contorts, "EWWWW!" she retorts,<br>
+Seppukku awaits, I ready my sword<br>Hiding myself, I start to blush<br>
+My face is red, so hot and flushed<br>
+It's so over, we're so done<br>
+I had slim chance, now I've none<br>All around me shrieks and screams,<br>
+the prof, imagining it's but a dream<br>
+His mouth agape<br>
+He accepts his fate<br>Heed my cries, Hear my tale<br>
+Beware of such an epic fail<br>
+Before the class you must go<br>
+In the toilet, to release the flow<br>Composed by Agastya and Arjun]]></description><link>water-water-everywhere.html</link><guid isPermaLink="false">Water Water Everywhere.md</guid><pubDate>Thu, 17 Oct 2024 06:57:52 GMT</pubDate></item><item><title><![CDATA[CRE]]></title><description><![CDATA[ 
  
   
   
@@ -372,25 +670,7 @@ Important
 More from less for more
 
 
-]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Mon, 14 Oct 2024 04:54:15 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
-“If there's anything more important than my ego around, I want it caught and shot now.”
-<br>I write a lot<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener">Accounting</a> - money money money
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener">Engineering thermodynamics</a> - Thermodynamics notes
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener">Process safety</a> - These are mostly useless as we have ppts so these are just for me
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener">Critical Thinking</a> - How to learn stuff, allegedly
-<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
-<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
-<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Fri, 11 Oct 2024 10:27:03 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fogler]]></title><description><![CDATA[ 
+]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Mon, 14 Oct 2024 04:54:15 GMT</pubDate></item><item><title><![CDATA[Fogler]]></title><description><![CDATA[ 
  <br>A homogeneous reaction is a reaction where all reactants are of the same phase<br>
 <br>rate expression is expressed as  
 <br>the powers of each concentration is usually same as molecularity of that substance in the reaction for elementary reactions
