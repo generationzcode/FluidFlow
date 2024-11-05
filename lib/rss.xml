@@ -1,4 +1,258 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 04 Nov 2024 14:58:47 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 04 Nov 2024 14:58:38 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Drawing 2024-10-29 10.45.53]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 05 Nov 2024 06:02:34 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 05 Nov 2024 06:02:31 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
+ <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
+ <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc<br>
+<br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
+<br><a data-href="Experimental Kinetics" href="experimental-kinetics.html" class="internal-link" target="_self" rel="noopener nofollow">Experimental Kinetics</a>
+<br><a data-href="Basics of reactors" href="basics-of-reactors.html" class="internal-link" target="_self" rel="noopener nofollow">Basics of reactors</a>
+<br><a data-href="Non ideal flow" href="non-ideal-flow.html" class="internal-link" target="_self" rel="noopener nofollow">Non ideal flow</a>
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+<br><a data-href="Intro to heterogeneous reactions" href="intro-to-heterogeneous-reactions.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to heterogeneous reactions</a>
+<br>
+Catalytics has best in fogler
+<br>
+Hill and route<br>
+Gw Roberts
+]]></description><link>chemical-reaction-engineering.html</link><guid isPermaLink="false">Chemical Reaction Engineering.md</guid><pubDate>Mon, 04 Nov 2024 16:58:55 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
+“If there's anything more important than my ego around, I want it caught and shot now.”
+<br>I write a lot<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money mone
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - Thermodynamics notes
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
+<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
+<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 04 Nov 2024 15:33:58 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[LOPA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br>
+credits: <a rel="noopener nofollow" class="external-link" href="https://www.icheme.org/media/12368/4-lopa-introduction.pdf" target="_blank">https://www.icheme.org/media/12368/4-lopa-introduction.pdf</a><br>
+Layers of protection, you need them!<br>
+<img alt="Pasted image 20241105002645.png" src="pasted-image-20241105002645.png"><br>
+<br>It's a semi quantitative risk assessment tool
+<br>Risk is a function of likelihood and severity
+<br>LOPA uses order of magnitude estimates for likelihood
+<br>severity is assessed qualitatively using risk matrix
+<br><img alt="Pasted image 20241105002951.png" src="pasted-image-20241105002951.png"><br>the process :<br>
+<img alt="Pasted image 20241105003144.png" src="pasted-image-20241105003144.png"><br>
+<img alt="Pasted image 20241105003156.png" src="pasted-image-20241105003156.png">]]></description><link>lopa.html</link><guid isPermaLink="false">LOPA.md</guid><pubDate>Mon, 04 Nov 2024 19:02:31 GMT</pubDate><enclosure url="pasted-image-20241105002645.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241105002645.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Non ideal flow]]></title><description><![CDATA[ 
+ <br>
+Difficult but rewarding
+<br>While we can describe reactors as ideal plug flow, ideal backmix or ideal batch reactors, in reality, none of the reactors at large scale follow these equations well. This is due to short circuiting and recycling of fluid<br><br>
+Great idea in general but how does an RTD have anything to do with non ideal flows in reactors???
+<br>
+<br>, theta is simply the dimensionless time in terms of spacetime of the reactor
+<br>The internal age distribution of the contents of the reactor is denoted by I
+<br><img alt="Pasted image 20240621004336.png" src="pasted-image-20240621004336.png">
+<br>Exit age distribution is a distribution of residence times of fluid in the reactor
+<br><br>
+<br>These are all done using stimulus response techniques, where we add a stimulus in the reactor and see how the system responds to it
+<br><br>
+<br>When a step tracer is added to the reactor
+<br><img alt="Pasted image 20240621202105.png" src="pasted-image-20240621202105.png">
+<br>It slowly increases from 0 to one
+
+
+<br><br><img alt="Pasted image 20240621202300.png" src="pasted-image-20240621202300.png"><br>
+<br>This happens when a pulse input is added. It forms a "C" shaped curve
+<br>
+<br>To get the conversion, simply get the conversion as a function for spacetime and integrate it over the distribution
+<br><br>
+<br><img alt="Pasted image 20240621225105.png" src="pasted-image-20240621225105.png">
+<br>This is for packed bed and tubular reactors (plug flow basically)
+<br>The idea here is that there is diffusive mass transfer that occurs between any slice of fluid in the plug flow and the rest of the fluid axially in front and behind it
+<br>Fick's law of diffusion:
+<br>Peclet number measures the intensity of dispersion, with it being 0 for ideal plug flow and infinity for ideal backmix  
+<br>The C or F curve can be converted to a theoretical curve by fitting to the data and the relationship between standard deviation, mean of  and D/uL is given by a set of equations found by Levenspiel the greatest human himself around page 266 of his stellar book, Chemical Reaction Engineering
+<br>This kind of data analysis to get peclet number is usually done using a pulse tracer input. A pulse input manytimes causes flow disturbances at it's point of entry and to correct for this, readings are taken at two downstream points and the delta of the two points is taken for standard deviations and all
+<br>The formulae for getting the peclet number from these deltas are also given in levenspiel
+<br>When they give bed porosity and such, its to calculate the space time of the reactor so we can get the dimensionless units which are used to get peclet number and all
+<br>The first part is accounting for bulk flow, The second for diffusive mass transfer and third for reactive dissapearance<img alt="Pasted image 20240621235412.png" src="pasted-image-20240621235412.png"><img alt="Pasted image 20240621235423.png" src="pasted-image-20240621235423.png">
+<br><img alt="Pasted image 20240621235442.png" src="pasted-image-20240621235442.png">
+<br>These three equations are the same and are used to find conversions for a dispersed plug flow reactor
+<br><br>
+It is time to congratulate ourselves as we have survived the first wave of a non ideal world<br>
+pat yourself on the back. * pats * 
+<br>
+<br>If we hit ourselves in a head a bit hard, really batter the skull, we realize that the dispersion model is actually really hard and we can easily model some amount of axial mixing using a number of backmix reactors.
+<br><img alt="Pasted image 20240622173336.png" src="pasted-image-20240622173336.png">
+<br>The above are the equations for number of backmix reactors, j
+<br><br>
+<br>When either model isnt enough to describe a reactor, a model made up of many different kinds of flow patterns is called a mixed model
+<br>there are plug flow regions, dispersed plug flow regions, backmix regions, deadwater regions
+<br>Bypass flow - when a portion of liquid bypasses the vessel or a particular flow region
+<br>Recycle flow - when a portion of fluid leaving a flow region is recycled back into in
+<br>Cross flow - when there is exchange between flow regions but no net transfer of liquid
+<br><img alt="Pasted image 20240622184349.png" src="pasted-image-20240622184349.png">
+<br>The above is what the mean theta should look like if there is no deadwater region
+<br>
+]]></description><link>non-ideal-flow.html</link><guid isPermaLink="false">Non ideal flow.md</guid><pubDate>Mon, 04 Nov 2024 16:58:11 GMT</pubDate><enclosure url="pasted-image-20240621004336.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240621004336.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Process safety]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br>
+<a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a>
+<br>
+<br>book recommendation - Process safety for undergraduates, CCPS<br>
+The above book is only good for RBPS, also just read the first chapter, it contains a summary of all the RBPS elements, with brief summaries of case studies
+<br>Quote
+“All through my life I've had this strange unaccountable feeling that something was going on in the world, something big, even sinister, and no one would tell me what it was.”
+<br><br>
+<br><a data-href="Lab safety" href="lab-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Lab safety</a>
+<br><a data-href="MSDS and PPE" href="msds-and-ppe.html" class="internal-link" target="_self" rel="noopener nofollow">MSDS and PPE</a>
+<br><a data-href="Fire Safety" href="fire-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Fire Safety</a>
+<br><a data-href="Gas cylinder safety" href="gas-cylinder-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Gas cylinder safety</a>
+<br><a data-href="Electrical Safety" href="electrical-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Electrical Safety</a>
+<br><a data-href="Machine Safety" href="machine-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Machine Safety</a>
+<br><a data-href="Bio-safety" href="bio-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Bio-safety</a>
+<br><a data-href="Bhopal Accident" href="bhopal-accident.html" class="internal-link" target="_self" rel="noopener nofollow">Bhopal Accident</a>
+<br><br>
+My thoughts on process safety, bewarned for hence there shall be a distinct lack of humorous illustrations
+<br>
+<br><a data-href="PS Overview" href="ps-overview.html" class="internal-link" target="_self" rel="noopener nofollow">PS Overview</a> - an overview of everything we'll end up covering
+<br><a data-href="RBPS" href="rbps.html" class="internal-link" target="_self" rel="noopener nofollow">RBPS</a>
+<br><a data-href="LOPA" href="lopa.html" class="internal-link" target="_self" rel="noopener nofollow">LOPA</a>
+<br><a data-href="HAZOP" href="hazop.html" class="internal-link" target="_self" rel="noopener nofollow">HAZOP</a> - refer to the ppts, but this is a good primer. 
+<br>This subject may not be a good one to go deep in...
+]]></description><link>process-safety.html</link><guid isPermaLink="false">Process safety.md</guid><pubDate>Tue, 05 Nov 2024 05:20:54 GMT</pubDate></item><item><title><![CDATA[PS Overview]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a> <br>
+This subject is actually pretty cool
+<br>
+<br>Safety - its the use of technologies to prevent disasters before they occur
+<br>Hazard - a chemical or physical condition that has the potential to cause damage
+<br>Risk - A measure of human injury, environmental damage or economic loss in terms of both incident likelihood and magnitude of loss or injury
+<br>Engineering ethics - with the given resources, engineers must make a safe and secure working environment. This is a responsibility to society
+<br><br>
+<br>Important statistics in weighing the merits and demerits of different safety systems:
+<br>OSHA incidence rate - number of worker injuries per 100 worker years. One worker year is assumed to contain 2000 worker hours. 
+<br>OSHA incidence rate can also be on the basis of lost workdays
+<br>Fatality rate (per year)
+<br>Fatal Accident Rate - Used by the british chemical industry, number of fatalities per 1000 employees working a full lifetime, so FAR is 10^8 worker hours 
+<br><img alt="Pasted image 20241104221251.png" src="pasted-image-20241104221251.png">
+<br>Accident stats can be misleading as major causes of death like the bhopal incident are in one single event
+<br>Acceptable levels of risk, for any procedure - if the plant has more than one procedure (always...), the levels of risk must be much much less than the levels for normally sitting at home, since the risks of exposure form multiple processes can be additive
+<br><br>
+Chemical Accidents follow typical patterns
+<br>
+<br>Mostly comprise of fires, explosions and vapour cloud explosions. Also a little bit of windstorms and flooding
+<br><img alt="Pasted image 20241104221929.png" src="pasted-image-20241104221929.png">
+<br>Explosions cause a lot of economic loss. Vapour cloud explosions occur when a large cloud of volatile and flammable vapour is released unconfined in the whole plant, then ignited
+<br>Toxic release causes little capital loss, however, lots of lawsuits and deaths
+<br>Almost all accidents not caused by natural disaster can be attributed to human error or mechanical error. Other causes can be process upsets, design or sabotage
+<br>piping systems, storage tanks followed by reactor piping systems are the biggest locations of accidents
+<br>Accidents follow a three step process: initiation, propagation and termination
+<br><img alt="Pasted image 20241104223410.png" src="pasted-image-20241104223410.png">
+<br><br>
+<br>An inherently safe plant relies on process chemistry and physics rather than  control systems, interlocks, redundancy and all to stop accidents
+<br>layers of safety above the process are of no interest to inherent design (they are needed, but inherent design focuses mostly on the first layer, which is the process itself)
+<br>Inherent design is described using four words - minimize(intensification), substitute, moderate(attenuation and limitation of effects) and simplify(simplification and error tolerances)
+<br>minimize - reduce storage and usage of hazardous chemicals in process, if possible, they should be produced and consumed in situ
+<br>substitute - use different materials in the process
+<br>moderate - use the hazardous materials in less hazardous conditions, such as refrigerated, in low vapour pressure, using larger particle sizes to reduce dust issues (flash explosions)
+<br>simplify - make the plant simpler by : designing controls to be placed in a friendly, logical manner, separating processes to prevent domino effect, etc
+<br><img alt="Pasted image 20241104224546.png" src="pasted-image-20241104224546.png">
+<br>Just read the above, no need to memorize
+<br><br><br>
+<br>Nypro limited produced 70,000 tonnes a year of caprolactam, used in production of nylon
+<br>Process used cyclohexane, which volatilizes immediately in atmospheric conditions
+<br>six reactors in series oxidising cyclohexane to cyclohexanol using inhected air in the presence of a catalyst. Each reactor containing 20 tonnes of cyclohexane
+<br>reactor 5 had a leak - a vertical crack in it's stainless steel structure. They removed the reactor for repairs. They then connected reactor 4 to reactor 6
+<br>Actual pipes were 28 inches in diameter, they only had 20 inches. They made a workaround and created a bypass. 
+<br>Bypass didnt have enough support, overflexed, and ruptured
+<br>30 tons of cyclohexane were freed, forming a vapour cloud, which was then ignited, levelling the entire facility and killed a number of people
+<br><br>
+<br><a data-href="Bhopal Accident" href="bhopal-accident.html" class="internal-link" target="_self" rel="noopener nofollow">Bhopal Accident</a>
+<br><br>
+<br>Explosion occurred at the wastewater tank at the ARCO chemical plant in channelview, texas
+<br>Oxygen analyser didnt detect flammable atmosphere in the tank, (due to buildup of peroxides), the flammable vapours got sucked into the compressor when it restarted and ignited
+<br>this happened during maintenance 
+<br>proper MOC procedures should have been followed before maintenance work
+<br><br>
+<br>Ammonium nitrate explosion, port neal iowa
+<br>Process shut down, AN was left in vessels
+<br>The nitric acid plant was shut down, to prevent backflow of AN into the nitric acid line, 200 psig steam was applied through a nitric acid sparger.
+<br>AN is more sensitive to decomposition at higher temperatures, other plants were stricter about steam sparges
+<br>Process safety knowledge is the RBPS element causing this
+<br>There should have been a HAZOP study, so another element could be "Process Knowledge Management" and "HAZOP"
+<br><br>
+<br>Tank of crude oil that had been emptied had to be connected via pipe to another tank
+<br>Workers from outside came to weld, welding caused ignition of flammable vapours
+<br>Welder was the only one out of 4 wearing a harness, so he was injured while the others died
+<br>Contractor management is the RBPS element here
+<br><br>
+<br>Explosion and fire killed five workers
+<br>PVC stored began burning
+<br>Vinyl chloride monomer along with other components are heated under pressure to make PVC
+<br>Worker confused which reactor was in operation and which wasn't because of plant layout
+<br>Worker overrode the interlock system to drain the reactor as he thought it was faulty
+<br>VCM poured out, building filled with vapour and liquid
+<br>Shift foreman took measures to slow  release rather than evacuate
+<br>Operating procedures needed
+<br><br>
+<br>Plant converted scrap metal to powders
+<br>Powders werent cleaned periodically
+<br>Portions of dust ignited several times, causing flash fires in the air
+<br>RBPS element - understanding and managing risks, the second pillar of RBPS
+]]></description><link>ps-overview.html</link><guid isPermaLink="false">PS Overview.md</guid><pubDate>Tue, 05 Nov 2024 06:01:32 GMT</pubDate><enclosure url="pasted-image-20241104221251.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241104221251.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pillar 1 - commit to process safety]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br><br><br>
+<br>a combination of group values and behaviors that determine the manner in which process safety is managed
+<br>maintain a sense of vulnerability in your organization to process events
+<br>empower individuals to fulfill their safety responsibilities. Give them the necessary authority and resources 
+<br>Defer to expertise
+<br>open comms
+<br>questioning/learning environment
+<br>mutual trust in managers and employees
+<br><br>
+<br>Yall gotta have access to standards, codes, regulations and laws that affect process safety
+<br><br>
+<br>Yall gotta keep learning and improving knowledge, giving proper info to the propa peopol, and apply what ya learn (guilty as charged bahaha)
+<br><br>
+<br>If the people dont get the safety work, then some people will do all of it and then nothing will happen
+<br>I get a safety role, you get a safety role, we all get safety roles
+<br><br>
+<br>the could be victims should talk about the operations of a company if it can affect them
+<br><br><br>
+<br>Process knowledge refers to the written documents, drawings, specifications, selection of safe operating limits, MSDS
+<br>this should be well catalogued and understood by many
+<br><br>
+<br>this is also called process hazard analysis (pha)
+<br>A PHA consists of a HAZOP to evaluate hazards and consequences, LOPA to evaluate likelihood 
+<br>FMECA - failure, modes, effects and criticality analysis also is a semi quantitative method to measure likelihood
+<br><br><br>
+<br>there are written instructions that list the steps for a given task , and describe the manner in which the steps are to be performed. 
+<br>These are needed
+<br><br>
+<br>stuff that isn't part of operations but you need to do every now and then has to be done safely
+<br>If you're welding on a tank which may have flammable residue, dont light it up to make sure it won't explode when you weld (the logic doesnt work no matter how you turn it about)
+<br><br>
+<br>Strong pillars and supports and well designed and reliable equipment
+<br>Safety equipment must be checked regularly to make sure they don't fail when they're needed
+<br>sensors must be calibrated every once in a while. When an alarm blares, assume the sensor is working perfectly
+<br><br>
+<br>Select the proper contractors, give them enough safety information
+<br>check their records, establish roles for your safety program with the contractors, ensure their training and supply appropriate information to them
+<br><br>
+<br>Practical instruction in job is needed
+<br>Performance assurance is methods in which personnel demonstrate their job competency 
+<br><br>
+<br>Ensure changes don't produce new hazards
+<br>A change is anything that changes the process safety information
+<br><br>
+<br>Do startup and shutdown checklists properly
+<br><br>
+<br>the day to day operations should be well planned out
+<br><br>
+<br>Planning for possible emergencies
+<br>Providing resources to execute the plan
+<br><br>
+<br>Incident investigations should be done after they occur
+<br>measurement and metrics - use these to monitor how well your RBPS management system is working
+<br>auditing - get someone from outside to look at your plant
+<br>Management Review and Continuous Improvement - evaluate whether management systems are performing as intended
+]]></description><link>rbps.html</link><guid isPermaLink="false">RBPS.md</guid><pubDate>Mon, 04 Nov 2024 18:44:33 GMT</pubDate></item><item><title><![CDATA[Drawing 2024-10-29 10.45.53]]></title><description><![CDATA[ 
  
   
   
@@ -536,25 +790,7 @@ Limitations:
 <br>Difficulty in removing last traces of monomer
 <br>The problem of dissipating heat produced during the reaction. This can be improved by providing special baffles
 <br>The problem of viscosity buildup in the reactor
-]]></description><link>bulk-polymerization.html</link><guid isPermaLink="false">Bulk Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:41:37 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
-“If there's anything more important than my ego around, I want it caught and shot now.”
-<br>I write a lot<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money mone
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - Thermodynamics notes
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
-<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
-<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 17 Oct 2024 03:08:58 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[PHA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+]]></description><link>bulk-polymerization.html</link><guid isPermaLink="false">Bulk Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 03:41:37 GMT</pubDate></item><item><title><![CDATA[PHA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
  <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br>
 This is process hazard analysis<br>Recent advances in process safety<br>
 <br><a data-href="HAZOP" href="hazop.html" class="internal-link" target="_self" rel="noopener nofollow">HAZOP</a> - hazard and operability study
