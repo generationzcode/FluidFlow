@@ -1,6 +1,6 @@
 {
   "vaultName": "Fluid Mechanics",
-  "lastExport": 1731315908992,
+  "lastExport": 1731317523862,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-light",
   "useCustomHeadContent": true,
@@ -442,6 +442,14 @@
     "pasted-image-20241003103051.png",
     "pasted-image-20241003103114.png",
     "pasted-image-20240813081657.png",
+    "pasted-image-20241110130159.png",
+    "pasted-image-20240925090907.png",
+    "pasted-image-20240925091658.png",
+    "pasted-image-20240925091938.png",
+    "pasted-image-20240925093749.png",
+    "pasted-image-20240925094112.png",
+    "pasted-image-20240925100350.png",
+    "pasted-image-20240925101524.png",
     "pasted-image-20240914231947.png",
     "pasted-image-20240914232104.png",
     "pasted-image-20240914232616.png",
@@ -450,6 +458,7 @@
     "pasted-image-20240914234646.png",
     "pasted-image-20240914235029.png",
     "pasted-image-20241011145250.png",
+    "pasted-image-20240924115012.png",
     "pasted-image-20240913212427.png",
     "pasted-image-20240913213016.png",
     "pasted-image-20241103170739.png",
@@ -458,11 +467,13 @@
     "pasted-image-20240704102602.png",
     "pasted-image-20241103164321.png",
     "pasted-image-20240626172127.png",
+    "pasted-image-20241008110607.png",
+    "pasted-image-20241008111251.png",
+    "pasted-image-20241008120111.png",
+    "pasted-image-20241008121052.png",
     "pasted-image-20241103172154.png",
-    "pasted-image-20241011151659.png",
-    "pasted-image-20241011151749.png",
-    "pasted-image-20241011151931.png",
-    "pasted-image-20241011152026.png",
+    "pasted-image-20241110124153.png",
+    "pasted-image-20241110124505.png",
     "pasted-image-20241001152222.png",
     "pasted-image-20241001153051.png",
     "pasted-image-20241001153708.png",
@@ -471,6 +482,10 @@
     "pasted-image-20241001160229.png",
     "pasted-image-20241001161740.png",
     "pasted-image-20241011142441.png",
+    "pasted-image-20241111105503.png",
+    "pasted-image-20241111105604.png",
+    "pasted-image-20241111115243.png",
+    "pasted-image-20241111122242.png",
     "pasted-image-20241105002645.png",
     "pasted-image-20241105002951.png",
     "pasted-image-20241105003144.png",
@@ -506,7 +521,14 @@
     "pasted-image-20240621235442.png",
     "pasted-image-20240622173336.png",
     "pasted-image-20240622184349.png",
+    "pasted-image-20241110125550.png",
+    "pasted-image-20240924112140.png",
     "pasted-image-20240713172639.png",
+    "pasted-image-20240723105856.png",
+    "pasted-image-20240723115032.png",
+    "pasted-image-20240723120502.png",
+    "pasted-image-20240718123151.png",
+    "pasted-image-20240716110730.png",
     "pasted-image-20240927093303.png",
     "pasted-image-20241004101559.png",
     "pasted-image-20241004103217.png",
@@ -531,30 +553,10 @@
     "pasted-image-20241104153905.png",
     "pasted-image-20241104195013.png",
     "pasted-image-20241104195112.png",
-    "pasted-image-20241110124153.png",
-    "pasted-image-20241110124505.png",
-    "pasted-image-20241110125550.png",
-    "pasted-image-20241110130159.png",
-    "pasted-image-20241111105503.png",
-    "pasted-image-20241111105604.png",
-    "pasted-image-20241111115243.png",
-    "pasted-image-20241111122242.png",
-    "pasted-image-20240924112140.png",
-    "pasted-image-20240924115012.png",
     "pasted-image-20240924115730.png",
     "pasted-image-20240924122749.png",
-    "pasted-image-20240925090907.png",
-    "pasted-image-20240925091658.png",
-    "pasted-image-20240925091938.png",
-    "pasted-image-20240925093749.png",
-    "pasted-image-20240925094112.png",
-    "pasted-image-20240925100350.png",
-    "pasted-image-20240925101524.png",
-    "pasted-image-20241008110607.png",
-    "pasted-image-20241008111251.png",
-    "pasted-image-20241008120111.png",
-    "pasted-image-20241008121052.png",
-    "pasted-image-20241010114229.png"
+    "pasted-image-20241010114229.png",
+    "pasted-image-20240718105744.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -611,85 +613,85 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -833,223 +835,223 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 300633,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 293,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1731315908992,
-      "sourceSize": 12314,
+      "modifiedTime": 1731317523862,
+      "sourceSize": 12293,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 131010,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -1322,8 +1324,8 @@
       "dependencies": []
     },
     "Fluid mechanics.md": {
-      "modifiedTime": 1731315908992,
-      "sourceSize": 1964,
+      "modifiedTime": 1731317523862,
+      "sourceSize": 2011,
       "exportedPath": "fluid-mechanics.html",
       "dependencies": [
         "pasted-image-20240626172127.png"
@@ -1402,7 +1404,7 @@
       "dependencies": []
     },
     "Index.md": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 1263,
       "exportedPath": "index.html",
       "dependencies": []
@@ -2989,30 +2991,6 @@
       "exportedPath": "pasted-image-20241011145250.png",
       "dependencies": []
     },
-    "pasted-image-20241011151659.png": {
-      "modifiedTime": 1731308369315,
-      "sourceSize": 73852,
-      "exportedPath": "pasted-image-20241011151659.png",
-      "dependencies": []
-    },
-    "pasted-image-20241011151749.png": {
-      "modifiedTime": 1731308369315,
-      "sourceSize": 1444424,
-      "exportedPath": "pasted-image-20241011151749.png",
-      "dependencies": []
-    },
-    "pasted-image-20241011151931.png": {
-      "modifiedTime": 1731308369315,
-      "sourceSize": 159739,
-      "exportedPath": "pasted-image-20241011151931.png",
-      "dependencies": []
-    },
-    "pasted-image-20241011152026.png": {
-      "modifiedTime": 1731308369315,
-      "sourceSize": 63007,
-      "exportedPath": "pasted-image-20241011152026.png",
-      "dependencies": []
-    },
     "pasted-image-20241001152222.png": {
       "modifiedTime": 1729068749864,
       "sourceSize": 41052,
@@ -3302,7 +3280,7 @@
       "dependencies": []
     },
     "pasted-image-20240626172127.png": {
-      "modifiedTime": 1731315908992,
+      "modifiedTime": 1731317523862,
       "sourceSize": 44786,
       "exportedPath": "pasted-image-20240626172127.png",
       "dependencies": []
@@ -4147,8 +4125,8 @@
       ]
     },
     "Problems Bernoulli General.md": {
-      "modifiedTime": 1731315908992,
-      "sourceSize": 1932,
+      "modifiedTime": 1731317523862,
+      "sourceSize": 1883,
       "exportedPath": "problems-bernoulli-general.html",
       "dependencies": []
     },

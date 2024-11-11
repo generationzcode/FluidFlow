@@ -1,4 +1,78 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 09:05:18 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 09:05:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Bernoulli's Equation]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 09:32:06 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 09:32:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
+Course taught by Prof. AVP<br>
+bird stewart lightfoot, transport phenomena<br>
+FW white fluid mechanics - using this <br>Faq
+The below quote is a reference to our defined area of doubt and uncertainty in momentum transfer
+<br>Quote
+“We demand rigidly defined areas of doubt and uncertainty!” — Douglas Adams
+<br><br>
+This course is an industrially relevant course which help students to understand various components of fluid<br>
+transport systems used in industry such as pipes, fittings, valves, pumps, blowers, compressors, vacuum<br>
+pumps etc. The industrial operations involve heating, cooling of the reactors and other mixing/separation<br>
+equipment which is provided by steam boilers, thermic fluid heaters, chillers, cooling towers etc. Many<br>
+reactions and separation equipment also require understanding of fluid flow at design, operation and<br>
+troubleshooting stage.<br>
+<img alt="Pasted image 20240626172127.png" src="pasted-image-20240626172127.png">
+<br><br>
+<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
+<br><a data-href="Bernoulli's Equation" href="bernoulli's-equation.html" class="internal-link" target="_self" rel="noopener nofollow">Bernoulli's Equation</a>
+<br><a data-href="Utility Network" href="utility-network.html" class="internal-link" target="_self" rel="noopener nofollow">Utility Network</a> - anything that isn't part of a process is utility, like chilled water, heating water, steam and nitrogen. Nitrogen is inert (relatively). Brines to reduce freezing point without corroding the machinery
+<br><a data-href="Fluid Moving Machinery" href="fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Moving Machinery</a> - pumps, vacuum systems, etc
+<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+<br><br>
+<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
+<br><a data-href="Forms of Bernoulli" href="forms-of-bernoulli.html" class="internal-link" target="_self" rel="noopener nofollow">Forms of Bernoulli</a>
+<br><a data-href="Venturi Meter" href="venturi-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Venturi Meter</a>
+<br><a data-href="Orifice Meter" href="orifice-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Orifice Meter</a>
+<br><a data-href="Pressure drop in pipe fittings" href="pressure-drop-in-pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pressure drop in pipe fittings</a>
+<br><a data-href="Newtons Law of Viscosity" href="newtons-law-of-viscosity.html" class="internal-link" target="_self" rel="noopener nofollow">Newtons Law of Viscosity</a>
+<br><a data-href="Equivalent Diameter" href="equivalent-diameter.html" class="internal-link" target="_self" rel="noopener nofollow">Equivalent Diameter</a>
+<br><a data-href="Blunders in annular flow calculations that students usually make" href="blunders-in-annular-flow-calculations-that-students-usually-make.html" class="internal-link" target="_self" rel="noopener nofollow">Blunders in annular flow calculations that students usually make</a>
+<br><a data-href="Friction factor correlations" href="friction-factor-correlations.html" class="internal-link" target="_self" rel="noopener nofollow">Friction factor correlations</a> - stupid to memorize, read for fun if you want
+<br><a data-href="Problems Bernoulli General" href="problems-bernoulli-general.html" class="internal-link" target="_self" rel="noopener nofollow">Problems Bernoulli General</a>
+<br><a data-href="Packed beds" href="packed-beds.html" class="internal-link" target="_self" rel="noopener nofollow">Packed beds</a>
+<br><a data-href="Darcy's law and permeability" href="darcy's-law-and-permeability.html" class="internal-link" target="_self" rel="noopener nofollow">Darcy's law and permeability</a>
+<br><a data-href="Specific Surface and Voidage" href="specific-surface-and-voidage.html" class="internal-link" target="_self" rel="noopener nofollow">Specific Surface and Voidage</a>
+<br><a data-href="Carman Kozeny equations" href="carman-kozeny-equations.html" class="internal-link" target="_self" rel="noopener nofollow">Carman Kozeny equations</a>
+<br><a data-href="Fluidization" href="fluidization.html" class="internal-link" target="_self" rel="noopener nofollow">Fluidization</a>
+<br><a data-href="Packed bed flow and fluidization relationship" href="packed-bed-flow-and-fluidization-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">Packed bed flow and fluidization relationship</a>
+<br><a data-href="Shape factors" href="shape-factors.html" class="internal-link" target="_self" rel="noopener nofollow">Shape factors</a>
+<br><a data-href="Pipe fittings" href="pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pipe fittings</a>
+<br><a data-href="Pumps" href="pumps.html" class="internal-link" target="_self" rel="noopener nofollow">Pumps</a>
+<br><a data-href="Problems on Fluid Moving Machinery" href="problems-on-fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on Fluid Moving Machinery</a>
+<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
+]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 11 Nov 2024 09:23:01 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Quote
+"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
+<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br>projects
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 11 Nov 2024 09:31:48 GMT</pubDate></item><item><title><![CDATA[Problems Bernoulli General]]></title><description><![CDATA[ 
+ <br>
+Make a list of all pipe fittings. Application of all valves. Print/ draw freehand.
+<br>Problem
+A reverse osmosis unit for purifying brackish water has 900000 fibres that permit the diffusion of water but reject most of the salt. The fibres are 85 micro meter in outside diameter , 42 micrometers in inside diameter and 3 ft long. The average flow through the tubes is 2000 gallons of water per day when the feed pressure is 400 psig. What is the pressure drop within an individual fibre from the feed end to the discharge end?Assume fluid viscosity = 1cP
+<br><br><br>Bug
+Water flows through an 8 inch steel pipe at an average velocity of 6 feet/second. Downstream the pipe divides into an 8 inch main and a 2 inch bypass. The equivalent length of the bypass is 22 feet. Length of the 8 inch pipe in the bypassed section is 16 feet. Neglecting entrance and exit losses, what fraction of total flow passes through the bypass
+<br>Solution
+take point 1 as the end of the bypass and take point 2 as the end of the main<br>
+Get x2 in terms of x and then get v_1 in terms of x and then multiply that with the respective areas and boom boom bam you get the answer<br>
+
+]]></description><link>problems-bernoulli-general.html</link><guid isPermaLink="false">Problems Bernoulli General.md</guid><pubDate>Mon, 11 Nov 2024 09:31:13 GMT</pubDate></item><item><title><![CDATA[Bernoulli's Equation]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
  <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
 I apologise for the poor formatting at the start
 <br><br>
@@ -210,52 +284,7 @@ if D1 is the inner diameter and D2is the other diameter
 D = 0.7m, V = 42m/s, , 
 <br>
 (0.7)(42)(1000)/(0.011) = 
-<br>velocity taken in calculation is the average velocity in the pipe ]]></description><link>equivalent-diameter.html</link><guid isPermaLink="false">Equivalent Diameter.md</guid><pubDate>Mon, 11 Nov 2024 08:19:48 GMT</pubDate></item><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
- <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
-Course taught by Prof. AVP<br>
-bird stewart lightfoot, transport phenomena<br>
-FW white fluid mechanics - using this <br>Faq
-The below quote is a reference to our defined area of doubt and uncertainty in momentum transfer
-<br>Quote
-“We demand rigidly defined areas of doubt and uncertainty!” — Douglas Adams
-<br><br>
-This course is an industrially relevant course which help students to understand various components of fluid<br>
-transport systems used in industry such as pipes, fittings, valves, pumps, blowers, compressors, vacuum<br>
-pumps etc. The industrial operations involve heating, cooling of the reactors and other mixing/separation<br>
-equipment which is provided by steam boilers, thermic fluid heaters, chillers, cooling towers etc. Many<br>
-reactions and separation equipment also require understanding of fluid flow at design, operation and<br>
-troubleshooting stage.<br>
-<img alt="Pasted image 20240626172127.png" src="pasted-image-20240626172127.png">
-<br><br>
-<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
-<br><a data-href="Bernoulli's Equation" href="bernoulli's-equation.html" class="internal-link" target="_self" rel="noopener nofollow">Bernoulli's Equation</a>
-<br><a data-href="Utility Network" href="utility-network.html" class="internal-link" target="_self" rel="noopener nofollow">Utility Network</a> - anything that isn't part of a process is utility, like chilled water, heating water, steam and nitrogen. Nitrogen is inert (relatively). Brines to reduce freezing point without corroding the machinery
-<br><a data-href="Fluid Moving Machinery" href="fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Moving Machinery</a> - pumps, vacuum systems, etc
-<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
-<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
-<br><br>
-<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
-<br><a data-href="Forms of Bernoulli" href="forms-of-bernoulli.html" class="internal-link" target="_self" rel="noopener nofollow">Forms of Bernoulli</a>
-<br><a data-href="Venturi Meter" href="venturi-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Venturi Meter</a>
-<br><a data-href="Orifice Meter" href="orifice-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Orifice Meter</a>
-<br><a data-href="Pressure drop in pipe fittings" href="pressure-drop-in-pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pressure drop in pipe fittings</a>
-<br><a data-href="Newtons Law of Viscosity" href="newtons-law-of-viscosity.html" class="internal-link" target="_self" rel="noopener nofollow">Newtons Law of Viscosity</a>
-<br><a data-href="Equivalent Diameter" href="equivalent-diameter.html" class="internal-link" target="_self" rel="noopener nofollow">Equivalent Diameter</a>
-<br><a data-href="Blunders in annular flow calculations that students usually make" href="blunders-in-annular-flow-calculations-that-students-usually-make.html" class="internal-link" target="_self" rel="noopener nofollow">Blunders in annular flow calculations that students usually make</a>
-<br><a data-href="Friction factor correlations" href="friction-factor-correlations.html" class="internal-link" target="_self" rel="noopener nofollow">Friction factor correlations</a>
-<br><a data-href="Problems Bernoulli General" href="problems-bernoulli-general.html" class="internal-link" target="_self" rel="noopener nofollow">Problems Bernoulli General</a>
-<br><a data-href="Packed beds" href="packed-beds.html" class="internal-link" target="_self" rel="noopener nofollow">Packed beds</a>
-<br><a data-href="Darcy's law and permeability" href="darcy's-law-and-permeability.html" class="internal-link" target="_self" rel="noopener nofollow">Darcy's law and permeability</a>
-<br><a data-href="Specific Surface and Voidage" href="specific-surface-and-voidage.html" class="internal-link" target="_self" rel="noopener nofollow">Specific Surface and Voidage</a>
-<br><a data-href="Carman Kozeny equations" href="carman-kozeny-equations.html" class="internal-link" target="_self" rel="noopener nofollow">Carman Kozeny equations</a>
-<br><a data-href="Fluidization" href="fluidization.html" class="internal-link" target="_self" rel="noopener nofollow">Fluidization</a>
-<br><a data-href="Packed bed flow and fluidization relationship" href="packed-bed-flow-and-fluidization-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">Packed bed flow and fluidization relationship</a>
-<br><a data-href="Shape factors" href="shape-factors.html" class="internal-link" target="_self" rel="noopener nofollow">Shape factors</a>
-<br><a data-href="Pipe fittings" href="pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pipe fittings</a>
-<br><a data-href="Pumps" href="pumps.html" class="internal-link" target="_self" rel="noopener nofollow">Pumps</a>
-<br><a data-href="Problems on Fluid Moving Machinery" href="problems-on-fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on Fluid Moving Machinery</a>
-<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
-]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 11 Nov 2024 08:37:17 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fluid Moving Machinery]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+<br>velocity taken in calculation is the average velocity in the pipe ]]></description><link>equivalent-diameter.html</link><guid isPermaLink="false">Equivalent Diameter.md</guid><pubDate>Mon, 11 Nov 2024 08:19:48 GMT</pubDate></item><item><title><![CDATA[Fluid Moving Machinery]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
  <br>Quote
 "To move fluid you gotta move it" - Unknown
 <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
@@ -380,25 +409,7 @@ If the roughness is too much, replace the pipe instead of getting a new correlat
 <br>Danger
 Churchill:<br>
 
-]]></description><link>friction-factor-correlations.html</link><guid isPermaLink="false">Friction factor correlations.md</guid><pubDate>Mon, 11 Nov 2024 08:20:58 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br>Quote
-"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
-<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br><a data-href="Projects" href="projects.html" class="internal-link" target="_self" rel="noopener nofollow">Projects</a>
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 11 Nov 2024 08:09:04 GMT</pubDate></item><item><title><![CDATA[Intro to stat learning]]></title><description><![CDATA[ 
+]]></description><link>friction-factor-correlations.html</link><guid isPermaLink="false">Friction factor correlations.md</guid><pubDate>Mon, 11 Nov 2024 08:20:58 GMT</pubDate></item><item><title><![CDATA[Intro to stat learning]]></title><description><![CDATA[ 
  <br>
 <br>The general form of a statistical model is :, where f is the prediction or inference formula and epsilon is the error term<img alt="Pasted image 20241110124153.png" src="pasted-image-20241110124153.png"> the absolute error lines show the epsilon term. Most models seek to minimize the reducible error term. If I had access to my old laptop, I'd link my multivariable calc notes here :lol:
 <br>epsilon is also called irreducible error, since the model just can't improve this
@@ -589,20 +600,7 @@ person A doesnt want to eat mustard sauce at the rate of 11LPS. We will neverthl
 <img alt="Pasted image 20240718123151.png" src="pasted-image-20240718123151.png">
 <br><br>Putting this in equation solver:<br>
 The pressure drop is 1017 pascal for agastya to eat 11 litres of mustard sauce every second
-]]></description><link>problem-on-venturi-meter.html</link><guid isPermaLink="false">Problem on venturi meter.md</guid><pubDate>Mon, 11 Nov 2024 08:17:20 GMT</pubDate><enclosure url="pasted-image-20240718123151.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240718123151.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problems Bernoulli General]]></title><description><![CDATA[ 
- <br>
-Make a list of all pipe fittings. Application of all valves. Print/ draw freehand.
-<br>Problem
-A reverse osmosis unit for purifying brackish water has 900000 fibres that permit the diffusion of water but reject most of the salt. The fibres are 85 micro meter in outside diameter , 42 micrometers in inside diameter and 3 ft long. The average flow through the tubes is 2000 gallons of water per day when the feed pressure is 400 psig. What is the pressure drop within an individual fibre from the feed end to the discharge end?Assume fluid viscosity = 1cP
-<br><br><br>
-Teacher isn't paid for appeasement of students
-<br>Bug
-Water flows through an 8 inch steel pipe at an average velocity of 6 feet/second. Downstream the pipe divides into an 8 inch main and a 2 inch bypass. The equivalent length of the bypass is 22 feet. Length of the 8 inch pipe in the bypassed section is 16 feet. Neglecting entrance and exit losses, what fraction of total flow passes through the bypass
-<br>Solution
-take point 1 as the end of the bypass and take point 2 as the end of the main<br>
-Get x2 in terms of x and then get v_1 in terms of x and then multiply that with the respective areas and boom boom bam you get the answer<br>
-
-]]></description><link>problems-bernoulli-general.html</link><guid isPermaLink="false">Problems Bernoulli General.md</guid><pubDate>Mon, 11 Nov 2024 08:21:28 GMT</pubDate></item><item><title><![CDATA[Problems on Fluid Moving Machinery]]></title><description><![CDATA[ 
+]]></description><link>problem-on-venturi-meter.html</link><guid isPermaLink="false">Problem on venturi meter.md</guid><pubDate>Mon, 11 Nov 2024 08:17:20 GMT</pubDate><enclosure url="pasted-image-20240718123151.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240718123151.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problems on Fluid Moving Machinery]]></title><description><![CDATA[ 
  <br>Example
 It is proposed to pump 10,000kg/hr of toluene at 114 C and 1.1atm absolute pressure from the reboiler of a distillation column of a second distillation unit without cooling the toluene before it enters the pump. If the friction loss in the line between the reboiler and pump is 7kN/m^2 and the density of toluene is 866 KG/M3, how far above the pump must be the liquid level in the reboiler be maintained to give a net positive suction head of 2.5m
 <br><br>reboiler is boiling point and if the toluene is boiling there and thus the vapour pressure is 1.1atm<br>
