@@ -1,6 +1,6 @@
 {
   "vaultName": "Fluid Mechanics",
-  "lastExport": 1730786551431,
+  "lastExport": 1731308369315,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": true,
@@ -310,6 +310,17 @@
     "Pasted image 20241105002951.png",
     "Pasted image 20241105003144.png",
     "Pasted image 20241105003156.png",
+    "Pasted image 20241105121146.png",
+    "Pasted image 20241105123712.png",
+    "Pasted image 20241105130947.png",
+    "Pasted image 20241110124153.png",
+    "Pasted image 20241110124505.png",
+    "Pasted image 20241110125550.png",
+    "Pasted image 20241110130159.png",
+    "Pasted image 20241111105503.png",
+    "Pasted image 20241111105604.png",
+    "Pasted image 20241111115243.png",
+    "Pasted image 20241111122242.png",
     "PHA.md",
     "Point estimation of parameters.md",
     "Polyesters.md",
@@ -317,6 +328,7 @@
     "Polymers.md",
     "Process safety.md",
     "Processing.md",
+    "Projects.md",
     "Properties of Polymers.md",
     "PS Overview.md",
     "Radical Polymerization.md",
@@ -331,6 +343,7 @@
     "Shaily.md",
     "Solution Polymerization.md",
     "solution to question 1.md",
+    "Statistics models.md",
     "Statistics problems.md",
     "step growth.md",
     "Supreme Industries.md",
@@ -432,6 +445,10 @@
     "pasted-image-20241001160229.png",
     "pasted-image-20241001161740.png",
     "pasted-image-20241011142441.png",
+    "pasted-image-20241105002645.png",
+    "pasted-image-20241105002951.png",
+    "pasted-image-20241105003144.png",
+    "pasted-image-20241105003156.png",
     "pasted-image-20240911105458.png",
     "pasted-image-20240926122107.png",
     "pasted-image-20240911110600.png",
@@ -451,10 +468,23 @@
     "pasted-image-20241003114806.png",
     "pasted-image-20241009115411.png",
     "pasted-image-20241009115634.png",
+    "pasted-image-20240621004336.png",
+    "pasted-image-20240621202105.png",
+    "pasted-image-20240621202300.png",
+    "pasted-image-20240621225105.png",
+    "pasted-image-20240621235412.png",
+    "pasted-image-20240621235423.png",
+    "pasted-image-20240621235442.png",
+    "pasted-image-20240622173336.png",
+    "pasted-image-20240622184349.png",
     "pasted-image-20240713172639.png",
     "pasted-image-20240927093303.png",
     "pasted-image-20241004101559.png",
     "pasted-image-20241004103217.png",
+    "pasted-image-20241104221251.png",
+    "pasted-image-20241104221929.png",
+    "pasted-image-20241104223410.png",
+    "pasted-image-20241104224546.png",
     "pasted-image-20240913181336.png",
     "pasted-image-20240913183908.png",
     "pasted-image-20240913185147.png",
@@ -544,85 +574,85 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -766,223 +796,223 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1730786551431,
-      "sourceSize": 270795,
+      "modifiedTime": 1731308369315,
+      "sourceSize": 281590,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 293,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1730786551431,
-      "sourceSize": 9852,
+      "modifiedTime": 1731308369315,
+      "sourceSize": 9952,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1730786551431,
-      "sourceSize": 131134,
+      "modifiedTime": 1731308369315,
+      "sourceSize": 131010,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -1042,12 +1072,10 @@
       ]
     },
     "Atomic spectroscopy methods.md": {
-      "modifiedTime": 1730732318305,
-      "sourceSize": 1485,
+      "modifiedTime": 1731308369315,
+      "sourceSize": 145,
       "exportedPath": "atomic-spectroscopy-methods.html",
-      "dependencies": [
-        "pasted-image-20240927105349.png"
-      ]
+      "dependencies": []
     },
     "Basics of reactors.md": {
       "modifiedTime": 1728451721646,
@@ -1124,9 +1152,9 @@
       "dependencies": []
     },
     "CHT 1013.md": {
-      "modifiedTime": 1728451721646,
-      "sourceSize": 462,
-      "exportedPath": "CHT 1013.html",
+      "modifiedTime": 1731308369315,
+      "sourceSize": 489,
+      "exportedPath": "cht-1013.html",
       "dependencies": []
     },
     "Competitive Equilibrium.md": {
@@ -1337,8 +1365,8 @@
       "dependencies": []
     },
     "Index.md": {
-      "modifiedTime": 1730786551431,
-      "sourceSize": 1285,
+      "modifiedTime": 1731308369315,
+      "sourceSize": 1398,
       "exportedPath": "index.html",
       "dependencies": [
         "pasted-image-20241011151659.png",
@@ -1485,10 +1513,14 @@
       "dependencies": []
     },
     "Molecular spectroscopy.md": {
-      "modifiedTime": 1728451721646,
-      "sourceSize": 297,
-      "exportedPath": "Molecular spectroscopy.html",
-      "dependencies": []
+      "modifiedTime": 1731308369315,
+      "sourceSize": 2413,
+      "exportedPath": "molecular-spectroscopy.html",
+      "dependencies": [
+        "pasted-image-20241105121146.png",
+        "pasted-image-20241105123712.png",
+        "pasted-image-20241105130947.png"
+      ]
     },
     "MSDS and PPE.md": {
       "modifiedTime": 1728451721646,
@@ -2942,25 +2974,25 @@
       "dependencies": []
     },
     "pasted-image-20241011151659.png": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 73852,
       "exportedPath": "pasted-image-20241011151659.png",
       "dependencies": []
     },
     "pasted-image-20241011151749.png": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 1444424,
       "exportedPath": "pasted-image-20241011151749.png",
       "dependencies": []
     },
     "pasted-image-20241011151931.png": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 159739,
       "exportedPath": "pasted-image-20241011151931.png",
       "dependencies": []
     },
     "pasted-image-20241011152026.png": {
-      "modifiedTime": 1730786551431,
+      "modifiedTime": 1731308369315,
       "sourceSize": 63007,
       "exportedPath": "pasted-image-20241011152026.png",
       "dependencies": []
@@ -3803,6 +3835,159 @@
       "modifiedTime": 1730786551431,
       "sourceSize": 142881,
       "exportedPath": "pasted-image-20241104224546.png",
+      "dependencies": []
+    },
+    "Pasted image 20241105121146.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 83351,
+      "exportedPath": "pasted-image-20241105121146.png",
+      "dependencies": []
+    },
+    "Pasted image 20241105123712.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 76544,
+      "exportedPath": "pasted-image-20241105123712.png",
+      "dependencies": []
+    },
+    "Pasted image 20241105130947.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 25550,
+      "exportedPath": "pasted-image-20241105130947.png",
+      "dependencies": []
+    },
+    "Pasted image 20241110124153.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 11565,
+      "exportedPath": "pasted-image-20241110124153.png",
+      "dependencies": []
+    },
+    "Pasted image 20241110124505.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 136146,
+      "exportedPath": "pasted-image-20241110124505.png",
+      "dependencies": []
+    },
+    "Pasted image 20241110125550.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 22220,
+      "exportedPath": "pasted-image-20241110125550.png",
+      "dependencies": []
+    },
+    "Pasted image 20241110130159.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 12921,
+      "exportedPath": "pasted-image-20241110130159.png",
+      "dependencies": []
+    },
+    "Pasted image 20241111105503.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 3522,
+      "exportedPath": "pasted-image-20241111105503.png",
+      "dependencies": []
+    },
+    "Pasted image 20241111105604.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 3964,
+      "exportedPath": "pasted-image-20241111105604.png",
+      "dependencies": []
+    },
+    "Pasted image 20241111115243.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 4411,
+      "exportedPath": "pasted-image-20241111115243.png",
+      "dependencies": []
+    },
+    "Pasted image 20241111122242.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 38620,
+      "exportedPath": "pasted-image-20241111122242.png",
+      "dependencies": []
+    },
+    "Projects.md": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 5691,
+      "exportedPath": "projects.html",
+      "dependencies": []
+    },
+    "Statistics models.md": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 4024,
+      "exportedPath": "statistics-models.html",
+      "dependencies": [
+        "pasted-image-20241110124153.png",
+        "pasted-image-20241110124505.png",
+        "pasted-image-20241110125550.png",
+        "pasted-image-20241110130159.png",
+        "pasted-image-20241111105503.png",
+        "pasted-image-20241111105604.png",
+        "pasted-image-20241111115243.png",
+        "pasted-image-20241111122242.png"
+      ]
+    },
+    "pasted-image-20241105121146.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 83351,
+      "exportedPath": "pasted-image-20241105121146.png",
+      "dependencies": []
+    },
+    "pasted-image-20241105123712.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 76544,
+      "exportedPath": "pasted-image-20241105123712.png",
+      "dependencies": []
+    },
+    "pasted-image-20241105130947.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 25550,
+      "exportedPath": "pasted-image-20241105130947.png",
+      "dependencies": []
+    },
+    "pasted-image-20241110124153.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 11565,
+      "exportedPath": "pasted-image-20241110124153.png",
+      "dependencies": []
+    },
+    "pasted-image-20241110124505.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 136146,
+      "exportedPath": "pasted-image-20241110124505.png",
+      "dependencies": []
+    },
+    "pasted-image-20241110125550.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 22220,
+      "exportedPath": "pasted-image-20241110125550.png",
+      "dependencies": []
+    },
+    "pasted-image-20241110130159.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 12921,
+      "exportedPath": "pasted-image-20241110130159.png",
+      "dependencies": []
+    },
+    "pasted-image-20241111105503.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 3522,
+      "exportedPath": "pasted-image-20241111105503.png",
+      "dependencies": []
+    },
+    "pasted-image-20241111105604.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 3964,
+      "exportedPath": "pasted-image-20241111105604.png",
+      "dependencies": []
+    },
+    "pasted-image-20241111115243.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 4411,
+      "exportedPath": "pasted-image-20241111115243.png",
+      "dependencies": []
+    },
+    "pasted-image-20241111122242.png": {
+      "modifiedTime": 1731308369315,
+      "sourceSize": 38620,
+      "exportedPath": "pasted-image-20241111122242.png",
       "dependencies": []
     }
   }

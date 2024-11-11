@@ -1,18 +1,19 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 05 Nov 2024 06:02:34 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 05 Nov 2024 06:02:31 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
- <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
- <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc<br>
-<br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
-<br><a data-href="Experimental Kinetics" href="experimental-kinetics.html" class="internal-link" target="_self" rel="noopener nofollow">Experimental Kinetics</a>
-<br><a data-href="Basics of reactors" href="basics-of-reactors.html" class="internal-link" target="_self" rel="noopener nofollow">Basics of reactors</a>
-<br><a data-href="Non ideal flow" href="non-ideal-flow.html" class="internal-link" target="_self" rel="noopener nofollow">Non ideal flow</a>
-<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
-<br><a data-href="Intro to heterogeneous reactions" href="intro-to-heterogeneous-reactions.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to heterogeneous reactions</a>
-<br>
-Catalytics has best in fogler
-<br>
-Hill and route<br>
-Gw Roberts
-]]></description><link>chemical-reaction-engineering.html</link><guid isPermaLink="false">Chemical Reaction Engineering.md</guid><pubDate>Mon, 04 Nov 2024 16:58:55 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 06:59:32 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 06:59:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Atomic spectroscopy methods]]></title><description><![CDATA[ 
+ <br>
+General principles and instrumentation of atomic absoprtion spectroscopy and atomic emission spectroscopy, sample prep, sample introduction.
+]]></description><link>atomic-spectroscopy-methods.html</link><guid isPermaLink="false">Atomic spectroscopy methods.md</guid><pubDate>Tue, 05 Nov 2024 06:35:43 GMT</pubDate></item><item><title><![CDATA[CHT 1013]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="Intro to chemical analysis" href="intro-to-chemical-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to chemical analysis</a> - subpar
+<br><a data-href="Selection of analytical methods" href="selection-of-analytical-methods.html" class="internal-link" target="_self" rel="noopener nofollow">Selection of analytical methods</a> - subpar
+<br><a data-href="Electroanalytical methods" href="electroanalytical-methods.html" class="internal-link" target="_self" rel="noopener nofollow">Electroanalytical methods</a>
+<br><a data-href="Molecular spectroscopy" href="molecular-spectroscopy.html" class="internal-link" target="_self" rel="noopener nofollow">Molecular spectroscopy</a>
+<br><a data-href="Chromatographic methods" href="chromatographic-methods.html" class="internal-link" target="_self" rel="noopener nofollow">Chromatographic methods</a> - subpar
+<br><a data-href="Atomic spectroscopy methods" href="atomic-spectroscopy-methods.html" class="internal-link" target="_self" rel="noopener nofollow">Atomic spectroscopy methods</a><br>
+Mark distribution
+<br>There's a practical exam which is the continuous assessment test. No need to memorize everything, just know what is being asked and what to calculate and possibly table
+<br>midsem - 30 marks is all for theory
+<br>endsem - 20 marks lab 30 marks theory
+]]></description><link>cht-1013.html</link><guid isPermaLink="false">CHT 1013.md</guid><pubDate>Tue, 05 Nov 2024 06:24:29 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
  <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
 “If there's anything more important than my ego around, I want it caught and shot now.”
 <br>I write a lot<br>
@@ -27,10 +28,166 @@ Gw Roberts
 <br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
 <br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
 <br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
 <br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
 <br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
 <img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
-<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 04 Nov 2024 15:33:58 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[LOPA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Sun, 10 Nov 2024 07:01:49 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Molecular spectroscopy]]></title><description><![CDATA[ 
+ <br>
+Electronic transitions, classification of molecular spectroscopic techniques<br>
+Overview of principles and applications of UV visible spectroscopy<br>
+Principles and instrumentation of infrared spectroscopy, sampling techniques, interpretation of infrared spectrum, quantitative application, FTIR
+<br>
+<br>Absorbance - the attenuation of photons as they pass through a sample
+<br>Absorbance spectrum - A graph of a sample's absorbance of electromagnetic radiation versus wavelength
+<br>Emission - The release of a photon when an analyte returns to a lower energy state from a higher energy state
+<br>Photoluminescence - emission following absorption of a photon
+<br>Chemilumninescence - Emission induced by a chemical reaction
+<br>Emission - graph of emission intensity versus wavelength
+<br><img alt="Pasted image 20241105121146.png" src="pasted-image-20241105121146.png">
+<br><br>
+<br>Spectroscopy needs energy, absorption and scattering spectroscopy get this from photons. Emission and luminescence use thermal, radiant (photon) or chemical energy
+<br>Continuum source - Emits radiation over a wide range of wavelengths
+<br>Line source - Emits radiation only at select wavelengths
+<br>Flame and plasma sources are used for thermal energy
+<br>Chemical energy is provided by exothermic or chemiluminescent reactions
+<br>In a continuum source, nominal wavelength is the wavelength which the wavelength selector is set to pass (its not exactly that, since its continuum)
+<br>Effective bandwidth - the width of the band of radiation passing through a wavelength selector measured at half the bands height
+<br>Resolution - separation between two spectral features, narrow effective bandwidth increases resolution
+<br>FIlters narrow the bandwidth
+<br><img alt="Pasted image 20241105123712.png" src="pasted-image-20241105123712.png">Monochromator diagram
+<br>Interferometer has a beam splitter which causes the source to recombine with radiation from a moving mirror, causing many wavelengths to engage in constructive/destructive interference, the outcome of which is converted using a fourier transform into a normal spectrum
+<br><img alt="Pasted image 20241105130947.png" src="pasted-image-20241105130947.png">
+<br>Interferometer has a better signal to noise ratio and theres a significant time saving in using this
+<br><br>
+<br>S = kP+D
+<br>D is the detectors dark current
+<br>photon transducers are used in optical spectroscopy
+<br>thermal transducers for infrared
+<br>Signal processors come afterword to display it in a more convenient form to the analyst. 
+<br><br>
+<br>
+]]></description><link>molecular-spectroscopy.html</link><guid isPermaLink="false">Molecular spectroscopy.md</guid><pubDate>Tue, 05 Nov 2024 07:44:12 GMT</pubDate><enclosure url="pasted-image-20241105121146.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241105121146.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Projects]]></title><description><![CDATA[ 
+ <br>From earliest<br><br>
+Most of these are forever lost on my hard drive. Some I was able to recover from a pendrive. These were simpler times. The projects were completed between when I was 9 to 14. Most of my deep learning work is on colabratory, which I won't share. It's impressive for a 15 year old, but not noteworthy
+<br>
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/bussiness/blob/master/analytics.html" target="_blank">https://github.com/generationzcode/bussiness/blob/master/analytics.html</a> - my first (not very well done) foray into deep learning
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/boxity" target="_blank">https://github.com/generationzcode/boxity</a> - I try using threejs, elements of this project no longer work
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Alzheimers/blob/master/index.html" target="_blank">https://github.com/generationzcode/Alzheimers/blob/master/index.html</a> - I try simulating a "smart home" for a Junior Academy competition with online friends
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/sns" target="_blank">https://github.com/generationzcode/sns</a> - I make a webserver, which I ran for a few months, for people to "roast" each other
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md" target="_blank">https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md</a> - a copy of an article I wrote for tenorflow during GCI 2019
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb" target="_blank">https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb</a> - a notebook on simple cryptography
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb" target="_blank">https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb</a> - an autoencoder I created, couldn't run a heavier version on my laptop
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cogive" target="_blank">https://github.com/generationzcode/cogive</a> - built a website for a junior academy competition with online friends
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Question-Fragmentor" target="_blank">https://github.com/generationzcode/Question-Fragmentor</a> - a simple nlp project built for a semi formal internship that separates a question into parts to be analysed
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/blog" target="_blank">https://github.com/generationzcode/blog</a> - I build my first personal website using react
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js" target="_blank">https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js</a> - I use react in the most organized manner possible to create a basic deep learning powered analytics app, as if I am working with a team of 100
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py" target="_blank">https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py</a> - I build a bot uses webdrivers to play tic tac toe against itself, I later did add a machine learning component to it. However, my machine wouldn't run it, it crashed. This project shows some advanced characteristics
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Noise" target="_blank">https://github.com/generationzcode/Noise</a> - worley noise
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/march1" target="_blank">https://github.com/generationzcode/march1</a> - marching band
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/auth-JS-server-template" target="_blank">https://github.com/generationzcode/auth-JS-server-template</a> - a template for firebase authentication
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Nopeeking" target="_blank">https://github.com/generationzcode/Nopeeking</a> - a simple render engine
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb" target="_blank">https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb</a> - my first attempt at understanding the stock market
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/heart-stuffs" target="_blank">https://github.com/generationzcode/heart-stuffs</a> - A website where you put in your details and get the likelihood of getting a heart attack (I used deep learning). This garnered a little attention on replit.
+<br><br>
+Stuff that I completed and people were fond of between ages of 14 and 16. 16 -18 I was studying physics. 19 was somewhat wasted in the knowledge aspect
+<br>
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/M.A.R.V.I.N" target="_blank">https://github.com/generationzcode/M.A.R.V.I.N</a> - an interpreted programming language, built for the "LangJam". We didn't win, however, we were the most popular programming language 
+<br><a rel="noopener nofollow" class="external-link" href="https://replit.com/@generationXcode/Eggcoin?v=1#README.md" target="_blank">https://replit.com/@generationXcode/Eggcoin?v=1#README.md</a>, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/socoolblockchain" target="_blank">https://github.com/generationzcode/socoolblockchain</a> - a cryptocurrency that got a lot of popularity
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Eggverse" target="_blank">https://github.com/generationzcode/Eggverse</a> - a blockchain based videogame
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/nonsense-uninteresting-hobby-project" target="_blank">https://github.com/generationzcode/nonsense-uninteresting-hobby-project</a> - a tool I built for a job I had in school packaging amazon parcels and entering the data to a spreadsheet. I automated the entire task after packaging with appscript, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/purplecandywrapper" target="_blank">https://github.com/generationzcode/purplecandywrapper</a> is another app deciphering pdfs in a different manner. I also built a tool to make the accounting work for amazon simpler by ordering an excel sheet using python and django, had to create a new type of sorting algorithm to deal with peoples' misspelling of their home states. I am unable to find this software :(
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggchain" target="_blank">https://github.com/generationzcode/eggchain</a> - a blockchain based videogame that was pretty popular
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggteract" target="_blank">https://github.com/generationzcode/eggteract</a> - a blockchain based microblogging platform
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/EggsAreDying/" target="_blank">https://github.com/generationzcode/EggsAreDying/</a> - a clicker game that was popular among my friends on the internet
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS" target="_blank">https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS</a> - an improvement on some code I wrote when I was 12, visually
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/chat-analysis" target="_blank">https://github.com/generationzcode/chat-analysis</a> - an attempt to understand whatsapp interactions using machine learning and data science
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/FluidFlow" target="_blank">https://github.com/generationzcode/FluidFlow</a> - my notes, garnered 3.6k views in 3 months, from many countries, with repeat users. A classmate got sent these notes by someone at a different college, with the intention of making her aware of them (to give an idea of how popular it got). Many of my polymers classmates credit this with their passing of their exams
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/web-crawler" target="_blank">https://github.com/generationzcode/web-crawler</a> - I don't have ownership of the finished version of this project, I gave all the data to someone else. This was originally for a terminal based search engine. Garnered some attention on replit
+<br>Meme[.]me - a meme sharing website I built with a friend that was crashed by spammers, still somehow, the most popular entry in the hackathon it was entered in :lol:
+<br>A videogame my team and I made to illustrate the spread of diseases such as covid, I built the neural net to back it - somewhat popular
+<br>saltwater lamp for rural areas that I'm working on right now, the prototype has been built
+<br>Password vault - AES 128 bit encrypted password vault built with django
+]]></description><link>projects.html</link><guid isPermaLink="false">Projects.md</guid><pubDate>Sun, 10 Nov 2024 06:59:48 GMT</pubDate></item><item><title><![CDATA[Statistics models]]></title><description><![CDATA[ 
+ <br>
+Predicting the future, concepts here are in the realm of "Statistical Learning", credits to ISLP for all the knowledge here
+<br>
+<br>The general form of a statistical model is :, where f is the prediction or inference formula and epsilon is the error term<img alt="Pasted image 20241110124153.png" src="pasted-image-20241110124153.png"> the absolute error lines show the epsilon term. Most models seek to minimize the reducible error term. If I had access to my old laptop, I'd link my multivariable calc notes here :lol:
+<br>epsilon is also called irreducible error, since the model just can't improve this
+<br><img alt="Pasted image 20241110124505.png" src="pasted-image-20241110124505.png">, an example of a two variable model
+<br><br>
+<br>There are two types of models that estimate f,parametric and non parametric
+<br>parametric approaches basically get the problem of f down to a certain number of parameters that must be found. The model is decided from before hand and the parameters are optimized for the error
+<br>Parametric methods must assume the form of f before fitting, this causes issues - what if f isn't actually that?
+<br>parametric methods need less data compared to nonparametric methods for the same task
+<br>eg. linear regressions cant be used to predict the shape of a projectile
+<br><br>
+<br>No parameters,just perfectly fitting everything. Not mentioned in the book, but I'm pretty sure that leads to overfitting
+<br>There was this term in maths for this, but you connect two or more data points in a way that they perfectly fit. Newton had a method for this, so did some other guys, you could do it backwards, forwards or from the center. I just forget the name of this tech<br>
+<img alt="Pasted image 20241110125550.png" src="pasted-image-20241110125550.png">
+<br>Interpretability is the non black box nature of a model
+<br><br>
+<br>Qualitative vs quantitative models
+<br>Not much on this here, but keep in mind when thinking of categorizing models
+<br><br>
+<br>the mean squared error in models shows the accuracy 
+<br>It can be shown that it decomposes to:
+<br><img alt="Pasted image 20241110130159.png" src="pasted-image-20241110130159.png">
+<br>the bias of the function squared, variance of the function and variance of the irreducible error term
+<br>variance of the function is how much the prediction of some x0 would change if we estimated it on different datasets, same with the error term's variance
+<br>In general, more flexible methods have more more variance. You would see deep learning have a higher variance than linear regression
+<br>bias is the error that is because we're estimating a real life problem. Its the difference between what we got vs whats actually there
+<br>Usually, with more flexible methods, bias initially decreases,hits a hard bottom, then variance starts to increase
+<br>So basically if bias is high, you dont have a model that understands your data at all
+<br>If your variance is high, you've overfit and cant use your model to extrapolate
+<br>Mostly, when the bias decreases, variance increases and vice versa
+<br>The trick is to get both at a low amount
+<br><br>
+<br>
+<img alt="Pasted image 20241111105503.png" src="pasted-image-20241111105503.png">
+
+<br>
+to estimate B0 and B1, we use the least squares method
+
+<br>
+<img alt="Pasted image 20241111105604.png" src="pasted-image-20241111105604.png">
+
+<br>
+where e is the error per sample
+
+<br>
+<img alt="Pasted image 20241111115243.png" src="pasted-image-20241111115243.png">
+
+<br>
+the 95% confidence interval for a parameter of linear regression, this is computed using the standard error, for which there are formulae
+Important
+figure out how to compute standard error for any hyperparameter
+
+
+<br>
+T statistic: a measure of how far away from null hypothesis a parameter really is
+
+<br>
+the p value is the probability that a t value corresponding to a certain hypothesis can happen. A higher p value indicates a higher likelihood of the hypothesis being true
+Important
+Ask Rane or Sanika how a p value is calculated if you only have one dataset and when to use t vs f statistic<br>
+Ok, t statistic is used for each parameter but f statistic is used for all of them to test hypothesis
+
+
+<br><br><img alt="Pasted image 20241111122242.png" src="pasted-image-20241111122242.png">]]></description><link>statistics-models.html</link><guid isPermaLink="false">Statistics models.md</guid><pubDate>Mon, 11 Nov 2024 06:56:19 GMT</pubDate><enclosure url="pasted-image-20241110124153.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241110124153.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
+ <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
+ <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc<br>
+<br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
+<br><a data-href="Experimental Kinetics" href="experimental-kinetics.html" class="internal-link" target="_self" rel="noopener nofollow">Experimental Kinetics</a>
+<br><a data-href="Basics of reactors" href="basics-of-reactors.html" class="internal-link" target="_self" rel="noopener nofollow">Basics of reactors</a>
+<br><a data-href="Non ideal flow" href="non-ideal-flow.html" class="internal-link" target="_self" rel="noopener nofollow">Non ideal flow</a>
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+<br><a data-href="Intro to heterogeneous reactions" href="intro-to-heterogeneous-reactions.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to heterogeneous reactions</a>
+<br>
+Catalytics has best in fogler
+<br>
+Hill and route<br>
+Gw Roberts
+]]></description><link>chemical-reaction-engineering.html</link><guid isPermaLink="false">Chemical Reaction Engineering.md</guid><pubDate>Mon, 04 Nov 2024 16:58:55 GMT</pubDate></item><item><title><![CDATA[LOPA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
  <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br>
 credits: <a rel="noopener nofollow" class="external-link" href="https://www.icheme.org/media/12368/4-lopa-introduction.pdf" target="_blank">https://www.icheme.org/media/12368/4-lopa-introduction.pdf</a><br>
 Layers of protection, you need them!<br>
@@ -332,23 +489,7 @@ gap filling adhesives (work on expansion joints as well), tapes, plumbing specif
 what the -bleep- did I mean by this?
 <br><br><br>Info
 The stuff below is my opinion. Some part of the above, especially competition may also be an opinion
-<br><br>]]></description><link>astral.html</link><guid isPermaLink="false">Astral.md</guid><pubDate>Mon, 04 Nov 2024 10:07:37 GMT</pubDate><enclosure url="pasted-image-20240813081657.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240813081657.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Atomic spectroscopy methods]]></title><description><![CDATA[ 
- <br>
-General principles and instrumentation of atomic absoprtion spectroscopy and atomic emission spectroscopy, sample prep, sample introduction.
-<br>
-<br>Two types of sources - line sources and some other type I couldn't decipher
-<br><img alt="Pasted image 20240927105349.png" src="pasted-image-20240927105349.png">
-<br>Two requirements have been placed on the monochromator of the AAS. A spectral band pass of 0.2nm is required with a
-<br><br>
-<br>The intensity of the resonance line emitted by the monochromator is measured with and without sample in the flame by photoelectric detector such as photomultiplier or photocell. 
-<br><br>
-<br>chemical - refractory oxides - stable at cell temperature, Al and Fe could form a stable refractory oxide by combining with oxygen; Ca may combine with P and form calcium phosphate; 
-<br>ionization - occurs due to ionization of the analyte which results in decrease in concentration of atoms
-<br>viscosity - if viscosity of solution more than or less than standard, you get positive or negative error, respectively
-<br>spectral
-<br><br>
-<br>when an atomic vapour is placed in a magnetic field, the energy levels split, which manifests as spectral line splitting. In the simplest case, the spectral lines split into three components: central pi component whose energy and frequency is unchanged and two sigma -bla blah blah I cant write anymore
-<br><br>fExcitation happens because of absorption at lower wavelength because higher energy is required<br>]]></description><link>atomic-spectroscopy-methods.html</link><guid isPermaLink="false">Atomic spectroscopy methods.md</guid><pubDate>Fri, 25 Oct 2024 06:22:46 GMT</pubDate><enclosure url="pasted-image-20240927105349.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240927105349.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Boiling]]></title><description><![CDATA[ 
+<br><br>]]></description><link>astral.html</link><guid isPermaLink="false">Astral.md</guid><pubDate>Mon, 04 Nov 2024 10:07:37 GMT</pubDate><enclosure url="pasted-image-20240813081657.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240813081657.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Boiling]]></title><description><![CDATA[ 
  <br>
 We were lied to
 <br>
