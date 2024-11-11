@@ -1,4 +1,789 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 06:59:32 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 06:59:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Atomic spectroscopy methods]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 09:05:18 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 09:05:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Bernoulli's Equation]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
+I apologise for the poor formatting at the start
+<br><br>
+<br><a data-href="Forms of Bernoulli" href="forms-of-bernoulli.html" class="internal-link" target="_self" rel="noopener nofollow">Forms of Bernoulli</a>
+<br><a data-href="Venturi Meter" href="venturi-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Venturi Meter</a>
+<br><a data-href="Orifice Meter" href="orifice-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Orifice Meter</a>
+<br><a data-href="Pressure drop in pipe fittings" href="pressure-drop-in-pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pressure drop in pipe fittings</a>
+<br><a data-href="Newtons Law of Viscosity" href="newtons-law-of-viscosity.html" class="internal-link" target="_self" rel="noopener nofollow">Newtons Law of Viscosity</a>
+<br><a data-href="Equivalent Diameter" href="equivalent-diameter.html" class="internal-link" target="_self" rel="noopener nofollow">Equivalent Diameter</a>
+<br><a data-href="Blunders in annular flow calculations that students usually make" href="blunders-in-annular-flow-calculations-that-students-usually-make.html" class="internal-link" target="_self" rel="noopener nofollow">Blunders in annular flow calculations that students usually make</a>
+<br><a data-href="Friction factor correlations" href="friction-factor-correlations.html" class="internal-link" target="_self" rel="noopener nofollow">Friction factor correlations</a>
+<br><a data-href="Problems Bernoulli General" href="problems-bernoulli-general.html" class="internal-link" target="_self" rel="noopener nofollow">Problems Bernoulli General</a>
+]]></description><link>bernoulli's-equation.html</link><guid isPermaLink="false">Bernoulli's Equation.md</guid><pubDate>Mon, 11 Nov 2024 08:35:56 GMT</pubDate></item><item><title><![CDATA[Bias-Variance]]></title><description><![CDATA[ 
+ <br><br>
+<br>the mean squared error in models shows the accuracy 
+<br>It can be shown that it decomposes to:
+<br><img alt="Pasted image 20241110130159.png" src="pasted-image-20241110130159.png">
+<br>the bias of the function squared, variance of the function and variance of the irreducible error term
+<br>variance of the function is how much the prediction of some x0 would change if we estimated it on different datasets, same with the error term's variance
+<br>In general, more flexible methods have more more variance. You would see deep learning have a higher variance than linear regression
+<br>bias is the error that is because we're estimating a real life problem. Its the difference between what we got vs whats actually there
+<br>Usually, with more flexible methods, bias initially decreases,hits a hard bottom, then variance starts to increase
+<br>So basically if bias is high, you dont have a model that understands your data at all
+<br>If your variance is high, you've overfit and cant use your model to extrapolate
+<br>Mostly, when the bias decreases, variance increases and vice versa
+<br>The trick is to get both at a low amount
+]]></description><link>bias-variance.html</link><guid isPermaLink="false">Bias-Variance.md</guid><pubDate>Mon, 11 Nov 2024 07:58:45 GMT</pubDate><enclosure url="pasted-image-20241110130159.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241110130159.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Blunders in annular flow calculations that students usually make]]></title><description><![CDATA[ 
+ <br>
+<br>Being stupid
+<br>We need reynolds number and prandtl number for heat transfer calculations in an annular pipe for both sides. 
+<br>They don't understand what the annular space is (D2 and D3)
+<br>Equivalent diameter for the annular space is equal to inner diameter of the outer pipe - inner diameter of the inner pipe
+<br>
+<br>Use the actual area for the velocity getting from flow rate. Flow rate/area. D_eq won't give you the equivalent area you absolute fool 😂
+
+Make a comprehensive compilation of all friction factor correlations for single phase. Submission tomorrow 
+
+
+]]></description><link>blunders-in-annular-flow-calculations-that-students-usually-make.html</link><guid isPermaLink="false">Blunders in annular flow calculations that students usually make.md</guid><pubDate>Mon, 11 Nov 2024 08:20:18 GMT</pubDate></item><item><title><![CDATA[Carman Kozeny equations]]></title><description><![CDATA[ 
+ <br>
+<br>
+These guys tried to derive a general equation for pressure drop across packed beds
+
+<br>
+They began with getting an analogy between streamline flow in an empty pipe and a packed pipe
+
+<br>
+<img alt="Pasted image 20240925090907.png" src="pasted-image-20240925090907.png">
+
+<br>
+<img alt="Pasted image 20240925091658.png" src="pasted-image-20240925091658.png">
+
+<br>
+If free space between particles is assumed to consist of a series of tortuous channels, the hagen poiseuille equation can be rewritten as:
+
+<br>
+<img alt="Pasted image 20240925091938.png" src="pasted-image-20240925091938.png">
+
+<br>
+where K1 is a function of the bed structure, and is a dimensionless constant
+
+<br>
+Ltube is actually L1 here and is the length of tortuous channel
+Faq
+What is a tortuous channel?<br>
+randomly formed channels
+
+
+<br>
+The length of a tortuous channel will be higher than the actual length of the pipe.
+
+<br>
+V1 and L1 represent conditions in the pores and are not the same as v_avg and packing length. Both will be higher than their normal values
+
+<br>
+It is assumed that at any length the length of a tortuous path will be directly proportional to length of a tube
+
+<br>
+d1 is the equivalent diameter of the tortuous pore space
+
+<br>
+Kozeny said d1 = <img alt="Pasted image 20240925093749.png" src="pasted-image-20240925093749.png">
+
+<br>
+<img alt="Pasted image 20240925094112.png" src="pasted-image-20240925094112.png">
+
+<br>
+K2 accounts for the proportionality between L1 and Ltube and we can use Ltube since we know only Ltube not L1
+
+<br>
+180 = k^2*S
+
+<br>
+Modified friction factor is R/pv^2
+
+<br>
+<img alt="Pasted image 20240925100350.png" src="pasted-image-20240925100350.png">
+
+<br>
+R1 is drag force, rho is density and v is v1
+
+<br>
+for flow to occur, pressure drop is required.
+
+<br>
+This pressure drop should be exactly equal to the resistance faced by the fluid
+
+<br>
+<img alt="Pasted image 20240925101524.png" src="pasted-image-20240925101524.png">
+
+<br>
+
+
+<br>
+The above is a fitted correlation for packed beds by carman
+
+<br>
+It's similar to the equation proposed by Forchheimer, who suggested that resistance to flow should be considered in two parts:
+
+<br>
+Viscous force at particle surface
+
+<br>
+Loss in turbulent eddies and at sudden changes in cross section of channels, therefore
+
+<br>
+
+
+<br>
+The first term predominates at low flow rates where losses are mainly due to skin friction
+
+<br>
+Second term predominates at high flow rates and in very thin beds where the enlargement and contraction losses become very important. AT very high flow rates the effects of viscous forces are negligible
+
+<br>
+For Re &lt; 2, second term = 0, hence
+
+<br>
+
+
+<br>
+Learn the derivation of the Forchheimer equation
+
+<br>
+Sawitowski proposed for flow of fluids through hollow packings:
+
+<br>
+
+
+<br>
+Note the lack of 0.4 on the numerator of the second term
+
+<br>
+For flow through ring packings, another relation was created (semi empirical):
+
+<br>
+
+
+<br>
+This is analogous to hejun poisuelle equation
+
+<br>
+Using 6/S, it transforms to something else
+
+<br>
+This is not worth remembering and thus I wont write about it here
+
+<br>
+All these equations will be provided in the exam
+Important
+Prof's recommendation - When designing a packed bed column there are softwares that fit a curve on the packed column readings and get you a relation
+
+
+]]></description><link>carman-kozeny-equations.html</link><guid isPermaLink="false">Carman Kozeny equations.md</guid><pubDate>Mon, 11 Nov 2024 08:25:36 GMT</pubDate><enclosure url="pasted-image-20240925090907.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240925090907.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Darcy's law and permeability]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240924115012.png" src="pasted-image-20240924115012.png"><br>
+<br>Darcy showed that average velocity was directly proportional to  and inversely proportional to bed thickness
+<br>This is expressed as Darcy's law:
+<br>
+<br>The linear relation between flow rate and pressure indicates that the flow is laminar
+<br>This is because the reynolds number through the pore spaces is low
+<br>Resistance to flow arises mainly from viscous drag:
+<br>
+<br>B is the permeability coefficient. It's completely dependent on the properties of the packed bed
+<br>Info
+In real life, flow isn't always laminar, it can also be turbulent with a high enough head. Many scientists have developed turbulent derived equations 
+<br>
+Derivations are a part of the syllabus and will be asked in the examination
+]]></description><link>darcy's-law-and-permeability.html</link><guid isPermaLink="false">Darcy's law and permeability.md</guid><pubDate>Mon, 11 Nov 2024 08:24:03 GMT</pubDate><enclosure url="pasted-image-20240924115012.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924115012.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Equivalent Diameter]]></title><description><![CDATA[ 
+ <br><br>
+<br>As chemical engineers, we assume everything is a circular cross section in a pipe. When in reality it is not, we use equivalent diameter to get it's cross sectional area
+<br>Equivalent diameter is defined as:
+<br>
+Odd exercise in proving the obvious
+Prove that the equivalent diameter of a circular cross sectional area of a pipe with diameter d is d
+
+
+<br><br>
+<br>
+<br>Thus proven :Cry: :fart: :vomit:
+<br>Why did I have to do this useless proof
+<br><br><br><br><br><br><br>
+Home assignment - find equivalent diameter for polygon of n sides, equilateral. (n&gt;=3)
+<br>
+This equivalent diameter is used to calculate reynolds number for a non circular cross section pipe 
+<br>
+Note - Don't be an idiot when making calculations. Thickness of a pipe is <br>
+if D1 is the inner diameter and D2is the other diameter
+<br>Reynolds number calculation
+D = 0.7m, V = 42m/s, , 
+<br>
+(0.7)(42)(1000)/(0.011) = 
+<br>velocity taken in calculation is the average velocity in the pipe ]]></description><link>equivalent-diameter.html</link><guid isPermaLink="false">Equivalent Diameter.md</guid><pubDate>Mon, 11 Nov 2024 08:19:48 GMT</pubDate></item><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
+Course taught by Prof. AVP<br>
+bird stewart lightfoot, transport phenomena<br>
+FW white fluid mechanics - using this <br>Faq
+The below quote is a reference to our defined area of doubt and uncertainty in momentum transfer
+<br>Quote
+“We demand rigidly defined areas of doubt and uncertainty!” — Douglas Adams
+<br><br>
+This course is an industrially relevant course which help students to understand various components of fluid<br>
+transport systems used in industry such as pipes, fittings, valves, pumps, blowers, compressors, vacuum<br>
+pumps etc. The industrial operations involve heating, cooling of the reactors and other mixing/separation<br>
+equipment which is provided by steam boilers, thermic fluid heaters, chillers, cooling towers etc. Many<br>
+reactions and separation equipment also require understanding of fluid flow at design, operation and<br>
+troubleshooting stage.<br>
+<img alt="Pasted image 20240626172127.png" src="pasted-image-20240626172127.png">
+<br><br>
+<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
+<br><a data-href="Bernoulli's Equation" href="bernoulli's-equation.html" class="internal-link" target="_self" rel="noopener nofollow">Bernoulli's Equation</a>
+<br><a data-href="Utility Network" href="utility-network.html" class="internal-link" target="_self" rel="noopener nofollow">Utility Network</a> - anything that isn't part of a process is utility, like chilled water, heating water, steam and nitrogen. Nitrogen is inert (relatively). Brines to reduce freezing point without corroding the machinery
+<br><a data-href="Fluid Moving Machinery" href="fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Moving Machinery</a> - pumps, vacuum systems, etc
+<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+<br><br>
+<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
+<br><a data-href="Forms of Bernoulli" href="forms-of-bernoulli.html" class="internal-link" target="_self" rel="noopener nofollow">Forms of Bernoulli</a>
+<br><a data-href="Venturi Meter" href="venturi-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Venturi Meter</a>
+<br><a data-href="Orifice Meter" href="orifice-meter.html" class="internal-link" target="_self" rel="noopener nofollow">Orifice Meter</a>
+<br><a data-href="Pressure drop in pipe fittings" href="pressure-drop-in-pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pressure drop in pipe fittings</a>
+<br><a data-href="Newtons Law of Viscosity" href="newtons-law-of-viscosity.html" class="internal-link" target="_self" rel="noopener nofollow">Newtons Law of Viscosity</a>
+<br><a data-href="Equivalent Diameter" href="equivalent-diameter.html" class="internal-link" target="_self" rel="noopener nofollow">Equivalent Diameter</a>
+<br><a data-href="Blunders in annular flow calculations that students usually make" href="blunders-in-annular-flow-calculations-that-students-usually-make.html" class="internal-link" target="_self" rel="noopener nofollow">Blunders in annular flow calculations that students usually make</a>
+<br><a data-href="Friction factor correlations" href="friction-factor-correlations.html" class="internal-link" target="_self" rel="noopener nofollow">Friction factor correlations</a>
+<br><a data-href="Problems Bernoulli General" href="problems-bernoulli-general.html" class="internal-link" target="_self" rel="noopener nofollow">Problems Bernoulli General</a>
+<br><a data-href="Packed beds" href="packed-beds.html" class="internal-link" target="_self" rel="noopener nofollow">Packed beds</a>
+<br><a data-href="Darcy's law and permeability" href="darcy's-law-and-permeability.html" class="internal-link" target="_self" rel="noopener nofollow">Darcy's law and permeability</a>
+<br><a data-href="Specific Surface and Voidage" href="specific-surface-and-voidage.html" class="internal-link" target="_self" rel="noopener nofollow">Specific Surface and Voidage</a>
+<br><a data-href="Carman Kozeny equations" href="carman-kozeny-equations.html" class="internal-link" target="_self" rel="noopener nofollow">Carman Kozeny equations</a>
+<br><a data-href="Fluidization" href="fluidization.html" class="internal-link" target="_self" rel="noopener nofollow">Fluidization</a>
+<br><a data-href="Packed bed flow and fluidization relationship" href="packed-bed-flow-and-fluidization-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">Packed bed flow and fluidization relationship</a>
+<br><a data-href="Shape factors" href="shape-factors.html" class="internal-link" target="_self" rel="noopener nofollow">Shape factors</a>
+<br><a data-href="Pipe fittings" href="pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pipe fittings</a>
+<br><a data-href="Pumps" href="pumps.html" class="internal-link" target="_self" rel="noopener nofollow">Pumps</a>
+<br><a data-href="Problems on Fluid Moving Machinery" href="problems-on-fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on Fluid Moving Machinery</a>
+<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
+]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 11 Nov 2024 08:37:17 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fluid Moving Machinery]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br>Quote
+"To move fluid you gotta move it" - Unknown
+<br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
+<br><a data-href="Pipe fittings" href="pipe-fittings.html" class="internal-link" target="_self" rel="noopener nofollow">Pipe fittings</a>
+<br><a data-href="Pumps" href="pumps.html" class="internal-link" target="_self" rel="noopener nofollow">Pumps</a>
+<br><a data-href="Problems on Fluid Moving Machinery" href="problems-on-fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on Fluid Moving Machinery</a>
+]]></description><link>fluid-moving-machinery.html</link><guid isPermaLink="false">Fluid Moving Machinery.md</guid><pubDate>Mon, 11 Nov 2024 08:29:13 GMT</pubDate></item><item><title><![CDATA[Fluidization]]></title><description><![CDATA[ 
+ <br>
+<br>A fluid cannot be fluidized
+<br>Fluidised beds were known only to academicians for many years, until adoption of fluidized catalysts by the petroleum industry
+<br>Fluidized beds behave as a single fluid of density equal to that of mixture of solids
+<br>It is assumed in fluidized beds that one phase is a solid
+The danger of saying today
+Some drunk johnny boy was taking round and met his commanding officer. His commanding officer was sober. Johnny boy wrote in his diary, "today, my commanding officer was not drunk". Think on the danger of this statement
+
+
+<br><img alt="Pasted image 20241008110607.png" src="pasted-image-20241008110607.png"><br>
+<br>Fluidised catalytic bed reactors
+<br>fluidisation - make solids behave as if they were liquid. The upward thrust should be exactly and equal to the downward force
+<br><img alt="Pasted image 20241008111251.png" src="pasted-image-20241008111251.png">
+<br>The above graph is the effect of fluid velocity on pressure gradient and delta P
+<br>So basically this shows how the friction factor changes with velocity
+<br>When fluidisation just starts, its called minimum or incipient fluidisation
+<br>The del P per unit length decreases on start of fluidisation since the length increases since the particles move upwards
+<br>In fluidization you do not want to carry away the solids.
+<br>When a fluid flows slowly upwards through a bed of very fine particles, the flow is streamline and a linear relation exists between the pressure gradient and flow rate
+<br>If log(delP/Ltube) is plotted against log(Vavg), a straight line of slope 1 is obtained
+<br>In a fluidised bed, total frictional force on particles = effective weight of bed
+<br>Thus in a bed of cross sectional area A, depth Ltube, and porosity epsilon, additional pressure drop across bed due to layout weight of particles is given by:
+<br>
+<br>The area cancels out
+<br>This relationship applies between the initial expansion of the bed till the transport of the bed
+<br><img alt="Pasted image 20241008120111.png" src="pasted-image-20241008120111.png">
+<br>Sheeeeeeeeeeeesh
+<br><img alt="Pasted image 20241008121052.png" src="pasted-image-20241008121052.png">
+<br>Discrepancies between calculated and measured velocities are - channeling, electrostatic forces, agglomeration, friction between fluid and walls of the vessels and friction between particles hitting the walls
+<br>Channeling results in drag force reducing
+<br>Agglomeration - particles come together
+<br>Higher the density difference more are the chances of irregularities in the channels
+]]></description><link>fluidization.html</link><guid isPermaLink="false">Fluidization.md</guid><pubDate>Mon, 11 Nov 2024 08:26:06 GMT</pubDate><enclosure url="pasted-image-20241008110607.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241008110607.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Forms of Bernoulli]]></title><description><![CDATA[ 
+ <br>This is energy balance<br>
+pressure energy + kinetic energy + potential energy 1st form<br>
+2nd form:<br>
+<br>3rd form:<br>the third form is the head form<br><br>With frictional losses included, the energy term goes in the RHS and pump energy rate<br>
+<br>]]></description><link>forms-of-bernoulli.html</link><guid isPermaLink="false">Forms of Bernoulli.md</guid><pubDate>Mon, 11 Nov 2024 08:15:33 GMT</pubDate></item><item><title><![CDATA[Friction factor correlations]]></title><description><![CDATA[ 
+ <br>
+<br>
+for reynolds number below 2100, f = 16/Re
+
+<br>
+For reynolds number above 2100, mile long equations follow:
+
+<br>
+ 
+
+<br>
+what is this? a mile for ants?
+
+<br>
+The above is a Blasius relation
+
+<br>
+This comes partly from boundary layer theory - semi empirical semi theoretical relation
+
+random note  - Avoid wikipedia
+
+
+<br>
+
+
+<br>
+This is another relation. The 0.4 correction comes in from boundary layer theory. This works between 2300 and  Reynolds number. Prandtl formula
+
+<br>
+These are all ad-hoc, somehow fitted to their use
+
+<br>
+Ladies and hopefully more ladies, I present to you, the devil's excrement (from 70 to ):
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+DO NOT USE THE ABOVE IN AN EXAMINATION
+
+<br>
+Barenblatt. No one has the slightest clue where this guy came up with this correlation from.
+
+Pick up a problem, any random problem, calculate f by all the correlations and see what the difference is
+
+
+<br>
+
+
+<br>
+For range between  to  
+
+<br>
+
+
+<br>
+For range between 3000 and 
+
+<br>
+To take into account roughness
+
+<br>
+
+
+<br>
+Range of the above is 40,000 to 400,000. Epsilon/D shows the roughness, and this should be between 0 and 0.05
+
+<br>
+If the roughness is too much, replace the pipe instead of getting a new correlation
+
+<br>Danger
+Churchill:<br>
+
+]]></description><link>friction-factor-correlations.html</link><guid isPermaLink="false">Friction factor correlations.md</guid><pubDate>Mon, 11 Nov 2024 08:20:58 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Quote
+"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
+<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br><a data-href="Projects" href="projects.html" class="internal-link" target="_self" rel="noopener nofollow">Projects</a>
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 11 Nov 2024 08:09:04 GMT</pubDate></item><item><title><![CDATA[Intro to stat learning]]></title><description><![CDATA[ 
+ <br>
+<br>The general form of a statistical model is :, where f is the prediction or inference formula and epsilon is the error term<img alt="Pasted image 20241110124153.png" src="pasted-image-20241110124153.png"> the absolute error lines show the epsilon term. Most models seek to minimize the reducible error term. If I had access to my old laptop, I'd link my multivariable calc notes here :lol:
+<br>epsilon is also called irreducible error, since the model just can't improve this
+<br><img alt="Pasted image 20241110124505.png" src="pasted-image-20241110124505.png">, an example of a two variable model
+<br><br>
+<br>Qualitative vs quantitative models
+<br>Not much on this here, but keep in mind when thinking of categorizing models
+]]></description><link>intro-to-stat-learning.html</link><guid isPermaLink="false">Intro to stat learning.md</guid><pubDate>Mon, 11 Nov 2024 07:58:24 GMT</pubDate><enclosure url="pasted-image-20241110124153.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241110124153.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Linear Regression]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+<img alt="Pasted image 20241111105503.png" src="pasted-image-20241111105503.png">
+
+<br>
+to estimate B0 and B1, we use the least squares method
+
+<br>
+<img alt="Pasted image 20241111105604.png" src="pasted-image-20241111105604.png">
+
+<br>
+where e is the error per sample
+
+<br>
+<img alt="Pasted image 20241111115243.png" src="pasted-image-20241111115243.png">
+
+<br>
+the 95% confidence interval for a parameter of linear regression, this is computed using the standard error, for which there are formulae
+Important
+figure out how to compute standard error for any hyperparameter
+
+
+<br>
+T statistic: a measure of how far away from null hypothesis a parameter really is
+
+<br>
+the p value is the probability that a t value corresponding to a certain hypothesis can happen. A higher p value indicates a higher likelihood of the hypothesis being true
+Important
+Ask Rane or Sanika how a p value is calculated if you only have one dataset and when to use t vs f statistic<br>
+Ok, t statistic is used for each parameter but f statistic is used for all of them to test hypothesis
+
+
+<br><br><img alt="Pasted image 20241111122242.png" src="pasted-image-20241111122242.png">]]></description><link>linear-regression.html</link><guid isPermaLink="false">Linear Regression.md</guid><pubDate>Mon, 11 Nov 2024 07:59:34 GMT</pubDate><enclosure url="pasted-image-20241111105503.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241111105503.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Newtons Law of Viscosity]]></title><description><![CDATA[ 
+ <br><br>  Reynolds number physical significance<br>
+Its the ratio of inertial to viscous forces<br>
+  =&gt;  =&gt;This isn't the reynolds number we use but it's a good model for why it looks like what it looks like - the physical meaning behind it<br>
+Reynolds number for an agitator<br>
+<br>
+This isnt really what you expected from such a title but i cant d anything about it :/
+]]></description><link>newtons-law-of-viscosity.html</link><guid isPermaLink="false">Newtons Law of Viscosity.md</guid><pubDate>Mon, 11 Nov 2024 09:04:47 GMT</pubDate></item><item><title><![CDATA[Non Parametric Approaches]]></title><description><![CDATA[ 
+ <br><br>
+<br>No parameters,just perfectly fitting everything. Not mentioned in the book, but I'm pretty sure that leads to overfitting
+<br>There was this term in maths for this, but you connect two or more data points in a way that they perfectly fit. Newton had a method for this, so did some other guys, you could do it backwards, forwards or from the center. I just forget the name of this tech<br>
+<img alt="Pasted image 20241110125550.png" src="pasted-image-20241110125550.png">
+<br>Interpretability is the non black box nature of a model
+]]></description><link>nonparametric-approaches.html</link><guid isPermaLink="false">Nonparametric Approaches.md</guid><pubDate>Mon, 11 Nov 2024 07:57:04 GMT</pubDate><enclosure url="pasted-image-20241110125550.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241110125550.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Orifice Meter]]></title><description><![CDATA[ 
+ <br>
+<br>Discharge coefficient much larger than venturi meter
+<br>Same formulae
+<br>DO NOT USE THIS ITS ABSOLUTE TRASH
+Problem
+Pipe diameter- 10cm,orifice diameter - unknown, , , , 
+
+
+<br><br>Putting this in equation solver:]]></description><link>orifice-meter.html</link><guid isPermaLink="false">Orifice Meter.md</guid><pubDate>Mon, 11 Nov 2024 08:16:45 GMT</pubDate></item><item><title><![CDATA[Packed bed flow and fluidization relationship]]></title><description><![CDATA[ 
+ <br>
+<br>At the point of incipient fluidisation, equations for packed bed flow are applicable.
+<br>Take a look at the carman kozeny equation and the packed bed equation
+<br>
+<br>This was derived after substituting the delta P from fluidization in the carman kozeny equation
+<br>
+<br>A value of 3.36 rather than 5 for the carman kozeny constant is used - it matches the experimental data better
+<br>minimum fluidisation velocity is given by: 
+<br>the value of epsilon mf is a function of the size distribution, shape and surface properties of the particles - its the voidage lol
+<br>for turbulent flow, use the ergun equation:
+<br>
+<br>dp = diameter of the sphere having the same V/S ratio as the actual particles
+<br>substituting the delta P in the above equation:
+<br>
+<br>
+<br>this is after multiplying both sides with:
+<br>
+<br>I dont want to go any further :cry:
+]]></description><link>packed-bed-flow-and-fluidization-relationship.html</link><guid isPermaLink="false">Packed bed flow and fluidization relationship.md</guid><pubDate>Mon, 11 Nov 2024 08:26:35 GMT</pubDate></item><item><title><![CDATA[Packed beds]]></title><description><![CDATA[ 
+ <br>
+<br>Used to increase the contact area between two phases
+<br>To increase retention time to ensure reaction completion (more so if the packing is a catalyst)
+<br><img alt="Pasted image 20240924112140.png" src="pasted-image-20240924112140.png">
+<br>to have a plug flow in the reactor
+<br>In the true sense of laminar flow, a packed bed can never have laminar flow, since it's constantly being disturbed. It is still in laminar flow because of the friction factor curve
+<br>packed beds can also be used in drying by passing dry air up wet packing
+]]></description><link>packed-beds.html</link><guid isPermaLink="false">Packed beds.md</guid><pubDate>Mon, 11 Nov 2024 08:23:10 GMT</pubDate><enclosure url="pasted-image-20240924112140.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924112140.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Parametric and nonparametric]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="Parametric Approaches" href="parametric-approaches.html" class="internal-link" target="_self" rel="noopener nofollow">Parametric Approaches</a>
+<br><a data-href="Nonparametric Approaches" href="nonparametric-approaches.html" class="internal-link" target="_self" rel="noopener nofollow">Nonparametric Approaches</a>
+]]></description><link>parametric-and-nonparametric.html</link><guid isPermaLink="false">Parametric and nonparametric.md</guid><pubDate>Mon, 11 Nov 2024 07:56:43 GMT</pubDate></item><item><title><![CDATA[Parametric Approaches]]></title><description><![CDATA[ 
+ <br><br>
+<br>There are two types of models that estimate f,parametric and non parametric
+<br>parametric approaches basically get the problem of f down to a certain number of parameters that must be found. The model is decided from before hand and the parameters are optimized for the error
+<br>Parametric methods must assume the form of f before fitting, this causes issues - what if f isn't actually that?
+<br>parametric methods need less data compared to nonparametric methods for the same task
+<br>eg. linear regressions cant be used to predict the shape of a projectile
+]]></description><link>parametric-approaches.html</link><guid isPermaLink="false">Parametric Approaches.md</guid><pubDate>Mon, 11 Nov 2024 07:56:27 GMT</pubDate></item><item><title><![CDATA[Pipe fittings]]></title><description><![CDATA[ 
+ <br>
+<br>
+There are two approaches for pressure drop through fittings
+
+<br>
+one is using the fanning friction factor
+
+<br>
+fanning friction factor is a function of reynold's number, but then for fittings how do you know the reynolds number? what is the diameter of a valve? It's difficult to imagine, You end up using the reynold's number of the pipe fitted on the fitting and you get the equivalent length of the fitting and use the equation:
+
+<br>
+
+
+<br>
+In the L_e/D appr* equationoach (equivalent length approach), a reported literature value of L_E/D is selected. Multiply this value by the diameter of the pipe in which the fitting is involved to get equivalent length.
+
+<br>
+Equivalent pipe is the same length of straight pipe required to have the same pressure drop
+
+Underlining everything is underlining nothing - M.M. Sharma
+
+
+<br>
+Other approach is the head coefficient approach
+
+<br>
+
+
+<br>
+
+
+<br>
+The first part is the head loss coefficient and is denoted by K:
+
+<br>
+
+
+<br>
+This is called number of velocity head approach
+
+<br>
+Darcy friction factor is 4 times fanning friction factor. This is because he was french and everyone hates the french.
+
+<br>
+When flow dividing or flow merging is required you need a T joint
+
+<br>
+Non return swing check valves have a service life and should be services regularly
+
+It is criminal to use square elbows - AVP sir
+
+
+]]></description><link>pipe-fittings.html</link><guid isPermaLink="false">Pipe fittings.md</guid><pubDate>Mon, 11 Nov 2024 08:28:24 GMT</pubDate></item><item><title><![CDATA[Pressure drop in pipe fittings]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20240723105856.png" src="pasted-image-20240723105856.png"><br>
+The black thing in the center is a cylinder of radius r and the tube is of radius R, it has length dl. Pressure at the left side is P, pressure at the irght side is P+dP<br>
+The tube has a liquid travelling in laminar flow<br>
+<br>the shear stress is    at the surfaces of the black cylinder
+<br>
+<br>
+<br>at r = R (pipe wall)
+<br>
+<br>the above is the pressure gradient in a laminar flow pipe for a specific shear stress
+<br>equation
+<br>fanning friction factor:
+<br>
+<br>eliminating  in these two equationsequation of motion, cylindrical coordinates gives a velocity profile in a circular pipe, smooth, constant cross section, laminar flow:<br>
+Parabolic profile<br>
+<img alt="Pasted image 20240723115032.png" src="pasted-image-20240723115032.png"><br>
+something like this<br>
+This is in no slip condition
+
+<br>No slip condition states that in case of fluid solid contact,velocity of fluid is equal to velocity of solid
+<br>to get the flow rate:
+<br>take the differential area like this :
+<br><img alt="Pasted image 20240723120502.png" src="pasted-image-20240723120502.png">
+<br>
+<br>
+<br>
+<br>THIS ABOVE RELATION IS JUST A COINCIDENCE AND NOT BECAUSE  IS AVERAGE<br>
+=&gt; =&gt;=&gt; =&gt;A smooth pipe is one with no obstruction inside it - NOT FRICTIONLESS you egg<br>
+
+
+
+]]></description><link>pressure-drop-in-pipe-fittings.html</link><guid isPermaLink="false">Pressure drop in pipe fittings.md</guid><pubDate>Mon, 11 Nov 2024 08:18:29 GMT</pubDate><enclosure url="pasted-image-20240723105856.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240723105856.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problem on venturi meter]]></title><description><![CDATA[ 
+ <br>Venturi problem
+person A doesnt want to eat mustard sauce at the rate of 11LPS. We will neverthless force him. He uses a lawn hose connected to a centrifugal pump. Lawn hose pipe diameter is 4cm, throat diameter is 1cm, C_o is 0.98 for venturi meter to make sure the flow rate is 11LPS. density of mustard sauce is 1000kg/m3. Whats the pressure difference expected? Forgive my poor drawing skills<br>
+<img alt="Pasted image 20240718123151.png" src="pasted-image-20240718123151.png">
+<br><br>Putting this in equation solver:<br>
+The pressure drop is 1017 pascal for agastya to eat 11 litres of mustard sauce every second
+]]></description><link>problem-on-venturi-meter.html</link><guid isPermaLink="false">Problem on venturi meter.md</guid><pubDate>Mon, 11 Nov 2024 08:17:20 GMT</pubDate><enclosure url="pasted-image-20240718123151.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240718123151.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problems Bernoulli General]]></title><description><![CDATA[ 
+ <br>
+Make a list of all pipe fittings. Application of all valves. Print/ draw freehand.
+<br>Problem
+A reverse osmosis unit for purifying brackish water has 900000 fibres that permit the diffusion of water but reject most of the salt. The fibres are 85 micro meter in outside diameter , 42 micrometers in inside diameter and 3 ft long. The average flow through the tubes is 2000 gallons of water per day when the feed pressure is 400 psig. What is the pressure drop within an individual fibre from the feed end to the discharge end?Assume fluid viscosity = 1cP
+<br><br><br>
+Teacher isn't paid for appeasement of students
+<br>Bug
+Water flows through an 8 inch steel pipe at an average velocity of 6 feet/second. Downstream the pipe divides into an 8 inch main and a 2 inch bypass. The equivalent length of the bypass is 22 feet. Length of the 8 inch pipe in the bypassed section is 16 feet. Neglecting entrance and exit losses, what fraction of total flow passes through the bypass
+<br>Solution
+take point 1 as the end of the bypass and take point 2 as the end of the main<br>
+Get x2 in terms of x and then get v_1 in terms of x and then multiply that with the respective areas and boom boom bam you get the answer<br>
+
+]]></description><link>problems-bernoulli-general.html</link><guid isPermaLink="false">Problems Bernoulli General.md</guid><pubDate>Mon, 11 Nov 2024 08:21:28 GMT</pubDate></item><item><title><![CDATA[Problems on Fluid Moving Machinery]]></title><description><![CDATA[ 
+ <br>Example
+It is proposed to pump 10,000kg/hr of toluene at 114 C and 1.1atm absolute pressure from the reboiler of a distillation column of a second distillation unit without cooling the toluene before it enters the pump. If the friction loss in the line between the reboiler and pump is 7kN/m^2 and the density of toluene is 866 KG/M3, how far above the pump must be the liquid level in the reboiler be maintained to give a net positive suction head of 2.5m
+<br><br>reboiler is boiling point and if the toluene is boiling there and thus the vapour pressure is 1.1atm<br>
+What be-eth the power? <br>
+<br>the toluene goes up 10m, frictional losses are: 35kN/m3
+Todo
+Do this someday, the answer is 104.29J/kg
+
+
+]]></description><link>problems-on-fluid-moving-machinery.html</link><guid isPermaLink="false">Problems on Fluid Moving Machinery.md</guid><pubDate>Mon, 11 Nov 2024 08:29:17 GMT</pubDate></item><item><title><![CDATA[Problems on form of bernoulli]]></title><description><![CDATA[ 
+ <br>Problem
+, ,  , , during the journey the losses are 1000 metres head, height difference is 500 metres. Pump head
+pump head is 1499.85 metres
+<br><br>Problem
+During a trip to the beach.  = 1atm, a car runs out of gas,It becomes necessary to siphon gas out of the tank of a good samaritan. The siphon is a small diameter hose and to start the siphon it becomes necessary to insert one end in the full gasoline tank, fill the hose with gasoline via suction and then place the other end in the gasoline can below the level of the gasoline tank. The difference in pressure between point 1 and point 2 causes the liquid to flow from higher to lower elevation. Point 2 is located 0.75 meter below point 1. Point 3 is located 2m above point 1. So the liquid flows from point 1 to 3 finally to 2. Frictional losses are to be disregarded. Diameter of hose is 4mm.
+Determine:
+
+<br>Time to take to move 4 litres into the can
+<br>Pressure at point 3. Assume gasoline density to be <br>
+<img alt="Pasted image 20240716110730.png" src="pasted-image-20240716110730.png">
+
+<br><br>Bernoulli equation in head form<br>
+Take the tank as point 0, the pressure at 0 and 2 are the same, thus:<br>
+=&gt;since v_0 is approximately 0m/s<br>
+the rest of part 1 is really easy
+<br>the pump and fric terms are 0, , , :<br>
+=&gt; Thus pressure at point 3 is:<br>
+=&gt; =&gt; =&gt; <br>
+Remarks on solution - most braindead method of getting the answer I pity all who read this and try to make sense of it
+]]></description><link>problems-on-form-of-bernoulli.html</link><guid isPermaLink="false">Problems on form of bernoulli.md</guid><pubDate>Mon, 11 Nov 2024 08:15:27 GMT</pubDate><enclosure url="pasted-image-20240716110730.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240716110730.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Projects]]></title><description><![CDATA[ 
+ <br>
+Wasn't able to find a lot of my projects due to replit community being taken down along with old computers not working due to me having taken them apart. Could find more with a deep enough search of the internet I'm sure
+<br>From earliest<br><br>
+Most of these are forever lost on my hard drive. Some I was able to recover from a pendrive. These were simpler times. The projects were completed between when I was 9 to 14. Most of my deep learning work is on colabratory, which I won't share. It's impressive for a 15 year old, but not noteworthy
+<br>
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/bussiness/blob/master/analytics.html" target="_blank">https://github.com/generationzcode/bussiness/blob/master/analytics.html</a> - my first (not very well done) foray into deep learning
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/boxity" target="_blank">https://github.com/generationzcode/boxity</a> - I try using threejs, elements of this project no longer work
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Alzheimers/blob/master/index.html" target="_blank">https://github.com/generationzcode/Alzheimers/blob/master/index.html</a> - I try simulating a "smart home" for a Junior Academy competition with online friends
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/sns" target="_blank">https://github.com/generationzcode/sns</a> - I make a webserver, which I ran for a few months, for people to "roast" each other
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md" target="_blank">https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md</a> - a copy of an article I wrote for tenorflow during GCI 2019
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb" target="_blank">https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb</a> - a notebook on simple cryptography
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb" target="_blank">https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb</a> - an autoencoder I created, couldn't run a heavier version on my laptop
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cogive" target="_blank">https://github.com/generationzcode/cogive</a> - built a website for a junior academy competition with online friends
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Question-Fragmentor" target="_blank">https://github.com/generationzcode/Question-Fragmentor</a> - a simple nlp project built for a semi formal internship that separates a question into parts to be analysed
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/blog" target="_blank">https://github.com/generationzcode/blog</a> - I build my first personal website using react
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js" target="_blank">https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js</a> - I use react in the most organized manner possible to create a basic deep learning powered analytics app, as if I am working with a team of 100
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py" target="_blank">https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py</a> - I build a bot uses webdrivers to play tic tac toe against itself, I later did add a machine learning component to it. However, my machine wouldn't run it, it crashed. This project shows some advanced characteristics
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Noise" target="_blank">https://github.com/generationzcode/Noise</a> - worley noise
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/march1" target="_blank">https://github.com/generationzcode/march1</a> - marching band
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/auth-JS-server-template" target="_blank">https://github.com/generationzcode/auth-JS-server-template</a> - a template for firebase authentication
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Nopeeking" target="_blank">https://github.com/generationzcode/Nopeeking</a> - a simple render engine
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb" target="_blank">https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb</a> - my first attempt at understanding the stock market
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/heart-stuffs" target="_blank">https://github.com/generationzcode/heart-stuffs</a> - A website where you put in your details and get the likelihood of getting a heart attack (I used deep learning). This garnered a little attention on replit.
+<br><br>
+Stuff that I completed and people were fond of between ages of 14 and 16. 16 -18 I was studying physics. 19 was somewhat wasted in the knowledge aspect
+<br>
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/M.A.R.V.I.N" target="_blank">https://github.com/generationzcode/M.A.R.V.I.N</a> - an interpreted programming language, built for the "LangJam". We didn't win, however, we were the most popular programming language 
+<br><a rel="noopener nofollow" class="external-link" href="https://replit.com/@generationXcode/Eggcoin?v=1#README.md" target="_blank">https://replit.com/@generationXcode/Eggcoin?v=1#README.md</a>, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/socoolblockchain" target="_blank">https://github.com/generationzcode/socoolblockchain</a> - a cryptocurrency that got a lot of popularity
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Eggverse" target="_blank">https://github.com/generationzcode/Eggverse</a> - a blockchain based videogame
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/nonsense-uninteresting-hobby-project" target="_blank">https://github.com/generationzcode/nonsense-uninteresting-hobby-project</a> - a tool I built for a job I had during school years packaging amazon parcels and entering the data to a spreadsheet. I automated the entire task after packaging with appscript, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/purplecandywrapper" target="_blank">https://github.com/generationzcode/purplecandywrapper</a> is another app deciphering pdfs in a different manner. I also built a tool to make the accounting work for amazon simpler by ordering an excel sheet using python and django, had to create a new type of sorting algorithm to deal with peoples' misspelling of their home states. I am unable to find this software :(
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggchain" target="_blank">https://github.com/generationzcode/eggchain</a> - a blockchain based videogame that was pretty popular
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggteract" target="_blank">https://github.com/generationzcode/eggteract</a> - a blockchain based microblogging platform
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/EggsAreDying/" target="_blank">https://github.com/generationzcode/EggsAreDying/</a> - a clicker game that was popular among my friends on the internet
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS" target="_blank">https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS</a> - an improvement on some code I wrote when I was 12, visually
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/chat-analysis" target="_blank">https://github.com/generationzcode/chat-analysis</a> - an attempt to understand whatsapp interactions using machine learning and data science
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/FluidFlow" target="_blank">https://github.com/generationzcode/FluidFlow</a> - my notes, garnered 3.6k views in 3 months, from many countries, with repeat users. A classmate got sent these notes by someone at a different college, with the intention of making her aware of them (to give an idea of how popular it got). Many of my polymers classmates credit this with their passing of their exams
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/web-crawler" target="_blank">https://github.com/generationzcode/web-crawler</a> - I don't have ownership of the finished version of this project, I gave all the data to someone else. This was originally for a terminal based search engine. Garnered some attention on replit
+<br>Meme[.]me - a meme sharing website I built with a friend that was crashed by spammers, still somehow, the most popular entry in the hackathon it was entered in :lol:
+<br>A videogame my team and I made to illustrate the spread of diseases such as covid, I built the neural net to back it - somewhat popular
+<br>saltwater lamp for rural areas that I'm working on right now, the prototype has been built
+<br>Password vault - AES 128 bit encrypted password vault built with django
+]]></description><link>projects.html</link><guid isPermaLink="false">Projects.md</guid><pubDate>Mon, 11 Nov 2024 08:03:18 GMT</pubDate></item><item><title><![CDATA[Pumps]]></title><description><![CDATA[ 
+ <br>wp is work of pump per unit volume<br>
+theres also alpha at the velocity heads that is multiplied. I don't know what it stands for<br>
+<br>
+What is suction head? When there is no movement, there is P_1 and P_2 at the two points because of possibly height difference 
+
+<br>
+P_1 and H_1 exist regardless of flow, but if the pump is not on, the v_1 is 0
+
+We are talking about inherently failproof design.
+
+
+<br>
+There is no suction in centrifugal pumps, but in reciprocating pumps, there is a suction power. This is why the centrifugal pump needs a little head value to get going.
+Tldr
+Centrifugal pump just sucks at sucking and thus needs a little energy to get the fluid to keep the suction side flooded. This is not a problem with reciprocating pumps because they're better at sucking (in all areas, theyre just bad pumps and they make so much noise)
+
+
+<br>
+We must subtract vapour pressure from the suction head to get the net positive suction head. This is because the vapour potential head is negligible so we do a vapour correction. This net positive suction head must be more than 0. The vapour be eating into our head cus del h has gas density negligible so it becomes P+rho g  (h-hgas) hgas comes from bubble formation
+
+<br>
+We subtract to remove any remote possibility of the suction head suffering from the vapour pressure. MINUS DA FRICTIONAL LOSSES ALSO BROO The suction head cannot suffer!!
+
+<br>
+net positive suction head for bigger pumps is 7-10 meters and for smaller pumps it's 3-4 meters. 
+
+<br>
+NPSH has nothing to do with the delivery side which is the RHS
+
+<br>
+When you buy a pump, they give a rating for the pump discharge which is the head for any fluid, not just water
+
+]]></description><link>pumps.html</link><guid isPermaLink="false">Pumps.md</guid><pubDate>Mon, 11 Nov 2024 08:28:49 GMT</pubDate></item><item><title><![CDATA[Shape factors]]></title><description><![CDATA[ 
+ <br>
+<br>A particle shape factor is defined as the ratio of the diameter of the sphere with the same volume as the particle having diameter d_p to the particle diameter d_p
+<br>
+<br>What is a particle diameter? I have no clue
+<br>Wen and Yu made another empiricism:
+<br>they proposed: 
+<br>They did some stuff and fit an equation
+Quote
+"Although it is adhoc and emperical, it can't be senseless" - on the meaning of life
+
+
+<br>Quote
+"This question naturally occurs to me and I'm sure to 10 and  a half people it must be occurring" - me in any lecture
+<br>
+<br>
+Velocity,  viscous force and convective terms and conductive terms. ( I have no clue what this is about)
+
+<br>
+Equation of motion, heat transfer counterpart is equation of energy
+Info
+"cartesian coordinate system is the easiest system to derive for because there is symmetry of axes"
+
+
+<br>
+Equation of motion - just study it man<br>
+do cylindrical coords
+
+]]></description><link>shape-factors.html</link><guid isPermaLink="false">Shape factors.md</guid><pubDate>Mon, 11 Nov 2024 08:27:33 GMT</pubDate></item><item><title><![CDATA[Specific Surface and Voidage]]></title><description><![CDATA[ 
+ <br>
+<br>specific surface area is just surface area/volume 
+<br>S_B is the specific surface area of an entire packed bed
+<br><img alt="Pasted image 20240924115730.png" src="pasted-image-20240924115730.png">
+<br>assuming only point contact between the particles, . Epsilon is the voidage
+<br><img alt="Pasted image 20240924122749.png" src="pasted-image-20240924122749.png">
+]]></description><link>specific-surface-and-voidage.html</link><guid isPermaLink="false">Specific Surface and Voidage.md</guid><pubDate>Mon, 11 Nov 2024 08:24:41 GMT</pubDate><enclosure url="pasted-image-20240924115730.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924115730.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Statistics models]]></title><description><![CDATA[ 
+ <br>
+Predicting the future, concepts here are in the realm of "Statistical Learning", credits to ISLP for all the knowledge here
+<br>
+<br><a data-href="Intro to stat learning" href="intro-to-stat-learning.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to stat learning</a>
+<br><a data-href="Parametric and nonparametric" href="parametric-and-nonparametric.html" class="internal-link" target="_self" rel="noopener nofollow">Parametric and nonparametric</a>
+<br><a data-href="Bias-Variance" href="bias-variance.html" class="internal-link" target="_self" rel="noopener nofollow">Bias-Variance</a>
+<br><a data-href="Linear Regression" href="linear-regression.html" class="internal-link" target="_self" rel="noopener nofollow">Linear Regression</a>
+<br><a data-href="Classification models" href="Classification models" class="internal-link" target="_self" rel="noopener nofollow">Classification models</a>
+]]></description><link>statistics-models.html</link><guid isPermaLink="false">Statistics models.md</guid><pubDate>Mon, 11 Nov 2024 07:59:47 GMT</pubDate></item><item><title><![CDATA[Utility Network]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+ <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
+Not utility network I know...
+<br>
+<br><a data-href="Packed beds" href="packed-beds.html" class="internal-link" target="_self" rel="noopener nofollow">Packed beds</a>
+<br><a data-href="Darcy's law and permeability" href="darcy's-law-and-permeability.html" class="internal-link" target="_self" rel="noopener nofollow">Darcy's law and permeability</a>
+<br><a data-href="Specific Surface and Voidage" href="specific-surface-and-voidage.html" class="internal-link" target="_self" rel="noopener nofollow">Specific Surface and Voidage</a>
+<br><a data-href="Carman Kozeny equations" href="carman-kozeny-equations.html" class="internal-link" target="_self" rel="noopener nofollow">Carman Kozeny equations</a>
+<br><a data-href="Fluidization" href="fluidization.html" class="internal-link" target="_self" rel="noopener nofollow">Fluidization</a>
+<br><a data-href="Packed bed flow and fluidization relationship" href="packed-bed-flow-and-fluidization-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">Packed bed flow and fluidization relationship</a>
+<br><a data-href="Shape factors" href="shape-factors.html" class="internal-link" target="_self" rel="noopener nofollow">Shape factors</a>
+]]></description><link>utility-network.html</link><guid isPermaLink="false">Utility Network.md</guid><pubDate>Mon, 11 Nov 2024 08:26:53 GMT</pubDate></item><item><title><![CDATA[Venturi Meter]]></title><description><![CDATA[ 
+ <br>
+<br>To measure flow rate, we need , and this must be measurable
+Historically accurate story
+Two italians eating pizza on sicily islands and they generally discuss flow measurement. They realized that without flow measurement, life is nothing. The italians then solved the problem of flow measurement. The two italians were Venturi and Bernoulli
+
+
+<br>The points between pressure measurement are so small that frictional losses are negligible
+<br>The venturi coefficient is a measurement of frictional losses
+<br>=&gt;(1)<img alt="Pasted image 20240718105744.png" src="pasted-image-20240718105744.png">
+<br>Outlet angle is less than inlet so that the divergent flow doesn't cause vortices
+<br>The narrow middle part is the throat
+<br>There are 3 tappings, one at the converging area, one at the throat and one at the divergent section. The divergent area is the pressure recovery section
+<br>Using (1) here, we can get the velocity difference at the two points
+<br>Point 1 is sufficiently upstream, while point 2 is at the midpoint of the throat or end of the throat
+<br>Use equation of continuity:
+<br>=&gt;=&gt; =&gt;=&gt;
+<br> in all the textbooks, where d is the diameter<br>
+Prof's formula =<br>
+<br><br>
+<br> just multiply this with the above formula
+<br>]]></description><link>venturi-meter.html</link><guid isPermaLink="false">Venturi Meter.md</guid><pubDate>Mon, 11 Nov 2024 08:17:17 GMT</pubDate><enclosure url="pasted-image-20240718105744.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240718105744.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Atomic spectroscopy methods]]></title><description><![CDATA[ 
  <br>
 General principles and instrumentation of atomic absoprtion spectroscopy and atomic emission spectroscopy, sample prep, sample introduction.
 ]]></description><link>atomic-spectroscopy-methods.html</link><guid isPermaLink="false">Atomic spectroscopy methods.md</guid><pubDate>Tue, 05 Nov 2024 06:35:43 GMT</pubDate></item><item><title><![CDATA[CHT 1013]]></title><description><![CDATA[ 
@@ -13,26 +798,7 @@ Mark distribution
 <br>There's a practical exam which is the continuous assessment test. No need to memorize everything, just know what is being asked and what to calculate and possibly table
 <br>midsem - 30 marks is all for theory
 <br>endsem - 20 marks lab 30 marks theory
-]]></description><link>cht-1013.html</link><guid isPermaLink="false">CHT 1013.md</guid><pubDate>Tue, 05 Nov 2024 06:24:29 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br> <img alt="Pasted image 20241011151659.png" src="pasted-image-20241011151659.png"><br>Quote
-“If there's anything more important than my ego around, I want it caught and shot now.”
-<br>I write a lot<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money mone
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - Thermodynamics notes
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br><img alt="Pasted image 20241011151749.png" src="pasted-image-20241011151749.png"><br>
-<img alt="Pasted image 20241011151931.png" src="pasted-image-20241011151931.png"><br>
-<img alt="Pasted image 20241011152026.png" src="pasted-image-20241011152026.png">]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Sun, 10 Nov 2024 07:01:49 GMT</pubDate><enclosure url="pasted-image-20241011151659.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011151659.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Molecular spectroscopy]]></title><description><![CDATA[ 
+]]></description><link>cht-1013.html</link><guid isPermaLink="false">CHT 1013.md</guid><pubDate>Tue, 05 Nov 2024 06:24:29 GMT</pubDate></item><item><title><![CDATA[Molecular spectroscopy]]></title><description><![CDATA[ 
  <br>
 Electronic transitions, classification of molecular spectroscopic techniques<br>
 Overview of principles and applications of UV visible spectroscopy<br>
@@ -67,113 +833,7 @@ Principles and instrumentation of infrared spectroscopy, sampling techniques, in
 <br>Signal processors come afterword to display it in a more convenient form to the analyst. 
 <br><br>
 <br>
-]]></description><link>molecular-spectroscopy.html</link><guid isPermaLink="false">Molecular spectroscopy.md</guid><pubDate>Tue, 05 Nov 2024 07:44:12 GMT</pubDate><enclosure url="pasted-image-20241105121146.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241105121146.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Projects]]></title><description><![CDATA[ 
- <br>From earliest<br><br>
-Most of these are forever lost on my hard drive. Some I was able to recover from a pendrive. These were simpler times. The projects were completed between when I was 9 to 14. Most of my deep learning work is on colabratory, which I won't share. It's impressive for a 15 year old, but not noteworthy
-<br>
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/bussiness/blob/master/analytics.html" target="_blank">https://github.com/generationzcode/bussiness/blob/master/analytics.html</a> - my first (not very well done) foray into deep learning
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/boxity" target="_blank">https://github.com/generationzcode/boxity</a> - I try using threejs, elements of this project no longer work
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Alzheimers/blob/master/index.html" target="_blank">https://github.com/generationzcode/Alzheimers/blob/master/index.html</a> - I try simulating a "smart home" for a Junior Academy competition with online friends
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/sns" target="_blank">https://github.com/generationzcode/sns</a> - I make a webserver, which I ran for a few months, for people to "roast" each other
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md" target="_blank">https://github.com/generationzcode/documentation-of-process/blob/master/documentation.md</a> - a copy of an article I wrote for tenorflow during GCI 2019
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb" target="_blank">https://github.com/generationzcode/cryprography/blob/master/OTP_Key_distribution.ipynb</a> - a notebook on simple cryptography
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb" target="_blank">https://github.com/generationzcode/autoencoder/blob/master/encoder_decoder.ipynb</a> - an autoencoder I created, couldn't run a heavier version on my laptop
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/cogive" target="_blank">https://github.com/generationzcode/cogive</a> - built a website for a junior academy competition with online friends
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Question-Fragmentor" target="_blank">https://github.com/generationzcode/Question-Fragmentor</a> - a simple nlp project built for a semi formal internship that separates a question into parts to be analysed
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/blog" target="_blank">https://github.com/generationzcode/blog</a> - I build my first personal website using react
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js" target="_blank">https://github.com/generationzcode/badcodeanalytics/blob/master/src/components/analytics.js</a> - I use react in the most organized manner possible to create a basic deep learning powered analytics app, as if I am working with a team of 100
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py" target="_blank">https://github.com/generationzcode/tictactoe/blob/master/tictactoe.py</a> - I build a bot uses webdrivers to play tic tac toe against itself, I later did add a machine learning component to it. However, my machine wouldn't run it, it crashed. This project shows some advanced characteristics
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Noise" target="_blank">https://github.com/generationzcode/Noise</a> - worley noise
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/march1" target="_blank">https://github.com/generationzcode/march1</a> - marching band
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/auth-JS-server-template" target="_blank">https://github.com/generationzcode/auth-JS-server-template</a> - a template for firebase authentication
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Nopeeking" target="_blank">https://github.com/generationzcode/Nopeeking</a> - a simple render engine
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb" target="_blank">https://github.com/generationzcode/epic-analysis/blob/main/stockstuff.ipynb</a> - my first attempt at understanding the stock market
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/heart-stuffs" target="_blank">https://github.com/generationzcode/heart-stuffs</a> - A website where you put in your details and get the likelihood of getting a heart attack (I used deep learning). This garnered a little attention on replit.
-<br><br>
-Stuff that I completed and people were fond of between ages of 14 and 16. 16 -18 I was studying physics. 19 was somewhat wasted in the knowledge aspect
-<br>
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/M.A.R.V.I.N" target="_blank">https://github.com/generationzcode/M.A.R.V.I.N</a> - an interpreted programming language, built for the "LangJam". We didn't win, however, we were the most popular programming language 
-<br><a rel="noopener nofollow" class="external-link" href="https://replit.com/@generationXcode/Eggcoin?v=1#README.md" target="_blank">https://replit.com/@generationXcode/Eggcoin?v=1#README.md</a>, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/socoolblockchain" target="_blank">https://github.com/generationzcode/socoolblockchain</a> - a cryptocurrency that got a lot of popularity
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Eggverse" target="_blank">https://github.com/generationzcode/Eggverse</a> - a blockchain based videogame
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/nonsense-uninteresting-hobby-project" target="_blank">https://github.com/generationzcode/nonsense-uninteresting-hobby-project</a> - a tool I built for a job I had in school packaging amazon parcels and entering the data to a spreadsheet. I automated the entire task after packaging with appscript, <a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/purplecandywrapper" target="_blank">https://github.com/generationzcode/purplecandywrapper</a> is another app deciphering pdfs in a different manner. I also built a tool to make the accounting work for amazon simpler by ordering an excel sheet using python and django, had to create a new type of sorting algorithm to deal with peoples' misspelling of their home states. I am unable to find this software :(
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggchain" target="_blank">https://github.com/generationzcode/eggchain</a> - a blockchain based videogame that was pretty popular
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/eggteract" target="_blank">https://github.com/generationzcode/eggteract</a> - a blockchain based microblogging platform
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/EggsAreDying/" target="_blank">https://github.com/generationzcode/EggsAreDying/</a> - a clicker game that was popular among my friends on the internet
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS" target="_blank">https://github.com/generationzcode/Evolutionary-Bacteria-Simulation.-P5JS</a> - an improvement on some code I wrote when I was 12, visually
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/chat-analysis" target="_blank">https://github.com/generationzcode/chat-analysis</a> - an attempt to understand whatsapp interactions using machine learning and data science
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/FluidFlow" target="_blank">https://github.com/generationzcode/FluidFlow</a> - my notes, garnered 3.6k views in 3 months, from many countries, with repeat users. A classmate got sent these notes by someone at a different college, with the intention of making her aware of them (to give an idea of how popular it got). Many of my polymers classmates credit this with their passing of their exams
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/generationzcode/web-crawler" target="_blank">https://github.com/generationzcode/web-crawler</a> - I don't have ownership of the finished version of this project, I gave all the data to someone else. This was originally for a terminal based search engine. Garnered some attention on replit
-<br>Meme[.]me - a meme sharing website I built with a friend that was crashed by spammers, still somehow, the most popular entry in the hackathon it was entered in :lol:
-<br>A videogame my team and I made to illustrate the spread of diseases such as covid, I built the neural net to back it - somewhat popular
-<br>saltwater lamp for rural areas that I'm working on right now, the prototype has been built
-<br>Password vault - AES 128 bit encrypted password vault built with django
-]]></description><link>projects.html</link><guid isPermaLink="false">Projects.md</guid><pubDate>Sun, 10 Nov 2024 06:59:48 GMT</pubDate></item><item><title><![CDATA[Statistics models]]></title><description><![CDATA[ 
- <br>
-Predicting the future, concepts here are in the realm of "Statistical Learning", credits to ISLP for all the knowledge here
-<br>
-<br>The general form of a statistical model is :, where f is the prediction or inference formula and epsilon is the error term<img alt="Pasted image 20241110124153.png" src="pasted-image-20241110124153.png"> the absolute error lines show the epsilon term. Most models seek to minimize the reducible error term. If I had access to my old laptop, I'd link my multivariable calc notes here :lol:
-<br>epsilon is also called irreducible error, since the model just can't improve this
-<br><img alt="Pasted image 20241110124505.png" src="pasted-image-20241110124505.png">, an example of a two variable model
-<br><br>
-<br>There are two types of models that estimate f,parametric and non parametric
-<br>parametric approaches basically get the problem of f down to a certain number of parameters that must be found. The model is decided from before hand and the parameters are optimized for the error
-<br>Parametric methods must assume the form of f before fitting, this causes issues - what if f isn't actually that?
-<br>parametric methods need less data compared to nonparametric methods for the same task
-<br>eg. linear regressions cant be used to predict the shape of a projectile
-<br><br>
-<br>No parameters,just perfectly fitting everything. Not mentioned in the book, but I'm pretty sure that leads to overfitting
-<br>There was this term in maths for this, but you connect two or more data points in a way that they perfectly fit. Newton had a method for this, so did some other guys, you could do it backwards, forwards or from the center. I just forget the name of this tech<br>
-<img alt="Pasted image 20241110125550.png" src="pasted-image-20241110125550.png">
-<br>Interpretability is the non black box nature of a model
-<br><br>
-<br>Qualitative vs quantitative models
-<br>Not much on this here, but keep in mind when thinking of categorizing models
-<br><br>
-<br>the mean squared error in models shows the accuracy 
-<br>It can be shown that it decomposes to:
-<br><img alt="Pasted image 20241110130159.png" src="pasted-image-20241110130159.png">
-<br>the bias of the function squared, variance of the function and variance of the irreducible error term
-<br>variance of the function is how much the prediction of some x0 would change if we estimated it on different datasets, same with the error term's variance
-<br>In general, more flexible methods have more more variance. You would see deep learning have a higher variance than linear regression
-<br>bias is the error that is because we're estimating a real life problem. Its the difference between what we got vs whats actually there
-<br>Usually, with more flexible methods, bias initially decreases,hits a hard bottom, then variance starts to increase
-<br>So basically if bias is high, you dont have a model that understands your data at all
-<br>If your variance is high, you've overfit and cant use your model to extrapolate
-<br>Mostly, when the bias decreases, variance increases and vice versa
-<br>The trick is to get both at a low amount
-<br><br>
-<br>
-<img alt="Pasted image 20241111105503.png" src="pasted-image-20241111105503.png">
-
-<br>
-to estimate B0 and B1, we use the least squares method
-
-<br>
-<img alt="Pasted image 20241111105604.png" src="pasted-image-20241111105604.png">
-
-<br>
-where e is the error per sample
-
-<br>
-<img alt="Pasted image 20241111115243.png" src="pasted-image-20241111115243.png">
-
-<br>
-the 95% confidence interval for a parameter of linear regression, this is computed using the standard error, for which there are formulae
-Important
-figure out how to compute standard error for any hyperparameter
-
-
-<br>
-T statistic: a measure of how far away from null hypothesis a parameter really is
-
-<br>
-the p value is the probability that a t value corresponding to a certain hypothesis can happen. A higher p value indicates a higher likelihood of the hypothesis being true
-Important
-Ask Rane or Sanika how a p value is calculated if you only have one dataset and when to use t vs f statistic<br>
-Ok, t statistic is used for each parameter but f statistic is used for all of them to test hypothesis
-
-
-<br><br><img alt="Pasted image 20241111122242.png" src="pasted-image-20241111122242.png">]]></description><link>statistics-models.html</link><guid isPermaLink="false">Statistics models.md</guid><pubDate>Mon, 11 Nov 2024 06:56:19 GMT</pubDate><enclosure url="pasted-image-20241110124153.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241110124153.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
+]]></description><link>molecular-spectroscopy.html</link><guid isPermaLink="false">Molecular spectroscopy.md</guid><pubDate>Tue, 05 Nov 2024 07:44:12 GMT</pubDate><enclosure url="pasted-image-20241105121146.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241105121146.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
  <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
  <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc<br>
 <br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
@@ -731,31 +1391,7 @@ Equation of motion should actually be called equation of momentum/force. It has 
 Home assignment number 8 and 9, r and theta derivation of equation of motion in cylindrical coordinates
 
 
-]]></description><link>equation-of-motion.html</link><guid isPermaLink="false">Equation of motion.md</guid><pubDate>Tue, 22 Oct 2024 06:22:20 GMT</pubDate></item><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
- <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
-Course taught by Prof. AVP<br>
-bird stewart lightfoot, transport phenomena<br>
-FW white fluid mechanics - using this <br>Faq
-The below quote is a reference to out defined area of doubt and uncertainty in momentum transfer
-<br>Quote
-“We demand rigidly defined areas of doubt and uncertainty!” — Douglas Adams
-<br><br>
-This course is an industrially relevant course which help students to understand various components of fluid<br>
-transport systems used in industry such as pipes, fittings, valves, pumps, blowers, compressors, vacuum<br>
-pumps etc. The industrial operations involve heating, cooling of the reactors and other mixing/separation<br>
-equipment which is provided by steam boilers, thermic fluid heaters, chillers, cooling towers etc. Many<br>
-reactions and separation equipment also require understanding of fluid flow at design, operation and<br>
-troubleshooting stage.<br>
-<img alt="Pasted image 20240626172127.png" src="pasted-image-20240626172127.png">
-<br><br>
-<br><a data-href="Fluid Statics" href="fluid-statics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Statics</a>
-<br><a data-href="Bernoulli's Equation" href="bernoulli's-equation.html" class="internal-link" target="_self" rel="noopener nofollow">Bernoulli's Equation</a>
-<br><a data-href="Utility Network" href="utility-network.html" class="internal-link" target="_self" rel="noopener nofollow">Utility Network</a> - anything that isn't part of a process is utility, like chilled water, heating water, steam and nitrogen. Nitrogen is inert (relatively). Brines to reduce freezing point without corroding the machinery
-<br><a data-href="Fluid Moving Machinery" href="fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid Moving Machinery</a> - pumps, vacuum systems, etc
-<br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
-<br><a data-href="Particle Dynamics" href="Particle Dynamics" class="internal-link" target="_self" rel="noopener nofollow">Particle Dynamics</a> - i have no clue what this is 
-<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
-]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 04 Nov 2024 10:07:27 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gibbs Energy Arjun]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+]]></description><link>equation-of-motion.html</link><guid isPermaLink="false">Equation of motion.md</guid><pubDate>Tue, 22 Oct 2024 06:22:20 GMT</pubDate></item><item><title><![CDATA[Gibbs Energy Arjun]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
  <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>
 Related to <a data-href="gibbs free energy" href="gibbs-free-energy.html" class="internal-link" target="_self" rel="noopener nofollow">gibbs free energy</a>
 <br><img alt="Pasted image 20241103172154.png" src="pasted-image-20241103172154.png"><br>
@@ -1608,248 +2244,6 @@ WHAAAA. THIS IS SO OBVIOUS WHY DID WE SPEND LIKE 5 CLASSES PROVING IT? AND NOW W
 <br>No calculation will be done!
 <br><br>
 <br>
-]]></description><link>mixtures.html</link><guid isPermaLink="false">Mixtures.md</guid><pubDate>Wed, 16 Oct 2024 05:39:50 GMT</pubDate><enclosure url="pasted-image-20240911105458.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240911105458.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Utility Network]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
- <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener">#fluidmech</a> <br><br>
-<br>Used to increase the contact area between two phases
-<br>To increase retention time to ensure reaction completion (more so if the packing is a catalyst)
-<br><img alt="Pasted image 20240924112140.png" src="pasted-image-20240924112140.png">
-<br>to have a plug flow in the reactor
-<br>In the true sense of laminar flow, a packed bed can never have laminar flow, since it's constantly being disturbed. It is still in laminar flow because of the friction factor curve
-<br>packed beds can also be used in drying by passing dry air up wet packing
-<br><br><img alt="Pasted image 20240924115012.png" src="pasted-image-20240924115012.png"><br>
-<br>Darcy showed that average velocity was directly proportional to  and inversely proportional to bed thickness
-<br>This is expressed as Darcy's law:
-<br>
-<br>The linear relation between flow rate and pressure indicates that the flow is laminar
-<br>This is because the reynolds number through the pore spaces is low
-<br>Resistance to flow arises mainly from viscous drag:
-<br>
-<br>B is the permeability coefficient. It's completely dependent on the properties of the packed bed
-<br>Info
-In real life, flow isn't always laminar, it can also be turbulent with a high enough head. Many scientists have developed turbulent derived equations 
-<br>
-Derivations are a part of the syllabus and will be asked in the examination
-<br><br>
-<br>specific surface area is just surface area/volume 
-<br>S_B is the specific surface area of an entire packed bed
-<br><img alt="Pasted image 20240924115730.png" src="pasted-image-20240924115730.png">
-<br>assuming only point contact between the particles, . Epsilon is the voidage
-<br><img alt="Pasted image 20240924122749.png" src="pasted-image-20240924122749.png">
-<br><br>
-<br>
-These guys tried to derive a general equation for pressure drop across packed beds
-
-<br>
-They began with getting an analogy between streamline flow in an empty pipe and a packed pipe
-
-<br>
-<img alt="Pasted image 20240925090907.png" src="pasted-image-20240925090907.png">
-
-<br>
-<img alt="Pasted image 20240925091658.png" src="pasted-image-20240925091658.png">
-
-<br>
-If free space between particles is assumed to consist of a series of tortuous channels, the hagen poiseuille equation can be rewritten as:
-
-<br>
-<img alt="Pasted image 20240925091938.png" src="pasted-image-20240925091938.png">
-
-<br>
-where K1 is a function of the bed structure, and is a dimensionless constant
-
-<br>
-Ltube is actually L1 here and is the length of tortuous channel
-Faq
-What is a tortuous channel?<br>
-randomly formed channels
-
-
-<br>
-The length of a tortuous channel will be higher than the actual length of the pipe.
-
-<br>
-V1 and L1 represent conditions in the pores and are not the same as v_avg and packing length. Both will be higher than their normal values
-
-<br>
-It is assumed that at any length the length of a tortuous path will be directly proportional to length of a tube
-
-<br>
-d1 is the equivalent diameter of the tortuous pore space
-
-<br>
-Kozeny said d1 = <img alt="Pasted image 20240925093749.png" src="pasted-image-20240925093749.png">
-
-<br>
-<img alt="Pasted image 20240925094112.png" src="pasted-image-20240925094112.png">
-
-<br>
-K2 accounts for the proportionality between L1 and Ltube and we can use Ltube since we know only Ltube not L1
-
-<br>
-180 = k^2*S
-
-<br>
-Modified friction factor is R/pv^2
-
-<br>
-<img alt="Pasted image 20240925100350.png" src="pasted-image-20240925100350.png">
-
-<br>
-R1 is drag force, rho is density and v is v1
-
-<br>
-for flow to occur, pressure drop is required.
-
-<br>
-This pressure drop should be exactly equal to the resistance faced by the fluid
-
-<br>
-<img alt="Pasted image 20240925101524.png" src="pasted-image-20240925101524.png">
-
-<br>
-
-
-<br>
-The above is a fitted correlation for packed beds by carman
-
-<br>
-It's similar to the equation proposed by Forchheimer, who suggested that resistance to flow should be considered in two parts:
-
-<br>
-Viscous force at particle surface
-
-<br>
-Loss in turbulent eddies and at sudden changes in cross section of channels, therefore
-
-<br>
-
-
-<br>
-The first term predominates at low flow rates where losses are mainly due to skin friction
-
-<br>
-Second term predominates at high flow rates and in very thin beds where the enlargement and contraction losses become very important. AT very high flow rates the effects of viscous forces are negligible
-
-<br>
-For Re &lt; 2, second term = 0, hence
-
-<br>
-
-
-<br>
-Learn the derivation of the Forchheimer equation
-
-<br>
-Sawitowski proposed for flow of fluids through hollow packings:
-
-<br>
-
-
-<br>
-Note the lack of 0.4 on the numerator of the second term
-
-<br>
-For flow through ring packings, another relation was created (semi empirical):
-
-<br>
-
-
-<br>
-This is analogous to hejun poisuelle equation
-
-<br>
-Using 6/S, it transforms to something else
-
-<br>
-This is not worth remembering and thus I wont write about it here
-
-<br>
-All these equations will be provided in the exam
-Important
-Prof's recommendation - When designing a packed bed column there are softwares that fit a curve on the packed column readings and get you a relation
-
-
-<br><br>
-<br>A fluid cannot be fluidized
-<br>Fluidised beds were known only to academicians for many years, until adoption of fluidized catalysts by the petroleum industry
-<br>Fluidized beds behave as a single fluid of density equal to that of mixture of solids
-<br>It is assumed in fluidized beds that one phase is a solid
-The danger of saying today
-Some drunk johnny boy was taking round and met his commanding officer. His commanding officer was sober. Johnny boy wrote in his diary, "today, my commanding officer was not drunk". Think on the danger of this statement
-
-
-<br><img alt="Pasted image 20241008110607.png" src="pasted-image-20241008110607.png"><br>
-<br>Fluidised catalytic bed reactors
-<br>fluidisation - make solids behave as if they were liquid. The upward thrust should be exactly and equal to the downward force
-<br><img alt="Pasted image 20241008111251.png" src="pasted-image-20241008111251.png">
-<br>The above graph is the effect of fluid velocity on pressure gradient and delta P
-<br>So basically this shows how the friction factor changes with velocity
-<br>When fluidisation just starts, its called minimum or incipient fluidisation
-<br>The del P per unit length decreases on start of fluidisation since the length increases since the particles move upwards
-<br>In fluidization you do not want to carry away the solids.
-<br>When a fluid flows slowly upwards through a bed of very fine particles, the flow is streamline and a linear relation exists between the pressure gradient and flow rate
-<br>If log(delP/Ltube) is plotted against log(Vavg), a straight line of slope 1 is obtained
-<br>In a fluidised bed, total frictional force on particles = effective weight of bed
-<br>Thus in a bed of cross sectional area A, depth Ltube, and porosity epsilon, additional pressure drop across bed due to layout weight of particles is given by:
-<br>
-<br>The area cancels out
-<br>This relationship applies between the initial expansion of the bed till the transport of the bed
-<br><img alt="Pasted image 20241008120111.png" src="pasted-image-20241008120111.png">
-<br>Sheeeeeeeeeeeesh
-<br><img alt="Pasted image 20241008121052.png" src="pasted-image-20241008121052.png">
-<br>Discrepancies between calculated and measured velocities are - channeling, electrostatic forces, agglomeration, friction between fluid and walls of the vessels and friction between particles hitting the walls
-<br>Channeling results in drag force reducing
-<br>Agglomeration - particles come together
-<br>Higher the density difference more are the chances of irregularities in the channels
-<br><br>
-<br>At the point of incipient fluidisation, equations for packed bed flow are applicable.
-<br>Take a look at the carman kozeny equation and the packed bed equation
-<br>
-<br>This was derived after substituting the delta P from fluidization in the carman kozeny equation
-<br>
-<br>A value of 3.36 rather than 5 for the carman kozeny constant is used - it matches the experimental data better
-<br>minimum fluidisation velocity is given by: 
-<br>the value of epsilon mf is a function of the size distribution, shape and surface properties of the particles - its the voidage lol
-<br>for turbulent flow, use the ergun equation:
-<br>
-<br>dp = diameter of the sphere having the same V/S ratio as the actual particles
-<br>substituting the delta P in the above equation:
-<br>
-<br>
-<br>this is after multiplying both sides with:
-<br>
-<br>I dont want to go any further :cry:
-<br><br>
-<br>A particle shape factor is defined as the ratio of the diameter of the sphere with the same volume as the particle having diameter d_p to the particle diameter d_p
-<br>
-<br>What is a particle diameter? I have no clue
-<br>Wen and Yu made another empiricism:
-<br>they proposed: 
-<br>They did some stuff and fit an equation
-Quote
-"Although it is adhoc and emperical, it can't be senseless" - on the meaning of life
-
-
-<br>Quote
-"The other person may find it rude if I cut the call, so I do it very softly" - on handling calls
-<br>Quote
-"This question naturally occurs to me and I'm sure to 10 and  a half people it must be occurring" - me in any lecture
-<br>Quote
-"I don't mind being harassed" - Janvi when I send her reels
-<br>
-<br>
-Velocity,  viscous force and convective terms and conductive terms. ( I have no clue what this is about)
-
-<br>
-Equation of motion, heat transfer counterpart is equation of energy
-Info
-"cartesian coordinate system is the easiest system to derive for because there is symmetry of axes"
-
-
-<br>
-Equation of motion - just study it man<br>
-do cylindrical coords
-
-]]></description><link>utility-network.html</link><guid isPermaLink="false">Utility Network.md</guid><pubDate>Tue, 15 Oct 2024 06:45:52 GMT</pubDate><enclosure url="pasted-image-20240924112140.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924112140.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+]]></description><link>mixtures.html</link><guid isPermaLink="false">Mixtures.md</guid><pubDate>Wed, 16 Oct 2024 05:39:50 GMT</pubDate><enclosure url="pasted-image-20240911105458.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240911105458.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br>go here<br>
 <a data-href="Index" href="index.html" class="internal-link" target="_self" rel="noopener">Index</a>]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sat, 05 Oct 2024 05:36:44 GMT</pubDate></item></channel></rss>
