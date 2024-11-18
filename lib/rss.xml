@@ -1,4 +1,629 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 11 Nov 2024 09:32:06 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 11 Nov 2024 09:32:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 18 Nov 2024 16:26:58 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 18 Nov 2024 16:26:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Drawing 2024-11-14 23.51.05]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  ]]></description><link>excalidraw/drawing-2024-11-14-23.51.05.excalidraw.html</link><guid isPermaLink="false">Excalidraw/Drawing 2024-11-14 23.51.05.excalidraw.md</guid><pubDate>Sat, 16 Nov 2024 04:11:32 GMT</pubDate></item><item><title><![CDATA[Case study EVS 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:Environment" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Environment</a> 
+ <br><a href=".?query=tag:Environment" class="tag" target="_blank" rel="noopener nofollow">#Environment</a> <br>
+This is nonsense to anyone who didn't take environmental engineering
+<br>
+<br>
+Spent wash
+
+<br>
+Anaerobic digester
+
+<br>
+Aerobic digester
+
+<br>
+MEE 50% concentrate - multiple effect evaporator 
+
+<br>
+Spray dried powder
+
+<br>
+Agitated thin film dryer
+Important
+Is sugar manufacture a sustainable activity in India?<br>
+Jaggery is easier to manufacture than crystalline sugar however, it is still more expensive than sugar. This is due to economies of scale<br>
+The question to the JPC (?) is whether we should allow the sugar industry to flourish the way it is right now.<br>
+Water recovery is the only problem with the sugar industry in india right now. If the water is not recovered, the process is not sustainable
+
+
+<br>
+An agitated thin film dryer basically forms a thin film around the surface of a heat exchanger which is immediately evaporated
+
+<br>
+Tertiary water treatment consists of many operations, one being passing through activated carbon to remove the odour
+
+Chocolate Case study
+
+
+<br>
+Some factory somewhere
+
+<br>
+The only effluent from a chocolate factory is the washing liquid
+
+<br>
+Lot of sterilization and all
+
+<br>
+The effluent is all organic, the surfactants used also are probably organic
+
+Biorefractory - not amenable for biological treatment
+
+
+<br>
+First thing that is done to the effluent is skimming the oil off the wash
+
+<br>
+This is because oil is not very easily biodegradable
+
+<br>
+The first water wash has a lot of coca butter, which is the oil
+
+<br>
+Then the oil is cleaved and added back to the effluent, because now it's easy to break down
+
+<br>
+the ideal amount to have in the effluent now is 20000 COD and 10000 BOD. This is brought about by the aerobic digester 
+
+<br>
+Bubble column
+
+<br>
+MLSS - the microbes used in aerobic digester, mixed liquor suspended solids
+
+]]></description><link>case-study-evs-1.html</link><guid isPermaLink="false">Case study EVS 1.md</guid><pubDate>Tue, 12 Nov 2024 05:48:27 GMT</pubDate></item><item><title><![CDATA[Classification Models]]></title><description><![CDATA[ 
+ <br>
+For qualitative variables
+<br>
+<br><a data-href="logistic regression" href="logistic-regression.html" class="internal-link" target="_self" rel="noopener nofollow">logistic regression</a>
+<br><a data-href="linear discriminant analysis" href="linear-discriminant-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">linear discriminant analysis</a>
+<br><a data-href="quadratic discriminant analysis" href="quadratic discriminant analysis" class="internal-link" target="_self" rel="noopener nofollow">quadratic discriminant analysis</a>
+<br><a data-href="naive bayes" href="naive bayes" class="internal-link" target="_self" rel="noopener nofollow">naive bayes</a>
+<br><a data-href="K nearest neighbours" href="K nearest neighbours" class="internal-link" target="_self" rel="noopener nofollow">K nearest neighbours</a>
+]]></description><link>classification-models.html</link><guid isPermaLink="false">Classification Models.md</guid><pubDate>Tue, 12 Nov 2024 03:55:46 GMT</pubDate></item><item><title><![CDATA[Engineering thermodynamics]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br>
+What is the most dangerous thing in -redacted-?
+
+<br>Gas cylinders
+
+<br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>Quote
+“Perhaps I'm old and tired, but I always think that the chances of finding out what really is going on are so absurdly remote that the only thing to do is to say hang the sense of it and just keep yourself occupied.”— Douglas Adams, The Restaurant at the End of the Universe
+<br>After midems - we're looking at mixtures, so we want to find the entropy, enthalpy, G,etc for mixtures. To find all this, we need to find the pure component property and change due to mixing<br>There are two parts to this course:<br>
+<br>
+One part for a singular equation to not need mollier diagrams or steam tables
+
+<br>
+One part for for separation processes
+
+<br>
+<a data-href="Real Gases" href="real-gases.html" class="internal-link" target="_self" rel="noopener nofollow">Real Gases</a>
+
+<br>
+<a data-href="Enthalpy Accumulation" href="enthalpy-accumulation.html" class="internal-link" target="_self" rel="noopener nofollow">Enthalpy Accumulation</a>
+
+<br>
+<a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
+
+<br>
+<a data-href="gibbs free energy" href="gibbs-free-energy.html" class="internal-link" target="_self" rel="noopener nofollow">gibbs free energy</a>
+
+<br>
+<a data-href="exergy special" href="exergy-special.html" class="internal-link" target="_self" rel="noopener nofollow">exergy special</a>
+
+<br>
+<a data-href="Volume" href="volume.html" class="internal-link" target="_self" rel="noopener nofollow">Volume</a>
+
+<br>
+<a data-href="doubt session" href="doubt-session.html" class="internal-link" target="_self" rel="noopener nofollow">doubt session</a>
+
+<br>
+<a data-href="EOS" href="eos.html" class="internal-link" target="_self" rel="noopener nofollow">EOS</a>
+
+<br>
+<a data-href="Calculator" href="calculator.html" class="internal-link" target="_self" rel="noopener nofollow">Calculator</a>
+
+<br>
+<a data-href="Lec 8" href="lec-8.html" class="internal-link" target="_self" rel="noopener nofollow">Lec 8</a>
+
+<br>
+<a data-href="Mixtures" href="mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Mixtures</a>
+
+<br>
+<a data-href="Vapour Liquid Equilibrium" href="vapour-liquid-equilibrium.html" class="internal-link" target="_self" rel="noopener nofollow">Vapour Liquid Equilibrium</a>
+
+<br><br>
+The above notes are from my professor's perspective, what he taught in class. The following is what I understand of thermodynamics. I may be wrong
+<br>
+<br>An addition to what was said in the introduction of the previous part - The reason we study thermodynamics as chemical engineers. The heat machines are briefly discussed to give awareness, if we were to go deeper into it, we'd be looking at valves, rotation, clearances - the more technical aspects. Here we summarize all those components as S_{gen}, not to understand how they work, but to understand their effects. The two types of problems, then that we'd be equipped to solve would be - understanding the best case scenario for a certain situation and analysing a real situation and quantifying the inefficiencies. 
+<br>The real stuff we're supposed to learn are mixtures. The number of mixtures out there is in the trillions, very few have had their properties scientifically measured, so a lot of the work we chemical engineers have to do to design a new reactor, or tank is with mixtures that havent been previously studied. Thermodynamics here simply helps us extrapolate from data accurately to get to the mixture properties of any substances at any temperature and pressure.
+<br><a data-href="Temperature" href="temperature.html" class="internal-link" target="_self" rel="noopener nofollow">Temperature</a>, <a data-href="Enthalpy" href="enthalpy.html" class="internal-link" target="_self" rel="noopener nofollow">Enthalpy</a>
+<br>Conservation of mass and energy have been mentioned elsewhere in my notes and I will not be repeating that
+<br><a data-href="entropy-arjun" href="entropy-arjun.html" class="internal-link" target="_self" rel="noopener nofollow">entropy-arjun</a> - my thoughts on it, the balance equations and all are in <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
+<br><a data-href="Real Fluids" href="real-fluids.html" class="internal-link" target="_self" rel="noopener nofollow">Real Fluids</a> - a lot of thoughts on it, building on what was taught in class. Just stuff I couldn't understand, I really want to solve problems on this, alas time does not permit
+<br><a data-href="Simple Equilibrium" href="simple-equilibrium.html" class="internal-link" target="_self" rel="noopener nofollow">Simple Equilibrium</a> - I'll study some process safety then I'll get back to thermo
+]]></description><link>engineering-thermodynamics.html</link><guid isPermaLink="false">Engineering thermodynamics.md</guid><pubDate>Thu, 14 Nov 2024 05:07:22 GMT</pubDate></item><item><title><![CDATA[entropy-arjun]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>
+Related to <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
+<br>The requirement for this arises from linear algebra, of all things... <br>
+<br>We have the mass balance, energy balance equations. These two are used to solve for two variables, which determine all the other variables in a state. Sometimes, these two equations aren't enough to determine the equilibrium conditions, here, a third equation, entropy balance is used - this is for a single phase, isolated system, multiphase is covered later
+<br>Also, the first two equations don't say much about what "can or cant" happen - they do, but there's still another constraint we need. A rock could instantly lower it's temperature and jump up by itself, and that would be alright if we just looked at energy and mass balances. This is why we need entropy balance.
+<br>In essence, we have nothing to describe equilibrium, and it's state in a system. Mass and energy balance are OK with any state as long as those two aren't violated.
+<br>
+Entropy is a state function. In a system in which there are flows of heat by conduction and flow of work across system boundaries, the conductive heat flow and not the work flow, causes a change in entropy of a system; This rate of change in entropy is Q/T where Q is the rate of heat conducted and T is the temperature. If in addition, there are mass flows at the boundaries, the total entropy will also change due to this convected flow. That is, each element of mass entering or leaving the system carries with it it's entropy
+<br>The equation, S, on the left hand side is the total entropy, while S on the right hand side (not S_gen), is the entropy per unit mass(couldnt figure out how to use carets in latex). S_gen is the entropy generated in the system due to inefficiencies, and must always be equal to or above 0<br>
+<br>S_gen is the entropy created in a system, since this always must be above or equal to 0, the presence of it causes irreversibility. Irreversibility in the sense that the system is now forever different to what it was a moment ago, we can never turn back the clock and reduce entropy because S_gen can never be below 0. So unless it is equal to 0 all the time, the system will never go back to what it used to be. 
+<br>Important
+ Something funny that NO ONE says in class - all irreversibility can be traced back to conduction - viscous conduction. Even movement due to a finite pressure difference is irreversible purely because of viscous conduction due to friction. :/ This makes entropy so much easier to understand - its ALL heat conduction
+<br><img alt="Pasted image 20241103164321.png" src="pasted-image-20241103164321.png"><br>
+<br>Interesting consequence - reversible processes extracting work from the system to give to the surroundings, maximum work is done for a given change of state of the system (because so little energy is lost to conduction), the processes giving work to the system for a change of state require the least amount of work for it
+<br><a data-href="Gibbs Energy Arjun" href="gibbs-energy-arjun.html" class="internal-link" target="_self" rel="noopener nofollow">Gibbs Energy Arjun</a>
+<br><br>
+<br>This is a cycle - you got the condenser, the evaporator, the nozzle and the compressor. The compressor puts work in the system, makes the fluid high pressure, liquid. The nozzle causes isentropic (not really) expansion, condenser releases heat to the surroundings, evaporator absorbs heat from the cooled substance. 
+<br>The trick to refrigeration which I wasn't able to get in <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>, is that the heat put in from the cold side and the heat released into the hot side isnt the same, the heat in the hot side is the cold side+ work shaft
+<br><br>
+<br>Couldn't be bothered :coolglasses:
+<br>I'm doing the illustrations from sandler.
+]]></description><link>entropy-arjun.html</link><guid isPermaLink="false">entropy-arjun.md</guid><pubDate>Wed, 13 Nov 2024 15:56:26 GMT</pubDate><enclosure url="pasted-image-20241103164321.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241103164321.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Environmental Science]]></title><description><![CDATA[<a class="tag" href="?query=tag:Environment" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Environment</a> 
+ <br><a href=".?query=tag:Environment" class="tag" target="_blank" rel="noopener nofollow">#Environment</a><br>
+Environment good, don't destroy for profit or something
+<br>Quote
+“Anyone who is capable of getting themselves made President should on no account be allowed to do the job.”
+<br>
+<br><a data-href="Water Pollution" href="water-pollution.html" class="internal-link" target="_self" rel="noopener nofollow">Water Pollution</a>
+<br>for civilized life you need food, shelter and sustainable infrastructure
+<br><a data-href="NIMBY" href="nimby.html" class="internal-link" target="_self" rel="noopener nofollow">NIMBY</a> - not in my backyard
+Example of environmental science in action
+China produces 100 million tonnes of methanol a year, they get this from a coal bed, using coal bed methanation (CBM). India uses the synthetic route of using crude oil to make methanol. China is more sustainable? I'm not sure what the example was
+
+
+<br>
+Bill and Melinda gate foundation has put up a challenge on how to stop antibiotics from going in common areas outside of the human body and causing resistant bug
+<br><br><br>
+<br>people would boil water 
+<br>mid 19th century filtration began
+<br>clogged filters were a big problem
+<br>alum was introduced as a water treatment technique in the 18th century and widely used in the 19th century
+<br>chlorination became common in the 20th century
+<br>Now people are concerned about adverse effects of chlorination, so work into potassium permanganate is being done
+<br>Weird fact
+The concentration in water of oxygen is 7-8 mg per litre for fish. Fish cannot survive in 4 mg per litre.
+<br><br>
+<br>People would hurl shit out of their windows in absence of a proper sewage system in Paris. I personally suppose this was not because of absence of sewage systems but simply because they were French
+<br>Napolean ended up building a sewage system so this maybe stopped
+<br><br>
+<br>Many cities combine their waste systems and cause pollution this way
+<br>Cesspools and vaults were common, carting waste (ew)
+<br>Non centralized sewage systems - not successful
+<br>Untreated sewage - increases BOD of water and kills the fish, also causes insane amounts of pollution 
+<br><br>
+Ecosystems are composed of interacting living organisms and their physical environment
+<br>
+<br>populations generally maintain a balance state (homeostasis)
+<br>there is a dynamic equilibrium which is whats behind homeostasis with stabilizing (for negative feedback) and destabilizing (for positive feedback) effects. This maintains the population in a balanced state
+<br>A classic example of predator prey interactions is the hare and lynx relationship
+<br><br>
+A system of weakness that the incompetent perpetuate so they can fool themselves
+<br>
+<br>Ministry of environment and forestry is the section of Indian government associated with environmental science and engineering
+<br>environmental science in these days is very cha ching cha ching. MONEY is BIG. Big projects need such work so they don't fail in the eyes of public and government
+<br>anthropological activities - industrial, man made, civilized activities
+<br>Cause and effect of anthropological activities need to be weighed
+<br>Sustainability is - leaving the planet in a better condition for the next generation
+
+Look at online undergraduate competitions. TOMORROW FOR SURE
+
+
+<br><br>
+You need to the the due diligence for the consequences for your project before you start it
+<br>
+<br>
+EIA  report - environmental impact assessment
+
+<br>
+Prepare one
+
+<br>
+It's a detailing of all the activities you're proposing to carry out. What all will be included in this? Carbon footprint, emissions, how you're dealing with your waste and emissions, environment management plan, HSE (health, safety and environment), event management plan (if accident happens)
+
+<br>
+Types of projects - class A (of scale enough to be of national importance), class B1 (little less, get the license from the state government), class B2 (get license from district agency)
+
+<br>
+No project that comes under this -redacted- if it is any department. No chemical which comes in category 25 - synthetic organic chemicals
+Important
+More from less for more
+
+
+<br>
+<a data-href="Case study EVS 1" href="case-study-evs-1.html" class="internal-link" target="_self" rel="noopener nofollow">Case study EVS 1</a>
+
+<br>
+]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Tue, 12 Nov 2024 04:24:36 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Quote
+"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
+<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br>projects
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Wed, 13 Nov 2024 06:33:07 GMT</pubDate></item><item><title><![CDATA[Industry]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+The below is a list of the polymer companies I can find on the internet in india (classified). The classifications can be incorrect, they are just meant to separate the companies from the surface<br><br>All these contain a brief historical introduction, details of businesses the companies operate in, how they hire, their competition, their financials, their future (speculation of demand of their current products), whether the stock is overvalued or undervalued at the time of writing the analysis. I might even include details of distribution, research and management later<br><br>
+<br><a data-href="Supreme Industries" href="supreme-industries.html" class="internal-link" target="_self" rel="noopener nofollow">Supreme Industries</a>
+<br><a data-href="Astral" href="astral.html" class="internal-link" target="_self" rel="noopener nofollow">Astral</a>
+<br><a data-href="Shaily" href="shaily.html" class="internal-link" target="_self" rel="noopener nofollow">Shaily</a>
+<br><a data-href="Nilkamal" href="nilkamal.html" class="internal-link" target="_self" rel="noopener nofollow">Nilkamal</a>
+<br><br>
+<br><a data-href="Finolex" href="Finolex" class="internal-link" target="_self" rel="noopener nofollow">Finolex</a>
+<br><a data-href="Prince Pipes" href="Prince Pipes" class="internal-link" target="_self" rel="noopener nofollow">Prince Pipes</a>
+<br><a data-href="Jain irrigation" href="Jain irrigation" class="internal-link" target="_self" rel="noopener nofollow">Jain irrigation</a>
+<br><a data-href="Apollo Pipes" href="apollo-pipes.html" class="internal-link" target="_self" rel="noopener nofollow">Apollo Pipes</a>
+<br><br>
+<br><a data-href="Time Techno" href="Time Techno" class="internal-link" target="_self" rel="noopener nofollow">Time Techno</a>
+<br><br>
+<br><a data-href="EPL" href="EPL" class="internal-link" target="_self" rel="noopener nofollow">EPL</a>
+<br><a data-href="Mold Tek Pak" href="Mold Tek Pak" class="internal-link" target="_self" rel="noopener nofollow">Mold Tek Pak</a>
+<br><br>
+<br><a data-href="Garware Hitech" href="garware-hitech.html" class="internal-link" target="_self" rel="noopener nofollow">Garware Hitech</a>
+<br><a data-href="XPRO" href="XPRO" class="internal-link" target="_self" rel="noopener nofollow">XPRO</a>
+<br><br>
+<br><a data-href="DDEV" href="DDEV" class="internal-link" target="_self" rel="noopener nofollow">DDEV</a>
+<br><a data-href="Kingfa" href="Kingfa" class="internal-link" target="_self" rel="noopener nofollow">Kingfa</a>
+<br><br>
+<br><a data-href="Polyplex" href="Polyplex" class="internal-link" target="_self" rel="noopener nofollow">Polyplex</a>
+<br><br>
+<br><a data-href="Suzlon" href="suzlon.html" class="internal-link" target="_self" rel="noopener nofollow">Suzlon</a> - renewable energy
+<br>
+]]></description><link>industry.html</link><guid isPermaLink="false">Industry.md</guid><pubDate>Wed, 13 Nov 2024 06:34:03 GMT</pubDate></item><item><title><![CDATA[linear discriminant analysis]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="logistic regression" href="logistic-regression.html" class="internal-link" target="_self" rel="noopener nofollow">logistic regression</a> is a model where we get the parameters after fitting X to Y, linear discriminant approach is less direct
+<br>Here we model the distribution of the predictors separately for each of the response classes
+<br>Reasons to use this over logistic regression:
+<br>When there is substantial separation between the classes, the parameters for logistic regression are unstable
+<br>If the distribution of the predictors is approximately normal and sample size is small
+<br>This along with a few other techniques, pretty much approximates the probability distribution, to make a bayes classifier. 
+<br>Logistic regression is not bayes classifier because theres no trying to find the probability distribution
+<br><br>
+<br>We assume the probability distribution to be normal
+<br><img alt="Pasted image 20241112120116.png" src="pasted-image-20241112120116.png">
+<br>for any one predictor, this is the normal distribution for the Kth class<img alt="Pasted image 20241112120224.png" src="pasted-image-20241112120224.png">
+<br>so the conditional probability of any class given a sample is the above
+<br><img alt="Pasted image 20241112120332.png" src="pasted-image-20241112120332.png">
+<br>The bayes boundary line
+<br><img alt="Pasted image 20241112122324.png" src="pasted-image-20241112122324.png">
+<br>this discriminant is to be maximized
+<br>the pi_k is approximated to be n_k/n, number of samples that are k vs total number of samples
+<br>]]></description><link>linear-discriminant-analysis.html</link><guid isPermaLink="false">linear discriminant analysis.md</guid><pubDate>Tue, 12 Nov 2024 06:55:17 GMT</pubDate><enclosure url="pasted-image-20241112120116.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241112120116.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Linear Step Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> <br>Important
+This topic is extremely simple. The simplest topic in the simplest chapter
+<br>
+<br>Occurs when the <a data-href="functionality" href="functionality.html" class="internal-link" target="_self" rel="noopener nofollow">functionality</a> is 2.
+Example
+I don't have any addon for chemical reaction display so bear with me
+terepthalic acid (benzene with two carboxylic acids in para position)+ ethylene glycol (ethane but one hydrogen on each carbon is replaced with a hydroxyl group) -&gt; ester with a hydroxyl group on one end and a carboxylic acid group on the other end.
+This molecule, if you haven't already noticed, is also difunctional
+
+
+<br>Linear step polymerizations can be represented by:<br>
+<br>
+<br>
+<br>and a bunch of other combinations the the above terms. The R is basically the everything in the molecule but the functional group and the letters A and B represent the functional groups. There are clearly two functional groups on each representation above. If two of the same letter are on R , like , it means both the functional groups are the same, like in ethylene gylcol or terepthalic acid. ARB means the functional groups on the molecule are different and the molecule basically reacts with itself
+<br>A and B are mutually reactive
+<br><br><br>
+<br>Happens when carboxylic acid or acid halide reacts with alcohol group
+<br>Reaction between the carboxylic acid and the alcohol groups is slow and has to be done in the presence of an acid catalyst such as sulfuric acid, at 80-300C
+<br>Almost always RA2+RB2, sometimes ARB
+Todo
+Ask someone when relevant and not offputting, why it's not called ARB for even RA2+RB2 reactions since they produce an ARB molecule
+
+
+<br>Example
+dicarboxylic acid with any divalent group holding it+diol with any divalent group holding it -&gt; polyester +water
+<br><br>
+<br>Happens when a dicarboxylic acid reacts with di-amine
+<br>This is analogous to polyester formation and this we won't discuss the mechanism and equation further
+<br>Aliphatic polyamides are called nylons and are mostly formed by RA2+RB2 polycondensation
+
+A question may come on the difference between thermoplastics and thermoset plastic - just a feeling
+
+
+<br><br>
+<br>Polymers with aromatic groups in the chain's backbone have better mechanical properties and some are made by polycondensation:
+<br><br>
+<br>on reaction of an amine and a di-acyl chloride molecule - what is formed? - Polyurea is formed Polyamides are formed. They are formed by the removal of HCl as condensation. The reaction is an RA+RB polycondensation
+<br>On reaction of a di-isocyanate with an amine, you get polyurea. Polyurea is formed by addition on the N atom and re-arrangement of the hydrogen atom to the oxygen atom in the isocyanate
+<br><br>write the balance equation for polymerization of w-hydroxy carboxylic acid:<br>
+<img alt="Pasted image 20240910150800.png" src="pasted-image-20240910150800.png"><br>determine rate coeficient and order of reaction. Suggest whether or not catalyst was used<br>
+<img alt="Pasted image 20240910151504.png" src="pasted-image-20240910151504.png"><br>upon trial and error, it is found that the reaction is of second order and thus catalyst was used probably (as it's not self catalysed)<br><br>neglecting the contribution of end groups to polymer molar mass, calculate the conversion of functional groups required to obtain a polyester with a number average molar mass of 24000 g mol^{-1} from the monomer HO(CH2)14COOH<br>
+<img alt="Pasted image 20240910154149.png" src="pasted-image-20240910154149.png"><br>
+(edit - its 0.99 since 240 * 100 = 24000, same concept though )<br><br>A polyamide was prepared by bulk polymerization of hexamethylene diamine (9.22g) with adipic acid (11.68g) at 280C. Analysis of the whole reaction product showed that it contained 0.0026 mol of carboxylic acid groups. Evaluate the number-average molar mass of the polyamide and also estimate it's weight average molar mass by assuming the most probable distribution of molar mass<br><img alt="Pasted image 20240910162734.png" src="pasted-image-20240910162734.png"><br>
+<a data-href="Geometric Distribution" href="geometric-distribution.html" class="internal-link" target="_self" rel="noopener nofollow">Geometric Distribution</a> - for more info on the math here<br><br>One kilogram of a polyester with a number average molar mass of some amount is mixed with one kg of another polyester with a number average molar mass of some other amount. The mixture is then heated to a temperature at which ester interchange occurs and the heating is continues until full equilibriation is achieved. Assuming that the two original polyester samples and the new polyester produced by the ester interchange reaction have the most probable distribution calculate the mass average molar mass after the reaction and before<br>I DON'T KNOW SOMEONE PLS HELP ME]]></description><link>linear-step-polymerization.html</link><guid isPermaLink="false">Linear Step Polymerization.md</guid><pubDate>Mon, 18 Nov 2024 16:26:11 GMT</pubDate><enclosure url="pasted-image-20240910150800.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240910150800.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[logistic regression]]></title><description><![CDATA[ 
+ <br>
+<br>
+Measures the probability that a certain sample falls in any one category
+
+<br>
+<img alt="Pasted image 20241112093435.png" src="pasted-image-20241112093435.png">
+
+<br>
+The logistic model. We fit B0 and B1 to the data
+
+<br>
+A method of maximum likelihood is used to fit the model
+
+<br>
+This function will always produce an S shaped curve
+
+<br>
+<img alt="Pasted image 20241112093716.png" src="pasted-image-20241112093716.png">
+
+<br>
+the above is the function that is to be maximized to get B0 and B1
+Important
+Dedicate some time to p values and hypothesis testing
+
+
+<br>
+Multiple logistic regressions are also possible, just a small extension of normal logistic regression, however keep in mind that each variable can only have two settings, in other words, it's binomial
+
+<br>
+Multinomial logistic regressions solve this - <img alt="Pasted image 20241112112735.png" src="pasted-image-20241112112735.png">
+
+<br>
+this is the normal encoding. If the output has K classes, and p predictors. The regression uses K-1 classes, the Kth class is pretty much implied
+
+<br>
+The softmax encoding is the symmetric version of this<img alt="Pasted image 20241112112813.png" src="pasted-image-20241112112813.png">
+
+<br>
+This uses all K classes
+
+<br>
+Softmax encoding is used a lot in machine learning
+
+]]></description><link>logistic-regression.html</link><guid isPermaLink="false">logistic regression.md</guid><pubDate>Tue, 12 Nov 2024 06:00:26 GMT</pubDate><enclosure url="pasted-image-20241112093435.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241112093435.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br>Tip
+These are my notes from Introduction to Polymers, Robert J. Young and college classes<br>
+<a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> 
+<br>Quote
+“So once you do know what the question actually is, you'll know what the answer means.”
+<br><br>Syllabus for midems:<br>
+<br>classification of polymers
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>
+A polymer is a substance composed of long sequences of one or more species of atoms or groups of aton of polymers
+<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>ms linked together by primary, usually covalent bonds<br>
+n of polymers<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>Usually two plastics are mixed to make blends to make one with exactly the properties one wants<br>
+PET - poly(ethylene terepthalate) is a blend of PE and PT<br>
+<br>blends differ from composites in the sense that composites have one material that is reinforcing mechanically
+<br>both blends and composites are binary phase mix
+<br>Danger
+The history is NOT IN THE SYLLABUS (i think)
+<br><br>
+<br>1820 -&gt; This guy, Thomas Hancock, found a way to blend additives to rubber (a natural polymer) by beating it up (masticating it)         <img alt="Pasted image 20240713172639.png" src="pasted-image-20240713172639.png">
+<br>1839 -&gt; Charles Goodyear added sulphur to rubber and found it got stronger. This process was named vulcanization.
+<br>1846 - 1870 -&gt; Some guy prepared nitrocellulose, sold it as an explosive. Another guy thought to mold it and make items out of it as it was found it be a hard elastic material that is also soluble and easily mold-able. Two other guys thought it would be smart to do this with something that isn't an explosive - celluloid. Instant commercial success.
+<br>1892 -&gt; Cross, Bevan and Beadle patented the viscose process for dissolving and regenerating cellulose
+<br>1920s -&gt; This absolute chad of a human, Hermann Staudinger studied the synthesis, structure and properties of polyoxymethylene and polystyrene to give emprical evidence of his idea that polymers are really just macromolecules  containing large sequences of monomers. Everyone doubted him, but the haters were proven wrong
+<br><br>
+<br><a data-href="Types of polymers" href="types-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Types of polymers</a>
+<br><a data-href="Molar Mass" href="molar-mass.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass</a> 
+<br><a data-href="Polymerization" href="polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Polymerization</a> 
+<br><a data-href="Processing" href="processing.html" class="internal-link" target="_self" rel="noopener nofollow">Processing</a>
+<br><a data-href="Industry" href="industry.html" class="internal-link" target="_self" rel="noopener nofollow">Industry</a> - not in syllabus
+<br><a data-href="Properties of Polymers" href="properties-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Properties of Polymers</a>
+]]></description><link>polymers.html</link><guid isPermaLink="false">Polymers.md</guid><pubDate>Wed, 13 Nov 2024 06:33:16 GMT</pubDate><enclosure url="pasted-image-20240713172639.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240713172639.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Processing]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
+<br>You process a polymer at it's processing temperature. In case of polymers the processing temperature is above it's melting temperature
+<br>To reduce the resistance of the material, you need to increase the temperature above the melt temperature to reduce viscosity. Generally about 10C higher than melting point
+<br>Polymer processing is done for application, study of properties and to reduce the cost of a compound by adding a filler or use a cheaper material along with the polymer
+<br>First part of processing is called dry blending then melt blending. Not strictly a requirement
+<br><br>
+<br>Dry blending -  You don't allow the polymer to melt when processing. Example - you have one powder phase and one pellet/granular phase and they're just mixed up. Can't be regularly agitated since the powder will separate from the granules due to difference in density. Oily phase to be added to the mixture so the powder is tied to the granules. The oily phase is called a wetting agent and that causes adsorption/ soaking of the powder on the granule.
+<br>The granules are added then wetting agent then powder at the end. The wetting agent isn't added in the end because this would cause the powder to be clumped up together
+<br>When you're mixing in a tumbler, the rpm you choose is important. The optimized speed is a problem. The RPM where you're getting a constant bulk density is the optimum speed
+<br><img alt="Pasted image 20240802100231.png" src="pasted-image-20240802100231.png">
+<br>To know when something is properly mixed you sample and check the bulk density. The bulk density is measured using a British cylinder
+<br>Melt blending - Melt 'n Mix after making a uniform dry blend as written above. It's not mandatory all the time to have dry then melt processing, you can go directly to melt by using feeders. 
+<br><br>
+<br>
+Extrusion is a continuous output with positive displacement.
+
+<br>
+A cycle air pump is not an extruder since it retracts and this it is not continuous
+
+<br>
+A screw is used to extrude polymer to have a continuous positive displacement
+
+<br>
+<img alt="Pasted image 20240802100254.png" src="pasted-image-20240802100254.png">
+
+<br>
+To increase the mixing, you must reduce the distance between the screw and the barrel. This has the consequence of reducing the mass flow
+
+<br>
+Should the shear profile be constant or profile(non constant) through the extrusion? It shouldn't because it wouldnt be mixed properly if it was
+
+<br>
+You mostly use thermoplastic in an extruder
+
+<br>
+Screw has 3 zones - feed zone, compression/transition zone and the metering zone(?)
+
+<br>
+Screw will be tapered (thicker toward the end)
+
+<br>
+feed zone you're feeding the material from the hopper. It's only there to convey the material
+
+<br>
+Compression zone is for intensive shear mixing of the polymer to be extruded
+
+<br>
+metering zone is to push the mixed polymer through a die (the stuff that extrudes it)
+
+<br>
+L/D ratio of the screw is the ratio of the screw groove diameter to the length of the screw
+
+<br>
+the clearance of the screw is different at different zones. Feed zone the clearance is high. end of the compression zone the clearance is low and the metering zone it's constant at low. Clearance is the distance between the end of the grove of the screw and the wall of the extruder
+Todo
+understand how the clearance changes between different parts and why. Actually just study all of extrusion from somewhere
+
+
+<br>
+compression ratio:
+
+<br>
+
+
+<br>
+RPM of the screw cant vary
+
+<br>
+Temperature will not be constant throughout, the temperature at the feed zone is less and the temperature as you go ahead increases to slowly melt and mix and extrude it
+
+<br>
+If the temperature at the feed zone is high, the extruder will get clogged as the stuff will stick to the screw when it melts
+
+Extrusion is a positive displacement technique. Considered to be an adiabatic technique and every zone is isothermal (the temperature doesn't variably change, it is fixed at the melt temperature at non feed zones). Metering zone has screen plate (mesh) and breaker plate(supports the screen plate) right before the die. The screen plate is to restrict unmelted polymer. Breaker plate converts turbulent to laminar flow. 
+
+
+<br>
+There are three types of flows in an extruder - the drag flow (dragged by the screw), pressure flow (pressure from the screen and breaker plate, causing backflow, better mixing) and leakage flow (clearance leakage)
+Danger
+compression ratio has nothing to do with actual pressure - it's just a metric for mixing
+
+
+<br><br>
+<br>Single motor, two screws, parallel, no tapered design. Screws both move clockwise, there will be pressure buildup since the screws are different directionally threaded (co-rotating). Co rotating has a bad shear profile but good mixing
+<br>It also be non - corotating - counter rotating. The screws both move in different directions and the mixture flows in an infinite symbol shape. counter rotating has a better shear profile but bad mixing and bad distribution of filler in extruded material
+<br>Danger
+Shear profile and rate are NOT THE SAME. Counter rotating has a better shear profile but not shear rate apparently
+<br>
+<br><img alt="Pasted image 20240823094343.png" src="pasted-image-20240823094343.png">
+<br>It can be non intermeshing(?) also 
+<br>It provides better mixing compared to single screw extruder
+<br>Segmented screw has different types of screws in the shaft so you can add different types of screws at different zones as required
+Important
+Distributing mixing: distributes small particles<br>
+Dispersive mixing: dispereses big particles
+
+
+]]></description><link>processing.html</link><guid isPermaLink="false">Processing.md</guid><pubDate>Mon, 18 Nov 2024 16:00:54 GMT</pubDate><enclosure url="pasted-image-20240802100231.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240802100231.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Properties of Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> <br>
+<br>Polymers are always covalently bonded
+<br>With high inductive effect, low molar mass molecules are liberated as the electronegative group abstracts hydrogen from the carbon
+<br>Primary bonding - covalent and ionic
+<br>Secondary - Configuration and conformation
+<br>Configuration - you cant change this without breaking the bonds
+<br>Conformation - this is related to the rotation of the bonds
+<br>Tacticity - relating to the stereochemistry of repeating units
+<br>Tacticity - isotacticity, atacticity and syndiostereotacticity
+<br><img alt="Pasted image 20240927093303.png" src="pasted-image-20240927093303.png">
+<br>The above is isotactic
+<br>Glass transition temperature - when you heat the polymer, there is a transition phase, called glass transition. Mostly polymers are semicrystalline or amorphous - glass transition is when the polymer is in amorphous state. The lower this temperature, the more flexible the polymer is. Used in thermoplastic. Above , polymer is flexible and below it it is glassy.  is the temperature below which the polymer is mostly rigid
+<br>Tg causes a second order phase change
+<br><img alt="Pasted image 20241004101559.png" src="pasted-image-20241004101559.png">
+<br>The  is the temperature when the specific volume vs temperature graph has a change in slope
+<br>DSC - differential scanning calorimetry, can find the , , , gel point, everything
+<br>DMTA - dynamic mechanical and thermal analysis
+<br>DSC and DMTA are two techniques to get the  value
+<br>Melting temperature - Used in thermoplastic. 
+<br>Melting temperature - related to heat gain
+<br>Crystallization temperature,  - Used in thermoplastic. When you cool the polymer it starts crystallizing. When the entropy change is the highest - peak crystallization temperature
+<br>Semi crystalline polymer shows ,  and . Amorphous only shows 
+<br>Semi Crystalline polymers is defined by how regular the packing of the polymer is. 
+<br>Amorphous Polymers have a completely irregular packing
+<br>Gel point - Used in thermoset. When the degree of polymerization of a thermoset tends to infinity
+<br>Curing temperature - Used in thermoset. When the polymer cures
+<br><img alt="Pasted image 20241004103217.png" src="pasted-image-20241004103217.png">
+<br>in conformation you have gauch, trans and eclipsed
+<br>isotactic means that if it's arranged in a regular pattern
+<br>in polymerization there are three types of configuration - cis or trans - cis will give better machanical properties - also called diene polymerization, strereoregularity - tacticity, configuration based on structure - head to head, tail to tail or head to tail
+<br>head to head and tail to tail dont occur much, mostly head to tail
+<br><br>
+<br>Tg more flexible above. Dis be'eth a mechanical property
+<br><br>
+<br>In case of polymers, there are two types of crystals - lamella, and spherulites
+<br>Lamella - forms around the nucleation point, the chain folds
+<br>The many lamella form spherulite, spherulites are big spherical crystals
+<br>If the rate of cooling is high, crystals arent formed well. Slow rate of cooling forms good polymers
+<br><br>
+<br>dialatency - shear thickening
+<br>Shear thinning - pseudoplasticity
+]]></description><link>properties-of-polymers.html</link><guid isPermaLink="false">Properties of Polymers.md</guid><pubDate>Mon, 18 Nov 2024 16:23:51 GMT</pubDate><enclosure url="pasted-image-20240927093303.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240927093303.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Simple Equilibrium]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+ <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> ]]></description><link>simple-equilibrium.html</link><guid isPermaLink="false">Simple Equilibrium.md</guid><pubDate>Wed, 13 Nov 2024 15:41:06 GMT</pubDate></item><item><title><![CDATA[Statistics models]]></title><description><![CDATA[ 
+ <br>
+Predicting the future, concepts here are in the realm of "Statistical Learning", credits to ISLP for all the knowledge here
+<br>
+<br><a data-href="Intro to stat learning" href="intro-to-stat-learning.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to stat learning</a>
+<br><a data-href="Parametric and nonparametric" href="parametric-and-nonparametric.html" class="internal-link" target="_self" rel="noopener nofollow">Parametric and nonparametric</a>
+<br><a data-href="Bias-Variance" href="bias-variance.html" class="internal-link" target="_self" rel="noopener nofollow">Bias-Variance</a>
+<br><a data-href="Linear Regression" href="linear-regression.html" class="internal-link" target="_self" rel="noopener nofollow">Linear Regression</a>
+<br><a data-href="Classification Models" href="classification-models.html" class="internal-link" target="_self" rel="noopener nofollow">Classification Models</a>
+]]></description><link>statistics-models.html</link><guid isPermaLink="false">Statistics models.md</guid><pubDate>Tue, 12 Nov 2024 03:52:30 GMT</pubDate></item><item><title><![CDATA[Suzlon]]></title><description><![CDATA[ 
+ <br>
+To meet climate goals we need wind energy
+<br>
+<br>The price is decreasing right now, has been for a few months
+<br>More power output than any other wind energy company in india
+<br>Jaisalmer Wind Park: Located in Rajasthan, this wind park has a capacity of 1064 MW&nbsp;
+<br>
+<br>
+Kutch: Located in Gujarat, this wind park has a capacity of 1100 MW&nbsp;
+
+<br>
+Sakri: Located in Maharashtra, this wind park has a capacity of 650 MW&nbsp;
+
+<br>
+Eastern Ghats: Located in Tamil Nadu, this wind park has a capacity of 584 MW&nbsp;
+
+<br>
+Satara: Located in Maharashtra, this wind park has a capacity of 210 MW&nbsp;
+
+<br>
+Agar (Suzlon) II: Located in Agar Malwa, Madhya Pradesh&nbsp;
+
+<br>
+Ratlam (Suzlon) II: Located in Ratlam, Madhya Pradesh
+
+<br>
+The above are the areas where wind farms are located
+
+<br>
+<img alt="Pasted image 20241113122221.png" src="pasted-image-20241113122221.png">
+
+<br>
+<br>According to wikipedia, suzlon has the biggest contracts in wind right now for india
+<br>Maybe a good buy since it's bearish right now (november 13th 2024)
+<br>Bad PE and PB, but thats expected from renewable companies and looking at the growth potential of this stock...
+]]></description><link>suzlon.html</link><guid isPermaLink="false">Suzlon.md</guid><pubDate>Wed, 13 Nov 2024 14:45:16 GMT</pubDate><enclosure url="pasted-image-20241113122221.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241113122221.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fluid mechanics]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
  <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a><br>
 Course taught by Prof. AVP<br>
 bird stewart lightfoot, transport phenomena<br>
@@ -43,25 +668,7 @@ troubleshooting stage.<br>
 <br><a data-href="Pumps" href="pumps.html" class="internal-link" target="_self" rel="noopener nofollow">Pumps</a>
 <br><a data-href="Problems on Fluid Moving Machinery" href="problems-on-fluid-moving-machinery.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on Fluid Moving Machinery</a>
 <br><a data-href="Equation of motion" href="equation-of-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Equation of motion</a>
-]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 11 Nov 2024 09:23:01 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br>Quote
-"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
-<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br>projects
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 11 Nov 2024 09:31:48 GMT</pubDate></item><item><title><![CDATA[Problems Bernoulli General]]></title><description><![CDATA[ 
+]]></description><link>fluid-mechanics.html</link><guid isPermaLink="false">Fluid mechanics.md</guid><pubDate>Mon, 11 Nov 2024 09:23:01 GMT</pubDate><enclosure url="pasted-image-20240626172127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240626172127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problems Bernoulli General]]></title><description><![CDATA[ 
  <br>
 Make a list of all pipe fittings. Application of all valves. Print/ draw freehand.
 <br>Problem
@@ -740,16 +1347,7 @@ do cylindrical coords
 <br><img alt="Pasted image 20240924115730.png" src="pasted-image-20240924115730.png">
 <br>assuming only point contact between the particles, . Epsilon is the voidage
 <br><img alt="Pasted image 20240924122749.png" src="pasted-image-20240924122749.png">
-]]></description><link>specific-surface-and-voidage.html</link><guid isPermaLink="false">Specific Surface and Voidage.md</guid><pubDate>Mon, 11 Nov 2024 08:24:41 GMT</pubDate><enclosure url="pasted-image-20240924115730.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924115730.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Statistics models]]></title><description><![CDATA[ 
- <br>
-Predicting the future, concepts here are in the realm of "Statistical Learning", credits to ISLP for all the knowledge here
-<br>
-<br><a data-href="Intro to stat learning" href="intro-to-stat-learning.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to stat learning</a>
-<br><a data-href="Parametric and nonparametric" href="parametric-and-nonparametric.html" class="internal-link" target="_self" rel="noopener nofollow">Parametric and nonparametric</a>
-<br><a data-href="Bias-Variance" href="bias-variance.html" class="internal-link" target="_self" rel="noopener nofollow">Bias-Variance</a>
-<br><a data-href="Linear Regression" href="linear-regression.html" class="internal-link" target="_self" rel="noopener nofollow">Linear Regression</a>
-<br><a data-href="Classification models" href="Classification models" class="internal-link" target="_self" rel="noopener nofollow">Classification models</a>
-]]></description><link>statistics-models.html</link><guid isPermaLink="false">Statistics models.md</guid><pubDate>Mon, 11 Nov 2024 07:59:47 GMT</pubDate></item><item><title><![CDATA[Utility Network]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+]]></description><link>specific-surface-and-voidage.html</link><guid isPermaLink="false">Specific Surface and Voidage.md</guid><pubDate>Mon, 11 Nov 2024 08:24:41 GMT</pubDate><enclosure url="pasted-image-20240924115730.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924115730.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Utility Network]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
  <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>
 Not utility network I know...
 <br>
@@ -1208,68 +1806,7 @@ What? how is this different from regular emulsion polymerization? weirdddd
 <br>What are the emulsifiers that can be used in emulsion technique?
 <br>Why are ionic, non ionic colloids used and when to use which?
 
-]]></description><link>emulsion-polymerization.html</link><guid isPermaLink="false">Emulsion Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 04:50:45 GMT</pubDate><enclosure url="pasted-image-20240913212427.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240913212427.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Engineering thermodynamics]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
- <br>
-What is the most dangerous thing in ICT?
-
-<br>Gas cylinders
-
-<br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>Quote
-“Perhaps I'm old and tired, but I always think that the chances of finding out what really is going on are so absurdly remote that the only thing to do is to say hang the sense of it and just keep yourself occupied.”— Douglas Adams, The Restaurant at the End of the Universe
-<br>After midems - we're looking at mixtures, so we want to find the entropy, enthalpy, G,etc for mixtures. To find all this, we need to find the pure component property and change due to mixing<br>There are two parts to this course:<br>
-<br>
-One part for a singular equation to not need mollier diagrams or steam tables
-
-<br>
-One part for for separation processes
-
-<br>
-<a data-href="Real Gases" href="real-gases.html" class="internal-link" target="_self" rel="noopener nofollow">Real Gases</a>
-
-<br>
-<a data-href="Enthalpy Accumulation" href="enthalpy-accumulation.html" class="internal-link" target="_self" rel="noopener nofollow">Enthalpy Accumulation</a>
-
-<br>
-<a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
-
-<br>
-<a data-href="gibbs free energy" href="gibbs-free-energy.html" class="internal-link" target="_self" rel="noopener nofollow">gibbs free energy</a>
-
-<br>
-<a data-href="exergy special" href="exergy-special.html" class="internal-link" target="_self" rel="noopener nofollow">exergy special</a>
-
-<br>
-<a data-href="Volume" href="volume.html" class="internal-link" target="_self" rel="noopener nofollow">Volume</a>
-
-<br>
-<a data-href="doubt session" href="doubt-session.html" class="internal-link" target="_self" rel="noopener nofollow">doubt session</a>
-
-<br>
-<a data-href="EOS" href="eos.html" class="internal-link" target="_self" rel="noopener nofollow">EOS</a>
-
-<br>
-<a data-href="Calculator" href="calculator.html" class="internal-link" target="_self" rel="noopener nofollow">Calculator</a>
-
-<br>
-<a data-href="Lec 8" href="lec-8.html" class="internal-link" target="_self" rel="noopener nofollow">Lec 8</a>
-
-<br>
-<a data-href="Mixtures" href="mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Mixtures</a>
-
-<br>
-<a data-href="Vapour Liquid Equilibrium" href="vapour-liquid-equilibrium.html" class="internal-link" target="_self" rel="noopener nofollow">Vapour Liquid Equilibrium</a>
-
-<br><br>
-The above notes are from my professor's perspective, what he taught in class. The following is what I understand of thermodynamics. I may be wrong
-<br>
-<br>An addition to what was said in the introduction of the previous part - The reason we study thermodynamics as chemical engineers. The heat machines are briefly discussed to give awareness, if we were to go deeper into it, we'd be looking at valves, rotation, clearances - the more technical aspects. Here we summarize all those components as S_{gen}, not to understand how they work, but to understand their effects. The two types of problems, then that we'd be equipped to solve would be - understanding the best case scenario for a certain situation and analysing a real situation and quantifying the inefficiencies. 
-<br>The real stuff we're supposed to learn are mixtures. The number of mixtures out there is in the trillions, very few have had their properties scientifically measured, so a lot of the work we chemical engineers have to do to design a new reactor, or tank is with mixtures that havent been previously studied. Thermodynamics here simply helps us extrapolate from data accurately to get to the mixture properties of any substances at any temperature and pressure.
-<br><a data-href="Temperature" href="temperature.html" class="internal-link" target="_self" rel="noopener nofollow">Temperature</a>, <a data-href="Enthalpy" href="enthalpy.html" class="internal-link" target="_self" rel="noopener nofollow">Enthalpy</a>
-<br>Conservation of mass and energy have been mentioned elsewhere in my notes and I will not be repeating that
-<br><a data-href="entropy-arjun" href="entropy-arjun.html" class="internal-link" target="_self" rel="noopener nofollow">entropy-arjun</a> - my thoughts on it, the balance equations and all are in <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
-<br><a data-href="Real Fluids" href="real-fluids.html" class="internal-link" target="_self" rel="noopener nofollow">Real Fluids</a> - a lot of thoughts on it, building on what was taught in class. Just stuff I couldn't understand, I really want to solve problems on this, alas time does not permit
-<br><a data-href="Simple Equilibrium" href="Simple Equilibrium" class="internal-link" target="_self" rel="noopener nofollow">Simple Equilibrium</a> - I'll study some process safety then I'll get back to thermo
-]]></description><link>engineering-thermodynamics.html</link><guid isPermaLink="false">Engineering thermodynamics.md</guid><pubDate>Mon, 04 Nov 2024 14:45:35 GMT</pubDate></item><item><title><![CDATA[Enthalpy]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
+]]></description><link>emulsion-polymerization.html</link><guid isPermaLink="false">Emulsion Polymerization.md</guid><pubDate>Fri, 18 Oct 2024 04:50:45 GMT</pubDate><enclosure url="pasted-image-20240913212427.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240913212427.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Enthalpy]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
  <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>
 The oldest question in the universe, "what is enthalpy?"
 <br>
@@ -1305,29 +1842,7 @@ imagine there is a container with two sections separated by a material of heat t
 	
 <br>
 WHY CAN COP BE MORE THAN 1? for a fridge
-<br>This is because heat pumps are not like engines, the work you're putting in isnt geting converted to heat or otherwise, its just causing heat to be transferred from one place to another thus it's possible to cool a room down more than how much work you're putting into it because the work is only needed to satisfy the first law of thermodynamics\<br>Engines, however cannot have efficiencies more than 100% because you are very literally converting the heat into work]]></description><link>entropy.html</link><guid isPermaLink="false">Entropy.md</guid><pubDate>Mon, 04 Nov 2024 09:17:10 GMT</pubDate><enclosure url="pasted-image-20240704094056.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240704094056.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[entropy-arjun]]></title><description><![CDATA[<a class="tag" href="?query=tag:thermo" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#thermo</a> 
- <br><a href=".?query=tag:thermo" class="tag" target="_blank" rel="noopener nofollow">#thermo</a> <br>
-Related to <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>
-<br>The requirement for this arises from linear algebra, of all things... <br>
-<br>We have the mass balance, energy balance equations. These two are used to solve for two variables, which determine all the other variables in a state. Sometimes, these two equations aren't enough to determine the equilibrium conditions, here, a third equation, entropy balance is used - this is for a single phase, isolated system, multiphase is covered later
-<br>Also, the first two equations don't say much about what "can or cant" happen. A rock could instantly lower it's temperature and jump up by itself, and that would be alright if we just looked at energy and mass balances. This is why we need entropy balance.
-<br>In essence, we have nothing to describe equilibrium, and it's state in a system. Mass and energy balance are OK with any state as long as those two aren't violated.
-<br>
-Entropy is a state function. In a system in which there are flows of heat by conduction and flow of work across system boundaries, the conductive heat flow and not the work flow, causes a change in entropy of a system; This rate of change in entropy is Q/T where Q is the rate of heat conducted and T is the temperature. If in addition, there are mass flows at the boundaries, the total entropy will also change due to this convected flow. That is, each element of mass entering or leaving the system carries with it it's entropy
-<br>The equation, S, on the left hand side is the total entropy, while S on the right hand side (not S_gen), is the entropy per unit mass(couldnt figure out how to use carets in latex). S_gen is the entropy generated in the system due to inefficiencies, and must always be equal to or above 0<br>
-<br>S_gen is the entropy created in a system, since this always must be above or equal to 0, the presence of it causes irreversibility. Irreversibility in the sense that the system is now forever different to what it was a moment ago, we can never turn back the clock and reduce entropy because S_gen can never be below 0. So unless it is equal to 0 all the time, the system will never go back to what it used to be. 
-<br>Important
- Something funny that NO ONE says in class - all irreversibility can be traced back to conduction - viscous conduction. Even movement due to a finite pressure difference is irreversible purely because of viscous conduction due to friction. :/ This makes entropy so much easier to understand - its ALL heat conduction
-<br><img alt="Pasted image 20241103164321.png" src="pasted-image-20241103164321.png"><br>
-<br>Interesting consequence - reversible processes extracting work from the system to give to the surroundings, maximum work is done for a given change of state of the system (because so little energy is lost to conduction), the processes giving work to the system for a change of state require the least amount of work for it
-<br><a data-href="Gibbs Energy Arjun" href="gibbs-energy-arjun.html" class="internal-link" target="_self" rel="noopener nofollow">Gibbs Energy Arjun</a>
-<br><br>
-<br>This is a cycle - you got the condenser, the evaporator, the nozzle and the compressor. The compressor puts work in the system, makes the fluid high pressure, liquid. The nozzle causes isentropic (not really) expansion, condenser releases heat to the surroundings, evaporator absorbs heat from the cooled substance. 
-<br>The trick to refrigeration which I wasn't able to get in <a data-href="Entropy" href="entropy.html" class="internal-link" target="_self" rel="noopener nofollow">Entropy</a>, is that the heat put in from the cold side and the heat released into the hot side isnt the same, the heat in the hot side is the cold side+ work shaft
-<br><br>
-<br>Couldn't be bothered :coolglasses:
-<br>I'm doing the illustrations from sandler.
-]]></description><link>entropy-arjun.html</link><guid isPermaLink="false">entropy-arjun.md</guid><pubDate>Mon, 04 Nov 2024 09:31:52 GMT</pubDate><enclosure url="pasted-image-20241103164321.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241103164321.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Equation of motion]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
+<br>This is because heat pumps are not like engines, the work you're putting in isnt geting converted to heat or otherwise, its just causing heat to be transferred from one place to another thus it's possible to cool a room down more than how much work you're putting into it because the work is only needed to satisfy the first law of thermodynamics\<br>Engines, however cannot have efficiencies more than 100% because you are very literally converting the heat into work]]></description><link>entropy.html</link><guid isPermaLink="false">Entropy.md</guid><pubDate>Mon, 04 Nov 2024 09:17:10 GMT</pubDate><enclosure url="pasted-image-20240704094056.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240704094056.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Equation of motion]]></title><description><![CDATA[<a class="tag" href="?query=tag:fluidmech" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fluidmech</a> 
  <br><a href=".?query=tag:fluidmech" class="tag" target="_blank" rel="noopener nofollow">#fluidmech</a> <br>Warning
 This will be tricky
 <br><br>
@@ -1578,88 +2093,7 @@ This is process hazard analysis<br>Recent advances in process safety<br>
 <br>Root cause analysis
 <br>Fault tree analysis
 <br>Event tree analysis
-<br>]]></description><link>pha.html</link><guid isPermaLink="false">PHA.md</guid><pubDate>Thu, 17 Oct 2024 06:09:51 GMT</pubDate></item><item><title><![CDATA[Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
- <br>Tip
-These are my notes from Introduction to Polymers, Robert J. Young and college classes<br>
-<a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> 
-<br>Quote
-“So once you do know what the question actually is, you'll know what the answer means.”
-<br><br>SYllabus for midems:<br>
-<br>classification of polymers
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>
-A polymer is a substance composed of long sequences of one or more species of atoms or groups of aton of polymers
-<br>
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>ms linked together by primary, usually covalent bonds<br>
-n of polymers<br>
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>Usually two plastics are mixed to make blends to make one with exactly the properties one wants<br>
-PET - poly(ethylene terepthalate) is a blend of PE and PT<br>
-<br>blends differ from composites in the sense that composites have one material that is reinforcing mechanically
-<br>both blends and composites are binary phase mix
-<br>Danger
-The history is NOT IN THE SYLLABUS (i think)
-<br><br>
-<br>1820 -&gt; This guy, Thomas Hancock, found a way to blend additives to rubber (a natural polymer) by beating it up (masticating it)         <img alt="Pasted image 20240713172639.png" src="pasted-image-20240713172639.png">
-<br>1839 -&gt; Charles Goodyear added sulphur to rubber and found it got stronger. This process was named vulcanization.
-<br>1846 - 1870 -&gt; Some guy prepared nitrocellulose, sold it as an explosive. Another guy thought to mold it and make items out of it as it was found it be a hard elastic material that is also soluble and easily mold-able. Two other guys thought it would be smart to do this with something that isn't an explosive - celluloid. Instant commercial success.
-<br>1892 -&gt; Cross, Bevan and Beadle patented the viscose process for dissolving and regenerating cellulose
-<br>1920s -&gt; This absolute chad of a human, Hermann Staudinger studied the synthesis, structure and properties of polyoxymethylene and polystyrene to give emprical evidence of his idea that polymers are really just macromolecules  containing large sequences of monomers. Everyone doubted him, but the haters were proven wrong
-<br><br>
-<br><a data-href="Types of polymers" href="types-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Types of polymers</a>
-<br><a data-href="Molar Mass" href="molar-mass.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass</a> 
-<br><a data-href="Polymerization" href="polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Polymerization</a> 
-<br><a data-href="Processing" href="processing.html" class="internal-link" target="_self" rel="noopener nofollow">Processing</a>
-<br><a data-href="Industry" href="industry.html" class="internal-link" target="_self" rel="noopener nofollow">Industry</a> - not in syllabus
-<br><a data-href="Properties of Polymers" href="properties-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Properties of Polymers</a>
-]]></description><link>polymers.html</link><guid isPermaLink="false">Polymers.md</guid><pubDate>Wed, 16 Oct 2024 11:51:10 GMT</pubDate><enclosure url="pasted-image-20240713172639.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240713172639.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Properties of Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
- <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> <br>
-<br>Polymers are always covalently bonded
-<br>With high inductive effect, low molar mass molecules are liberated as the electronegative group abstracts hydrogen from the carbon
-<br>Primary bonding - covalent and ionic
-<br>Secondary - Configuration and conformation
-<br>Configuration - you cant change this without breaking the bonds
-<br>Conformation - this is related to the rotation of the bonds
-<br>Tacticity - relating to the stereochemistry of repeating units
-<br>Tacticity - isotacticity, atacticity and syndiostereotacticity
-<br><img alt="Pasted image 20240927093303.png" src="pasted-image-20240927093303.png">
-<br>The above is isotactic
-<br>Glass transition temperature - when you heat the polymer, there is a transition phase, called glass transition. Mostly polymers are semicrystalline or amorphous - glass transition is when the polymer is in amorphous state. The lower this temperature, the more flexible the polymer is. Used in thermoplastic. Above , polymer is flexible and below it it is glassy.  is the temperature below which the polymer is mostly rigid
-<br>Tg causes a second order phase change
-<br><img alt="Pasted image 20241004101559.png" src="pasted-image-20241004101559.png">
-<br>The  is the temperature when the specific volume vs temperature graph has a change in slope
-<br>DSC - differential scanning calorimetry, can find the , , , gel point, everything
-<br>DMTA - dynamic mechanical and thermal analysis
-<br>DSC and DMTA are two techniques to get the  value
-<br>Melting temperature - Used in thermoplastic. 
-<br>Melting temperature - related to heat gain
-<br>Crystallization temperature,  - Used in thermoplastic. When you cool the polymer it starts crystallizing. When the entropy change is the highest - peak crystallization temperature
-<br>Semi crystalline polymer shows ,  and . Amorphous only shows 
-<br>Semi Crystalline polymers is defined by how regular the packing of the polymer is. 
-<br>Amorphous Polymers have a completely irregular packing
-<br>Gel point - Used in thermoset. When the degree of polymerization of a thermoset tends to infinity
-<br>Curing temperature - Used in thermoset. When the polymer cures
-<br><img alt="Pasted image 20241004103217.png" src="pasted-image-20241004103217.png">
-<br>in conformation you have gauch, trans and eclipsed
-<br>isotactic means that if it's arranged in a regular pattern
-<br>in polymerization there are three types of configuration - cis or trans - cis will give better machanical properties - also called diene polymerization, strereoregularity - tacticity, configuration based on structure - head to head, tail to tail or head to tail
-<br>head to head and tail to tail dont occur much, mostly head to tail
-<br><br>
-<br>Tg more flexible above. Dis be'eth a mechanical property
-<br><br>
-<br>In case of polymers, there are two types of crystals - lamella, and spherulites
-<br>Lamella - forms around the nucleation point, the chain folds
-<br>The many lamella form spherulite, spherulites are big spherical crystals
-<br>If the rate of cooling is high, crystals arent formed well. Slow rate of cooling forms good polymers
-<br>
-<br><br>
-<br>dialatency - shear thickening
-<br>Shear thinning - pseudoplasticity
-]]></description><link>properties-of-polymers.html</link><guid isPermaLink="false">Properties of Polymers.md</guid><pubDate>Wed, 16 Oct 2024 11:16:11 GMT</pubDate><enclosure url="pasted-image-20240927093303.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240927093303.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Radical Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+<br>]]></description><link>pha.html</link><guid isPermaLink="false">PHA.md</guid><pubDate>Thu, 17 Oct 2024 06:09:51 GMT</pubDate></item><item><title><![CDATA[Radical Polymerization]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
  <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
 -All these notes are derived from intro to polymerization, I don't hide this fact, it's the truth-<br><br>If <a data-href="step growth" href="step-growth.html" class="internal-link" target="_self" rel="noopener nofollow">step growth</a> was about simple reactions occurring between monomers and polymers to grow the chain, radical polymerization is about the propagation of a free radical end which keeps growing it. <br>It's used for unsaturated monomers<br><br>Radical polymerization undergoes several chemical reactions that determine the end polymers' structures. These reactions include:<br>
 <br><a data-href="Radical Polymerization Initiation" href="radical-polymerization-initiation.html" class="internal-link" target="_self" rel="noopener nofollow">Radical Polymerization Initiation</a> - Specific chemicals that generate free radicals, which react with monomers that cause free radical polymer chains
@@ -2006,69 +2440,7 @@ Not my advice, just stuff my sister, professors and books say
 <br><br>
 <br>For the theory, ask socratic questions (good ones)
 <br>For the questions - ask another question or different calculations for the problem, think of all the ways you could solve the problem incorrectly (and why they're incorrect), think of how to make the problem easier, more difficult or more exciting, make a list of concepts taught in the problem and what the point of the problem was, vary parameters of the questions and study their consequences, try to come up with better ways of solving the problem (more elegant ways - my own addition)
-]]></description><link>critical-thinking.html</link><guid isPermaLink="false">Critical Thinking.md</guid><pubDate>Fri, 11 Oct 2024 09:42:20 GMT</pubDate><enclosure url="pasted-image-20241011145250.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011145250.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Environmental Science]]></title><description><![CDATA[<a class="tag" href="?query=tag:Environment" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Environment</a> 
- <br><a href=".?query=tag:Environment" class="tag" target="_blank" rel="noopener">#Environment</a><br>
-Environment good, don't destroy for profit or something
-<br>Quote
-“Anyone who is capable of getting themselves made President should on no account be allowed to do the job.”
-<br>
-<br><a data-href="Water Pollution" href="water-pollution.html" class="internal-link" target="_self" rel="noopener">Water Pollution</a>
-<br>for civilized life you need food, shelter and sustainable infrastructure
-<br><a data-href="NIMBY" href="nimby.html" class="internal-link" target="_self" rel="noopener">NIMBY</a> - not in my backyard
-Example of environmental science in action
-China produces 100 million tonnes of methanol a year, they get this from a coal bed, using coal bed methanation (CBM). India uses the synthetic route of using crude oil to make methanol. China is more sustainable? I'm not sure what the example was
-
-
-<br>
-Bill and Melinda gate foundation has put up a challenge on how to stop antibiotics from going in common areas outside of the human body and causing resistant bug
-<br><br><br>
-<br>people would boil water 
-<br>mid 19th century filtration began
-<br>clogged filters were a big problem
-<br>alum was introduced as a water treatment technique in the 18th century and widely used in the 19th century
-<br>chlorination became common in the 20th century
-<br>Now people are concerned about adverse effects of chlorination, so work into potassium permanganate is being done
-<br>Weird fact
-The concentration in water of oxygen is 7-8 mg per litre for fish. Fish cannot survive in 4 mg per litre.
-<br><br>
-<br>People would hurl shit out of their windows in absence of a proper sewage system in Paris. I personally suppose this was not because of absence of sewage systems but simply because they were French
-<br>Napolean ended up building a sewage system so this maybe stopped
-<br><br>
-<br>Many cities combine their waste systems and cause pollution this way
-<br>Cesspools and vaults were common, carting waste (ew)
-<br>Non centralized sewage systems - not successful
-<br>Untreated sewage - increases BOD of water and kills the fish, also causes insane amounts of pollution 
-<br><br>
-Ecosystems are composed of interacting living organisms and their physical environment
-<br>
-<br>populations generally maintain a balance state (homeostasis)
-<br>there is a dynamic equilibrium which is whats behind homeostasis with stabilizing (for negative feedback) and destabilizing (for positive feedback) effects. This maintains the population in a balanced state
-<br>A classic example of predator prey interactions is the hare and lynx relationship
-<br><br>
-A system of weakness that the incompetent perpetuate so they can fool themselves
-<br>
-<br>Ministry of environment and forestry is the section of Indian government associated with environmental science and engineering
-<br>environmental science in these days is very cha ching cha ching. MONEY is BIG. Big projects need such work so they don't fail in the eyes of public and government
-<br>anthropological activities - industrial, man made, civilized activities
-<br>Cause and effect of anthropological activities need to be weighed
-<br>Sustainability is - leaving the planet in a better condition for the next generation
-
-Look at online undergraduate competitions. TOMORROW FOR SURE
-
-
-<br><br>
-You need to the the due diligence for the consequences for your project before you start it
-<br>
-<br>EIA  report - environmental impact assessment
-<br>Prepare one
-<br>It's a detailing of all the activities you're proposing to carry out. What all will be included in this? Carbon footprint, emissions, how you're dealing with your waste and emissions, environment management plan, HSE (health, safety and environment), event management plan (if accident happens)
-<br>Types of projects - class A (of scale enough to be of national importance), class B1 (little less, get the license from the state government), class B2 (get license from district agency)
-<br>No project that comes under this -redacted- if it is any department. No chemical which comes in category 25 - synthetic organic chemicals
-Important
-More from less for more
-
-
-]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Mon, 14 Oct 2024 04:54:15 GMT</pubDate></item><item><title><![CDATA[Fogler]]></title><description><![CDATA[ 
+]]></description><link>critical-thinking.html</link><guid isPermaLink="false">Critical Thinking.md</guid><pubDate>Fri, 11 Oct 2024 09:42:20 GMT</pubDate><enclosure url="pasted-image-20241011145250.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241011145250.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fogler]]></title><description><![CDATA[ 
  <br>A homogeneous reaction is a reaction where all reactants are of the same phase<br>
 <br>rate expression is expressed as  
 <br>the powers of each concentration is usually same as molecularity of that substance in the reaction for elementary reactions
