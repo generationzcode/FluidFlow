@@ -1,4 +1,36 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 29 Jan 2025 18:14:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 29 Jan 2025 18:13:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2025-01-23]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 29 Jan 2025 18:28:43 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 29 Jan 2025 18:28:41 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Flash Distillation]]></title><description><![CDATA[ 
+ <br>tu * <img alt="Pasted image 20241223115909.png" src="pasted-image-20241223115909.png"><br>
+<br>flash distillation drum
+<br>the relative volatilities need to be very far apart from each other
+<br>the drum is kept at a low pressure
+<br>this is also called differential distillation
+<br><img alt="Pasted image 20241223120728.png" src="pasted-image-20241223120728.png">
+<br><img alt="Pasted image 20241223120904.png" src="pasted-image-20241223120904.png">
+<br>
+A liquid mixture containing 50 mole% each of benzene and toluene at 40C is to be continuously flash vapourized to vaporize 60 mole % of the feed. The residual liquid product contains 35% mole benzene. The enthalpies per mole of feed, the liquid product and the vapor product are 2,5 and 30 kJ/mole, respectively. Calculate the heat added per kJ per mole of the vapor product
+]]></description><link>flash-distillation.html</link><guid isPermaLink="false">Flash Distillation.md</guid><pubDate>Wed, 29 Jan 2025 18:14:22 GMT</pubDate><enclosure url="pasted-image-20241223115909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241223115909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Quote
+"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
+<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - work in progress
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - managing cash
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - stuff that flows
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - how not to blow stuff up
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - how not to blow up the world
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - how not to blow up your customers
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - how to blow your mind
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - making machines learn
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br><a data-href="Game Theory" href="game-theory.html" class="internal-link" target="_self" rel="noopener nofollow">Game Theory</a> - Strategy
+<br><a data-href="Chemical Engineering Operations" href="chemical-engineering-operations.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Engineering Operations</a> - chemical engineering!
+<br><a data-href="Industrial chemistry and reaction engineering" href="industrial-chemistry-and-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Industrial chemistry and reaction engineering</a>  - chemistry!!
+<br><a data-href="Instrumentation and process control" href="instrumentation-and-process-control.html" class="internal-link" target="_self" rel="noopener nofollow">Instrumentation and process control</a> - Electronics but cooler
+<br><a data-href="Interfacial chemistry" href="interfacial-chemistry.html" class="internal-link" target="_self" rel="noopener nofollow">Interfacial chemistry</a> - to answer the age old question, "do chemicals have faces?"
+<br>projects
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Wed, 29 Jan 2025 18:28:07 GMT</pubDate></item><item><title><![CDATA[2025-01-23]]></title><description><![CDATA[ 
  ]]></description><link>2025-01-23.html</link><guid isPermaLink="false">2025-01-23.md</guid><pubDate>Thu, 23 Jan 2025 09:11:15 GMT</pubDate></item><item><title><![CDATA[Basics of reactors]]></title><description><![CDATA[ 
  <br>
 <br>levenspiel's plot = reciprocal of rate vs conversion
@@ -433,18 +465,7 @@ go a little deeper into this and solve some problems on them
 <br>If C = m_c/V, then total cake mass is mc = C* V
 <br>also u = (dV/dt)/A
 <br>Thus: 
-]]></description><link>filtration-math.html</link><guid isPermaLink="false">Filtration math.md</guid><pubDate>Thu, 16 Jan 2025 07:51:12 GMT</pubDate></item><item><title><![CDATA[Flash Distillation]]></title><description><![CDATA[ 
- <br>
-<br><img alt="Pasted image 20241223115909.png" src="pasted-image-20241223115909.png">
-<br>flash distillation drum
-<br>the relative volatilities need to be very far apart from each other
-<br>the drum is kept at a low pressure
-<br>this is also called differential distillation
-<br><img alt="Pasted image 20241223120728.png" src="pasted-image-20241223120728.png">
-<br><img alt="Pasted image 20241223120904.png" src="pasted-image-20241223120904.png">
-<br>
-A liquid mixture containing 50 mole% each of benzene and toluene at 40C is to be continuously flash vapourized to vaporize 60 mole % of the feed. The residual liquid product contains 35% mole benzene. The enthalpies per mole of feed, the liquid product and the vapor product are 2,5 and 30 kJ/mole, respectively. Calculate the heat added per kJ per mole of the vapor product
-]]></description><link>flash-distillation.html</link><guid isPermaLink="false">Flash Distillation.md</guid><pubDate>Wed, 29 Jan 2025 09:07:04 GMT</pubDate><enclosure url="pasted-image-20241223115909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241223115909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[flat and curved surfaces]]></title><description><![CDATA[ 
+]]></description><link>filtration-math.html</link><guid isPermaLink="false">Filtration math.md</guid><pubDate>Thu, 16 Jan 2025 07:51:12 GMT</pubDate></item><item><title><![CDATA[flat and curved surfaces]]></title><description><![CDATA[ 
  <br>
 <br>
 There are flat surfaces and there are curved surfaces, flat surfaces have no pressure difference across them and curved surfaces have pressure difference across them
@@ -464,31 +485,7 @@ what should be the p/p_0 ratio to form droplets of size 5 angstrom
 <br>
 How do you measure radioactivity 
 
-]]></description><link>flat-and-curved-surfaces.html</link><guid isPermaLink="false">flat and curved surfaces.md</guid><pubDate>Thu, 23 Jan 2025 05:50:52 GMT</pubDate><enclosure url="pasted-image-20241226121325.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241226121325.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br>Quote
-"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
-<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are not mostly useless as we have ppts so these are just for me, I'm making my own additions now
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br><a data-href="Game Theory" href="game-theory.html" class="internal-link" target="_self" rel="noopener nofollow">Game Theory</a> - Strategy
-<br><a data-href="Chemical Engineering Operations" href="chemical-engineering-operations.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Engineering Operations</a> - sem 4 subject 
-<br><a data-href="Industrial chemistry and reaction engineering" href="industrial-chemistry-and-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Industrial chemistry and reaction engineering</a>  -SEM 4 subject
-<br><a data-href="Instrumentation and process control" href="instrumentation-and-process-control.html" class="internal-link" target="_self" rel="noopener nofollow">Instrumentation and process control</a> - Electronics but cooler
-<br><a data-href="Interfacial chemistry" href="interfacial-chemistry.html" class="internal-link" target="_self" rel="noopener nofollow">Interfacial chemistry</a>
-<br>projects
-<br><a data-href="Community Project" href="community-project.html" class="internal-link" target="_self" rel="noopener nofollow">Community Project</a>
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Tue, 21 Jan 2025 12:05:09 GMT</pubDate></item><item><title><![CDATA[Industrial Chemistry]]></title><description><![CDATA[ 
+]]></description><link>flat-and-curved-surfaces.html</link><guid isPermaLink="false">flat and curved surfaces.md</guid><pubDate>Thu, 23 Jan 2025 05:50:52 GMT</pubDate><enclosure url="pasted-image-20241226121325.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241226121325.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Industrial Chemistry]]></title><description><![CDATA[ 
  <br><img alt="Pasted image 20250124105207.png" src="pasted-image-20250124105207.png"><br>
 kent and bright - ensure you have that book<br>
 Phillips handbook of petroleum
