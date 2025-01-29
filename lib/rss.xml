@@ -1,4 +1,1055 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 18 Nov 2024 16:26:58 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 18 Nov 2024 16:26:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Drawing 2024-11-14 23.51.05]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fluid Mechanics]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Fluid Mechanics</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 29 Jan 2025 18:14:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 29 Jan 2025 18:13:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2025-01-23]]></title><description><![CDATA[ 
+ ]]></description><link>2025-01-23.html</link><guid isPermaLink="false">2025-01-23.md</guid><pubDate>Thu, 23 Jan 2025 09:11:15 GMT</pubDate></item><item><title><![CDATA[Basics of reactors]]></title><description><![CDATA[ 
+ <br>
+<br>levenspiel's plot = reciprocal of rate vs conversion
+<br><br><img alt="Pasted image 20240924161015.png" src="pasted-image-20240924161015.png"><br>
+<br>Small scale
+<br><img alt="Pasted image 20240924160812.png" src="pasted-image-20240924160812.png">
+<br><img alt="Pasted image 20240924161607.png" src="pasted-image-20240924161607.png">
+<br>Taking differential balance of A between time instances  and , we get the above 
+<br>A reacted in dt should be expressed in terms of volumetric rate of reaction, rate expression and total volume of V, then you write it!
+<br>Ra* V is the volumetric rate of reaction
+<br><br>
+<br>This lovely little lump of metal has an inlet, an outlet and a tank with an agitator
+<br>The tank is kept at a lower concentration of the reactant than the inlet fluid has
+<br>The liquid in the tank is completely homogenous (fancy word for same throughout)
+<br>This is also called the backmix reactor and I personally prefer calling it the backmix reactor
+<br>Space time for the reactor is  where V is the reactor volume and  is the inlet flow rate
+<br> is the rate for first order,  is constant throughout, so the rate of reaction is also constant
+<br>Expansion, also known as -redacted-, is accounted for in the concentrations only, doesn't affect much else
+<br><br>
+<br>I will cover this on my second reading of the book
+]]></description><link>basics-of-reactors.html</link><guid isPermaLink="false">Basics of reactors.md</guid><pubDate>Fri, 17 Jan 2025 05:26:15 GMT</pubDate><enclosure url="pasted-image-20240924161015.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240924161015.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Centrifugal filtration]]></title><description><![CDATA[ 
+ <br>
+this is the same as before, except now we have Delta P different:
+<br>
+<br>r2 = radius of centrifuge, r1 = radius at which liquid air interface is from the center<br>
+
+<br>we wrote this differently in the other pages, but if you mess with the units about enough, you'll get this
+<br>equating the two you get your equation
+<br>Area difference between R1 and R2 is usually too small to notice, but if it is big, then use the textbook
+]]></description><link>centrifugal-filtration.html</link><guid isPermaLink="false">Centrifugal filtration.md</guid><pubDate>Thu, 16 Jan 2025 09:22:44 GMT</pubDate></item><item><title><![CDATA[Chemical Engineering Operations]]></title><description><![CDATA[ 
+ <br>
+Mccabe smith is good for this subject, so is richardson and coulson, BK dutta is easy
+<br>
+<br>
+Prereqs - Mathematics, material and energy balance, <a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> and <a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a>
+
+<br>
+"Chemical engineering is a study of a group of industrial processes in which raw materials are converted into useful products"
+Example
+A plant producing phosphoric acid:
+
+<br>phosphate rock, H2SO4, in a reactor forming 30% acid, rest gypsum
+<br>This goes into a crystallizer, then a filtration step - wet product P2O5, lot of gypsum
+<br>Then a washing step for the dry product, the wash is then recycled into the reactor
+<br>The wet product goes into the dryer, which then gives us  the product<br>
+<img alt="Pasted image 20241202112034.png" src="pasted-image-20241202112034.png">
+
+
+
+<br>
+A unit operation is a basic step in a chemical process that can cause physical changes only
+
+<br>
+Adsorption is for gas/liquid solid and absorption is for gas liquid
+
+<br><br>
+<br>When a system contains two or more components with different concentrations, there is a natural tendency for a mass to be transferred minimizing the concentration differences.
+Important
+
+<br>The transport of one constituent from a region of higher concentration to that of a lower concentration is called as mass transfer
+
+
+
+<br>The difference in concentration (or partial pressure) is the driving force.
+<br><br>
+<br>Diffusive (or molecular) - Occurs in absence of any microscopic motion in the medium. There are two types - molecular and eddy diffusion
+<br>Convective (or forced) - Occurs in presence of motion in the medium
+<br><br>
+<br>Molar flux of species is directly proportional to the concentration gradient in the direction of decreasing concentration
+<br>
+<br>Applicable for molecular diffusion
+<br>Steady state assumption
+<br>The factor is an experimental quantity
+<br><br>
+<br>Simple way of solving practical problems related to complex mixing flows and patterns
+<br>mass transfer flux is the rate of mass transfer/area
+<br>
+<br>The typical value of kc for gas phase is 10^(-2) m/s and for liquid phase it's 10^(-5)
+<br><br>
+<br>
+<br>Molar flux related to stationary observer:
+<br>
+<br>Molar flux related to observer with any velocity
+<br>
+<br>-&gt;
+<br>
+<br>
+<br>We can define two cases here - diffusion of A through non diffusing B, the second case is Gas liquid phase where both are diffusing - equimolar counter diffusion
+<br>So for the first case B is not diffusing and the second has A and B diffusing at the same rates
+<br>N_A is the molar flux of component A, C is total concentration and P is total pressure
+<br>
+Example<br>
+If Nb =0<br>
+
+<br>LMCD is the log mean concentration difference which is analogous to the LMTD In <a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a><br><br>
+<br><a data-href="Distillation" href="distillation.html" class="internal-link" target="_self" rel="noopener nofollow">Distillation</a> - you distill stuff
+<br><a data-href="Absorption" href="absorption.html" class="internal-link" target="_self" rel="noopener nofollow">Absorption</a> - you absorb stuff 
+<br><a data-href="Filtration" href="filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Filtration</a> - you filter stuff 
+<br><a data-href="Sedimentation" href="sedimentation.html" class="internal-link" target="_self" rel="noopener nofollow">Sedimentation</a> - you sediment stuff
+<br><a data-href="Drying" href="Drying" class="internal-link" target="_self" rel="noopener nofollow">Drying</a> - you dry stuff
+<br><a data-href="Particle Size Reduction" href="Particle Size Reduction" class="internal-link" target="_self" rel="noopener nofollow">Particle Size Reduction</a> - you cut up stuff
+]]></description><link>chemical-engineering-operations.html</link><guid isPermaLink="false">Chemical Engineering Operations.md</guid><pubDate>Tue, 28 Jan 2025 10:33:22 GMT</pubDate><enclosure url="pasted-image-20241202112034.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241202112034.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Chemical Process Control]]></title><description><![CDATA[ 
+ <br>
+<br>Control systems are called for 3 general classes of problems: suppressing the influence of external disturbances, ensuring the stability of chemical processes, and optimizing the performance of a chemical process
+<br><br>
+<br><img alt="Pasted image 20250121172447.png" src="pasted-image-20250121172447.png">
+<br>I would explain what each variable means but I assume our reader has half a brain to comprehend
+<br>The above diagram is how variables in a chemical process control system are classified
+<br><br>
+<br>Define the control objectives - "what are the operational objectives a control system is called upon to achieve?" -&gt; the answer lies in the three type of problems the control system is called to solve
+<br>Select measurements - "what variables should we measure in order to monitor the operational performance of a plant?" -&gt; so these are the measurements you need to be able to make regarding the control objectives of your system. The output variables. The ones that are classified as "measured" are "primary measurements" and "unmeasured" are "secondary measurements"
+<br>Select the manipulated variables - "What are the manipulated variables that can be used to control a process?" -&gt; input variables you can change to make a control loop
+<br>Select the control configuration
+<br>Design the controller - no question here, no selection here, just straight up get programming and soldering
+<br><br>
+<br>A control configuration is the information structure that is used to connect the available measurements to the available manipulated variables
+<br>Depending on number of inputs and outputs, we can distinguish control configurations as single input single output (SISO) or multiple input multiple output (MIMO)
+<br>Three general types of control configurations exist:
+<br>Feedback control configuration: uses direct measurements of controlled variables to adjust manipulated variables
+<br>Inferential control configuration: uses secondary measurements(the controlled variables can't be measured) to adjust the values of manipulated variables. An estimator uses the inputs and outputs to make an estimation of where the controlled variable is at. Sort of like how an inertial navigation machine in airplanes works
+<br>Feedforward control configuration: direct measurement of the disturbances to adjust values of manipulated variables
+<br><br>
+<br>In process control, the hardware used is: process equipment, sensors, transducers (convert signals between analog and digital), transmission lines <a data-href="Intro to CPC" href="intro-to-cpc.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to CPC</a>, controller, final control element, recording elements
+<br>the final control element is the hardware that can manipulate a variable<br>
+<a data-href="Problems on intro to CPC" href="problems-on-intro-to-cpc.html" class="internal-link" target="_self" rel="noopener nofollow">Problems on intro to CPC</a>
+]]></description><link>chemical-process-control.html</link><guid isPermaLink="false">Chemical Process Control.md</guid><pubDate>Tue, 21 Jan 2025 12:19:39 GMT</pubDate><enclosure url="pasted-image-20250121172447.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250121172447.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
+ <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>
+<img alt="Pasted image 20250121084538.png" src="pasted-image-20250121084538.png"><br>CSTR vs PFR
+If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc
+<br>
+<br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
+<br><a data-href="Experimental Kinetics" href="experimental-kinetics.html" class="internal-link" target="_self" rel="noopener nofollow">Experimental Kinetics</a>
+<br><a data-href="Basics of reactors" href="basics-of-reactors.html" class="internal-link" target="_self" rel="noopener nofollow">Basics of reactors</a>
+<br><a data-href="Non ideal flow" href="non-ideal-flow.html" class="internal-link" target="_self" rel="noopener nofollow">Non ideal flow</a>
+<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
+<br><a data-href="Intro to heterogeneous reactions" href="intro-to-heterogeneous-reactions.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to heterogeneous reactions</a>
+<br><a data-href="Variable Volume" href="variable-volume.html" class="internal-link" target="_self" rel="noopener nofollow">Variable Volume</a>
+<br><a data-href="Michaelis Menten Rate" href="Michaelis Menten Rate" class="internal-link" target="_self" rel="noopener nofollow">Michaelis Menten Rate</a> - need to do this myself
+<br><a data-href="Chemical Reaction Engineering Problems" href="chemical-reaction-engineering-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering Problems</a>
+Home assignment 4
+3.18-3.31 levenspiel
+
+
+]]></description><link>chemical-reaction-engineering.html</link><guid isPermaLink="false">Chemical Reaction Engineering.md</guid><pubDate>Fri, 24 Jan 2025 04:26:25 GMT</pubDate><enclosure url="pasted-image-20250121084538.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250121084538.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Chemical Reaction Engineering Problems]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250121112357.png" src="pasted-image-20250121112357.png"><br>Question
+A-&gt; B is carried out in a CSTR, , calculate the volume necessary to get 80% conversion in CSTR, or spacetime for 80% conversion
+<br>Solution
+
+<img alt="Pasted image 20250114085807.png" src="pasted-image-20250114085807.png">
+<br>Data Problem
+A reaction A-&gt;R gives the data on starting reaction from C_a0 = 1gmol/litre<br>
+<img alt="Pasted image 20250116085351.png" src="pasted-image-20250116085351.png"><br>
+the left column is the conc in gmol/m3 and right is time(actually the other way round sorry)<br>
+how much will the conversion at 300min be if the reaction starts at half c_a0? -&gt; 
+<br>Solution 
+60%
+<br>Levenspiel 3.24<br>Done<br>import matplotlib.pyplot as plt
+CA = [1,2,4,6,7,9,12]
+ra = [0.06,0.1,0.25,1.0,2.0,1.0,0.5]
+def interpolate_kewl(op):
+    for v,i in enumerate(CA):
+        if i&gt;=op:
+            p1 = [CA[v-1],ra[v-1]]
+            p2 = [CA[v],ra[v]]
+            break
+    slope = (p2[1]-p1[1])/(p2[0]-p1[0])
+    return slope*(op-p1[0])+p1[1]
+arr_eval = np.linspace(1,12,100)
+time_spend = 0
+time = []
+for i in arr_eval:
+    time_spend+=(11/100)/interpolate_kewl(i)
+    time.append(time_spend)
+plt.plot(arr_eval,time)
+plt.show()
+<br><img alt="Pasted image 20250121100913.png" src="pasted-image-20250121100913.png">]]></description><link>chemical-reaction-engineering-problems.html</link><guid isPermaLink="false">Chemical Reaction Engineering Problems.md</guid><pubDate>Tue, 21 Jan 2025 05:53:59 GMT</pubDate><enclosure url="pasted-image-20250121112357.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250121112357.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community Project]]></title><description><![CDATA[ 
+ ]]></description><link>community-project.html</link><guid isPermaLink="false">Community Project.md</guid><pubDate>Fri, 17 Jan 2025 06:35:53 GMT</pubDate></item><item><title><![CDATA[Constant rate filtration]]></title><description><![CDATA[ 
+ <br>
+Kinda uncommon
+<br>
+<br>
+<br>dV/dt = q
+<br>
+<br><a data-href="constant rate filtration example" href="constant-rate-filtration-example.html" class="internal-link" target="_self" rel="noopener nofollow">constant rate filtration example</a>
+]]></description><link>constant-rate-filtration.html</link><guid isPermaLink="false">Constant rate filtration.md</guid><pubDate>Thu, 16 Jan 2025 09:04:27 GMT</pubDate></item><item><title><![CDATA[CPC Math]]></title><description><![CDATA[ 
+ <br>Under Construction
+
+<br>Need to flesh out the objective and the contents of this page better, along with a few solved problems
+
+<br>
+Two approaches - empirical and theoretical. Won't go into what each means because it's obvious
+<br>
+<br>
+In order to characterize a processing system, we need: 
+
+<br>
+A set of fundamental dependent quantities whose values will describe the natural state of the system
+
+<br>
+A set of equations in the fundamental quantities which will describe how the natural state of the given system changes with time
+
+The book then states the conservation laws as the equations - conservation of mass and energy
+
+
+<br>
+The equations along with the fundamental quantities form a differential equation with time as the independent variable and the fundamental quantities as the dependent variables
+
+<br>
+The solution of the differential equation defines the dynamic behaviour of the system
+
+<br><br>
+<br>The time between the inputs being changes and the effect viewed in the system is called the dead time or lag time
+<br>Real life is never ideal and theres almost always dead time
+<br><br>
+<br>Pretty simple - a systems outputs expressed as a function of it's inputs
+<br>
+<br><br>
+<br>number of independently variables that can define the process completely
+<br>more on this on a later date
+<br>]]></description><link>cpc-math.html</link><guid isPermaLink="false">CPC Math.md</guid><pubDate>Sat, 25 Jan 2025 08:16:06 GMT</pubDate></item><item><title><![CDATA[Crude oil]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250124122740.png" src="pasted-image-20250124122740.png"><br>
+<br>
+C1 to C4 is gases -&gt; natural gas, LPG, NGL, LNG
+
+<br>C5 to C12 -&gt; Gasoline
+<br>C10 to C17 -&gt; Kerosene
+<br>C15 to C2 -&gt; diesel oil, fuel oil
+<br>C22+ -&gt; lube oils
+
+
+<br>
+oily water, mud, sludge and sand are also side products that are disposed or re injected
+
+<br>
+Most of the research is still placed around crude oil
+
+<br>
+Wherever solid is involved, reproducibility of the batches is very difficult
+
+<br>
+when you produce zeolites, the pore size and other factors have a big impact on performance. But since this is so difficult to do, very few companies do it. 
+
+<br>
+Zeolites are used as catalysts in the crude oil refinery process
+Awareness assignment
+What is fluidized catalytic cracking? sintering of catalyst
+
+
+<br>
+once you get all those cracked and not so cracked products from the petroleum industry, you put them to uses in the world and the industry related to applying the stuff from the petroleum industry to the world is the petrochemical industry
+
+<br>
+There's a great flowchart of this in the prof's ppt
+
+<br><br>
+<br>
+Coal gasification big thing
+
+<br>
+Anthracite is the best coal
+
+<br>
+In india we dont have anthracite, we have lower quality coal
+Awareness assignment
+What are the sources of natural gases in the world, origin of CNG, how much is burnt out. Also types of coal and where they're found in the world. Also oxo chemistry. What is royal blue
+
+
+<br>
+coal -&gt; coal gasification -&gt; syngas -&gt; fischer tropsch then gives all the different types of fuels, steam and electricity
+
+<br>
+coal derived chemicals are from liquefaction and gasification
+
+<br>
+Gasification is mostly by reforming
+On the two processes
+"It's not liquefaction vs gasification, they both give different products... liquefaction and gasification has tremendous potential for replacing petroleum"
+
+
+<br>
+<br>A partial oxidation of hydrocarbons to give H2 and CO for syngas. Extreme process control is required to stop the oxygen from becoming CO2
+<br>whatever is recently made is biofuel and whatever was made many millions of years ago is petro. eg. bagasse derived ethanol, sawdust derived ethanol, corn derived ethanol, transesterificatrion of waste cooking oils, sugarcane derived ethanol, vegetable oil, 
+<br>In addition to coal and all, edible and non edible vegetable oils are the source of many chemicals.
+<br>
+]]></description><link>crude-oil.html</link><guid isPermaLink="false">Crude oil.md</guid><pubDate>Tue, 28 Jan 2025 03:54:51 GMT</pubDate><enclosure url="pasted-image-20250124122740.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250124122740.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Distillation]]></title><description><![CDATA[ 
+ <br>
+Distillation
+<br><img alt="Pasted image 20241218134359.png" src="pasted-image-20241218134359.png"><br>Some axioms(?)
+
+<br>Gibbs phase rule <a data-href="Mixtures" href="mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Mixtures</a> - 2+C-P = degrees of freedom
+<br>Raoults law: pretty basic
+
+<br>What we'll do
+
+<br>we'll be covering vapour liquid equilibrium, relative volatiity, flash distillation, steam distillation, batch distillation, continuous distillation of binary mixtures and multi component distillation
+<br>Distillation - technique of preferential separation of more volatile substances form less volatile substances by partial vapourization followed by condensation
+
+<br>
+<br><a data-href="Distillation Equipment" href="distillation-equipment.html" class="internal-link" target="_self" rel="noopener nofollow">Distillation Equipment</a>
+<br><a data-href="Stage processes" href="stage-processes.html" class="internal-link" target="_self" rel="noopener nofollow">Stage processes</a>
+<br><a data-href="Relative volatility" href="relative-volatility.html" class="internal-link" target="_self" rel="noopener nofollow">Relative volatility</a>
+<br><a data-href="Flash Distillation" href="flash-distillation.html" class="internal-link" target="_self" rel="noopener nofollow">Flash Distillation</a>
+<br><a data-href="Steam distillation" href="steam-distillation.html" class="internal-link" target="_self" rel="noopener nofollow">Steam distillation</a>
+<br><a data-href="Continuous multistage distillation of binary mixtures" href="continuous-multistage-distillation-of-binary-mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Continuous multistage distillation of binary mixtures</a>
+<br><a data-href="Distillation of multicomponent mixtures" href="distillation-of-multicomponent-mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Distillation of multicomponent mixtures</a>
+<br><br>
+<br><a data-href="Panchan Savarit Method" href="panchan-savarit-method.html" class="internal-link" target="_self" rel="noopener nofollow">Panchan Savarit Method</a>
+]]></description><link>distillation.html</link><guid isPermaLink="false">Distillation.md</guid><pubDate>Mon, 20 Jan 2025 05:36:31 GMT</pubDate><enclosure url="pasted-image-20241218134359.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241218134359.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Distillation Equipment]]></title><description><![CDATA[ 
+ <br><br>
+<br>Usually contains a number of perforated plates, called trays stacked
+<br>Columns with such plates are called sieve-plate columns
+<br><img alt="Pasted image 20250117115130.png" src="pasted-image-20250117115130.png">
+<br>above is a perforated plate
+<br><br>
+<br>It's at the bottom of the column 
+<br>Vapour formed here is richer in the substance with the lower boiling point than the bottom product that is unvapourized
+<br><br>
+<br>The overhead product must be condensed from vapour to liquid
+<br>The output of the condenser is divided between the distillate and the reflux
+]]></description><link>distillation-equipment.html</link><guid isPermaLink="false">Distillation Equipment.md</guid><pubDate>Fri, 17 Jan 2025 06:33:09 GMT</pubDate><enclosure url="pasted-image-20250117115130.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250117115130.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Distillation of multicomponent mixtures]]></title><description><![CDATA[ 
+ <br>
+More than two components<br>
+<img alt="Pasted image 20250120122145.png" src="pasted-image-20250120122145.png">
+<br>
+<br><a data-href="Multicomponent Distillation Problems" href="multicomponent-distillation-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Multicomponent Distillation Problems</a>
+<br><br>
+<br>One component is called he light key component and the other is called the heavy key component
+<br>What doesn't appear in the bottom or appears the least in the bottom is called the light key component 
+<br><br>
+<br>B is the lightest component, not appearing in the bottoms and is thus called the light key component
+<br>C is the heaviest component appearing in the distillate and is thus called the heavy key component
+<br><br>
+<br>Used to compute the minimum number of stages under total reflux conditions if the relative volatility remains constant
+<br>
+<br>It is assumed that the reboiler acts as a theoretical stage (partial reboiler)
+<br>A is the lightkey component and B is the heavy key component
+<br><br>
+<br>Used to compute the minimum reflux ratio required for a desired separation if the relative volatility remains reasonably constant
+<br>
+<br>
+<br>q is the ratio of heat required to vaporise one mole of the feed to the molar latent heat of the feed
+<br> are the relative volatilities of the components relative to the least volatile component
+<br> is the root of the equation, which lies between  and 
+<br><br>
+<br>
+<br> is the relative volatility with respect to the least volatile component
+<br><br>
+<br>Gives the empirical relation between the reflux ratio,R, and the number of plates,n
+<br>Only the minimum reflux ratio  and the number of plates at total reflux,  are required
+<br><img alt="Pasted image 20250120112636.png" src="pasted-image-20250120112636.png">
+<br><br>
+<br>Murphee Plate efficiency
+<br>Drickramer and bradford relation
+<br>murphree efficiency -ratio of actual separation achieved to that of theoretically achievable in an equilibrium stage
+<br><br><a data-href="Distillation Equipment" href="distillation-equipment.html" class="internal-link" target="_self" rel="noopener nofollow">Distillation Equipment</a><br>
+<br>Tray arrangements - Cross flow, reverse and double pass
+<br>Types of trays - sieve plate, bubble cap, valve tray
+<br>Real world issues - tray damage, plugged downcomer(?), fouling of the cap
+Problemo
+
+I havent the slightest clue as to what the problem is 
+
+
+]]></description><link>distillation-of-multicomponent-mixtures.html</link><guid isPermaLink="false">Distillation of multicomponent mixtures.md</guid><pubDate>Mon, 27 Jan 2025 05:53:24 GMT</pubDate><enclosure url="pasted-image-20250120122145.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250120122145.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Experimental Kinetics]]></title><description><![CDATA[ 
+ <br>I haveth returned<br>
+<img alt="Pasted image 20240620105944.png" src="pasted-image-20240620105944.png"><br>
+this is the equation for partial pressure of any product as a function of total pressure - ,  is the products - reactants stoichiometrix number, and r is the stoichiometric number of product R. The plus sign is simply made into a minus for reactants<br>
+<br>Integral method - integrate the rate equation, see how well it fits with the pp data/ concentration data
+<br>I'll look further into this when I'm at school
+<br>both these methods (integral and differential) are contained in power law models or rate
+methods of analysis
+go a little deeper into this and solve some problems on them
+
+
+<br><br>
+<br>Whatever you've been doing until now is integral method of analysis. finito
+<br>Flaw in the system - you need to assume so many different different equations that you might just miss it
+<br><br>
+<br>This is far better
+<br>How is the data obtained? batch reactor, take out samples and get the data
+<br>essentially we want concentration vs time
+<br>ra = dC_A/dt = -k(C_A)^ n
+]]></description><link>experimental-kinetics.html</link><guid isPermaLink="false">Experimental Kinetics.md</guid><pubDate>Tue, 21 Jan 2025 03:20:10 GMT</pubDate><enclosure url="pasted-image-20240620105944.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240620105944.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Filtration]]></title><description><![CDATA[ 
+ <br>
+ A removal of solids from a fluid by passing through a filter medium (septum) on which the solids are deposited
+<br>
+<br>Carried out to recover solid/fluid or none of them or both
+<br>Covers range of solid content from traces to a high percentage
+<br>Driving force is the pressure difference
+<br><a data-href="Types of filters" href="types-of-filters.html" class="internal-link" target="_self" rel="noopener nofollow">Types of filters</a>
+<br><a data-href="Mechanism of filtration" href="mechanism-of-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Mechanism of filtration</a> 
+<br><a data-href="Constant pressure filtration" href="constant-pressure-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Constant pressure filtration</a>
+<br><a data-href="Constant rate filtration" href="constant-rate-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Constant rate filtration</a>
+<br><a data-href="Filter aid" href="filter-aid.html" class="internal-link" target="_self" rel="noopener nofollow">Filter aid</a>
+<br>Filter media - must retain solids to be filtered, must not plug/blind, must be resistant chemically and mechanically to survive the process conditions, must be affordable and allow cake to be cleaned off
+<br>Cake deliquoring, dewatering - carried out to further reduce the moisture content of the filter cake. Done by pushing or pulling the air  (vacuum) or mechanical squeezing
+<br>Cake dewatering improves the cake discharge and handling, reducing the transportation costs and removes the contaminated liquids from the cake
+]]></description><link>filtration.html</link><guid isPermaLink="false">Filtration.md</guid><pubDate>Thu, 16 Jan 2025 09:36:50 GMT</pubDate></item><item><title><![CDATA[Filtration math]]></title><description><![CDATA[ 
+ <br>
+<br>Two types of resistances with cake resistance - cake and filter medium
+<br>Filter medium resistance - considered when starting up
+<br>Cake resistance - zero at startup and increases with time
+<br>let pa = inlet pressure
+<br>pb = outlet pressure
+<br>p' pressure at boundary between cake and filter medium
+<br>Then,
+<br>
+<br>where del Pc is cake pressure drop and Pm is the filter medium pressure drop
+<br>Consider a thin layer of cake having differential thickness dL, situated at a distance of L from the filter medium
+<br>Let p = pressure at above point
+<br>Assume: the velocity in the filter bed is low enough for it to be in laminar flow
+<br>We use the <a data-href="Carman Kozeny equations" href="carman-kozeny-equations.html" class="internal-link" target="_self" rel="noopener nofollow">Carman Kozeny equations</a> for laminar flow in a packed bed
+<br>
+<br>we are more fond of specific surface here so we substitute:
+<br>
+<br>
+
+
+<br><br>
+<br>The linear velocity at time,t:
+<br>Volume of solids in the differential layer = 
+<br>Mass of solids in the differential layer = 
+<br>substituting dL in carman kozeny equation:
+<br>
+<br>the filtration equation 
+<br>Specific cake resistance: 
+<br>Cake resistance: 
+<br>For incompressible cakes, alpha is not a function of delta P
+<br>filter medium resistance: 
+<br>
+<br>At an appreciable cake thickness, \delta p_m is negligible and only cake resistance counts towards the total pressure drop
+<br>If C = m_c/V, then total cake mass is mc = C* V
+<br>also u = (dV/dt)/A
+<br>Thus: 
+]]></description><link>filtration-math.html</link><guid isPermaLink="false">Filtration math.md</guid><pubDate>Thu, 16 Jan 2025 07:51:12 GMT</pubDate></item><item><title><![CDATA[Flash Distillation]]></title><description><![CDATA[ 
+ <br>
+<br><img alt="Pasted image 20241223115909.png" src="pasted-image-20241223115909.png">
+<br>flash distillation drum
+<br>the relative volatilities need to be very far apart from each other
+<br>the drum is kept at a low pressure
+<br>this is also called differential distillation
+<br><img alt="Pasted image 20241223120728.png" src="pasted-image-20241223120728.png">
+<br><img alt="Pasted image 20241223120904.png" src="pasted-image-20241223120904.png">
+<br>
+A liquid mixture containing 50 mole% each of benzene and toluene at 40C is to be continuously flash vapourized to vaporize 60 mole % of the feed. The residual liquid product contains 35% mole benzene. The enthalpies per mole of feed, the liquid product and the vapor product are 2,5 and 30 kJ/mole, respectively. Calculate the heat added per kJ per mole of the vapor product
+]]></description><link>flash-distillation.html</link><guid isPermaLink="false">Flash Distillation.md</guid><pubDate>Wed, 29 Jan 2025 09:07:04 GMT</pubDate><enclosure url="pasted-image-20241223115909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241223115909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[flat and curved surfaces]]></title><description><![CDATA[ 
+ <br>
+<br>
+There are flat surfaces and there are curved surfaces, flat surfaces have no pressure difference across them and curved surfaces have pressure difference across them
+
+<br>
+The concave side of a curved surface is usually higher in pressure than the convex side
+
+<br>
+<img alt="Pasted image 20241226121325.png" src="pasted-image-20241226121325.png">
+
+<br>
+critical size - equilibrium
+
+what should be the p/p_0 ratio to form droplets of size 5 angstrom
+
+
+<br>
+How do you measure radioactivity 
+
+]]></description><link>flat-and-curved-surfaces.html</link><guid isPermaLink="false">flat and curved surfaces.md</guid><pubDate>Thu, 23 Jan 2025 05:50:52 GMT</pubDate><enclosure url="pasted-image-20241226121325.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241226121325.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Quote
+"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
+<br>
+<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
+<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
+<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
+<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
+<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
+<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are not mostly useless as we have ppts so these are just for me, I'm making my own additions now
+<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
+<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
+<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
+<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
+<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
+<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
+<br><a data-href="Game Theory" href="game-theory.html" class="internal-link" target="_self" rel="noopener nofollow">Game Theory</a> - Strategy
+<br><a data-href="Chemical Engineering Operations" href="chemical-engineering-operations.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Engineering Operations</a> - sem 4 subject 
+<br><a data-href="Industrial chemistry and reaction engineering" href="industrial-chemistry-and-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Industrial chemistry and reaction engineering</a>  -SEM 4 subject
+<br><a data-href="Instrumentation and process control" href="instrumentation-and-process-control.html" class="internal-link" target="_self" rel="noopener nofollow">Instrumentation and process control</a> - Electronics but cooler
+<br><a data-href="Interfacial chemistry" href="interfacial-chemistry.html" class="internal-link" target="_self" rel="noopener nofollow">Interfacial chemistry</a>
+<br>projects
+<br><a data-href="Community Project" href="community-project.html" class="internal-link" target="_self" rel="noopener nofollow">Community Project</a>
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Tue, 21 Jan 2025 12:05:09 GMT</pubDate></item><item><title><![CDATA[Industrial Chemistry]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250124105207.png" src="pasted-image-20250124105207.png"><br>
+kent and bright - ensure you have that book<br>
+Phillips handbook of petroleum
+<br>
+<br><a data-href="Crude oil" href="crude-oil.html" class="internal-link" target="_self" rel="noopener nofollow">Crude oil</a>
+<br>
+]]></description><link>industrial-chemistry.html</link><guid isPermaLink="false">Industrial Chemistry.md</guid><pubDate>Tue, 28 Jan 2025 03:23:45 GMT</pubDate><enclosure url="pasted-image-20250124105207.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250124105207.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Industrial chemistry and reaction engineering]]></title><description><![CDATA[ 
+ <br>
+"Started in manchester technical school, its not really chemistry. Reynolds used to stay somewhere nearby. Prereqs - applied chemistry, applied chemistry lab, introduction to chemical engineering, MEBC, engineering thermodynamics, process safety"<br>
+list of courses where this will be prereq - placement, catalytic science and engineering, CRE, multiphase reaction engineering, chemical process development and engineering, refinery science and engineering, chemical engineering laboratory
+<br>
+<br>After this course - students will be able to understand processes like petroleum, biochemicals, industrial chemicals clean utilization of coal; advances in fuels, the course also introduces rate based chemical changes under isothermal and non isothermal conditions
+<br>Selection of single and multiphase reactors
+<br>Books - Levenspiel, Fogler, Kirk Othmer encyclopedia of chemical technology, Ullmans encyclopedia of industrial chemistry, Mcketta (some encyclopedia on industrial chemistry)
+<br>Course content:
+<br>Raw material and energy sources
+<br>Organic and inorganic intermediates and final products
+<br>Bulk and specialty chemicals
+<br>Production costs of fuel and chemicals
+<br>Industrial gases and inorganic products
+<br>Examples of major industrial processes - hand in hand with the last point
+<br>Types of chemical reactions : elementary and non elementary, single and multiple, reversible and irreversible
+<br>Types of chemical reactors : Batch and semi batch, continuous reactors ( CSTR anf PFR)
+<br>Reaction kinetics (homogeneous reactions)
+<br>Isothermal, adiabatic and non isothermal operation modes
+<br>Different types of single phase and multiphase reactors
+<br><br>
+<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Did some stuff here
+<br><a data-href="Industrial Chemistry" href="industrial-chemistry.html" class="internal-link" target="_self" rel="noopener nofollow">Industrial Chemistry</a> - the descriptive part
+]]></description><link>industrial-chemistry-and-reaction-engineering.html</link><guid isPermaLink="false">Industrial chemistry and reaction engineering.md</guid><pubDate>Fri, 24 Jan 2025 05:10:41 GMT</pubDate></item><item><title><![CDATA[Inherently second order processes]]></title><description><![CDATA[ 
+ <br>
+<br>Fluid or solid mechanic processes possessing inertia and subjected to some acceleration
+<br><br>
+<br>forces: force exerted by compressed air, force exerted by the spring, frictional force due to contact of the stem
+<br><img alt="Pasted image 20250121113121.png" src="pasted-image-20250121113121.png">
+<br>engineering drawing of a pneumatic valve - drawn to specs
+<br>the force balance gives:
+<br>
+<br>rearranging:(copy later)
+<br>say ; ; 
+<br>you have now: 
+<br>The above is the standard form of dynamic equation for a second order system
+<br>Taking laplace transform,
+<br>
+<br>
+<br>
+<br>
+<br>for the control valve, usually M &lt;&lt; K and hence the dynamics of this system can be approximated to be that of first order dynamics
+<br>
+<br>In terms of deviation from the steady state value:  
+<br>We now take the case of a unit step chance in p(s),i.e. p(s)=1/s 
+<br>where s_a and s_b are the roots of the quadratic equation
+<br>
+<br><br>
+<br>
+<br>
+]]></description><link>inherently-second-order-processes.html</link><guid isPermaLink="false">Inherently second order processes.md</guid><pubDate>Tue, 21 Jan 2025 06:54:40 GMT</pubDate><enclosure url="pasted-image-20250121113121.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250121113121.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Instrumentation and process control]]></title><description><![CDATA[ 
+ <br>
+Look at this and then get back to making notes Course details are on the microsoft teams
+<br>
+<br><a data-href="Intro to CPC" href="intro-to-cpc.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to CPC</a>
+<br><a data-href="Laplace Transform" href="laplace-transform.html" class="internal-link" target="_self" rel="noopener nofollow">Laplace Transform</a>
+<br><a data-href="lecture 3 IPC" href="lecture-3-ipc.html" class="internal-link" target="_self" rel="noopener nofollow">lecture 3 IPC</a>
+<br><a data-href="Second order processes" href="second-order-processes.html" class="internal-link" target="_self" rel="noopener nofollow">Second order processes</a>
+<br><br>
+<br><a data-href="Chemical Process Control" href="chemical-process-control.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Process Control</a>
+<br><a data-href="CPC Math" href="cpc-math.html" class="internal-link" target="_self" rel="noopener nofollow">CPC Math</a>
+<br><a data-href="Laplace Transform" href="laplace-transform.html" class="internal-link" target="_self" rel="noopener nofollow">Laplace Transform</a>
+<br><a data-href="Transfer Functions" href="Transfer Functions" class="internal-link" target="_self" rel="noopener nofollow">Transfer Functions</a>
+<br><a data-href="First Order Systems" href="First Order Systems" class="internal-link" target="_self" rel="noopener nofollow">First Order Systems</a>
+<br><a data-href="Second Order Systems" href="second-order-systems.html" class="internal-link" target="_self" rel="noopener nofollow">Second Order Systems</a>
+]]></description><link>instrumentation-and-process-control.html</link><guid isPermaLink="false">Instrumentation and process control.md</guid><pubDate>Tue, 28 Jan 2025 05:12:35 GMT</pubDate></item><item><title><![CDATA[Intro to CPC]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20241203111120.png" src="pasted-image-20241203111120.png"><br>
+<br>Major process variables - temperature, flow, pressure, level, composition
+<br>This course is dynamic and thus we must move past steady state
+<br><br>
+<br>Identify the objective of any process
+<br>The first letter of a signal is what its detecting and the second is for what it's being used for
+<br>If the second letter is "I", then it's an indicator, for display. If the second letter is "T", its transmittance, for control system feedback
+<br>signal transmission is done through electrical or pneumatic
+<br>Pneumatic signals are for short distances, electrical through normal distance and for very long signals, digital
+<br><img alt="Pasted image 20241203115609.png" src="pasted-image-20241203115609.png">
+<br>"A signal is a flow of information"
+<br><br><img alt="Pasted image 20241203120655.png" src="pasted-image-20241203120655.png"><br>
+<br>
+A voltage is created between T1 and T2 because of their temperatures and is in the microvolt level
+
+<br>
+This is because of the seabeck effect - two junctions, at different temperatures cause a voltage 
+
+<br>
+Peltier effect is when you put a voltage, one junction becomes hot and the other becomes cold
+
+<br>
+The voltage does not vary linearly with temperature and thus a calibration polynomial must be used
+
+<br>
+Thompson effect - voltage generated due to temperature gradient between two points
+
+<br>
+The smallest change in temperature for which a change in voltage takes place is the resolution of the sensor.
+Important
+
+<br>Resolution is the smallest change in the variable for which a change can be detected
+<br>Sensitivity is how big of a change in signal is caused due to a unit change in a variable
+<br>Note the difference 
+
+
+
+<br>
+Accuracy - how close the measurement is to the true value. Error = Actual Value - Measured Value
+
+<br>
+The time a sensor takes to give the measurement is called the dynamic lag. Like when you put a thermometer in your mouth, it takes some time to give the temperature. The time this takes is called the dynamic lag. How fast my system responds to the change
+
+<br>
+Precision is the reproducibility of your measurement 
+
+<br>
+<img alt="Pasted image 20241203122252.png" src="pasted-image-20241203122252.png">
+Todo
+Assignment - Resistance Thermometer<br>
+This is based on a principle that the resistance of a conductor varies with temperature
+
+
+<br>
+Pressure sensor - strain gauge &gt; simplest type of pressure sensor
+
+<br>
+A differential pressure sensor has two pressures at two different sides with a diaphragm in the middle which deforms an element with properties that vary with deformation in the conductivity<br>
+<img alt="Pasted image 20241210122645.png" src="pasted-image-20241210122645.png"><br>
+One control loop costs not less than a few lakhs
+
+]]></description><link>intro-to-cpc.html</link><guid isPermaLink="false">Intro to CPC.md</guid><pubDate>Tue, 21 Jan 2025 11:34:56 GMT</pubDate><enclosure url="pasted-image-20241203111120.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241203111120.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[lecture 3 IPC]]></title><description><![CDATA[ 
+ <br>Warning
+Honest to god I have no clue what this was about
+<br><img alt="Pasted image 20250114111900.png" src="pasted-image-20250114111900.png"><br><br>the first line on the log log graph of omega vs AR is the low frequency asymptote<br>
+<img alt="Pasted image 20250114122203.png" src="pasted-image-20250114122203.png"><br>
+<br>To protect processes from disturbance propagation, we use "surge tanks" to dampen the effect
+]]></description><link>lecture-3-ipc.html</link><guid isPermaLink="false">lecture 3 IPC.md</guid><pubDate>Tue, 21 Jan 2025 05:49:51 GMT</pubDate><enclosure url="pasted-image-20250114111900.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250114111900.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Linearization]]></title><description><![CDATA[ 
+ <br>Requirements
+This note is missing:
+
+<br>solved examples
+<br>multiple variable nonlinear equation
+<br>A few words on deviation variables
+
+<br>
+<br>The process with which we approximate nonlinear systems with linear ones
+<br>Linear systems have closed form, analytic solutions and thus all developmnts toward design of control systems have been limited to linear ones
+<br><br>
+<br>
+<br>to linearize this, simply use a taylor expansion:
+<br>
+<br>take the first two terms:
+<br>
+<br>The error introduced due to this is:
+<br>
+<br><br>Work in progress
+Will do this later - requires taylor series for multiple variables - need to go over that once
+]]></description><link>linearization.html</link><guid isPermaLink="false">Linearization.md</guid><pubDate>Sat, 25 Jan 2025 08:23:36 GMT</pubDate></item><item><title><![CDATA[Mechanism of filtration]]></title><description><![CDATA[ 
+ <br>b* At the beginning some particles enter the filter pores and get imobilized<br>
+<br>the larger particles get clogged and the smaller particles are unable to get through
+<br>This is the cake thats formed
+<br><br>
+<br>Feed slurry to a filter with a pressure difference due to gravity
+<br>Initially there is no filter cake, over time the filter cake is developed
+<br>The slurry passes through the filter and is removed as the filtrate
+<br>Filtration is a special case of flow through porous media
+<br>There are two resistances in filtration which the filtrate media and the cake resistance in the pressure drop. The cake resistance becomes the controlling resistance
+<br>We modify the flow through porous media equations for filtration for this reason
+<br>With time either the flow rate decreases or the pressure drop increases
+<br>This gives rise to two types of filtration - 
+<br><a data-href="Filtration math" href="filtration-math.html" class="internal-link" target="_self" rel="noopener nofollow">Filtration math</a>
+<br><a data-href="Constant pressure filtration" href="constant-pressure-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Constant pressure filtration</a>
+<br><a data-href="Constant rate filtration" href="constant-rate-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Constant rate filtration</a>
+<br><a data-href="Centrifugal filtration" href="centrifugal-filtration.html" class="internal-link" target="_self" rel="noopener nofollow">Centrifugal filtration</a> - Possibly outside syllabus but so remarkably easy
+<br><br>
+<br>for compressible cakes, specific cake resistance is a function of pressure drop given by
+<br>
+<br>n is the compressibility index
+]]></description><link>mechanism-of-filtration.html</link><guid isPermaLink="false">Mechanism of filtration.md</guid><pubDate>Thu, 16 Jan 2025 09:16:05 GMT</pubDate></item><item><title><![CDATA[Multicapacity processes]]></title><description><![CDATA[ 
+ <br>
+<br>Processes that consist of two or more capacities in series
+]]></description><link>multicapacity-processes.html</link><guid isPermaLink="false">Multicapacity processes.md</guid><pubDate>Tue, 21 Jan 2025 05:47:38 GMT</pubDate></item><item><title><![CDATA[Multicomponent Distillation Problems]]></title><description><![CDATA[ 
+ <br>Hexane, Heptane and Octane walk into a bar...
+A mixture of hexane, heptane and octane is to be separated to give the following products. The feed is liquid at it's boiling point
+
+<br>Calculate the minimum reflux ratio
+<br>Calculate the minimum number of of theoretical plates
+<br>Calculate the most economic actual reflux ratio and the number of theoretical plates (???)
+
+
+<br>Solution
+
+<br>Minimum number of theoretical plates:
+<br>
+<br><img alt="Pasted image 20250120114358.png" src="pasted-image-20250120114358.png">
+<br>Minumum reflux ratio:
+<br><img alt="Pasted image 20250120120300.png" src="pasted-image-20250120120300.png">
+
+]]></description><link>multicomponent-distillation-problems.html</link><guid isPermaLink="false">Multicomponent Distillation Problems.md</guid><pubDate>Mon, 20 Jan 2025 06:52:21 GMT</pubDate><enclosure url="pasted-image-20250120114358.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250120114358.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Panchan Savarit Method]]></title><description><![CDATA[ 
+ <br>Beware...
+This is not well written and the writer himself doesn't understand it
+<br><br>
+<br>No clue what this graph is used for
+<br><img alt="Pasted image 20250120105706.png" src="pasted-image-20250120105706.png"> H, xy graph
+<br>Requires enthalpy data, C_p data and heat of solution
+<br><img alt="Pasted image 20250120110004.png" src="pasted-image-20250120110004.png">
+<br>Panchon Savarit method - apparently a contender to the mccabe thiele method as described in <a data-href="Continuous multistage distillation of binary mixtures" href="continuous-multistage-distillation-of-binary-mixtures.html" class="internal-link" target="_self" rel="noopener nofollow">Continuous multistage distillation of binary mixtures</a>
+]]></description><link>panchan-savarit-method.html</link><guid isPermaLink="false">Panchan Savarit Method.md</guid><pubDate>Mon, 20 Jan 2025 05:37:49 GMT</pubDate><enclosure url="pasted-image-20250120105706.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250120105706.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[polyethylene]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250123142239.png" src="pasted-image-20250123142239.png"><br>
+<br>this is further divided into 4 types:
+<br>Linear low density polyethylene (LLDPE)
+<br>Low density polyethylene (LDPE)
+<br>High density polyethylene (HDPE)
+<br>High molecular weight polyethylene (HMWPE)
+<br><br><img alt="Pasted image 20250123142321.png" src="pasted-image-20250123142321.png"><br>
+photo credits to dow chemicals<br>
+<br>Short chain branches, copolymer of octene and ethylene
+<br>range of 115 to 130C melting point
+<br>used in both rigid and flexible applications
+<br><br>
+<br>Long chain branches
+<br>made using a high pressure process
+<br>melting temp of LDPE is 105 to 115C
+<br><br>
+<br>made using a low pressure process
+<br>130-145C melting point
+<br>0.94-0.95 g/cm3
+<br>most inert polymer chemically
+<br>Used to store highly basic to highly acidic stuff
+<br><br>
+<br>0.9g/cm3
+<br>when you are extracting the fibre, while slowly cooling it, you create one of the strongest fibres known to mankind
+<br>DSM chemicals manufactures this
+<br><br>On carrybags
+"You won't get any material cheaper than polyethylene... only drawback is that it isn't biodegradable"
+<br>
+<br>easily available
+<br>doesn't degrade over recycling, can be recycled a bunch of times
+<br>
+]]></description><link>polyethylene.html</link><guid isPermaLink="false">polyethylene.md</guid><pubDate>Thu, 23 Jan 2025 09:23:47 GMT</pubDate><enclosure url="pasted-image-20250123142239.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250123142239.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br>Tip
+These are my notes from Introduction to Polymers, Robert J. Young and college classes<br>
+<a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> 
+<br>Quote
+“So once you do know what the question actually is, you'll know what the answer means.”
+<br><br>Syllabus for midems:<br>
+<br>classification of polymers
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>
+A polymer is a substance composed of long sequences of one or more species of atoms or groups of aton of polymers
+<br>
+When you can mold a polymer in any shape, its known as plastic. It should be processable
+<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>ms linked together by primary, usually covalent bonds<br>
+n of polymers<br>
+<br>DIfferent mixing techniques - dry blending
+<br>Extrusion techniques - basic twin screw and single screw
+<br>Usually two plastics are mixed to make blends to make one with exactly the properties one wants<br>
+PET - poly(ethylene terepthalate) is a blend of PE and PT<br>
+<br>blends differ from composites in the sense that composites have one material that is reinforcing mechanically
+<br>both blends and composites are binary phase mix
+<br>Danger
+The history is NOT IN THE SYLLABUS (i think)
+<br><br>
+<br>1820 -&gt; This guy, Thomas Hancock, found a way to blend additives to rubber (a natural polymer) by beating it up (masticating it)         <img alt="Pasted image 20240713172639.png" src="pasted-image-20240713172639.png">
+<br>1839 -&gt; Charles Goodyear added sulphur to rubber and found it got stronger. This process was named vulcanization.
+<br>1846 - 1870 -&gt; Some guy prepared nitrocellulose, sold it as an explosive. Another guy thought to mold it and make items out of it as it was found it be a hard elastic material that is also soluble and easily mold-able. Two other guys thought it would be smart to do this with something that isn't an explosive - celluloid. Instant commercial success.
+<br>1892 -&gt; Cross, Bevan and Beadle patented the viscose process for dissolving and regenerating cellulose
+<br>1920s -&gt; This absolute chad of a human, Hermann Staudinger studied the synthesis, structure and properties of polyoxymethylene and polystyrene to give emprical evidence of his idea that polymers are really just macromolecules  containing large sequences of monomers. Everyone doubted him, but the haters were proven wrong
+<br><br>
+<br><a data-href="Types of polymers" href="types-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Types of polymers</a>
+<br><a data-href="Molar Mass" href="molar-mass.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass</a> 
+<br><a data-href="Polymerization" href="polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Polymerization</a> 
+<br><a data-href="Processing" href="processing.html" class="internal-link" target="_self" rel="noopener nofollow">Processing</a>
+<br><a data-href="Industry" href="industry.html" class="internal-link" target="_self" rel="noopener nofollow">Industry</a> - not in syllabus
+<br><a data-href="Properties of Polymers" href="properties-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Properties of Polymers</a>
+<br><a data-href="Recycling grades" href="Recycling grades" class="internal-link" target="_self" rel="noopener nofollow">Recycling grades</a> - not in syllabus
+]]></description><link>polymers.html</link><guid isPermaLink="false">Polymers.md</guid><pubDate>Thu, 23 Jan 2025 08:50:49 GMT</pubDate><enclosure url="pasted-image-20240713172639.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240713172639.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[polyolefins]]></title><description><![CDATA[ 
+ <br>
+<br>Commodity polymers
+<br>low temperature polymers
+<br><a data-href="polypropylene" href="polypropylene.html" class="internal-link" target="_self" rel="noopener nofollow">polypropylene</a>
+<br><a data-href="polyethylene" href="polyethylene.html" class="internal-link" target="_self" rel="noopener nofollow">polyethylene</a>
+]]></description><link>polyolefins.html</link><guid isPermaLink="false">polyolefins.md</guid><pubDate>Thu, 23 Jan 2025 09:22:40 GMT</pubDate></item><item><title><![CDATA[polypropylene]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250123143543.png" src="pasted-image-20250123143543.png"><br><br>
+<br>Completely made of propylene monomer unit
+<br>A semicrystalline polymer with less impact strength
+<br>Used in tiffins, caps, etc
+<br><br>
+<br>Why do we do copolymerization of polypropylene? It has a low impact strength
+<br>Impact strength is how much of a collision or impact something can take
+<br>Used in automotives, appliances
+<br>In the stress strain curve, you have the elastic limit, yield point, the necking area - where the stress decreases with strain
+<br>Mostly thermosets break before the yield point
+<br>
+]]></description><link>polypropylene.html</link><guid isPermaLink="false">polypropylene.md</guid><pubDate>Thu, 23 Jan 2025 09:20:45 GMT</pubDate><enclosure url="pasted-image-20250123143543.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250123143543.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Problems on intro to CPC]]></title><description><![CDATA[ 
+ <br>When to start with this?
+jan 28th
+]]></description><link>problems-on-intro-to-cpc.html</link><guid isPermaLink="false">Problems on intro to CPC.md</guid><pubDate>Tue, 21 Jan 2025 12:20:28 GMT</pubDate></item><item><title><![CDATA[Processing system with controller]]></title><description><![CDATA[ 
+ <br>
+<br>Presence of controller induces oscillatory behavior
+]]></description><link>processing-system-with-controller.html</link><guid isPermaLink="false">Processing system with controller.md</guid><pubDate>Tue, 21 Jan 2025 05:48:25 GMT</pubDate></item><item><title><![CDATA[Second order processes]]></title><description><![CDATA[ 
+ <br>
+something to do with processes?<br>
+<img alt="Pasted image 20250121112206.png" src="pasted-image-20250121112206.png">
+<br>
+<br>Three types of second order processes: inherent second order proceses, multicapacity processes, processing system with controller
+<br><a data-href="Inherently second order processes" href="inherently-second-order-processes.html" class="internal-link" target="_self" rel="noopener nofollow">Inherently second order processes</a>
+<br><a data-href="Multicapacity processes" href="multicapacity-processes.html" class="internal-link" target="_self" rel="noopener nofollow">Multicapacity processes</a>
+<br><a data-href="Processing system with controller" href="processing-system-with-controller.html" class="internal-link" target="_self" rel="noopener nofollow">Processing system with controller</a>
+]]></description><link>second-order-processes.html</link><guid isPermaLink="false">Second order processes.md</guid><pubDate>Tue, 21 Jan 2025 05:52:08 GMT</pubDate><enclosure url="pasted-image-20250121112206.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250121112206.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Second Order Systems]]></title><description><![CDATA[ 
+ <br>
+<br>The general form of the transfer function of a second order system is:
+<br>When C&gt;1, its overdamped, C=1 critically damped and C&lt;1 underdamped
+go through the cases in the book and report the formulae here
+
+<br>
+<br>overdamped systems literally damp out all the sin and cos stuff, underdamped, you still see some oscillation and critically damped systems are in between the two
+<br><br>
+<br>responses exhibit overshoot (y(t)/KM&gt;1)
+<br>Larger values of C exhibit a slow sluggish response
+<br>When C goes lower, the oscillatory behaviour increases
+<br><img alt="Pasted image 20250128110701.png" src="pasted-image-20250128110701.png">
+<br><img alt="Pasted image 20250128110823.png" src="pasted-image-20250128110823.png">
+<br>overshoot = 
+<br>decay ratio = 
+<br>time taken to get to  is called the rise time
+<br>overshoot is how much the response exceeds the ultimate value following a step change
+<br>decay ratio is defined as the square of the sizes of the successive peaks
+<br>decay ratio = 
+<br><br>
+<br>
+<br>Substituting i\omega: The magnitude of this term is the AR (amplitude ratio)
+<br>This is done to get the frequency response of the system on a sinusoidal (?) input
+<br>Substitute this in second order and you get the amplitude ratio
+<br>This be'eth a trick
+<br>So you basically substitute  in the s in the transfer function and the magnitude of the complex number that comes out is the amplitude ratio
+<br>phase lag is  where Y is the imaginary component of the complex number that comes out when you substitute i omega and X is the real component
+<br>so the final results for the AR and phase for second order is:
+<br>
+<br>
+<br>
+]]></description><link>second-order-systems.html</link><guid isPermaLink="false">Second Order Systems.md</guid><pubDate>Tue, 28 Jan 2025 06:15:42 GMT</pubDate><enclosure url="pasted-image-20250128110701.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250128110701.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Stage processes]]></title><description><![CDATA[ 
+ <br>
+Distillation columns contain a number of units connected to each other, called stages. This note explains the terminology and logic behind them
+<br>Question
+What are the process parameters at every stage? does that matter? Like what is the pressure and temperature at stage n? Why do we not care about it?
+
+<br><br>
+<br>The stages are numbered using the flow of liquid as the direction. Liquid (usually...) flows downward, so the last stage (of N stages) is the  stage
+<br>streams flowing out of a unit are subscripted with the number of the stage that it flows out of
+<br>eg. 
+<br><br>
+<br>Two types of material balances here - component balance and total material balance
+<br>Total balance: 
+<br><img alt="Pasted image 20250120102025.png" src="pasted-image-20250120102025.png">
+<br>Material balance of the whole column:  where a and b are the components A and B
+<br>component balance: 
+<br>where x and y are the mole fractions in the liquid and vapour phase of whichever component you're component-balancing
+<br><br>
+<br>
+<br>Assuming the process is workless and adiabatic
+<br><br>
+<br>A way of showing the compositions of two phases of the cascades in an x-y diagram
+<br>This is found through component balance:
+<br>
+<br>=&gt;
+<br>If the Ln/V{n+1} remains constant throughout the column, we get a straight operating line, if not, then we gotta make the curvee
+<br>This is legit just material balance
+<br>So what they end up doing is assuming the stripping or rectification section is just one stage
+<br>
+]]></description><link>stage-processes.html</link><guid isPermaLink="false">Stage processes.md</guid><pubDate>Mon, 27 Jan 2025 05:32:40 GMT</pubDate><enclosure url="pasted-image-20250120102025.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250120102025.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Thermoplastics]]></title><description><![CDATA[ 
+ <br>
+<br>
+<a data-href="polyolefins" href="polyolefins.html" class="internal-link" target="_self" rel="noopener nofollow">polyolefins</a> - <a data-href="polypropylene" href="polypropylene.html" class="internal-link" target="_self" rel="noopener nofollow">polypropylene</a>, <a data-href="polyethylene" href="polyethylene.html" class="internal-link" target="_self" rel="noopener nofollow">polyethylene</a><br>
+<img alt="Pasted image 20250123150643.png" src="pasted-image-20250123150643.png"> 
+
+<br>
+thermo plastics can be classified in three types - commodity, specialty and engineering
+
+<br>
+in commodity thermoplastics you have polyolefins, further classified into two types - polyethylene and polypropylene.
+
+<br>
+Polyethylene- linear low density polyethylene(LLDPE), low density polyethylene(LDPE), high density polyethylene(HDPE), high molecular weight polyethylene (HMWP)
+
+<br>
+Polypropylene- homopolymer polypropylene,copolymer of polypropylene
+
+<br>
+<a data-href="vinyl polymers" href="vinyl-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">vinyl polymers</a> - CH2=CHX - polystyrene, poly vinyl chloride, polyacrylonitriles, poly vinyl difluoride
+
+<br>
+these have been separated based on the thermal properties and density
+densities have to be studied
+
+<br>
+<a data-href="GPPS" href="GPPS" class="internal-link" target="_self" rel="noopener nofollow">GPPS</a> - general property polystyrene
+
+<br>
+high impact polystyrene - (<a data-href="HIPS" href="HIPS" class="internal-link" target="_self" rel="noopener nofollow">HIPS</a>), copolymer
+
+<br>
+(<a data-href="ABS" href="ABS" class="internal-link" target="_self" rel="noopener nofollow">ABS</a>) acrylonitrile butadiene styrene - copolymere
+
+<br>
+<a data-href="SAN" href="SAN" class="internal-link" target="_self" rel="noopener nofollow">SAN</a> - styrene acrylonitrile
+
+<br>
+everything above this is commodity
+
+<br>
+engineering plastics - <a data-href="polyamide" href="polyamide" class="internal-link" target="_self" rel="noopener nofollow">polyamide</a>,tag:#polymers <a data-href="nylon" href="nylon" class="internal-link" target="_self" rel="noopener nofollow">nylon</a>, <a data-href="polyacetals" href="polyacetals" class="internal-link" target="_self" rel="noopener nofollow">polyacetals</a>
+
+<br>
+polyamide 6 and polyamide 66 are used. They are made from caprolactom and condensation polymerization terepthalic acid and haxamethylene diamine 
+
+<br>
+<a data-href="polyesters" href="polyesters.html" class="internal-link" target="_self" rel="noopener nofollow">polyesters</a>, <a data-href="polyketones" href="polyketones" class="internal-link" target="_self" rel="noopener nofollow">polyketones</a> are specialty
+
+<br>
+polyesters - polyethylene terepthalate and polybutyne terepthalate
+
+<br>
+<a data-href="polycarbonate" href="polycarbonate" class="internal-link" target="_self" rel="noopener nofollow">polycarbonate</a> - engineering polymer
+
+<br>
+<a data-href="polyether" href="polyether" class="internal-link" target="_self" rel="noopener nofollow">polyether</a> -ether ketone - engineering
+
+<br>
+<a data-href="polysulfones" href="polysulfones" class="internal-link" target="_self" rel="noopener nofollow">polysulfones</a> - polyether sulfones and polyphenylene sulfones - specialty 
+
+<br>
+<a data-href="polyimides" href="polyimides" class="internal-link" target="_self" rel="noopener nofollow">polyimides</a> - specialty
+
+<br>
+<a data-href="polyurethane" href="polyurethane" class="internal-link" target="_self" rel="noopener nofollow">polyurethane</a> - engineering
+
+<br><br>
+<br>You have your chloropolymers - teflon(?)
+<br>liquid crystalline polymer
+]]></description><link>thermoplastics.html</link><guid isPermaLink="false">Thermoplastics.md</guid><pubDate>Thu, 23 Jan 2025 09:38:24 GMT</pubDate><enclosure url="pasted-image-20250123150643.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250123150643.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Types of polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+ <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> Rubbers, Plastics and Resins<br>
+<br>
+Plastic - you can easily melt and process plastic and is usually given in pellet form. Mostly thermoplastic
+
+<br>
+Resin - may be in the form of liquid or powder. Cure The granules are added then wetting agent then powder at the end. The wetting agent isn't added in the end because this would cause the powder to be clumped up togetherd then never can be reprocessed. Mostly thermoset
+
+<br>
+Engineering, specialty and commodity polymers fall under plastics
+
+<br>
+Resins are those which are naturally or synthetic - applications in paints, coatings
+
+<br>
+Engineering, Specialty polymers and commodity polymers
+
+<br>
+commodity polymers are used in day to day usage* The granules are added then wetting agent then powder at the end. The wetting agent isn't added in the end because this would cause the powder to be clumped up together
+
+<br>
+Engineering polymers used in engineering applications on the basis of application
+
+<br>
+Specialty polymers used in niche applications like aerospace or aviation
+
+<br>
+ON the basis of chemical nature is thermoplastic and thermoset
+
+<br>
+to classify a polymer you must use it's nature, occurrence and application
+
+<br>
+example - PET is a commodity thermoplastic synthetic material
+
+<br>
+blends are binary mixtures of polymers. composites are binary mixtures used in reinforcement systems, blends are all other mixtures, filled plastics are also binary phases
+
+<br>
+composites are only for mechanical properties
+
+<br>
+filled plastics - when you put in a filler, pigment
+
+<br><br>
+<br>they are black because of carbon black which is added in the rubber
+<br>the black causes a higher frictional factor
+<br>the carbon black is very conductive - its good at dissipating the frictional (adiabatic) heat that is transferred into the tyre
+<br>the black causes good weather resistance - weatherability. Good resistance toward UV
+<br><br>
+<br>Dyes are medium (example: water) soluble, pigments are not soluble in mediums
+<br>Pigments are used in polymer engineering
+<br><br>
+<br>solutions cause the solute and solvent to be in a single phase
+<br>dispersion is a state of mixture when the substances won't settle or float(go up or down)
+<br>emulsion is a state of mixture when it's added binary phase but becomes single phase with surface tension effects
+
+this section to be updated
+
+
+<br><br>A-B-C<br>
+if we suppose the above is a representation of a molecule, B is the compatible-izer since it causes a link between A and C to occur. Without B, this would have not happened. It makes A and C compatible<br>
+This is for any system.<br>
+In polymerization reactions, catalysts are used as compatiblizers<br><br>
+<br>Viscosity is the resistance to flow
+<br>Materials that thin when you shear them, are non newtonian (viscosity reduces with shear). Polymers are non newtonian
+<br>Since they thin when we add shear, it's more processable
+<br>it's a function of temperature and pressure. Any change in either of these variables will cause a change in viscosity
+<br>Danger
+The below is NOT IN THE SYLLABUS
+<br><br><br><img alt="Pasted image 20240714152942.png" src="pasted-image-20240714152942.png"><br>
+<br>You have the linear skeletal polymers which are just chains with two ends - <a data-href="Linear Polymers" href="linear-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Linear Polymers</a>
+<br><a data-href="Cyclic Polymers" href="Cyclic Polymers" class="internal-link" target="_self" rel="noopener nofollow">Cyclic Polymers</a> - are chains with no ends
+<br><a data-href="Branched Polymers" href="Branched Polymers" class="internal-link" target="_self" rel="noopener nofollow">Branched Polymers</a> - Have side chains that are branches to the main chain at branch points
+<br><a data-href="Network Polymers" href="Network Polymers" class="internal-link" target="_self" rel="noopener nofollow">Network Polymers</a> - Have a 3D structure in which each chain is connected to many others. Such a polymers is also called crosslinked
+<br>differences in the skeletal structure have massive implications on the physical properties of polymers, even with the same base monomers
+<br><br><img alt="Pasted image 20240714152959.png" src="pasted-image-20240714152959.png"><br>
+<br>Based on the identities of the monomers making up the polymer, we classify them as homopolymers and copolymers
+<br>Homopolymers are made up of a single repeating unit and are represented by  where A is the repeating unit. The proper way to name these is to use 'poly' then write the chemical name for the repeating unit
+<br><a data-href="Copolymers" href="Copolymers" class="internal-link" target="_self" rel="noopener nofollow">Copolymers</a> - Made up of many different monomers. Naming and all will be detailed in a separate page. There are statistical, alternating, block and many other different types of copolymers
+<br><br><img alt="Pasted image 20240714153112.png" src="pasted-image-20240714153112.png"><br>
+<br>The classification most people use when speaking about polymers is of them divided into - thermoplastics, elastomers and thermosets
+<br><a data-href="Thermoplastics" href="thermoplastics.html" class="internal-link" target="_self" rel="noopener nofollow">Thermoplastics</a> are linear of branched polymers which become liquid upon application of heat. They can be moulded and remoulded into any shape. They do not crystallise easily. Many of these are amorphous - not crystalline - and are characterized by their glass transition temperature, at which they move between glassy and rubbery states. Can be remoulded multiple times
+<br><a data-href="Elastomers" href="Elastomers" class="internal-link" target="_self" rel="noopener nofollow">Elastomers</a> are crosslinked polymers that are rubbery. They aren't called rubber since that word is for rubbery polymers that arent crosslinked. Elastomers are characterised by their capability to be stretched into large lengths and return to their original state. These are thermoplastics
+<br><a data-href="Thermoset" href="thermoset.html" class="internal-link" target="_self" rel="noopener nofollow">Thermoset</a> polymers are polymers that cant be remoulded or melted. They have very high degrees of crosslinking. Eg rubber after vulcanisation
+]]></description><link>types-of-polymers.html</link><guid isPermaLink="false">Types of polymers.md</guid><pubDate>Thu, 23 Jan 2025 08:38:04 GMT</pubDate><enclosure url="pasted-image-20240714152942.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240714152942.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Variable Volume]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241220105552.png" src="pasted-image-20241220105552.png"><br>
+<br>First order
+<br><img alt="Pasted image 20241220110905.png" src="pasted-image-20241220110905.png"><br>
+<img alt="Pasted image 20241220110937.png" src="pasted-image-20241220110937.png"><br>
+<img alt="Pasted image 20241220110951.png" src="pasted-image-20241220110951.png"><br>
+its not actually minus - I made a mistake: r_a = -kC_A<br><br>problem
+Given: isothermal isobaric, gaseous feed Cao = 100, Cbo=200, reaction is A+B -&gt; R+S, x_a = 0.8, find X_b, C_A<br>
+X_b = 0.4, C_A = 20<br>
+dilute aqueous feed, CA0 = CB0 = 100, CA= 20 units, given reaction is A+2B-&gt; R+S, find out X_A,X_B,CB<br>
+This example is wrong<br>
+Given a gaseous feed, epsilon exists, CAO=200,CBO=100, and the reaction is A+B-&gt; R, find XA,XB,CB, CA = 50<br>
+This example is wrong<br>
+given gaseous feed CAO, as well as CBO = 100, CB = 20, a+2b-&gt;r, 
+]]></description><link>variable-volume.html</link><guid isPermaLink="false">Variable Volume.md</guid><pubDate>Fri, 24 Jan 2025 04:30:51 GMT</pubDate><enclosure url="pasted-image-20241220105552.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241220105552.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[vinyl polymers]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20250123150952.png" src="pasted-image-20250123150952.png"><br>
+<br>Rigid packaging, pipes
+<br>Acetylene gas and Cl2 gas to manufacture the monomer then polymerized by suspension or emulsion
+<br>native state, without any additives, PVC is cannot be processed because before melting, the PVC will fuse together because of chlorine
+<br>additives added - heat stabilizer, lubricant between the wall and the polymer
+<br>the maximum additives you usually add is about 30 PHR (parts per hundred resin)
+<br>To flexiblize something you add a plasticizer
+<br>the first few plasticizers were pthalates - now banned because they cause cancer. Still used in certain applications
+<br>now we use oils and all
+<br><br><img alt="Pasted image 20250123153051.png" src="pasted-image-20250123153051.png"><br>
+<br>used in pharmaceutical packaging
+<br>an extended form of the vinyl polymer
+<br>tg around 82-84C
+]]></description><link>vinyl-polymers.html</link><guid isPermaLink="false">vinyl polymers.md</guid><pubDate>Thu, 23 Jan 2025 10:02:53 GMT</pubDate><enclosure url="pasted-image-20250123150952.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250123150952.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Drawing 2024-11-14 23.51.05]]></title><description><![CDATA[ 
  
   
   
@@ -246,25 +1297,7 @@ More from less for more
 <a data-href="Case study EVS 1" href="case-study-evs-1.html" class="internal-link" target="_self" rel="noopener nofollow">Case study EVS 1</a>
 
 <br>
-]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Tue, 12 Nov 2024 04:24:36 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br>Quote
-"The knack of flying is learning how to throw yourself at the ground and miss" - Douglas Adams
-<br>
-<br><a data-href="Polymers" href="polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Polymers</a> - polymers notes
-<br><a data-href="Heat Transfer" href="heat-transfer.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Transfer</a> - Hot stuff and possibly cold stuff
-<br><a data-href="Chemical Reaction Engineering" href="chemical-reaction-engineering.html" class="internal-link" target="_self" rel="noopener nofollow">Chemical Reaction Engineering</a> - Made these on the last day of summer holidays. Will fill them up later properly(very very very bad notes)
-<br><a data-href="Accounting" href="accounting.html" class="internal-link" target="_self" rel="noopener nofollow">Accounting</a> - money money money
-<br><a data-href="Engineering thermodynamics" href="engineering-thermodynamics.html" class="internal-link" target="_self" rel="noopener nofollow">Engineering thermodynamics</a> - An extremely confusing subject
-<br><a data-href="Fluid mechanics" href="fluid-mechanics.html" class="internal-link" target="_self" rel="noopener nofollow">Fluid mechanics</a> - Ayush wanted these I recall
-<br><a data-href="Process safety" href="process-safety.html" class="internal-link" target="_self" rel="noopener nofollow">Process safety</a> - These are mostly useless as we have ppts so these are just for me, I'm making my own additions now
-<br><a data-href="Environmental Science" href="environmental-science.html" class="internal-link" target="_self" rel="noopener nofollow">Environmental Science</a> - wasn't able to complete water pollution since I was writing on the board half the class
-<br><a data-href="CHT 1013" href="cht-1013.html" class="internal-link" target="_self" rel="noopener nofollow">CHT 1013</a> - analytical chem, dev doesnt want to use the ppts. Even I don't refer to these. David Harvey is way better. They're simply typing practice for me during class so I pay attention :/
-<br><a data-tooltip-position="top" aria-label="Agastya'sproblem.canvas" data-href="Agastya'sproblem.canvas" href="agastya'sproblem.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya'sproblem</a> - I solved this  - <a data-href="Agastya's solution" href="agastya's-solution.html" class="internal-link" target="_self" rel="noopener nofollow">Agastya's solution</a>
-<br><a data-href="Statistics problems" href="statistics-problems.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics problems</a> - I'm trying to self learn stats
-<br><a data-href="Statistics models" href="statistics-models.html" class="internal-link" target="_self" rel="noopener nofollow">Statistics models</a> - statistics has been mostly self learnt (basics) from notes I found from around the web
-<br><a data-href="Critical Thinking" href="critical-thinking.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking</a> - How to learn stuff, allegedly
-<br>projects
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Wed, 13 Nov 2024 06:33:07 GMT</pubDate></item><item><title><![CDATA[Industry]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+]]></description><link>environmental-science.html</link><guid isPermaLink="false">Environmental Science.md</guid><pubDate>Tue, 12 Nov 2024 04:24:36 GMT</pubDate></item><item><title><![CDATA[Industry]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
  <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
 The below is a list of the polymer companies I can find on the internet in india (classified). The classifications can be incorrect, they are just meant to separate the companies from the surface<br><br>All these contain a brief historical introduction, details of businesses the companies operate in, how they hire, their competition, their financials, their future (speculation of demand of their current products), whether the stock is overvalued or undervalued at the time of writing the analysis. I might even include details of distribution, research and management later<br><br>
 <br><a data-href="Supreme Industries" href="supreme-industries.html" class="internal-link" target="_self" rel="noopener nofollow">Supreme Industries</a>
@@ -399,45 +1432,7 @@ This uses all K classes
 <br>
 Softmax encoding is used a lot in machine learning
 
-]]></description><link>logistic-regression.html</link><guid isPermaLink="false">logistic regression.md</guid><pubDate>Tue, 12 Nov 2024 06:00:26 GMT</pubDate><enclosure url="pasted-image-20241112093435.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241112093435.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Polymers]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
- <br>Tip
-These are my notes from Introduction to Polymers, Robert J. Young and college classes<br>
-<a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a> 
-<br>Quote
-“So once you do know what the question actually is, you'll know what the answer means.”
-<br><br>Syllabus for midems:<br>
-<br>classification of polymers
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>
-A polymer is a substance composed of long sequences of one or more species of atoms or groups of aton of polymers
-<br>
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>ms linked together by primary, usually covalent bonds<br>
-n of polymers<br>
-<br>DIfferent mixing techniques - dry blending
-<br>Extrusion techniques - basic twin screw and single screw
-<br>Usually two plastics are mixed to make blends to make one with exactly the properties one wants<br>
-PET - poly(ethylene terepthalate) is a blend of PE and PT<br>
-<br>blends differ from composites in the sense that composites have one material that is reinforcing mechanically
-<br>both blends and composites are binary phase mix
-<br>Danger
-The history is NOT IN THE SYLLABUS (i think)
-<br><br>
-<br>1820 -&gt; This guy, Thomas Hancock, found a way to blend additives to rubber (a natural polymer) by beating it up (masticating it)         <img alt="Pasted image 20240713172639.png" src="pasted-image-20240713172639.png">
-<br>1839 -&gt; Charles Goodyear added sulphur to rubber and found it got stronger. This process was named vulcanization.
-<br>1846 - 1870 -&gt; Some guy prepared nitrocellulose, sold it as an explosive. Another guy thought to mold it and make items out of it as it was found it be a hard elastic material that is also soluble and easily mold-able. Two other guys thought it would be smart to do this with something that isn't an explosive - celluloid. Instant commercial success.
-<br>1892 -&gt; Cross, Bevan and Beadle patented the viscose process for dissolving and regenerating cellulose
-<br>1920s -&gt; This absolute chad of a human, Hermann Staudinger studied the synthesis, structure and properties of polyoxymethylene and polystyrene to give emprical evidence of his idea that polymers are really just macromolecules  containing large sequences of monomers. Everyone doubted him, but the haters were proven wrong
-<br><br>
-<br><a data-href="Types of polymers" href="types-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Types of polymers</a>
-<br><a data-href="Molar Mass" href="molar-mass.html" class="internal-link" target="_self" rel="noopener nofollow">Molar Mass</a> 
-<br><a data-href="Polymerization" href="polymerization.html" class="internal-link" target="_self" rel="noopener nofollow">Polymerization</a> 
-<br><a data-href="Processing" href="processing.html" class="internal-link" target="_self" rel="noopener nofollow">Processing</a>
-<br><a data-href="Industry" href="industry.html" class="internal-link" target="_self" rel="noopener nofollow">Industry</a> - not in syllabus
-<br><a data-href="Properties of Polymers" href="properties-of-polymers.html" class="internal-link" target="_self" rel="noopener nofollow">Properties of Polymers</a>
-]]></description><link>polymers.html</link><guid isPermaLink="false">Polymers.md</guid><pubDate>Wed, 13 Nov 2024 06:33:16 GMT</pubDate><enclosure url="pasted-image-20240713172639.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20240713172639.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Processing]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
+]]></description><link>logistic-regression.html</link><guid isPermaLink="false">logistic regression.md</guid><pubDate>Tue, 12 Nov 2024 06:00:26 GMT</pubDate><enclosure url="pasted-image-20241112093435.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241112093435.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Processing]]></title><description><![CDATA[<a class="tag" href="?query=tag:polymers" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#polymers</a> 
  <br><a href=".?query=tag:polymers" class="tag" target="_blank" rel="noopener nofollow">#polymers</a><br>
 <br>You process a polymer at it's processing temperature. In case of polymers the processing temperature is above it's melting temperature
 <br>To reduce the resistance of the material, you need to increase the temperature above the melt temperature to reduce viscosity. Generally about 10C higher than melting point
@@ -1430,20 +2425,7 @@ Principles and instrumentation of infrared spectroscopy, sampling techniques, in
 <br><br>
 <br>
 ]]></description><link>molecular-spectroscopy.html</link><guid isPermaLink="false">Molecular spectroscopy.md</guid><pubDate>Tue, 05 Nov 2024 07:44:12 GMT</pubDate><enclosure url="pasted-image-20241105121146.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20241105121146.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-11-04]]></title><description><![CDATA[ 
- <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[Chemical Reaction Engineering]]></title><description><![CDATA[ 
- <br>This lovely little section is all due to chapter 9 in levenspiel - non ideal reactors. I am convinced I have not learnt the previous few chapters well enough , so I must figure this out<br>If backmix always needs a larger volume than plug flow for a certain conversion, why not use plug flow all the time? - heat transfer, viscosity, etc<br>
-<br><a data-href="Kinetics Homogeneous" href="kinetics-homogeneous.html" class="internal-link" target="_self" rel="noopener nofollow">Kinetics Homogeneous</a>
-<br><a data-href="Experimental Kinetics" href="experimental-kinetics.html" class="internal-link" target="_self" rel="noopener nofollow">Experimental Kinetics</a>
-<br><a data-href="Basics of reactors" href="basics-of-reactors.html" class="internal-link" target="_self" rel="noopener nofollow">Basics of reactors</a>
-<br><a data-href="Non ideal flow" href="non-ideal-flow.html" class="internal-link" target="_self" rel="noopener nofollow">Non ideal flow</a>
-<br><a data-href="Mixing" href="mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Mixing</a>
-<br><a data-href="Intro to heterogeneous reactions" href="intro-to-heterogeneous-reactions.html" class="internal-link" target="_self" rel="noopener nofollow">Intro to heterogeneous reactions</a>
-<br>
-Catalytics has best in fogler
-<br>
-Hill and route<br>
-Gw Roberts
-]]></description><link>chemical-reaction-engineering.html</link><guid isPermaLink="false">Chemical Reaction Engineering.md</guid><pubDate>Mon, 04 Nov 2024 16:58:55 GMT</pubDate></item><item><title><![CDATA[LOPA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
+ <br>What am I doing]]></description><link>2024-11-04.html</link><guid isPermaLink="false">2024-11-04.md</guid><pubDate>Mon, 04 Nov 2024 15:50:24 GMT</pubDate></item><item><title><![CDATA[LOPA]]></title><description><![CDATA[<a class="tag" href="?query=tag:safety" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#safety</a> 
  <br><a href=".?query=tag:safety" class="tag" target="_blank" rel="noopener nofollow">#safety</a><br>
 credits: <a rel="noopener nofollow" class="external-link" href="https://www.icheme.org/media/12368/4-lopa-introduction.pdf" target="_blank">https://www.icheme.org/media/12368/4-lopa-introduction.pdf</a><br>
 Layers of protection, you need them!<br>
