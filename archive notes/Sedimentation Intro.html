@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedimentation Intro - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡ CHEMENGG NOTES ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Archive Notes</div>
+        <a href="2D Nonlinear.html" class="sidebar-link ">2D Nonlinear</a>
+        <a href="2D flows.html" class="sidebar-link ">2D flows</a>
+        <a href="A third attempt.html" class="sidebar-link ">A third attempt</a>
+        <a href="ABS.html" class="sidebar-link ">ABS</a>
+        <a href="Absorption.html" class="sidebar-link ">Absorption</a>
+        <a href="Accounting.html" class="sidebar-link ">Accounting</a>
+        <a href="Accounts quiz 1.html" class="sidebar-link ">Accounts quiz 1</a>
+        <a href="Agastya's solution.html" class="sidebar-link ">Agastya's solution</a>
+        <a href="Analytical Chemistry.html" class="sidebar-link ">Analytical Chemistry</a>
+        <a href="Anionic Ionization Polymerization.html" class="sidebar-link ">Anionic Ionization Polymerization</a>
+        <a href="Annular FLow.html" class="sidebar-link ">Annular FLow</a>
+        <a href="Apollo Pipes.html" class="sidebar-link ">Apollo Pipes</a>
+        <a href="Applications of AI.html" class="sidebar-link ">Applications of AI</a>
+        <a href="Artificial Intelligence.html" class="sidebar-link ">Artificial Intelligence</a>
+        <a href="Artificial Neural Networks.html" class="sidebar-link ">Artificial Neural Networks</a>
+        <a href="Atomic spectroscopy methods.html" class="sidebar-link ">Atomic spectroscopy methods</a>
+        <a href="Azeotropes.html" class="sidebar-link ">Azeotropes</a>
+        <a href="Azeotropic or Extractive Distillation.html" class="sidebar-link ">Azeotropic or Extractive Distillation</a>
+        <a href="Bases for DNA or RNA.html" class="sidebar-link ">Bases for DNA or RNA</a>
+        <a href="Basic **FUN**ctional Groups.html" class="sidebar-link ">Basic **FUN**ctional Groups</a>
+        <a href="Basic political science.html" class="sidebar-link ">Basic political science</a>
+        <a href="Basics of reactors.html" class="sidebar-link ">Basics of reactors</a>
+        <a href="Batch Distillation of Binary Mixtures.html" class="sidebar-link ">Batch Distillation of Binary Mixtures</a>
+        <a href="Batch Distillation of Multicomponent Mixtures.html" class="sidebar-link ">Batch Distillation of Multicomponent Mixtures</a>
+        <a href="Batch Distillation.html" class="sidebar-link ">Batch Distillation</a>
+        <a href="Bayes Belief Networks.html" class="sidebar-link ">Bayes Belief Networks</a>
+        <a href="Bernoulli's Equation.html" class="sidebar-link ">Bernoulli's Equation</a>
+        <a href="Bhopal Accident.html" class="sidebar-link ">Bhopal Accident</a>
+        <a href="Bias-Variance.html" class="sidebar-link ">Bias-Variance</a>
+        <a href="Bifurcations.html" class="sidebar-link ">Bifurcations</a>
+        <a href="Bingham Plastics.html" class="sidebar-link ">Bingham Plastics</a>
+        <a href="Binomial Distribution.html" class="sidebar-link ">Binomial Distribution</a>
+        <a href="Bio-safety.html" class="sidebar-link ">Bio-safety</a>
+        <a href="Biochemical Engineering.html" class="sidebar-link ">Biochemical Engineering</a>
+        <a href="Biochemistry.html" class="sidebar-link ">Biochemistry</a>
+        <a href="Biopolymers.html" class="sidebar-link ">Biopolymers</a>
+        <a href="Blending.html" class="sidebar-link ">Blending</a>
+        <a href="Blow Molding.html" class="sidebar-link ">Blow Molding</a>
+        <a href="Blunders in annular flow calculations that students usually make.html" class="sidebar-link ">Blunders in annular flow calculations that students usually make</a>
+        <a href="Boiling.html" class="sidebar-link ">Boiling</a>
+        <a href="Bread.html" class="sidebar-link ">Bread</a>
+        <a href="Bulk Polymerization.html" class="sidebar-link ">Bulk Polymerization</a>
+        <a href="CAT CRE.html" class="sidebar-link ">CAT CRE</a>
+        <a href="CHT 1013.html" class="sidebar-link ">CHT 1013</a>
+        <a href="CPC Math.html" class="sidebar-link ">CPC Math</a>
+        <a href="CSTR.html" class="sidebar-link ">CSTR</a>
+        <a href="Calculator.html" class="sidebar-link ">Calculator</a>
+        <a href="Calendaring.html" class="sidebar-link ">Calendaring</a>
+        <a href="Capillaries.html" class="sidebar-link ">Capillaries</a>
+        <a href="Carman Kozeny equations.html" class="sidebar-link ">Carman Kozeny equations</a>
+        <a href="Case Based Reasoning.html" class="sidebar-link ">Case Based Reasoning</a>
+        <a href="Case study EVS 1.html" class="sidebar-link ">Case study EVS 1</a>
+        <a href="Casting.html" class="sidebar-link ">Casting</a>
+        <a href="Cationic Ionization Polymerization.html" class="sidebar-link ">Cationic Ionization Polymerization</a>
+        <a href="Centrifugal Filters.html" class="sidebar-link ">Centrifugal Filters</a>
+        <a href="Centrifugal filtration.html" class="sidebar-link ">Centrifugal filtration</a>
+        <a href="Cheese.html" class="sidebar-link ">Cheese</a>
+        <a href="Chemical Engineering Lab.html" class="sidebar-link ">Chemical Engineering Lab</a>
+        <a href="Chemical Engineering Operations.html" class="sidebar-link ">Chemical Engineering Operations</a>
+        <a href="Chemical Process Control.html" class="sidebar-link ">Chemical Process Control</a>
+        <a href="Chemical Reaction Engineering Problems.html" class="sidebar-link ">Chemical Reaction Engineering Problems</a>
+        <a href="Chemical Reaction Engineering.html" class="sidebar-link ">Chemical Reaction Engineering</a>
+        <a href="Chromatographic methods.html" class="sidebar-link ">Chromatographic methods</a>
+        <a href="Citric Acid.html" class="sidebar-link ">Citric Acid</a>
+        <a href="Classification Models.html" class="sidebar-link ">Classification Models</a>
+        <a href="Cobb-Douglas.html" class="sidebar-link ">Cobb-Douglas</a>
+        <a href="Cobwebbing and Equilibrium in Discrete Time Systems.html" class="sidebar-link ">Cobwebbing and Equilibrium in Discrete Time Systems</a>
+        <a href="Codathon Question.html" class="sidebar-link ">Codathon Question</a>
+        <a href="Column Height and Diameter.html" class="sidebar-link ">Column Height and Diameter</a>
+        <a href="Combinations of systems.html" class="sidebar-link ">Combinations of systems</a>
+        <a href="Community Project.html" class="sidebar-link ">Community Project</a>
+        <a href="Competitive Equilibrium.html" class="sidebar-link ">Competitive Equilibrium</a>
+        <a href="Compression Molding.html" class="sidebar-link ">Compression Molding</a>
+        <a href="Conduction.html" class="sidebar-link ">Conduction</a>
+        <a href="Confidence Interval.html" class="sidebar-link ">Confidence Interval</a>
+        <a href="Constant pressure filtration.html" class="sidebar-link ">Constant pressure filtration</a>
+        <a href="Constant rate filtration.html" class="sidebar-link ">Constant rate filtration</a>
+        <a href="Continuous Vacuum Filters.html" class="sidebar-link ">Continuous Vacuum Filters</a>
+        <a href="Continuous multistage distillation of binary mixtures diagram and info.html" class="sidebar-link ">Continuous multistage distillation of binary mixtures diagram and info</a>
+        <a href="Continuous multistage distillation of binary mixtures efficiency and other correlations.html" class="sidebar-link ">Continuous multistage distillation of binary mixtures efficiency and other correlations</a>
+        <a href="Continuous multistage distillation of binary mixtures examples.html" class="sidebar-link ">Continuous multistage distillation of binary mixtures examples</a>
+        <a href="Continuous multistage distillation of binary mixtures problems.html" class="sidebar-link ">Continuous multistage distillation of binary mixtures problems</a>
+        <a href="Continuous multistage distillation of binary mixtures.html" class="sidebar-link ">Continuous multistage distillation of binary mixtures</a>
+        <a href="Control Systems Intro.html" class="sidebar-link ">Control Systems Intro</a>
+        <a href="Controller Stability.html" class="sidebar-link ">Controller Stability</a>
+        <a href="Convection.html" class="sidebar-link ">Convection</a>
+        <a href="Copolymer Steady State Kinetics.html" class="sidebar-link ">Copolymer Steady State Kinetics</a>
+        <a href="Costs.html" class="sidebar-link ">Costs</a>
+        <a href="Critical Thinking.html" class="sidebar-link ">Critical Thinking</a>
+        <a href="Crude oil.html" class="sidebar-link ">Crude oil</a>
+        <a href="DNA.html" class="sidebar-link ">DNA</a>
+        <a href="Darcy's law and permeability.html" class="sidebar-link ">Darcy's law and permeability</a>
+        <a href="Decision Trees.html" class="sidebar-link ">Decision Trees</a>
+        <a href="Demand.html" class="sidebar-link ">Demand</a>
+        <a href="Density Dependent Growth.html" class="sidebar-link ">Density Dependent Growth</a>
+        <a href="Density Independent Growth.html" class="sidebar-link ">Density Independent Growth</a>
+        <a href="Density.html" class="sidebar-link ">Density</a>
+        <a href="Desalting.html" class="sidebar-link ">Desalting</a>
+        <a href="Design for Parallel Reactions.html" class="sidebar-link ">Design for Parallel Reactions</a>
+        <a href="Desorption.html" class="sidebar-link ">Desorption</a>
+        <a href="Deterministic to Probabilistic.html" class="sidebar-link ">Deterministic to Probabilistic</a>
+        <a href="Deviation Variables.html" class="sidebar-link ">Deviation Variables</a>
+        <a href="Differential Equations as Vector Fields.html" class="sidebar-link ">Differential Equations as Vector Fields</a>
+        <a href="Diffusion Theory.html" class="sidebar-link ">Diffusion Theory</a>
+        <a href="Disaccharides.html" class="sidebar-link ">Disaccharides</a>
+        <a href="Discontinuous Pressure Filters.html" class="sidebar-link ">Discontinuous Pressure Filters</a>
+        <a href="Distillation Equipment.html" class="sidebar-link ">Distillation Equipment</a>
+        <a href="Distillation of Crude Oil.html" class="sidebar-link ">Distillation of Crude Oil</a>
+        <a href="Distillation of multicomponent mixtures.html" class="sidebar-link ">Distillation of multicomponent mixtures</a>
+        <a href="Distillation.html" class="sidebar-link ">Distillation</a>
+        <a href="Drickramer and Bradford Correlation.html" class="sidebar-link ">Drickramer and Bradford Correlation</a>
+        <a href="Drying Equipment.html" class="sidebar-link ">Drying Equipment</a>
+        <a href="Drying Principles.html" class="sidebar-link ">Drying Principles</a>
+        <a href="Drying Rates.html" class="sidebar-link ">Drying Rates</a>
+        <a href="Drying.html" class="sidebar-link ">Drying</a>
+        <a href="Dynamic response of first order lag process.html" class="sidebar-link ">Dynamic response of first order lag process</a>
+        <a href="Dynamic response of pure capacitative and first order lag systems.html" class="sidebar-link ">Dynamic response of pure capacitative and first order lag systems</a>
+        <a href="Dynamic response of pure capacitative process.html" class="sidebar-link ">Dynamic response of pure capacitative process</a>
+        <a href="Dynamic response of second order process.html" class="sidebar-link ">Dynamic response of second order process</a>
+        <a href="EOS.html" class="sidebar-link ">EOS</a>
+        <a href="Economics.html" class="sidebar-link ">Economics</a>
+        <a href="Electrical Safety.html" class="sidebar-link ">Electrical Safety</a>
+        <a href="Electroanalytical methods.html" class="sidebar-link ">Electroanalytical methods</a>
+        <a href="Electron Transfer Polymerization.html" class="sidebar-link ">Electron Transfer Polymerization</a>
+        <a href="Emulsion Polymerization.html" class="sidebar-link ">Emulsion Polymerization</a>
+        <a href="Engineering thermodynamics.html" class="sidebar-link ">Engineering thermodynamics</a>
+        <a href="Enthalpy Accumulation.html" class="sidebar-link ">Enthalpy Accumulation</a>
+        <a href="Enthalpy.html" class="sidebar-link ">Enthalpy</a>
+        <a href="Entropy.html" class="sidebar-link ">Entropy</a>
+        <a href="Environmental Science.html" class="sidebar-link ">Environmental Science</a>
+        <a href="Enzymes.html" class="sidebar-link ">Enzymes</a>
+        <a href="Equation of motion.html" class="sidebar-link ">Equation of motion</a>
+        <a href="Equilibrium.html" class="sidebar-link ">Equilibrium</a>
+        <a href="Equivalent Diameter.html" class="sidebar-link ">Equivalent Diameter</a>
+        <a href="Experimental Kinetics.html" class="sidebar-link ">Experimental Kinetics</a>
+        <a href="Explaining the Economy.html" class="sidebar-link ">Explaining the Economy</a>
+        <a href="Explanation Based Learning.html" class="sidebar-link ">Explanation Based Learning</a>
+        <a href="FSSAI.html" class="sidebar-link ">FSSAI</a>
+        <a href="Feature Engineering.html" class="sidebar-link ">Feature Engineering</a>
+        <a href="Feed plate.html" class="sidebar-link ">Feed plate</a>
+        <a href="Feedforward Network.html" class="sidebar-link ">Feedforward Network</a>
+        <a href="Fenske's Method.html" class="sidebar-link ">Fenske's Method</a>
+        <a href="Filter aid.html" class="sidebar-link ">Filter aid</a>
+        <a href="Filtration math.html" class="sidebar-link ">Filtration math</a>
+        <a href="Filtration.html" class="sidebar-link ">Filtration</a>
+        <a href="Fire Safety.html" class="sidebar-link ">Fire Safety</a>
+        <a href="First Order Systems.html" class="sidebar-link ">First Order Systems</a>
+        <a href="First order lag frequency response.html" class="sidebar-link ">First order lag frequency response</a>
+        <a href="Fixed costs.html" class="sidebar-link ">Fixed costs</a>
+        <a href="Flash Distillation.html" class="sidebar-link ">Flash Distillation</a>
+        <a href="Flow Controlled Operations.html" class="sidebar-link ">Flow Controlled Operations</a>
+        <a href="Flow through a cylindrical pipe.html" class="sidebar-link ">Flow through a cylindrical pipe</a>
+        <a href="Fluid Moving Machinery.html" class="sidebar-link ">Fluid Moving Machinery</a>
+        <a href="Fluid Statics.html" class="sidebar-link ">Fluid Statics</a>
+        <a href="Fluid mechanics.html" class="sidebar-link ">Fluid mechanics</a>
+        <a href="Fluidization.html" class="sidebar-link ">Fluidization</a>
+        <a href="Fluidized Catalytic Cracking.html" class="sidebar-link ">Fluidized Catalytic Cracking</a>
+        <a href="Forms of Bernoulli.html" class="sidebar-link ">Forms of Bernoulli</a>
+        <a href="Forms of Representation.html" class="sidebar-link ">Forms of Representation</a>
+        <a href="Fourier's Law.html" class="sidebar-link ">Fourier's Law</a>
+        <a href="Frequency Response.html" class="sidebar-link ">Frequency Response</a>
+        <a href="Friction factor correlations.html" class="sidebar-link ">Friction factor correlations</a>
+        <a href="GPPS.html" class="sidebar-link ">GPPS</a>
+        <a href="Game Theory.html" class="sidebar-link ">Game Theory</a>
+        <a href="Garware Hitech.html" class="sidebar-link ">Garware Hitech</a>
+        <a href="Gas Adsorption Packed Tower.html" class="sidebar-link ">Gas Adsorption Packed Tower</a>
+        <a href="Gas cylinder safety.html" class="sidebar-link ">Gas cylinder safety</a>
+        <a href="Gas liquid mixing.html" class="sidebar-link ">Gas liquid mixing</a>
+        <a href="Generalization as Search.html" class="sidebar-link ">Generalization as Search</a>
+        <a href="Genetic Algorithms.html" class="sidebar-link ">Genetic Algorithms</a>
+        <a href="Geometric Distribution.html" class="sidebar-link ">Geometric Distribution</a>
+        <a href="Gibbs Energy Arjun.html" class="sidebar-link ">Gibbs Energy Arjun</a>
+        <a href="Group Transfer Polymerization.html" class="sidebar-link ">Group Transfer Polymerization</a>
+        <a href="Growth phases.html" class="sidebar-link ">Growth phases</a>
+        <a href="HAZOP.html" class="sidebar-link ">HAZOP</a>
+        <a href="HIPS.html" class="sidebar-link ">HIPS</a>
+        <a href="Heat Exchangers.html" class="sidebar-link ">Heat Exchangers</a>
+        <a href="Heat Transfer.html" class="sidebar-link ">Heat Transfer</a>
+        <a href="Hebbian Learning.html" class="sidebar-link ">Hebbian Learning</a>
+        <a href="Heterogeneous Catalysis.html" class="sidebar-link ">Heterogeneous Catalysis</a>
+        <a href="High viscosity blending.html" class="sidebar-link ">High viscosity blending</a>
+        <a href="History of Machine learning.html" class="sidebar-link ">History of Machine learning</a>
+        <a href="Homothetic Preference.html" class="sidebar-link ">Homothetic Preference</a>
+        <a href="Hopfield Networks and Boltzmann Machines.html" class="sidebar-link ">Hopfield Networks and Boltzmann Machines</a>
+        <a href="Hypergeometric Distribution.html" class="sidebar-link ">Hypergeometric Distribution</a>
+        <a href="Important Papers.html" class="sidebar-link ">Important Papers</a>
+        <a href="Income Change.html" class="sidebar-link ">Income Change</a>
+        <a href="Income Offer and Engel Curves.html" class="sidebar-link ">Income Offer and Engel Curves</a>
+        <a href="Index.html" class="sidebar-link ">Index</a>
+        <a href="Indian Chemical Compliance.html" class="sidebar-link ">Indian Chemical Compliance</a>
+        <a href="Inductive Logic Programming.html" class="sidebar-link ">Inductive Logic Programming</a>
+        <a href="Industrial Chemistry.html" class="sidebar-link ">Industrial Chemistry</a>
+        <a href="Industrial chemistry and reaction engineering.html" class="sidebar-link ">Industrial chemistry and reaction engineering</a>
+        <a href="Industry.html" class="sidebar-link ">Industry</a>
+        <a href="Inherently Safer Design.html" class="sidebar-link ">Inherently Safer Design</a>
+        <a href="Inherently second order processes.html" class="sidebar-link ">Inherently second order processes</a>
+        <a href="Injection molding.html" class="sidebar-link ">Injection molding</a>
+        <a href="Inspirations.html" class="sidebar-link ">Inspirations</a>
+        <a href="Instrumentation and process control.html" class="sidebar-link ">Instrumentation and process control</a>
+        <a href="Interfacial chemistry.html" class="sidebar-link ">Interfacial chemistry</a>
+        <a href="Intro to Biochem.html" class="sidebar-link ">Intro to Biochem</a>
+        <a href="Intro to CPC.html" class="sidebar-link ">Intro to CPC</a>
+        <a href="Intro to Drying.html" class="sidebar-link ">Intro to Drying</a>
+        <a href="Intro to Refinery Science.html" class="sidebar-link ">Intro to Refinery Science</a>
+        <a href="Intro to chemical analysis.html" class="sidebar-link ">Intro to chemical analysis</a>
+        <a href="Intro to heterogeneous reactions.html" class="sidebar-link ">Intro to heterogeneous reactions</a>
+        <a href="Intro to stat learning.html" class="sidebar-link ">Intro to stat learning</a>
+        <a href="Introduction to surface and interfacial chemistry.html" class="sidebar-link ">Introduction to surface and interfacial chemistry</a>
+        <a href="Ionization Living Polymerization.html" class="sidebar-link ">Ionization Living Polymerization</a>
+        <a href="Ionization Polymerization.html" class="sidebar-link ">Ionization Polymerization</a>
+        <a href="Joint probability distributions.html" class="sidebar-link ">Joint probability distributions</a>
+        <a href="K - value.html" class="sidebar-link ">K - value</a>
+        <a href="Kinetics Homogeneous.html" class="sidebar-link ">Kinetics Homogeneous</a>
+        <a href="LOPA.html" class="sidebar-link ">LOPA</a>
+        <a href="Lab safety.html" class="sidebar-link ">Lab safety</a>
+        <a href="Laminar Flow Velocity Profiles.html" class="sidebar-link ">Laminar Flow Velocity Profiles</a>
+        <a href="Laplace Transform.html" class="sidebar-link ">Laplace Transform</a>
+        <a href="Laplace transform problems.html" class="sidebar-link ">Laplace transform problems</a>
+        <a href="Learning Problems.html" class="sidebar-link ">Learning Problems</a>
+        <a href="Learning Scenarios.html" class="sidebar-link ">Learning Scenarios</a>
+        <a href="Lec 8.html" class="sidebar-link ">Lec 8</a>
+        <a href="Linear Polymers.html" class="sidebar-link ">Linear Polymers</a>
+        <a href="Linear Regression.html" class="sidebar-link ">Linear Regression</a>
+        <a href="Linear Step Polymerization.html" class="sidebar-link ">Linear Step Polymerization</a>
+        <a href="Linearization.html" class="sidebar-link ">Linearization</a>
+        <a href="Logic Programming.html" class="sidebar-link ">Logic Programming</a>
+        <a href="MSDS and PPE.html" class="sidebar-link ">MSDS and PPE</a>
+        <a href="Machine Safety.html" class="sidebar-link ">Machine Safety</a>
+        <a href="Math of continuous multistage distillation of binary mixtures.html" class="sidebar-link ">Math of continuous multistage distillation of binary mixtures</a>
+        <a href="Mccabe Thiele Method.html" class="sidebar-link ">Mccabe Thiele Method</a>
+        <a href="Mechanism of filtration.html" class="sidebar-link ">Mechanism of filtration</a>
+        <a href="Methods of Radical Polymerization.html" class="sidebar-link ">Methods of Radical Polymerization</a>
+        <a href="Mixing.html" class="sidebar-link ">Mixing</a>
+        <a href="Mixtures.html" class="sidebar-link ">Mixtures</a>
+        <a href="Modelling Crystal Size Distributions.html" class="sidebar-link ">Modelling Crystal Size Distributions</a>
+        <a href="Molar Mass.html" class="sidebar-link ">Molar Mass</a>
+        <a href="Molar mass distribution.html" class="sidebar-link ">Molar mass distribution</a>
+        <a href="Molecular Stress Tensor.html" class="sidebar-link ">Molecular Stress Tensor</a>
+        <a href="Molecular spectroscopy.html" class="sidebar-link ">Molecular spectroscopy</a>
+        <a href="Momentum Transfer.html" class="sidebar-link ">Momentum Transfer</a>
+        <a href="Monopoly Inefficiency.html" class="sidebar-link ">Monopoly Inefficiency</a>
+        <a href="Monopoly.html" class="sidebar-link ">Monopoly</a>
+        <a href="More VLE models.html" class="sidebar-link ">More VLE models</a>
+        <a href="Multicapacity processes.html" class="sidebar-link ">Multicapacity processes</a>
+        <a href="Multicomponent Distillation Problems.html" class="sidebar-link ">Multicomponent Distillation Problems</a>
+        <a href="Murphee Plate efficiency.html" class="sidebar-link ">Murphee Plate efficiency</a>
+        <a href="NIMBY.html" class="sidebar-link ">NIMBY</a>
+        <a href="Newtons Law of Viscosity.html" class="sidebar-link ">Newtons Law of Viscosity</a>
+        <a href="Nilkamal.html" class="sidebar-link ">Nilkamal</a>
+        <a href="Non Linear Step Polymerization.html" class="sidebar-link ">Non Linear Step Polymerization</a>
+        <a href="Non ideal flow.html" class="sidebar-link ">Non ideal flow</a>
+        <a href="Nonparametric Approaches.html" class="sidebar-link ">Nonparametric Approaches</a>
+        <a href="Nucleation.html" class="sidebar-link ">Nucleation</a>
+        <a href="Nucleoside.html" class="sidebar-link ">Nucleoside</a>
+        <a href="Nucleotide.html" class="sidebar-link ">Nucleotide</a>
+        <a href="Ordinal Payoff Games.html" class="sidebar-link ">Ordinal Payoff Games</a>
+        <a href="Orifice Meter.html" class="sidebar-link ">Orifice Meter</a>
+        <a href="PHA.html" class="sidebar-link ">PHA</a>
+        <a href="PID Intro.html" class="sidebar-link ">PID Intro</a>
+        <a href="PID problem.html" class="sidebar-link ">PID problem</a>
+        <a href="PMMA.html" class="sidebar-link ">PMMA</a>
+        <a href="PS Overview.html" class="sidebar-link ">PS Overview</a>
+        <a href="PVDC.html" class="sidebar-link ">PVDC</a>
+        <a href="Packed Towers.html" class="sidebar-link ">Packed Towers</a>
+        <a href="Packed bed flow and fluidization relationship.html" class="sidebar-link ">Packed bed flow and fluidization relationship</a>
+        <a href="Packed beds.html" class="sidebar-link ">Packed beds</a>
+        <a href="Pairs Trading.html" class="sidebar-link ">Pairs Trading</a>
+        <a href="Panchan Savarit Method.html" class="sidebar-link ">Panchan Savarit Method</a>
+        <a href="Parametric Approaches.html" class="sidebar-link ">Parametric Approaches</a>
+        <a href="Parametric and nonparametric.html" class="sidebar-link ">Parametric and nonparametric</a>
+        <a href="Perceptron.html" class="sidebar-link ">Perceptron</a>
+        <a href="Perfect substitutes.html" class="sidebar-link ">Perfect substitutes</a>
+        <a href="Phosphates.html" class="sidebar-link ">Phosphates</a>
+        <a href="Physical Properties.html" class="sidebar-link ">Physical Properties</a>
+        <a href="Pipe fittings.html" class="sidebar-link ">Pipe fittings</a>
+        <a href="Plug flow.html" class="sidebar-link ">Plug flow</a>
+        <a href="Point estimation of parameters.html" class="sidebar-link ">Point estimation of parameters</a>
+        <a href="Polyacrylonitriles.html" class="sidebar-link ">Polyacrylonitriles</a>
+        <a href="Polyamides.html" class="sidebar-link ">Polyamides</a>
+        <a href="Polyesters.html" class="sidebar-link ">Polyesters</a>
+        <a href="Polymer Chemistry and Technology.html" class="sidebar-link ">Polymer Chemistry and Technology</a>
+        <a href="Polymer Solutions.html" class="sidebar-link ">Polymer Solutions</a>
+        <a href="Polymerization.html" class="sidebar-link ">Polymerization</a>
+        <a href="Polymers.html" class="sidebar-link ">Polymers</a>
+        <a href="Population growth models.html" class="sidebar-link ">Population growth models</a>
+        <a href="Porous Falling Rate.html" class="sidebar-link ">Porous Falling Rate</a>
+        <a href="Pressure drop in pipe fittings.html" class="sidebar-link ">Pressure drop in pipe fittings</a>
+        <a href="Principles of Absorption.html" class="sidebar-link ">Principles of Absorption</a>
+        <a href="Problem on venturi meter.html" class="sidebar-link ">Problem on venturi meter</a>
+        <a href="Problems Bernoulli General.html" class="sidebar-link ">Problems Bernoulli General</a>
+        <a href="Problems on Batch Distillation.html" class="sidebar-link ">Problems on Batch Distillation</a>
+        <a href="Problems on Fluid Moving Machinery.html" class="sidebar-link ">Problems on Fluid Moving Machinery</a>
+        <a href="Problems on Radical Polymerization.html" class="sidebar-link ">Problems on Radical Polymerization</a>
+        <a href="Problems on Steam Distillation.html" class="sidebar-link ">Problems on Steam Distillation</a>
+        <a href="Problems on batch distillation of multicomponent mixtures.html" class="sidebar-link ">Problems on batch distillation of multicomponent mixtures</a>
+        <a href="Problems on flash distillation.html" class="sidebar-link ">Problems on flash distillation</a>
+        <a href="Problems on form of bernoulli.html" class="sidebar-link ">Problems on form of bernoulli</a>
+        <a href="Problems on intro to CPC.html" class="sidebar-link ">Problems on intro to CPC</a>
+        <a href="Process safety.html" class="sidebar-link ">Process safety</a>
+        <a href="Processing system with controller.html" class="sidebar-link ">Processing system with controller</a>
+        <a href="Processing.html" class="sidebar-link ">Processing</a>
+        <a href="Projects.html" class="sidebar-link ">Projects</a>
+        <a href="Properties of Polymers.html" class="sidebar-link ">Properties of Polymers</a>
+        <a href="Protein Structure.html" class="sidebar-link ">Protein Structure</a>
+        <a href="Pultrusion.html" class="sidebar-link ">Pultrusion</a>
+        <a href="Pumps.html" class="sidebar-link ">Pumps</a>
+        <a href="RBPS.html" class="sidebar-link ">RBPS</a>
+        <a href="Radical Mechanism.html" class="sidebar-link ">Radical Mechanism</a>
+        <a href="Radical Polymerization Chain Transfer.html" class="sidebar-link ">Radical Polymerization Chain Transfer</a>
+        <a href="Radical Polymerization Initiation.html" class="sidebar-link ">Radical Polymerization Initiation</a>
+        <a href="Radical Polymerization Propagation.html" class="sidebar-link ">Radical Polymerization Propagation</a>
+        <a href="Radical Polymerization Termination.html" class="sidebar-link ">Radical Polymerization Termination</a>
+        <a href="Radical Polymerization.html" class="sidebar-link ">Radical Polymerization</a>
+        <a href="Radical Reaction Kinetics.html" class="sidebar-link ">Radical Reaction Kinetics</a>
+        <a href="Reaction Injection Molding.html" class="sidebar-link ">Reaction Injection Molding</a>
+        <a href="Reaction Mechanisms.html" class="sidebar-link ">Reaction Mechanisms</a>
+        <a href="Real Fluids.html" class="sidebar-link ">Real Fluids</a>
+        <a href="Real Gases.html" class="sidebar-link ">Real Gases</a>
+        <a href="Recurrent Neural Networks.html" class="sidebar-link ">Recurrent Neural Networks</a>
+        <a href="Recycling grades.html" class="sidebar-link ">Recycling grades</a>
+        <a href="Refinery Science.html" class="sidebar-link ">Refinery Science</a>
+        <a href="Reinforcement Learning.html" class="sidebar-link ">Reinforcement Learning</a>
+        <a href="Relative volatility.html" class="sidebar-link ">Relative volatility</a>
+        <a href="Report on Biodiesel Production from Waste Oil Using Acid-Catalyzed Processes.html" class="sidebar-link ">Report on Biodiesel Production from Waste Oil Using Acid-Catalyzed Processes</a>
+        <a href="Resin Transfer Molding.html" class="sidebar-link ">Resin Transfer Molding</a>
+        <a href="Resin.html" class="sidebar-link ">Resin</a>
+        <a href="Reversible Deactivation Radical Polymerization.html" class="sidebar-link ">Reversible Deactivation Radical Polymerization</a>
+        <a href="Revision of Distillation.html" class="sidebar-link ">Revision of Distillation</a>
+        <a href="Rotational Molding.html" class="sidebar-link ">Rotational Molding</a>
+        <a href="SAN.html" class="sidebar-link ">SAN</a>
+        <a href="SBR.html" class="sidebar-link ">SBR</a>
+        <a href="SQL.html" class="sidebar-link ">SQL</a>
+        <a href="Saccharides.html" class="sidebar-link ">Saccharides</a>
+        <a href="Schematics.html" class="sidebar-link ">Schematics</a>
+        <a href="Second Order Systems.html" class="sidebar-link ">Second Order Systems</a>
+        <a href="Second order frequency response.html" class="sidebar-link ">Second order frequency response</a>
+        <a href="Second order interacting multicapacity processes.html" class="sidebar-link ">Second order interacting multicapacity processes</a>
+        <a href="Second order non interacting multicapacity processes.html" class="sidebar-link ">Second order non interacting multicapacity processes</a>
+        <a href="Second order processes.html" class="sidebar-link ">Second order processes</a>
+        <a href="Sedimentation Intro.html" class="sidebar-link sidebar-link-active">Sedimentation Intro</a>
+        <a href="Sedimentation.html" class="sidebar-link ">Sedimentation</a>
+        <a href="Selection of analytical methods.html" class="sidebar-link ">Selection of analytical methods</a>
+        <a href="Shaily.html" class="sidebar-link ">Shaily</a>
+        <a href="Shape factors.html" class="sidebar-link ">Shape factors</a>
+        <a href="Short Run Financial Market.html" class="sidebar-link ">Short Run Financial Market</a>
+        <a href="Short Run Goods Market.html" class="sidebar-link ">Short Run Goods Market</a>
+        <a href="Simple Equilibrium.html" class="sidebar-link ">Simple Equilibrium</a>
+        <a href="Solid suspension.html" class="sidebar-link ">Solid suspension</a>
+        <a href="Solution Polymerization.html" class="sidebar-link ">Solution Polymerization</a>
+        <a href="Specific Surface and Voidage.html" class="sidebar-link ">Specific Surface and Voidage</a>
+        <a href="Stage processes.html" class="sidebar-link ">Stage processes</a>
+        <a href="Stage.html" class="sidebar-link ">Stage</a>
+        <a href="Statistics models.html" class="sidebar-link ">Statistics models</a>
+        <a href="Statistics problems.html" class="sidebar-link ">Statistics problems</a>
+        <a href="Steam distillation.html" class="sidebar-link ">Steam distillation</a>
+        <a href="Straight Line Trajectories.html" class="sidebar-link ">Straight Line Trajectories</a>
+        <a href="Strict and Weak Dominance.html" class="sidebar-link ">Strict and Weak Dominance</a>
+        <a href="Sugars used in nucleosides.html" class="sidebar-link ">Sugars used in nucleosides</a>
+        <a href="Supreme Industries.html" class="sidebar-link ">Supreme Industries</a>
+        <a href="Surface Reaction.html" class="sidebar-link ">Surface Reaction</a>
+        <a href="Surface vs interface.html" class="sidebar-link ">Surface vs interface</a>
+        <a href="Suspension Polymerization.html" class="sidebar-link ">Suspension Polymerization</a>
+        <a href="Suzlon.html" class="sidebar-link ">Suzlon</a>
+        <a href="System of government.html" class="sidebar-link ">System of government</a>
+        <a href="Systems of Reactors.html" class="sidebar-link ">Systems of Reactors</a>
+        <a href="Takshil's Problem.html" class="sidebar-link ">Takshil's Problem</a>
+        <a href="Taxonomy.html" class="sidebar-link ">Taxonomy</a>
+        <a href="Technological Economics.html" class="sidebar-link ">Technological Economics</a>
+        <a href="Technology.html" class="sidebar-link ">Technology</a>
+        <a href="Temperature.html" class="sidebar-link ">Temperature</a>
+        <a href="Thermodynamic Metrics.html" class="sidebar-link ">Thermodynamic Metrics</a>
+        <a href="Thermodynamics of Surfaces.html" class="sidebar-link ">Thermodynamics of Surfaces</a>
+        <a href="Thermoforming.html" class="sidebar-link ">Thermoforming</a>
+        <a href="Thermoplastics.html" class="sidebar-link ">Thermoplastics</a>
+        <a href="Thermoset.html" class="sidebar-link ">Thermoset</a>
+        <a href="Time Smoothed Equation of Change.html" class="sidebar-link ">Time Smoothed Equation of Change</a>
+        <a href="Time Smoothed Velocity Profiles.html" class="sidebar-link ">Time Smoothed Velocity Profiles</a>
+        <a href="Tools.html" class="sidebar-link ">Tools</a>
+        <a href="Transcript.html" class="sidebar-link ">Transcript</a>
+        <a href="Transfer Functions.html" class="sidebar-link ">Transfer Functions</a>
+        <a href="Tray by Tray method.html" class="sidebar-link ">Tray by Tray method</a>
+        <a href="Trommsdroff effect.html" class="sidebar-link ">Trommsdroff effect</a>
+        <a href="Turbulence.html" class="sidebar-link ">Turbulence</a>
+        <a href="Turbulent Flow.html" class="sidebar-link ">Turbulent Flow</a>
+        <a href="Turbulent Momentum Flux.html" class="sidebar-link ">Turbulent Momentum Flux</a>
+        <a href="Two first order systems.html" class="sidebar-link ">Two first order systems</a>
+        <a href="Types of Mixers.html" class="sidebar-link ">Types of Mixers</a>
+        <a href="Types of filters.html" class="sidebar-link ">Types of filters</a>
+        <a href="Types of polymers.html" class="sidebar-link ">Types of polymers</a>
+        <a href="Unsteady Heat Conduction.html" class="sidebar-link ">Unsteady Heat Conduction</a>
+        <a href="Untitled 1.html" class="sidebar-link ">Untitled 1</a>
+        <a href="Untitled 2.html" class="sidebar-link ">Untitled 2</a>
+        <a href="Untitled.html" class="sidebar-link ">Untitled</a>
+        <a href="Utility Network.html" class="sidebar-link ">Utility Network</a>
+        <a href="VLE models.html" class="sidebar-link ">VLE models</a>
+        <a href="VLE revision.html" class="sidebar-link ">VLE revision</a>
+        <a href="Vacuum Distillation.html" class="sidebar-link ">Vacuum Distillation</a>
+        <a href="Vapour Liquid Equilibrium.html" class="sidebar-link ">Vapour Liquid Equilibrium</a>
+        <a href="Variable Costs.html" class="sidebar-link ">Variable Costs</a>
+        <a href="Variable Volume.html" class="sidebar-link ">Variable Volume</a>
+        <a href="Vector Calculus.html" class="sidebar-link ">Vector Calculus</a>
+        <a href="Velocity profile.html" class="sidebar-link ">Velocity profile</a>
+        <a href="Venturi Meter.html" class="sidebar-link ">Venturi Meter</a>
+        <a href="Vinegar.html" class="sidebar-link ">Vinegar</a>
+        <a href="Volume.html" class="sidebar-link ">Volume</a>
+        <a href="Water Pollution.html" class="sidebar-link ">Water Pollution</a>
+        <a href="Water Water Everywhere.html" class="sidebar-link ">Water Water Everywhere</a>
+        <a href="Wine.html" class="sidebar-link ">Wine</a>
+        <a href="accentric factor.html" class="sidebar-link ">accentric factor</a>
+        <a href="adsorption isotherms.html" class="sidebar-link ">adsorption isotherms</a>
+        <a href="basic concepts.html" class="sidebar-link ">basic concepts</a>
+        <a href="bootstrapping.html" class="sidebar-link ">bootstrapping</a>
+        <a href="chain growth.html" class="sidebar-link ">chain growth</a>
+        <a href="chemical reactions and reactors.html" class="sidebar-link ">chemical reactions and reactors</a>
+        <a href="commissioner of food safety.html" class="sidebar-link ">commissioner of food safety</a>
+        <a href="constant rate filtration example.html" class="sidebar-link ">constant rate filtration example</a>
+        <a href="creating a database.html" class="sidebar-link ">creating a database</a>
+        <a href="crystallinity.html" class="sidebar-link ">crystallinity</a>
+        <a href="curve fitting experimental data.html" class="sidebar-link ">curve fitting experimental data</a>
+        <a href="designated officer.html" class="sidebar-link ">designated officer</a>
+        <a href="dissociative adsorption.html" class="sidebar-link ">dissociative adsorption</a>
+        <a href="distribution.html" class="sidebar-link ">distribution</a>
+        <a href="doubt session.html" class="sidebar-link ">doubt session</a>
+        <a href="entropy-arjun.html" class="sidebar-link ">entropy-arjun</a>
+        <a href="environmental aspects of polymers.html" class="sidebar-link ">environmental aspects of polymers</a>
+        <a href="epoxy.html" class="sidebar-link ">epoxy</a>
+        <a href="equation of motion revision.html" class="sidebar-link ">equation of motion revision</a>
+        <a href="exergy special.html" class="sidebar-link ">exergy special</a>
+        <a href="flat and curved surfaces.html" class="sidebar-link ">flat and curved surfaces</a>
+        <a href="food analyst.html" class="sidebar-link ">food analyst</a>
+        <a href="food safety officer.html" class="sidebar-link ">food safety officer</a>
+        <a href="food safety standards rules, 2011.html" class="sidebar-link ">food safety standards rules, 2011</a>
+        <a href="for idiots on discord.html" class="sidebar-link ">for idiots on discord</a>
+        <a href="functionality.html" class="sidebar-link ">functionality</a>
+        <a href="gas-liquid mixer loading.html" class="sidebar-link ">gas-liquid mixer loading</a>
+        <a href="gibbs free energy.html" class="sidebar-link ">gibbs free energy</a>
+        <a href="index.html" class="sidebar-link ">index</a>
+        <a href="introduction.html" class="sidebar-link ">introduction</a>
+        <a href="langmuir isotherm.html" class="sidebar-link ">langmuir isotherm</a>
+        <a href="lecture 3 IPC.html" class="sidebar-link ">lecture 3 IPC</a>
+        <a href="linear discriminant analysis.html" class="sidebar-link ">linear discriminant analysis</a>
+        <a href="logistic regression.html" class="sidebar-link ">logistic regression</a>
+        <a href="mathematical modelling.html" class="sidebar-link ">mathematical modelling</a>
+        <a href="multistage binary operating lines and mass balance.html" class="sidebar-link ">multistage binary operating lines and mass balance</a>
+        <a href="phenol formaldehyde.html" class="sidebar-link ">phenol formaldehyde</a>
+        <a href="phenolic.html" class="sidebar-link ">phenolic</a>
+        <a href="pipe control.html" class="sidebar-link ">pipe control</a>
+        <a href="plastic recycling.html" class="sidebar-link ">plastic recycling</a>
+        <a href="polyamide.html" class="sidebar-link ">polyamide</a>
+        <a href="polyethylene.html" class="sidebar-link ">polyethylene</a>
+        <a href="polyolefins.html" class="sidebar-link ">polyolefins</a>
+        <a href="polypropylene.html" class="sidebar-link ">polypropylene</a>
+        <a href="polystyrene.html" class="sidebar-link ">polystyrene</a>
+        <a href="polyvinyl chloride.html" class="sidebar-link ">polyvinyl chloride</a>
+        <a href="postgreSQL.html" class="sidebar-link ">postgreSQL</a>
+        <a href="problem.html" class="sidebar-link ">problem</a>
+        <a href="problems on drying.html" class="sidebar-link ">problems on drying</a>
+        <a href="proofs of some standard laplace transforms.html" class="sidebar-link ">proofs of some standard laplace transforms</a>
+        <a href="single catalyst pore model.html" class="sidebar-link ">single catalyst pore model</a>
+        <a href="solid liquid interface.html" class="sidebar-link ">solid liquid interface</a>
+        <a href="solution to question 1.html" class="sidebar-link ">solution to question 1</a>
+        <a href="spargers.html" class="sidebar-link ">spargers</a>
+        <a href="step growth.html" class="sidebar-link ">step growth</a>
+        <a href="system architecture.html" class="sidebar-link ">system architecture</a>
+        <a href="vinyl polymers.html" class="sidebar-link ">vinyl polymers</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p>𝑖𝑑𝑒𝑎𝑙𝑖𝑑𝑒𝑎𝑙𝑖𝑑𝑒𝑎𝑙- This is pretty close to <a
+href="Filtration.html">Filtration</a>, except here we separate the
+solids through their motion in fluids. - Industry almost always has
+settlers that work continuously - <img
+src="../images/Pasted%20image%2020250409132104.png"
+alt="Pasted image 20250409132104.png" /> - Is the equation for drag
+force - If we’re talking about gravity settlers (mavity settlers?),
+<span class="math display">\[\frac{du}{dt} =
+mg-mg\frac{\rho}{\rho_s}-\frac{C_Du^2\rho A_P}{2}\]</span> - (We
+included the buoyancy force as well) - equating the acceleration to 0,
+we get terminal velocity: - <img
+src="../images/Pasted%20image%2020250409132426.png"
+alt="Pasted image 20250409132426.png" /> - <strong>Applying this to
+centrifugal settling</strong> - <img
+src="../images/Pasted%20image%2020250409132533.png"
+alt="Pasted image 20250409132533.png" /> - Stokes law at Re_p&lt;1:
+<span class="math display">\[C_D = 24/Re_p\]</span> - Inserting the
+above fact into the differential equation up above, we get:<img
+src="../images/Pasted%20image%2020250409133957.png"
+alt="Pasted image 20250409133957.png" /> - Free settling - Particle
+settling independent of other particles - Hindered settling - Affected
+by other particles - Terminal velocity is reached fast for fine solids -
+In hindered settling, just multiply the u_t calculated by a voidage of
+suspension factor. <span class="math inline">\(\epsilon\)</span> raised
+to the power n ## Batch Sedimentation - The graph below shows the
+heights of the different zones of settling: <img
+src="../images/Pasted%20image%2020250409134748.png"
+alt="Pasted image 20250409134748.png" /> - <img
+src="../images/Pasted%20image%2020250409134805.png"
+alt="Pasted image 20250409134805.png" /> - Critical sedimentation point
+is reached at the 4th iteration - Zone B is a slurry of uniform
+concentration - Zone C is sediment in compression - Zone D is the
+deposit - For dilute solutions large particles settle fast (selective
+settling), concentrated solutions, small particles settle faster (line
+settling). If size ratio of particles doesnt exceed 6:1, suspension
+settles with a sharp interface - Height of sedimentation doesn’t affect
+time taken to settle - Larger the vessel diameter, the less the effect
+of the walls on the settling - Higher concentrations cause rate of fall
+of sludge to be smaller - Inclined tanks with inclined plated cause
+faster sedimentation ## Thickener <img
+src="../images/Pasted%20image%2020250409150143.png"
+alt="Pasted image 20250409150143.png" /> - Settling tank that operates
+continuously - rake used to move off settled deposit to the underflow -
+To get the minimum area required for settling here, we need to find the
+minimum settling velocity, then estimate the upward velocity of the
+liquid - the kynch theory makes a few assumptions, which we will use to
+analyse these: - particle concentration is uniform in every zone - no
+wall effects, differential settling velocities - settling velocity
+depends only on the local concentration of particle - Initial conc. is
+uniform - Settling velocity approaches 0 as conc reaches a limiting
+level ### Batch to thickener - Now we use batch test data of
+sedimentation to designing a thickener - mass of solids passing through
+limiting layer is <img
+src="../images/Pasted%20image%2020250409150728.png"
+alt="Pasted image 20250409150728.png" /> - equating this to the mass of
+solids in the tank <img
+src="../images/Pasted%20image%2020250409150749.png"
+alt="Pasted image 20250409150749.png" /> - <span
+class="math inline">\(\bar V_L\)</span> is the velocity of the limiting
+layer, V_L is the setting velocity - <span
+class="math display">\[\bar{V_L} = \frac{Z_L}{t_L}\]</span> - (change in
+height of the limiting surface by time) - substituting:<img
+src="../images/Pasted%20image%2020250409150948.png"
+alt="Pasted image 20250409150948.png" /> - I’m doing it from the book on
+revision…</p>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>
