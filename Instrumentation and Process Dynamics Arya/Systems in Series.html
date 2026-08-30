@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems In Series - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Instrumentation And Process Dynamics Arya</div>
+        <a href="Control System.html" class="sidebar-link ">Control System</a>
+        <a href="Controller Designing.html" class="sidebar-link ">Controller Designing</a>
+        <a href="Instruments.html" class="sidebar-link ">Instruments</a>
+        <a href="Laplace Transform.html" class="sidebar-link ">Laplace Transform</a>
+        <a href="Second Order System.html" class="sidebar-link ">Second Order System</a>
+        <a href="Systems in Series.html" class="sidebar-link sidebar-link-active">Systems in Series</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<section id="non-interacting-capacities-in-series" class="level2">
+<h2>Non-Interacting Capacities in Series</h2>
+<p>Two tanks in series, where the second tank does <strong>not</strong>
+influence the dynamics of the first (i.e., no feedback from <span
+class="math inline">\(h_2\)</span> to tank 1).</p>
+<pre><code>          Fi(t)
+           v
+ +------------------+ 
+ |                  |
+ |                  |h1
+ |     Tank 1       |
+ |                  |
+ +--------+---------+----------+
+                              │
+                              v  Flow (K1sqrth1)
+                         +----+----+
+                         │ Valve   |
+                         +----+----+
+                               │
+                               +----------------+
+                                               v
+                                         +------------------+     
+                                         |                  |
+                                         |                  | h2
+                                         |     Tank 2       |
+                                         |                  |   
+                                         +------------------+ -----+                                                                             │
+                                                                 v
+                                                            Outlet</code></pre>
+<p>Let: - <span class="math inline">\(A_1\)</span>, <span
+class="math inline">\(A_2\)</span> = cross-sectional areas of Tank 1 and
+Tank 2<br />
+- <span class="math inline">\(K_1\)</span>, <span
+class="math inline">\(K_2\)</span> = flow resistance constants<br />
+- <span class="math inline">\(h_1\)</span>, <span
+class="math inline">\(h_2\)</span> = liquid heights</p>
+<p>Equations:</p>
+<ol type="1">
+<li><strong>Tank 1:</strong> <span class="math display">\[ A_1
+\frac{dh_1}{dt} = F_i - K_1 \sqrt{h_1} \]</span></li>
+<li><strong>Tank 2:</strong> <span class="math display">\[ A_2
+\frac{dh_2}{dt} = K_1 \sqrt{h_1} - K_2 \sqrt{h_2} \]</span></li>
+</ol>
+<p>Taking Laplace of deviation form after Taylor expansion:</p>
+<p><span class="math display">\[
+A_1 s \bar{H}_1(s) = \bar{F}_i(s) - \frac{K_1}{2 \sqrt{h_{1s}}}
+\bar{H}_1(s)
+\]</span></p>
+<ul>
+<li><span class="math inline">\(R_1 = \frac{2
+\sqrt{h_{1s}}}{K_1}\)</span></li>
+<li><span class="math inline">\(\tau_1 = A_1 R_1\)</span></li>
+</ul>
+<p><span class="math display">\[
+G_1(s) = \frac{\bar{H}_1(s)}{\bar{F}_i(s)} = \frac{K_p}{\tau_1 s + 1}
+\]</span></p>
+<p>Where: - <span class="math inline">\(K_p =\)</span> Gain</p>
+<p>Laplace domain linearized:</p>
+<p><span class="math display">\[
+A_2 s \bar{H}_2(s) = \frac{K_1}{2 \sqrt{h_{1s}}} \bar{H}_1(s) -
+\frac{K_2}{2 \sqrt{h_{2s}}} \bar{H}_2(s)
+\]</span></p>
+<p>Let: - <span class="math inline">\(R_2 = \frac{2
+\sqrt{h_{2s}}}{K_2}\)</span> - <span class="math inline">\(\tau_2 = A_2
+R_2\)</span></p>
+<p>Then:</p>
+<p><span class="math display">\[
+\bar{H}_2(s) = \frac{R_2}{R_1} \cdot \frac{1}{\tau_2 s + 1} \cdot
+\bar{H}_1(s)
+\]</span></p>
+<p>So,</p>
+<p><span class="math display">\[
+G_2(s) = \frac{\bar{H}_2(s)}{\bar{H}_1(s)} = \frac{R_2 / R_1}{\tau_2 s +
+1}
+\]</span></p>
+<section id="overall-transfer-function" class="level4">
+<h4>Overall Transfer Function</h4>
+<p><span class="math display">\[
+G(s) = G_1(s) \cdot G_2(s) = \frac{1}{\tau_1 s + 1} \cdot \frac{R_2 /
+R_1}{\tau_2 s + 1}
+\]</span></p>
+<hr />
+</section>
+</section>
+<section id="interacting-capacities" class="level2">
+<h2>Interacting Capacities</h2>
+<pre><code>          Fi(t)
+           v
+ |                  |                          |                  |
+ |                  | h1                       |                  | h2
+ |     Tank 1       |                          |     Tank 1       |
+ |                  |         -----------      |                  | 
+ +--------+---------+ ------&gt; │ Valve   │-----&gt; +------------------+-+
+                             ----------                           |
+                                                                        v
+                                                              Outlet</code></pre>
+<ol type="1">
+<li><p><strong>Tank 1</strong>: <span class="math display">\[
+A_1 \frac{dh_1}{dt} = F_i(t) - K_1 \sqrt{h_1 - h_2}
+\]</span></p></li>
+<li><p><strong>Tank 2</strong>: <span class="math display">\[
+A_2 \frac{dh_2}{dt} = K_1 \sqrt{h_1 - h_2} - K_2 \sqrt{h_2}
+\]</span></p></li>
+</ol>
+<p>Use deviation variables and apply Taylor’s expansion: - <span
+class="math inline">\(H_1(s), H_2(s)\)</span> = Laplace transforms of
+<span class="math inline">\(h_1&#39;(t), h_2&#39;(t)\)</span> - <span
+class="math inline">\(F(s)\)</span> = Laplace transform of <span
+class="math inline">\(f_i&#39;(t)\)</span></p>
+<p><span class="math display">\[
+   \left( A_1 s + \frac{1}{R_1} \right) \bar H_1(s) = \bar F(s) +
+\frac{1}{R_1} \bar H_2(s)
+   \]</span> <span class="math display">\[
+   \left\{ A_2 R_2 s + \left(1 + \frac{R_2}{R_1} \right) \right\} \bar
+H_2(s) = \frac{R_2}{R_1} \bar H_1(s)
+   \]</span></p>
+<p>Here: - <span class="math inline">\(R_1 = \frac{1}{2 K_1 \sqrt{h_{1s}
+- h_{2s}}}\)</span><br />
+- <span class="math inline">\(R_2 = \frac{1}{2 K_2
+\sqrt{h_{2s}}}\)</span></p>
+<p>Solve for <span class="math inline">\(G_p(s) = \frac{\bar
+H_2(s)}{\bar F(s)}\)</span>:</p>
+<p><span class="math display">\[
+G_p(s) = \frac{R_2}{(\tau_1 s + 1)(\tau_2 s + 1)}
+\]</span></p>
+<p>Where: - <span class="math inline">\(\tau_1 = A_1 R_1\)</span>, <span
+class="math inline">\(\tau_2 = A_2 R_2 \left(1 + \frac{R_2}{R_1}
+\right)\)</span></p>
+<ul>
+<li>The system behaves like a <strong>second-order</strong> system with
+<strong>coupled dynamics</strong>.</li>
+<li>Compared to non-interacting tanks, interacting systems are
+<strong>slower</strong> and more <strong>coupled</strong>, requiring
+more careful control.</li>
+</ul>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,558 @@
+/* ===== RESET / OVERRIDES FOR HEADER ===== */
+body {
+    margin: auto;
+    padding: 0;
+}
+
+.retro-header {
+    background: #000080;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255,255,0,0.1) 0px,
+        rgba(255,255,0,0.1) 2px,
+        transparent 2px,
+        transparent 8px
+    );
+    color: #ffff00;
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 4px ridge #c0c0c0;
+    font-family: 'Courier New', monospace;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #000000;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+    .header-title {
+        white-space: normal;
+        font-size: 20px;
+    }
+    .header-content {
+        gap: 8px;
+    }
+}
+
+.header-icon {
+    height: 32px;
+    width: auto;
+    image-rendering: pixelated;
+    vertical-align: middle;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.main-container {
+    display: flex;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 24px auto;
+    padding: 0 20px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: #c0c0c0;
+    border: 3px ridge #ffffff;
+    padding: 12px;
+    font-family: 'Courier New', monospace;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar-header {
+    background: #000080;
+    color: #ffff00;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin: -12px -12px 12px -12px;
+    border-bottom: 2px ridge #ffffff;
+}
+
+.sidebar-section {
+    margin: 12px 0;
+}
+
+.sidebar-section-title {
+    background: #808080;
+    color: white;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border-left: 4px solid #ffff00;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 4px 8px;
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sidebar-link:hover {
+    background: #ffff00;
+    color: #0000ff;
+}
+
+.sidebar-link-active {
+    background: #ffff00;
+    color: #0000ff !important;
+    font-weight: bold;
+    border-left: 4px solid #ff0000;
+}
+
+.sidebar-decoration {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 2px dotted #808080;
+}
+
+/* ===== FOOTER ===== */
+.retro-footer {
+    background: #c0c0c0;
+    text-align: center;
+    padding: 16px;
+    border-top: 4px ridge #ffffff;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    background: #ffff00;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 760px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: auto;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .header-icon {
+        height: 24px;
+    }
+    .retro-header {
+        padding: 12px 0;
+    }
+}
+
+/* ===== TUFTE CSS OVERRIDES ===== */
+.main-container article {
+    flex: 1;
+    max-width: none;
+}
+
+/* ===== IMAGE STYLING ===== */
+img {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    border: 2px ridge #c0c0c0;
+    background: white;
+    padding: 4px;
+}/* ===== RESET / OVERRIDES FOR HEADER ===== */
+body {
+    margin: auto;
+    padding: 0;
+}
+
+.retro-header {
+    background: #000080;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255,255,0,0.1) 0px,
+        rgba(255,255,0,0.1) 2px,
+        transparent 2px,
+        transparent 8px
+    );
+    color: #ffff00;
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 4px ridge #c0c0c0;
+    font-family: 'Courier New', monospace;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #000000;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+    .header-title {
+        white-space: normal;
+        font-size: 20px;
+    }
+    .header-content {
+        gap: 8px;
+    }
+}
+
+.header-icon {
+    height: 32px;
+    width: auto;
+    image-rendering: pixelated;
+    vertical-align: middle;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.main-container {
+    display: flex;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 24px auto;
+    padding: 0 20px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: #c0c0c0;
+    border: 3px ridge #ffffff;
+    padding: 12px;
+    font-family: 'Courier New', monospace;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar-header {
+    background: #000080;
+    color: #ffff00;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin: -12px -12px 12px -12px;
+    border-bottom: 2px ridge #ffffff;
+}
+
+.sidebar-section {
+    margin: 12px 0;
+}
+
+.sidebar-section-title {
+    background: #808080;
+    color: white;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border-left: 4px solid #ffff00;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 4px 8px;
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sidebar-link:hover {
+    background: #ffff00;
+    color: #0000ff;
+}
+
+.sidebar-link-active {
+    background: #ffff00;
+    color: #0000ff !important;
+    font-weight: bold;
+    border-left: 4px solid #ff0000;
+}
+
+.sidebar-decoration {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 2px dotted #808080;
+}
+
+/* ===== FOOTER ===== */
+.retro-footer {
+    background: #c0c0c0;
+    text-align: center;
+    padding: 16px;
+    border-top: 4px ridge #ffffff;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    background: #ffff00;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 760px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: auto;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .header-icon {
+        height: 24px;
+    }
+    .retro-header {
+        padding: 12px 0;
+    }
+}
+
+/* ===== TUFTE CSS OVERRIDES ===== */
+.main-container article {
+    flex: 1;
+    max-width: none;
+}
+
+/* ===== IMAGE STYLING ===== */
+img {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    border: 2px ridge #c0c0c0;
+    background: white;
+    padding: 4px;
+}
+
+/* ===== UPDATED HEADER NAVIGATION ===== */
+.header-title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    background: #c0c0c0;
+    padding: 5px;
+    border-top: 2px ridge #ffffff;
+    border-bottom: 2px ridge #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #c0c0c0;
+    border: 2px outset #ffffff;
+    color: #000000;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 2px 10px;
+}
+
+.dropbtn:active {
+    border-style: inset;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c0c0c0;
+    min-width: 160px;
+    border: 2px ridge #ffffff;
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.3);
+    z-index: 1000;
+    margin-top: 2px;
+}
+
+.dropdown-content a {
+    color: #0000ff;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+}
+
+.dropdown-content a:hover {
+    background-color: #000080;
+    color: #ffff00;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* --- THE WINDOW SYSTEM --- */
+/* Layout for the windows */
+.window-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Ensure individual windows don't break the grid */
+.window {
+    margin-bottom: 0; /* Override the default margin to use the grid gap */
+}
+
+@media (max-width: 760px) {
+    .window-grid {
+        grid-template-columns: 1fr; /* Stack on mobile */
+    }
+}
+.window {
+    background: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-right-color: #404040;
+    border-bottom-color: #404040;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.window-title {
+    background: #000080;
+    color: #ffffff;
+    padding: 3px 6px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.window-body {
+    padding: 15px;
+    border: 1px inset #ffffff;
+    background: #ffffff;
+    font-family: 'Courier New', monospace;
+    color: #000;
+}
+
+/* --- UPDATE LOG STYLING --- */
+.update-log {
+    background: #000;
+    color: #00ff00;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    border: 1px inset #808080;
+}
+
+.date {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+/* --- QUICK LINKS --- */
+.quick-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.quick-links a {
+    display: block;
+    background: #c0c0c0;
+    border: 2px outset #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.quick-links a:active {
+    border-style: inset;
+}
+.main-container-index {
+    max-width: 900px; /* Or whatever width you want */
+    margin: 24px auto;
+    padding: 0 20px;
+}
+@media (max-width: 760px) {
+    /* 1. Ensure the container acts as a column on mobile */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 2. Force the article to the top */
+    .main-container article {
+        order: 1;
+    }
+
+    /* 3. Force the sidebar to the bottom */
+    .main-container .sidebar {
+        order: 2;
+    }
+}

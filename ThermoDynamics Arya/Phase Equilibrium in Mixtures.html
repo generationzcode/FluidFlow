@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Equilibrium In Mixtures - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Thermodynamics Arya</div>
+        <a href="Basic Concepts and Definitions.html" class="sidebar-link ">Basic Concepts and Definitions</a>
+        <a href="Conservation of Energy.html" class="sidebar-link ">Conservation of Energy</a>
+        <a href="EOS.html" class="sidebar-link ">EOS</a>
+        <a href="Entropy.html" class="sidebar-link ">Entropy</a>
+        <a href="Extent of Reaction.html" class="sidebar-link ">Extent of Reaction</a>
+        <a href="Material and Energy Balance Calculations.html" class="sidebar-link ">Material and Energy Balance Calculations</a>
+        <a href="Mixtures.html" class="sidebar-link ">Mixtures</a>
+        <a href="Phase Equilibrium in Mixtures.html" class="sidebar-link sidebar-link-active">Phase Equilibrium in Mixtures</a>
+        <a href="Thermo....html" class="sidebar-link ">Thermo...</a>
+        <a href="Will Name it Later....html" class="sidebar-link ">Will Name it Later...</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p><a href="Conservation%20of%20Energy.html">Conservation of Energy</a>
+<a href="Entropy.html">Entropy</a> <a
+href="Will%20Name%20it%20Later....html">Will Name it Later…</a> <a
+href="Mixtures.html">Mixtures</a></p>
+<pre class="mermaid"><code>graph TD
+    A[IG mixture &lt;br&gt; T, P, y1, y2, y3... &lt;br&gt; P*y1, P*y2, P*y3...] 
+    B[IG 1 &lt;br&gt; y1 gmols] --&gt; A
+    C[IG 2 &lt;br&gt; y2 gmols] --&gt; A
+    D[IG 3 &lt;br&gt; y3 gmols] --&gt; A
+    E[...] --&gt; A</code></pre>
+<blockquote>
+<p>[!warning] Key <strong>Assumptions</strong> for
+<strong><em>IGM</em></strong> - Size and Shape of the molecules of all
+the components are the same. - The change in volume upon mixing <span
+class="math inline">\(\Delta V_{\text{mix}} = 0\)</span>. - The change
+in enthalpy upon mixing <span class="math inline">\(\Delta
+H_{\text{mix}} = 0\)</span>. - The change in internal energy upon mixing
+<span class="math inline">\(\Delta U_{\text{mix}} = 0\)</span>.</p>
+</blockquote>
+<p><span class="math display">\[
+\begin{align*}
+    \Delta_{mix}V &amp;= V - \sum y_iV_i = 0 \\
+    &amp;= \sum y_i \bar{V_i} - \sum y_iV_i = 0 \\
+    \implies \bar{V_i} &amp;= V_i
+\end{align*}
+\]</span> Hence the Partial molar volume for each component is same as
+the molar volume for each individual component respectively. Similarly,
+<span class="math display">\[
+\begin{align*}
+    \Delta_{mix}U &amp;= 0 \implies \bar{U_i} = U_i\\
+    \Delta_{mix}H &amp;= 0 \implies \bar{H_i} = H_i
+\end{align*}
+\]</span></p>
+<p>However the the case is different when it comes to
+<strong><em>Entropy</em></strong>. - <strong>Nature of
+Measurement</strong>: The entropy change <span
+class="math inline">\(\Delta S_{\text{mix}}\)</span> is not zero because
+gases mix, increasing the overall disorder of the system, while internal
+energy (<span class="math inline">\(U\)</span>), enthalpy (<span
+class="math inline">\(H\)</span>), and volume (<span
+class="math inline">\(V\)</span>) represent energy and spatial
+characteristics. - <strong>Response to Mixing</strong>:Initially, each
+gas is at 1 atm; after mixing, the total pressure remains the same,
+introducing partial pressures for each gas. - <strong>Spontaneity of
+Processes</strong>: This mixing is a spontaneous process that enhances
+chaos, leading to a greater number of accessible microstates. -
+<strong>Additivity</strong>: Entropy is additive for independent
+subsystems, leading to a total entropy that differs conceptually from
+the treatment of energy or volume in mixtures.</p>
+<p>But for Entropy, the temperature of the IGM remains constant but the
+presssure of individual components in the mixture changes as funtion of
+mole fraction hence, <span class="math display">\[
+\Delta _{mix}S =
+\begin{array}{c}
+\text{Entropy} \\
+\text{Change in} \\
+\text{Component 1}
+\end{array}
++
+\begin{array}{c}
+\text{Entropy} \\
+\text{Change in} \\
+\text{Component 2}
+\end{array}
++
+\begin{array}{c}
+\text{Entropy} \\
+\text{Change in} \\
+\text{Component 3}
+\end{array}
++\ldots
+\]</span> <span class="math display">\[
+\because \Delta S = - R\ln \left(\frac{P_i}{P^{IGM}}\right)
+\]</span> <span class="math display">\[
+\begin{align*}
+\therefore \Delta_{mix}S &amp;= -R \left[\sum y_i \ln y_i\right]\\
+\sum y_i(\bar S_i - S_i) &amp;= -R \left[\sum y_i \ln y_i\right]\\
+\bar S_i - S_i &amp;= -R \ln y_i \\
+\end{align*}
+\]</span></p>
+<p>Similar for Gibbs Energy which is also subject to change in pressure,
+<span class="math display">\[
+\begin{align*}
+\therefore \Delta_{mix}G &amp;= -RT \left[\sum y_i \ln y_i\right]\\
+\sum y_i(\bar G_i - G_i) &amp;= -R \left[\sum y_i \ln y_i\right]\\
+\bar G_i - G_i &amp;= RT \ln y_i \\
+\end{align*}
+\]</span> # Non-ideal Mixture</p>
+<blockquote>
+<p>[!Assumption] Ideal Mixture Size and Shape of all constituent
+Molecules of all components are same. The change in volume upon mixing
+<span class="math inline">\(\Delta V_{\text{mix}} = 0\)</span>. The
+change in enthalpy upon mixing <span class="math inline">\(\Delta
+H_{\text{mix}} = 0\)</span>. The change in internal energy upon mixing
+<span class="math inline">\(\Delta U_{\text{mix}} = 0\)</span>. - Note:
+IM and IGM are not same.</p>
+</blockquote>
+<section id="excess-property" class="level2">
+<h2>Excess Property</h2>
+<p><span class="math display">\[
+M^{ex} = \Delta_{mix}M - \Delta_{mix}M^{IM}
+\]</span> <span class="math inline">\(\Delta_{mix}M^{IM}\)</span> is the
+change in property if the mixture would had behaved like ideal
+mixture.</p>
+<p>But for Enthalpy, Internal Energy and Molar Volume, <span
+class="math display">\[
+\begin{align*}
+    H^{ex}\  &amp;=\  \Delta_{mix}H\\
+    U^{ex}\  &amp;=\  \Delta_{mix}U\\
+    V^{ex}\  &amp;=\  \Delta_{mix}V\\
+\end{align*}
+\]</span></p>
+<p>For Gibbs Free Energy, <span class="math display">\[
+\begin{align*}
+    G^{ex} &amp;= \Delta_{mix}G - \Delta_{mix}G^{IM}\\
+    G^{ex} &amp;= \Delta_{mix}G - RT\sum x_i\ln x_i
+\end{align*}
+\]</span> Similarly for Entropy <span class="math display">\[
+\begin{align*}
+    S^{ex} &amp;= \Delta_{mix}S - \Delta_{mix}S^{IM}\\
+    S^{ex} &amp;= \Delta_{mix}S + R\sum \ln x_i
+\end{align*}
+\]</span> <span class="math display">\[
+\begin{align*}
+    M^{ex} &amp;= \Delta_{mix}M - \Delta_{mix}M^{IM}\\
+    &amp;= (M - \sum x_i M_i) -(M^{IM} - \sum x_iM_i)\\
+    M^{ex} &amp;= M - M^{IM}\\
+    M^{ex} &amp;= \sum x_i \bar{M_i} - \sum x_i\bar{M_i}^{IM}\\
+    &amp;= \sum x_i \left[\bar M_i -\bar M_i^{IM}\right]\\
+    &amp; \\
+    \text{We get the}&amp;\text{ Partial Molar Property by
+differntiating }\bar M_i^{ex} \text{ wrt } n_i, \\
+    &amp; \\
+    \bar M_i^{ex} &amp;= \frac{\partial }{\partial n_i}(n^tM^{ex})
+\bigg|_{T,P,n_{j\neq i}}\\
+    \bar M_i^{ex} &amp;= \frac{\partial }{\partial n_i}\left[n^t\sum x_i
+\left[\bar M_i -\bar M_i^{IM}\right]\right]_{T,P,n_{j\neq i}}\\
+    \bar M_1^{ex} &amp;= \frac{\partial }{\partial n_1}n^t\left[ x_1
+[\bar M_1 -\bar M_1^{IM}] + x_2 [\bar M_2 -\bar M_2^{IM} + \ldots\
+]  \right]_{T,P,n_{j\neq 1}}\\
+    &amp;= \bar M_1 -\bar M_1^{IM} + \sum \frac{\partial n_{j\neq
+1}}{\partial n_1}\left(\bar M_{j \neq 1} -\bar M_{j\neq 1}^{IM}\right) +
+\sum n_i \frac{\partial}{\partial n_i}\left(\bar M_i - \bar
+M_i^{IM}\right)\\
+    \bar M^{ex} &amp;= \left(\bar M_1 - \bar M_1^{IM}\right) +
+n_1\frac{\partial}{\partial n_1} \left(\bar M_1 - \bar M_1^{IM}\right) +
+n_2\frac{\partial}{\partial n_1} \left(\bar M_2 - \bar M_2^{IM}\right) +
+\ldots\\
+    \because\ \ \ \ \ n_i &amp;= x_i n^t \\
+    \therefore\ \bar M^{ex} &amp;= \left(\bar M_1 - \bar M_1^{IM}\right)
++ x_1\frac{\partial}{\partial x_1} \left(\bar M_1 - \bar M_1^{IM}\right)
++ x_2\frac{\partial}{\partial x_1} \left(\bar M_2 - \bar M_2^{IM}\right)
++ \ldots\\
+    &amp;= \left(\bar M_1 - \bar M_1^{IM}\right) + \sum x_i \frac{d\bar
+M_i}{dx_i} -\sum x_i \frac{d\bar M_i^{IM}}{dx_i}\\
+    &amp; \\
+    \text{Hence,}&amp;\text{ we get the final result,}\\
+    &amp; \\
+    \bar M ^{ex} &amp;= \bar M_i -\bar M_i^{IM}
+\end{align*}
+\]</span> Analyzing Excess Enthalpy <span class="math display">\[
+\bar H_i^{ex} = \bar H_i = \Delta_{mix}H
+\]</span></p>
+<p>For Gibbs Free Energy,</p>
+<p><span class="math display">\[
+\begin{align*}
+    G^R = G - G^{IG} &amp;= \int^P_0 \left( V - V^{IG} \right) dP =
+\int^P_0 \left(V - \frac{RT}{P}\right) dP \\
+    &amp;= RT\ln \frac{f}{P}
+\end{align*}
+\]</span></p>
+<p><span class="math display">\[
+\begin{align*}
+    \bar G_i - \bar G^{IGM} &amp;= \int^P_0 \left(\bar V_i -\bar
+V^{IGM}_i \right) dP = \int^P_0 \left(\bar V_i - V_i \right) dP \\
+    &amp;= RT\ln \left(\frac{\bar f_i}{P y_i}\right)
+\end{align*}
+\]</span></p>
+<blockquote>
+<p>[!NOTE] Remember</p>
+<p><span class="math display">\[
+\begin{align*}
+\bar{f}_i \quad \text{or} \quad f^{\text{mix}}_i &amp;= \text{Fugacity
+of Component `i&#39; in the mixture} \\
+&amp;\neq \text{Partial molar fugacity}
+\end{align*}
+\]</span></p>
+</blockquote>
+<p><span class="math display">\[
+\begin{align*}
+\bar G^{ex}_i &amp;= \bar G_i - \bar G^{IM}_i \\
+&amp;= \left( \bar G_i - \bar G^{IGM}_i \right) - \left(\bar G^{IM} -
+\bar G^{IGM}_i\right) \\
+&amp;= RT\ln\left(\frac{\bar f_i}{Py_i}\right) - \left(G_i + RT\ln y_i -
+(G^{IG}_i + RT \ln y_i)\right) \\
+&amp;= RT\ln\left(\frac{\bar f_i}{P y_i}\right) - \left(G_i -
+G^{IG}_i\right)\\
+&amp;= RT\ln\left(\frac{\bar f_i}{P y_i}\right) - G^R \\
+&amp;= RT\ln\left(\frac{\bar f_i}{P y_i}\right) - RT\ln\left(\frac{
+f_i}{P}\right)\\
+&amp;\\
+\therefore \bar G^{ex V} &amp;= RT \ln \left(\frac{\bar f_i}{f_i
+y_i}\right)\\
+\bar G^{ex L} &amp;= RT \ln \left(\frac{\bar f_i}{f_i x_i}\right)
+\end{align*}
+\]</span></p>
+<p>At Equilibrium,</p>
+<p><span class="math display">\[
+\begin{align*}
+\bar G^V_i &amp;= \bar G^L_i\\
+\bar G^{ex V} + \bar G^{IM\ V}_i &amp;= \bar G^{ex L} + \bar G^{IM\ L}_i
+\\
+RT \ln \left(\frac{\bar f_i^V}{f_i^V y_i}\right) + G_i + RT \ln y_i
+&amp;= RT \ln \left(\frac{\bar f_i^L}{f_i^L x_i}\right) + G_i + RT \ln
+x_i \\
+&amp;\\
+\therefore \bar f_i^V &amp; = \bar f_i^L
+\end{align*}
+\]</span> This Implies, <strong>Gibbs Energy in a Mixture is same as
+fugacity</strong>. <span class="math display">\[
+\bar G^{ex V}_i = RT \ln \left(\frac{\bar f^V_i}{y_if_i^V}\right)
+\]</span> vapor in an ideal mixture, <span class="math inline">\(\bar
+G_i^{exV} = 0\)</span> <span class="math inline">\(\implies\)</span>
+<span class="math inline">\(\bar f_i = y_if_i\)</span></p>
+<p>but for a liquid, <span class="math display">\[
+\bar G^{ex L}_i = RT \ln \left(\frac{\bar f^L_i}{x_if_i^L}\right)
+\]</span> <span class="math inline">\(\because\)</span> no ideal mixture
+is in liquid State (ofc (；一_一) <span class="math inline">\(\because
+size_{molecules} \not\ll \lambda\)</span>)</p>
+<p><span class="math inline">\(\bar G^{ex L}_i \neq 0\)</span> <span
+class="math inline">\(\implies\)</span> <span class="math inline">\(\bar
+f^L_i \neq x_if_i^L\)</span></p>
+<p>Therefore we use, <span class="math display">\[
+\bar f_i^L = a_if^L_i
+\]</span> where <span class="math inline">\(a_i\)</span> is called
+Activity</p>
+<p>The <strong>activity</strong> of a chemical entity is a dimensionless
+quantity derived by multiplying a correction factor (called an
+<strong>activity coefficient</strong>) by some measure of its molar
+abundance, such as molar concentration (molarity), molality, partial
+pressure, or mole fraction.</p>
+<p><span class="math display">\[
+a_i = \gamma_i x_i \tag{1}
+\]</span></p>
+<p>Activities are thus used as “effective concentrations” and are
+necessary to the extent that chemical behavior is not ideal – i.e.,
+strictly proportional to molar abundance – and so <span
+class="math inline">\(\gamma_i \neq 1\)</span>. Formally, <span
+class="math inline">\(a_i\)</span> is defined by Equation below, where
+it is described as a function of the difference between the chemical
+potential of <span class="math inline">\(i\)</span> (<span
+class="math inline">\(\mu_i\)</span>) and its chemical potential in some
+standard state, temperature (<span class="math inline">\(T\)</span>),
+and the gas constant (<span class="math inline">\(R\)</span>).</p>
+<p><span class="math display">\[
+a_i = \exp \left( \frac{\mu_i - \mu_i^\circ}{RT} \right) \tag{2}
+\]</span></p>
+<p><span class="math display">\[
+\begin{align*}
+\bar{f}_i^L &amp;= \left(\gamma_i x_i \right) f_i^L\\
+y_if_i^V &amp;= \gamma_i x_i f_i^L \\
+y_i \left(P \Phi_i^{^{=1}}\right) &amp;= \gamma_i x_i
+f_i^{sat}\exp\left[\frac{V^L (P -P^{sat})}{RT}\right] \\
+Py_i &amp;= \gamma_i^{^{=1}} x_i (P_i^{sat}\Phi_i^{sat^{=1}})\\
+\therefore Py_i &amp;= x_iP_i^{sat}
+\end{align*}
+\]</span></p>
+</section>
+<section id="gibbs-phase-rule-for-multicomponent-multiphase-systems"
+class="level2">
+<h2>Gibbs Phase Rule for Multicomponent, Multiphase Systems</h2>
+<p>The <strong>Gibbs phase rule</strong> determines the number of
+<strong>degrees of freedom</strong> <strong><em>F</em></strong> in a
+system with multiple components and phases, enabling us to understand
+how many variables need to be specified to completely define the
+system’s thermodynamic state.</p>
+<p>For a <strong>single-phase, C component</strong> system, the
+thermodynamic state can be fixed by specifying two <strong>intensive
+variables</strong> (such as temperature T and pressure P ) along with C
+- 1 <strong>mole fractions</strong> for the components. Alternatively,
+any set of <strong>C + 1 independent state variables</strong> can define
+this state, meaning we have <strong>C + 1 degrees of freedom</strong> in
+a single-phase system with C components. Once these variables are set,
+all other thermodynamic properties are fixed.</p>
+<p>For example, in a <strong>single-phase, C component</strong> system,
+possible equations of state include: <span class="math display">\[
+V = V(T, P, x_1, \dots, x_{C-1})
+\]</span> <span class="math display">\[
+S = S(T, P, x_1, \dots, x_{C-1})
+\]</span> <span class="math display">\[
+G = G(T, P, x_1, \dots, x_{C-1})
+\]</span></p>
+<p>In a <strong>multiphase</strong> system, phase equilibrium adds
+restrictions. For equilibrium: - <strong>Temperature</strong> must be
+the same across phases: <span class="math display">\[
+  T^I = T^{II} = \dots = T^P
+  \]</span> This adds P - 1 restrictions. - <strong>Pressure</strong>
+must be equal across phases: <span class="math display">\[
+  P^I = P^{II} = \dots = P^P
+  \]</span> This adds another P - 1 restrictions. - <strong>Chemical
+Potential</strong> (or partial molar Gibbs energy) of each component
+must be the same in each phase, adding C(P - 1) constraints: <span
+class="math display">\[
+  G_i^I = G_i^{II} = \dots = G_i^P, \quad i = 1, 2, \dots, C
+  \]</span></p>
+<p>Using this, we derive the Gibbs phase rule: <span
+class="math display">\[
+\begin{align*}
+\mathcal{F} &amp;=
+\left(
+\begin{array}{c}
+\text{Number of Unknown} \\
+\text{thermodynamic } \\
+\text{parameters}
+\end{array}
+\right)
+-
+\left(
+\begin{array}{c}
+\text{Number of independent} \\
+\text{relations among the } \\
+\text{unknown parameters}
+\end{array}
+\right) \\
+\\
+&amp;= \mathcal{P}(C + 1) - [2(\mathcal{P} - 1) + C(\mathcal{P} - 1) +
+\mathcal{M}]\\
+\\
+\mathcal{F} &amp;= C - \mathcal{M} - \mathcal{P} + 2
+\end{align*}
+\]</span></p>
+<p>For a system without chemical reactions <span class="math inline">\((
+M = 0)\)</span>, it simplifies to: <span
+class="math inline">\(\mathcal{F = C - P}  + 2\)</span> This rule
+determines how many independent variables are needed to define the
+system’s thermodynamic state.</p>
+</section>
+<section id="binary-vle" class="level2">
+<h2>Binary VLE</h2>
+<p>Let’s walk through the process with the help of a practical example
+involving a <strong>binary mixture of Benzene</strong> and
+<strong>Toluene</strong>. In this system, the key variables to consider
+are: - <strong>Temperature (T)</strong> - <strong>Pressure (P)</strong>
+- <strong>Vapor-phase mole fraction of Benzene <span
+class="math inline">\(y_B\)</span></strong> - <strong>Liquid-phase mole
+fraction of Benzene <span class="math inline">\(x_B\)</span></strong> -
+To determine the equilibrium state of the mixture, we can specify any
+<strong>two</strong> of these variables. Once two variables are defined,
+the remaining two will automatically fixed and can be determined using
+either the <strong>Lewis-Randall Rule</strong>, the <strong>excess
+function equation</strong>, or other <strong>equilibrium
+relations</strong>.</p>
+<p>Volatility is given by: <span
+class="math inline">\(\frac{y_i}{x_i}\)</span></p>
+<p>hence, Volatility of <strong>Benzene</strong> = <span
+class="math inline">\(\frac{y_B}{x_B} &gt; 1 \quad (\text{for this
+example})\)</span> and Volatility of <strong>Toluene</strong> = <span
+class="math inline">\(\frac{y_T}{x_T} &lt;1\)</span></p>
+<p>The Relative Volatility is defined as ratio of volatility of a more
+volatile component to that of less in a binary component system:</p>
+<p><span class="math display">\[
+\text{Rel. Volatility} = \alpha =\frac{\text{Volatility of
+Benzene}}{\text{Volatility of Toluene}} =
+\frac{\frac{y_B}{x_B}}{\frac{y_T}{x_T}}
+\]</span> <span class="math inline">\(\because\)</span> Benzene is the
+more Volatile</p>
+<p><span class="math display">\[
+\begin{align*}
+\alpha &amp;= \frac{\frac{y_1}{x_1}}{\frac{1-y_1}{1-x_1}}\\
+\\
+\therefore y_1 &amp;=
+\frac{\frac{\alpha}{1-x_1}}{\frac{\alpha}{1-x_1}+\frac{1}{x_1}}\\
+\\
+y_1 &amp;= \frac{\alpha x_1}{1+(\alpha -1)x_1}
+\end{align*}
+\]</span> In general dropping the subscripts for simplification,</p>
+<p><span class="math display">\[
+y = \frac{\alpha x}{1+(\alpha -1)x}
+\]</span></p>
+<p>The Antoine equation used is :<span class="math inline">\(\ln(P^{sat}
+(\text{mmHg})) = A - \frac{B}{T-C(K)}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Benzene</strong></td>
+<td>4.72583</td>
+<td>1660.652</td>
+<td>1.461</td>
+</tr>
+<tr>
+<td><strong>Toluene</strong></td>
+<td>4.07828</td>
+<td>1343.956</td>
+<td>53.77</td>
+</tr>
+</tbody>
+</table>
+<p>Keeping the Pressure Constant at 1bar,</p>
+<table>
+<thead>
+<tr>
+<th>T (°C)</th>
+<th>x₁</th>
+<th>y₁</th>
+<th>α</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>383.3</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+</tr>
+<tr>
+<td>375</td>
+<td>0.2</td>
+<td>0.38</td>
+<td>2.45161</td>
+</tr>
+<tr>
+<td>367.8</td>
+<td>0.4</td>
+<td>0.62</td>
+<td>2.40473</td>
+</tr>
+<tr>
+<td>362</td>
+<td>0.6</td>
+<td>0.79</td>
+<td>2.50794</td>
+</tr>
+<tr>
+<td>357</td>
+<td>0.8</td>
+<td>0.92</td>
+<td>2.875</td>
+</tr>
+<tr>
+<td>353</td>
+<td>1</td>
+<td>1</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="../images/Pasted%20image%2020241107212002.png"
+alt="Pasted image 20241107212002.png" />
+<figcaption aria-hidden="true">Pasted image
+20241107212002.png</figcaption>
+</figure>
+<p>Keeping the temperature constant (Please do share if anyone has
+calculated for this part (╯︵╰,) )</p>
+</section>
+<section id="henrys-law" class="level2">
+<h2>Henry’s Law</h2>
+</section>
+<section id="roults-law" class="level2">
+<h2>Roult’s Law</h2>
+</section>
+<section id="gibbs-phase-rule" class="level2">
+<h2>Gibbs Phase Rule</h2>
+</section>
+<section id="binary-vle-in-im" class="level2">
+<h2>Binary VLE in IM</h2>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

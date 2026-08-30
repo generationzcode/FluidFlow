@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laplace Transform - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Instrumentation And Process Dynamics Arya</div>
+        <a href="Control System.html" class="sidebar-link ">Control System</a>
+        <a href="Controller Designing.html" class="sidebar-link ">Controller Designing</a>
+        <a href="Instruments.html" class="sidebar-link ">Instruments</a>
+        <a href="Laplace Transform.html" class="sidebar-link sidebar-link-active">Laplace Transform</a>
+        <a href="Second Order System.html" class="sidebar-link ">Second Order System</a>
+        <a href="Systems in Series.html" class="sidebar-link ">Systems in Series</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<section id="first-order-system" class="level2">
+<h2>First Order System</h2>
+<p><span class="math display">\[
+G_p(s) = \frac{k_p}{\tau s+1}
+\]</span></p>
+<p>$$ <span class="math display">\[\begin{align*}
+Y(s) &amp;= \frac{K_p}{\tau s+1}\frac{M}{s}\\
+Y(s) &amp;= MK_p {(1-e^{\frac{-t}\tau})}\\
+\frac{dY}{dt} &amp;= \frac{M}{\tau}K_p e^{\frac{-t}{\tau}}\\
+
+\end{align*}\]</span> $$ <img
+src="../images/Pasted%20image%2020241231112422.png"
+alt="Pasted image 20241231112422.png" /> for, <span
+class="math inline">\(k=10,\ \tau=1.5\)</span> When t=<span
+class="math inline">\(1\times \tau\)</span> <span
+class="math inline">\(\frac{C(t)}{K_pM} = 1- e^{-1} =
+0.632\)</span><br />
+the system gives <span class="math inline">\(63.2\%\)</span> response
+for a 1st order System.</p>
+<p><strong>For a Thermometer</strong> in a system which is being heated
+from <span class="math inline">\(30\degree C\)</span> to <span
+class="math inline">\(50\degree C\)</span> <span
+class="math inline">\(mc_P T |_{t+\Delta t}-mc_PT|_t =
+hA(T_0-T)\)</span> <span class="math inline">\(\frac{dT}{dt} =
+\frac{hA}{mc_p} (T_0-T)\)</span> Taking Laplace transform, <span
+class="math inline">\(s\bar{T}(s) - \bar T(0) = k\bar T_0(s) - k\bar
+T(s)\)</span><br />
+<span class="math inline">\(\frac{\bar T(S)}{\bar T_0(S)} =
+\frac{k}{k+s} = \frac{1}{\frac{1}{k}s +1}\)</span> <span
+class="math inline">\(\therefore \tau = \frac{1}{k} =
+\frac{mc_p}{hA}\)</span> (m,<span class="math inline">\(c_p\)</span>,A
+of the bulb or the material in the bulb are constant, hence we can
+change the time constant by changing ) <img
+src="../images/Pasted%20image%2020241231114545.png"
+alt="Pasted image 20241231114545.png" /> #### Impulse Response of 1st
+Order Reaction <span class="math inline">\(R(s) = \delta(s) = 1\)</span>
+<span class="math inline">\(C(s) = \frac{K}{\tau s+1}\)</span> <span
+class="math inline">\(C(s) = \frac{K/\tau}{s+1/\tau}\)</span> <span
+class="math display">\[
+C(t) = \frac{K}{\tau}e^{-t/\tau}
+\]</span> #### Relation Between Step and Impulse Response <span
+class="math inline">\(\frac{dc(t)}{dt} = \frac{d()}{}\)</span></p>
+<section id="ramp-function" class="level4">
+<h4>Ramp Function</h4>
+<p><span class="math inline">\(R(t) = kt \implies R(s) =
+\frac{k}{s^2}\implies C(s) = \frac{kK_p}{s^2 (\tau s +1)}\)</span> <span
+class="math inline">\(C(s) = \frac{kK_p}{s^2(\tau s +1)} =
+\frac{kK_p}\tau \times
+\left[\frac{-\tau^2}{s}+\frac{\tau}{s^2}+\frac{\tau^2}{s+\frac{1}{\tau}}\right]\)</span>
+<span class="math inline">\(C(t) = \frac{kK_p}\tau (-\tau^2 + \tau t +
+\tau^2 e^{-t/\tau})\)</span> <span class="math inline">\(C(t) =
+kK_p(-\tau +t+\tau e^{-t/\tau})\)</span><br />
+<img src="../images/Pasted%20image%2020241231120647.png"
+alt="Pasted image 20241231120647.png" /> #### First Order - Sinosoidal
+<span class="math inline">\(x(t) = A\sin (\omega t) \implies x(t) = A
+\frac{\omega}{s^2+\omega^2}\)</span> <span class="math inline">\(Y(t) =
+\frac{K_p}{\tau s +1} x(s) \implies Y(s) =\)</span> <span
+class="math inline">\(Y(s) = \frac{K_p
+A\omega}{\tau}\left[\frac{\frac{\tau^2}{1+\omega^2\tau^2}}{s+\frac{1}{\tau}}
++\frac{s\frac{-\tau^2}{1+\omega^2\tau^2}}{s^2+\omega^2}+
+\frac{\frac{\tau}{1+\omega^2\tau^2}}{s^2+\omega^2}\right]\)</span> <span
+class="math inline">\(Y(t) = \frac{K_p
+A\omega}{\tau(1+\omega^2\tau^2)}\left[\frac{{\tau^2}}{s+\frac{1}{\tau}}
+-\frac{s{\tau^2}}{s^2+\omega^2}+
+\frac{{\tau}}{s^2+\omega^2}\right]\)</span><br />
+<span class="math inline">\(Y(t) =  \frac{K_p
+A}{(1+\omega^2\tau^2)}(\tau e^{-t/\tau} -\tau \omega\cos \omega t+  \sin
+\omega t)\)</span><br />
+<span class="math inline">\(Y(t) =  {K_p A}({\frac{\tau
+e^{-t/\tau}}{(1+\omega^2\tau^2)}} +\frac{1}{\sqrt{1+\omega^2\tau^2}}
+\sin (\omega \tau +\phi))\)</span><br />
+<span class="math inline">\(y(t)\bigg|_{t \to \infty} =
+\frac{A}{\sqrt{1+\omega^2\tau^2}}K_p \sin (\omega \tau + \phi)\)</span>
+<span class="math inline">\(\phi =
+\tan^{-1}\left(\frac{\omega^2\tau^2}{1}\right)\)</span> Noise is just a
+sine wave with a very high frequency</p>
+</section>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

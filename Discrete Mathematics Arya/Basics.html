@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Discrete Mathematics Arya</div>
+        <a href="Basics.html" class="sidebar-link sidebar-link-active">Basics</a>
+        <a href="Complexity.html" class="sidebar-link ">Complexity</a>
+        <a href="Congruence and Modulo.html" class="sidebar-link ">Congruence and Modulo</a>
+        <a href="Graph Theory.html" class="sidebar-link ">Graph Theory</a>
+        <a href="plime numbel.html" class="sidebar-link ">plime numbel</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p>There is a classroom in ICT in which every bench is Broken. <span
+class="math inline">\(C\)</span> = {Classroom in ICT} <span
+class="math inline">\(\exists\)</span> <span class="math inline">\(x \in
+C\)</span>(every Bench in <span class="math inline">\(x\)</span> is
+Broken) <span class="math inline">\(\forall\ x \in C\)</span> (<span
+class="math inline">\(\exists\ y \in B_x\)</span>(y is not Broken)) ####
+Family of Sets INDEXED by C <span class="math inline">\(x\ \ \in \ \
+C\)</span> <span class="math inline">\({B_x : x\ \in X}\)</span></p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr>
+<th><span class="math inline">\(\phi \neq I\)</span></th>
+<th><span class="math inline">\(U=\mathbb{R}^2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(\{1\}\)</span></td>
+<td><span class="math inline">\(A_1 = {(3,1)}\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\{1,2\}\)</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\{1,\ldots , 100\}\)</span></td>
+<td><span class="math inline">\(i \in I_i\)</span> , <span
+class="math inline">\(A_i = \mathbb{R^2},\phi, \{i,i\}, \{(i,y): y\in
+\mathbb{R}\}\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\mathbb{N}\)</span></td>
+<td><span class="math inline">\(m\in\mathbb{N}_i\)</span> <span
+class="math inline">\(A_i = \{(p,q): p,q\in \mathbb{N}\}\)</span></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(A_n = \{x \in \mathbb{R}:-n \leq x \leq
+n\}\)</span> <span class="math display">\[
+\bigcup_{n\in \mathbb{N}} A_n = \mathbb{R}
+\]</span> #### Well Ordering Principle If <span
+class="math inline">\(\phi \neq A \subseteq \mathbb{N}\)</span> , then
+<span class="math inline">\(A\)</span> has at least element i.e. <span
+class="math inline">\(\exists\ a \in A \text{ s.t.}\ \forall\ x \in A ,
+a\leq x\)</span></p>
+<section id="principle-of-mathematical-induction" class="level3">
+<h3>PRINCIPLE OF MATHEMATICAL INDUCTION</h3>
+<p><span class="math inline">\(\mathcal{S} \subseteq \mathbb{N}\)</span>
+is s.t. i. <span class="math inline">\(1 \in \mathcal{S}\)</span> ii.
+<span class="math inline">\(n \in \mathcal{S} \ \implies n+1 \in
+\mathcal{S}\)</span> Then <span class="math inline">\(\mathbb{N} =
+\mathcal{S}\)</span></p>
+</section>
+<section id="principle-of-strong-induction" class="level3">
+<h3>PRINCIPLE OF STRONG INDUCTION</h3>
+<p><span class="math inline">\(\mathcal{S}&#39; \subseteq
+\mathbb{N}\)</span> is s.t. i. <span class="math inline">\(1 \in
+\mathcal{S}&#39;\)</span> ii. <span class="math inline">\(1,\cdots,n \in
+\mathcal{S}&#39; \ \implies n+1 \in \mathcal{S}&#39;\)</span> Then <span
+class="math inline">\(\mathbb{N} = \mathcal{S}&#39;\)</span> ### Well
+Ordering Principle <span class="math inline">\(\to\)</span> Principle of
+Mathematical Induction <span class="math inline">\(\mathcal{S }\subseteq
+\mathbb{N}\)</span> has (i) and (ii) Claim: <span
+class="math inline">\(\mathcal{S }\subseteq \mathbb{N}\)</span> Assume:
+<span class="math inline">\(\mathcal{S }\neq \mathbb{N} \implies
+\mathcal{S }\nsubseteq \mathbb{N}\)</span> <span
+class="math inline">\(\exists k \in \mathbb{N} (k \notin
+\mathcal{S})\)</span> <span class="math inline">\(A :=
+\mathbb{N}\smallsetminus S = S^c\)</span> , <span
+class="math inline">\(\phi \neq A\)</span> let <span
+class="math inline">\(m:=\)</span> least element of <span
+class="math inline">\(A\)</span> <span class="math inline">\(S\cap A =
+\phi\)</span> if, <span class="math inline">\(m\in \mathbb{}N\)</span>
+and <span class="math inline">\(m&gt;1\implies m-1&gt;0 \implies m-1\geq
+1\)</span> <span class="math inline">\(m-1 \in A\)</span> &amp; <span
+class="math inline">\(m\)</span> “least element” <span
+class="math inline">\(\implies m\leq m-1\)</span>
+[<strong>Contradiction</strong>] <span class="math inline">\(m-1 \in
+\mathcal{S}\)</span>; (ii) <span class="math inline">\(\implies m \in
+\mathcal{S} \implies m \notin A\)</span> <span
+class="math inline">\(\implies\)</span> our initial Assumption is False.
+Hence, <span class="math inline">\(\mathbb{N}\equiv
+\mathcal{S}\)</span></p>
+</section>
+<section
+id="principle-of-mathematical-induction-to-well-ordering-principle"
+class="level3">
+<h3>Principle of Mathematical Induction <span
+class="math inline">\(\to\)</span> Well Ordering Principle</h3>
+<p>If <span class="math inline">\(A \subseteq \mathbb{N} \neq
+\phi\)</span>, then Prove that: <span class="math inline">\(A\)</span>
+has a least element i.e. <span class="math inline">\(\exists a \in A
+(\forall x \in A(a\leq x))\)</span> Assume : <span
+class="math inline">\(A\)</span> doesn’t have a least element. <span
+class="math inline">\(1 \notin A \implies 1 \in
+\mathcal{S}:=N\smallsetminus A=A^c\)</span> Form (i)&amp;(ii) <span
+class="math inline">\(\implies \mathcal{S}=\mathbb{N}\)</span> <span
+class="math inline">\(A = \mathbb{N}\smallsetminus \mathbb{N} =
+\phi\)</span> Assume : <span class="math inline">\(A\)</span> doesn’t
+have a least element. To prove: <span
+class="math inline">\(\mathcal{S}=\mathbb{N}\)</span> %% Principle of
+Strong Induction %% Assume: <span class="math inline">\(1,\cdots, n \in
+\mathcal{S} = A^c; n+1 \in A^c\)</span> if <span
+class="math inline">\(n+1 \in A \implies &#39;n+1&#39;\)</span> is the
+least element. hence, <span class="math inline">\(n+1 \in A^c \implies
+A^c= \mathbb{N}\)</span></p>
+<pre class="mermaid"><code>graph TD
+    A[Well Ordering &lt;br&gt; Principle] 
+    B[Principle of &lt;br&gt; Mathematical &lt;br&gt; Induction] &lt;--&gt; A 
+    B&lt;--&gt;C[Principle of &lt;br&gt; Strong &lt;br&gt; Induction] &lt;--&gt; A </code></pre>
+<blockquote>
+<p>[!Tip] Number Theory let’s Go!!!! <span class="math inline">\(a,\ b
+\in \mathbb{Z}\)</span> <span class="math inline">\(a\)</span> divides
+<span class="math inline">\(b\)</span> or <span
+class="math inline">\(a\)</span> is a factor of <span
+class="math inline">\(b\)</span> if <span class="math inline">\(\exists\
+k \in \mathbb{Z}\ |\ b=ak\)</span></p>
+</blockquote>
+<p><span class="math inline">\(a,b \in \mathbb{Z}\)</span>, assume <span
+class="math inline">\(a&gt;0\)</span> <span
+class="math inline">\(\exists q,r \in \mathbb{Z}\)</span> s.t. <span
+class="math inline">\(b=aq+r\)</span> with <span
+class="math inline">\(0\leq r&lt;a\)</span> Let’s just say, <span
+class="math inline">\(aq_2 + r_2 = b = aq_1 + r1\)</span> for <span
+class="math inline">\(0 \leq r_1,r_2 &lt;a\)</span> Assume : <span
+class="math inline">\(r_1 \leq r_2\)</span> ; WLG <span
+class="math inline">\(r_1&gt;r_2\)</span> <span class="math inline">\(a
+(q_2-q_1) = r_1 -r_2 \implies a|r_1-r_2\)</span> <span
+class="math inline">\(\because 0&lt;r_1-r_2 \leq r_1 &lt;a \implies
+r_1-r_2&lt;a \implies a \nmid r_1-r_2\)</span> which contradicts the
+assumption</p>
+<p>Lets's just consider the Whole number line, <span
+class="math inline">\(\mathcal{S}:= \{b-ax| b-ax\geq 0, x\in
+\mathbb{Z}\}\)</span> by Well ordering Principle least element of <span
+class="math inline">\(\mathcal{S}=:r\)</span> <span
+class="math inline">\(e\in \mathcal{S} \implies \exists\ q \in
+\mathbb{Z}\)</span> s.t. <span class="math inline">\(b-qa =r
+\geq0\)</span> %% Prove S is non empty and r is least element %%</p>
+</section>
+<section id="division-algorithm" class="level1">
+<h1>Division Algorithm</h1>
+<p><span class="math inline">\(a,b \in \mathbb{Z}, b&gt;0\)</span> <span
+class="math inline">\(\exists !\ q,r \in \mathbb{Z}\)</span> s.t. <span
+class="math inline">\((\exists!) \to\)</span> There exists unique <span
+class="math inline">\(a = bq+r, 0\leq r&lt;|b|\)</span> <span
+class="math inline">\(\mathcal{S} := \{a-bk\ |\ k \in \mathbb{Z}\ and\
+a-bk\geq0 \}\)</span> <span class="math inline">\(\mathcal{S}\neq \phi
+\subseteq \mathbb{N}\cup \{0\} \in\)</span> WOP WOP <span
+class="math inline">\(\implies \exists\)</span> a least element <span
+class="math inline">\(r \in \mathcal{S} \quad \ r = a-qb \implies a =
+bq+r\)</span> Suppose : <span class="math inline">\(b \leq r\)</span>
+<span class="math inline">\(r =b +m, \ \ \ m \geq 0\)</span> <span
+class="math inline">\(m= a-b(q+1)\)</span> <span class="math inline">\(m
+\in \mathcal{S}, b&gt;0 \implies m&lt;r\)</span></p>
+<section id="uniqueness" class="level3">
+<h3>Uniqueness</h3>
+<p><span class="math inline">\(bq&#39; +r&#39; =a =bq+r\)</span> <span
+class="math inline">\(b(q&#39;-q) = r-r&#39; \implies b\min
+r-r&#39;\)</span> assume: <span
+class="math inline">\(r&gt;r&#39;\)</span> but <span
+class="math inline">\(0&lt;r-r&#39;&lt;r&lt;b\)</span> <span
+class="math inline">\(q-q&#39;\)</span> and <span
+class="math inline">\(r-r&#39;\)</span></p>
+</section>
+</section>
+<section id="gcd" class="level1">
+<h1>GCD</h1>
+<p><span class="math inline">\(a,b \in \mathbb{Z}\ \quad gcd(a,b) = d
+=(a,b)\)</span> 1. <span class="math inline">\(d|a\)</span> and <span
+class="math inline">\(d|b\)</span> 2. <span
+class="math inline">\(c|a\)</span> and <span class="math inline">\(c|b
+\implies c\leq d\)</span> 3. <span class="math inline">\(a|b
+\implies\)</span> gcd(184,32) = 8 ### Euclidean Algorithm <span
+class="math display">\[
+\begin{align*}
+b &amp;= aq_1+r_1\\
+a &amp;= r_1q_2 +r_2\\
+&amp;\ \  \vdots\\
+r_{n-2} &amp;= r_{n-1}+q_n + r_n\\
+r_{n-1}&amp;= r_nq_{n+1}
+\end{align*}
+\]</span></p>
+<p><span class="math inline">\(m \in \mathbb{Z}\)</span> <span
+class="math inline">\(D_m = \{k \in \mathbb{Z}\big| k\mid m\}\)</span> =
+aet of all divisors of m <span
+class="math inline">\(|D_m|&lt;\infty\)</span> <span
+class="math inline">\(\gcd (a,b) = \max \{D_a \cap D_b\}\)</span> ####
+Lemma <span class="math inline">\(a,b \in \mathbb{Z}\)</span> be given,
+suppose <span class="math inline">\(b=aq+r\)</span> Then, <span
+class="math inline">\(\{D_a \cap D_b\}=\{D_a \cap D_r\}\)</span>
+<strong>Corollary</strong> : <span class="math inline">\(\gcd(a,b) =
+\gcd(a,r) = \ldots\)</span></p>
+<p><span class="math inline">\(d =\gcd(a,b)\)</span> <span
+class="math inline">\(d\mid am+bn, \ \ \ \ \ m,n \in \mathbb{Z}\)</span>
+<span class="math inline">\(am+bn=dk\)</span> <span
+class="math inline">\(\{am+bn\mid m,n \in \mathbb{Z}\} \subseteq \{dk
+\mid k \in \mathbb{Z} =: d\mathbb{Z}\}\)</span></p>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

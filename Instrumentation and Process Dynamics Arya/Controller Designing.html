@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controller Designing - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Instrumentation And Process Dynamics Arya</div>
+        <a href="Control System.html" class="sidebar-link ">Control System</a>
+        <a href="Controller Designing.html" class="sidebar-link sidebar-link-active">Controller Designing</a>
+        <a href="Instruments.html" class="sidebar-link ">Instruments</a>
+        <a href="Laplace Transform.html" class="sidebar-link ">Laplace Transform</a>
+        <a href="Second Order System.html" class="sidebar-link ">Second Order System</a>
+        <a href="Systems in Series.html" class="sidebar-link ">Systems in Series</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<figure>
+<img src="../images/Screenshot_20250407_093537.png"
+alt="Screenshot_20250407_093537.png" />
+<figcaption
+aria-hidden="true">Screenshot_20250407_093537.png</figcaption>
+</figure>
+<p>Mass Into The vessel at any time <span class="math inline">\(t = F(t)
+C_{A0}\big|_t\)</span> Mass out of the vessel at any time <span
+class="math inline">\(t+\Delta t = F(t) C_{A}\big|_{t+\Delta t}\)</span>
+Accumulation in Tank in time period <span class="math inline">\(\Delta
+t=V \frac{ C_A(t)\big|_{t+\Delta t} - C_A(t)\big|_t}{\Delta t}\)</span>
+Moles of A reacted <span class="math inline">\(= -kC_AV\)</span> <span
+class="math inline">\(\frac{F(t)C_{A0} \Delta t-F(t)C_A\Delta t}{ \Delta
+t}=\lim_{\Delta t\to0}V \frac{ C_A(t)\big|_{t+\Delta t} -
+C_A(t)\big|_t}{\Delta t} -\frac{kC_AV\Delta t}{\Delta t}\)</span></p>
+<p><span class="math inline">\(F(t)C_{A0} = V\frac{dC_A}{dt} -kC_AV+
+F(t)C_A\)</span> <span class="math inline">\(\frac{dC_A}{dt} =
+\frac{F(t)}{V}C_{A0}-\frac{F(t)}{V}C_A  -kC_A\)</span> <span
+class="math inline">\(\frac{dC_A}{dt} = f(F,C_A,C_{A0})\)</span> At
+steady state: <span class="math inline">\(0 =
+\frac{F_s(t)}{V}C_{A0s}-\frac{F_s(t)}{V}C_{As}  -kC_{As}\)</span> <span
+class="math inline">\(\frac{dC_A}{dt} = f_{ss}+\frac{\partial
+f}{dF}\bigg|_{ss}(F-F_s)+\frac{\partial
+f}{dC_{A0}}\bigg|_{ss}(C_{A0}-C_{A0s})+\frac{\partial
+f}{dC_{A}}\bigg|_{ss}(C_{A}-C_{As})\)</span> <span
+class="math inline">\(\frac{d\bar C_A}{dt} =
+\frac{C_{A0s}-C_{As}}{V}\bar F-\left(\frac{F_s}{V}+k\right)\bar
+C_A+\frac{F_s}{V}\bar C_{A0}\)</span></p>
+<p>Taking the Laplace Transform: <span class="math inline">\(s\bar
+C_A(s) = \frac{C_{A0s}-C_{As}}{V}\bar
+F(s)-\left(\frac{F_s}{V}+k\right)\bar C_A(s)+\frac{F_s}{V}\bar
+C_{A0}(s)\)</span></p>
+<p><span class="math inline">\(\bar C_A(s) =
+\frac{\frac{C_{A0s}-C_{As}}{V}}{\left(s+\frac{1}{\tau}+k\right)}\bar
+F(s)+\frac{\frac{F_s}{V}}{\left(s+\frac{1}{\tau}+k\right)}\bar
+C_{A0}\)</span> <span class="math inline">\(\tau =
+\frac{1}{\frac{F_s}{V}+k}\)</span> <span class="math inline">\(K_{p1} =
+\frac{C_{A0s}-C_{As}}{V}\)</span> <span class="math inline">\(K_{p2} =
+\frac{F_s}{V}\)</span></p>
+<p><span class="math inline">\(\bar C_A(s) =
+\frac{K_{p1}\tau}{\left(\tau s+1\right)}\bar
+F(s)+\frac{K_{p2}\tau}{\left(\tau s+1\right)}\bar C_{A0}\)</span></p>
+<figure>
+<img src="../images/Screenshot_20250407_094356.png"
+alt="Screenshot_20250407_094356.png" />
+<figcaption
+aria-hidden="true">Screenshot_20250407_094356.png</figcaption>
+</figure>
+<blockquote>
+<p>[!Question] Producing 200 Million Pounds per Year in a CSTR - Fogler
+Close to 16 billion pounds of ethylene glycol (EG) were produced in
+2013. It previ- ously ranked as the twenty-sixth most produced chemical
+in the nation on a total pound basis. About one-half of the ethylene
+glycol is used for antifreeze, while the other half is used in the
+manufacture of polyesters. In the polyester category, 88% was used for
+fibers and 12% for the manufacture of bottles and films. The 2013 sell-
+ing price for ethylene glycol was $0.60 per pound. It is desired to
+produce 200 million pounds per year of EG. The reactor is to be operated
+isothermally. A 16.1 mol/dm3 solution of ethylene oxide (EO) in water is
+mixed (see Figure E5-2.1) with an equal volumetric solution of water
+containing 0.9 wt % of the catalyst H2SO4 and fed to a CSTR. The
+specific reaction-rate con- stant is 0.311 min –1, as determined in
+Example 5-1. Practical guidelines for reactor scale-up are given by
+Mukesh.1 (a) If 80% conversion is to be achieved, determine the
+necessary CSTR volume. (b) If two 800-gal reactors were arranged in
+parallel with the feed equally divided, what would be the corresponding
+conversion? (c) If two 800-gal reactors were arranged in series, what
+would be the cor- responding conversion?</p>
+</blockquote>
+<p><span class="math inline">\(F_C = 46.4 mol/s\)</span> <span
+class="math inline">\(C_{A0} = 16.1mol/L\)</span> <span
+class="math inline">\(F_{A0} = 46.4\times \frac{1}{0.8} = 58.0 mol/s =
+3.625L/s\)</span> <span class="math inline">\(v = 5538L\)</span></p>
+<p><span class="math inline">\(G_p(s) =
+\frac{\frac{16.1-3.2}{3.625+5538\times5.2\times
+10^{-3}}}{\frac{5538}{3.625+5538\times 0.0052}s+1}=
+\frac{0.398}{171s+1}\)</span></p>
+<p><span class="math inline">\(G_d(s) =
+\frac{\frac{3.625}{3.625+5538\times.0052}}{\frac{5538}{3.625+5538\times
+.0052}s+1} = \frac{0.112}{171s+1}\)</span> Concentration/Composition
+Measurement is very very slow and will have a lag for simplicity we
+assume the slowest control loop to be 1. Major dynamic lag is that of
+Control Valve. Flow and Pressure measurement are very fast. Using a
+Proportional Controller: <span class="math inline">\(\bar
+C(s)=\frac{G_pG_VG_C}{1+G_pG_VG_CH}\bar R(s)
++\frac{G_L}{1+G_pG_VG_CH}\bar d(s)\)</span> For regulatory: <span
+class="math inline">\(\frac{\bar C_A(s)}{\bar C_{A0}(s)} =
+\frac{G_L}{1+G_pG_VG_CH}\)</span> <span class="math inline">\(\frac{\bar
+C_A(s)}{\bar C_{A0}(s)} = \frac{G_L}{1+G_pG_VG_C} =
+\frac{\frac{0.112}{171s+1}}{1+\frac{0.398}{171s+1}\times
+K_c\left(1+\frac{1}{s}\right)\times 5\times 1}\)</span> For Unit Step
+change,<span class="math inline">\(\bar C_{A0}(s) = 1/s\)</span> <span
+class="math inline">\(\bar C_A(s) =
+\frac{\frac{0.112}{2K_c}}{\frac{171}{2K_c}s^2+\left(\frac{1}{2K_c}+1\right)s+1}\)</span></p>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

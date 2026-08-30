@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixtures - Notes</title>
+    <link rel="stylesheet" href="../../css/tufte.css">
+    <link rel="stylesheet" href="../../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../../archive notes/Index.html">Index</a>
+                <a href="../../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Engineering Thermodynamics</div>
+        <a href="Basic Concepts and Definitions.html" class="sidebar-link ">Basic Concepts and Definitions</a>
+        <a href="Conservation of Energy.html" class="sidebar-link ">Conservation of Energy</a>
+        <a href="EOS.html" class="sidebar-link ">EOS</a>
+        <a href="Entropy.html" class="sidebar-link ">Entropy</a>
+        <a href="Material and Energy Balance Calculations.html" class="sidebar-link ">Material and Energy Balance Calculations</a>
+        <a href="Mixtures.html" class="sidebar-link sidebar-link-active">Mixtures</a>
+        <a href="Phase Equilibrium in Mixtures.html" class="sidebar-link ">Phase Equilibrium in Mixtures</a>
+        <a href="Will Name it Later....html" class="sidebar-link ">Will Name it Later...</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p><a href="Conservation%20of%20Energy.html">Conservation of Energy</a>
+<a href="Entropy.html">Entropy</a> <a
+href="Will%20Name%20it%20Later....html">Will Name it Later…</a> <a
+href="EOS.html">EOS</a> # Multicomponent Mixture Systems</p>
+<section id="delta-m_mix" class="level2">
+<h2><span class="math inline">\(\Delta M_{mix}\)</span></h2>
+<p>We are studying the change in extensive properties (e.g., volume,
+internal energy, Gibbs free energy and entropy) during phase equilibrium
+processes at constant pressure and temperature, where entropy generation
+is zero. This is useful for several applications:</p>
+<ul>
+<li><strong>Chemical equilibrium</strong>: Understanding the behavior of
+mixture components during reactions in various phases.</li>
+<li><strong>Separation processes</strong>: These processes, like
+liquid-liquid extraction, crystallization, humidification, and
+distillation, often occur under phase equilibrium conditions.</li>
+</ul>
+<p>In general, the property <span class="math inline">\(M\)</span>
+represents any <strong>Extensive properties</strong> like <span
+class="math inline">\(V\)</span>, <span
+class="math inline">\(U\)</span>, <span
+class="math inline">\(G\)</span>, <span class="math inline">\(S\)</span>
+et al and the total property M will depend upon factor like Temperature,
+pressure etc.<span class="math display">\[ M^t = f(T, P, n_i) \quad n =
+\Sigma n_i \quad M^t = nM \quad n_i = x_in \]</span> Where: - <span
+class="math inline">\(M^t\)</span>: Total extensive property of the
+system - <span class="math inline">\(n = \sum n_i\)</span>: Total number
+of moles - <span class="math inline">\(M^t = nM\)</span>: Total property
+as a function of per-mole properties - <span class="math inline">\(n_i =
+x_i n\)</span>: Moles of component <span
+class="math inline">\(i\)</span> related to mole fraction <span
+class="math inline">\(x_i\)</span></p>
+<p>The partial molar property <span
+class="math inline">\(\bar{M}_i\)</span> is given by:</p>
+<p><span class="math display">\[
+\bar{M}_i = \left( \frac{\partial M^t}{\partial n_i} \right)_{P, T, n_{j
+\neq i}}
+\]</span> ## Gibbs-Duhem Equation: The total differential of any
+property <span class="math inline">\(M^{tL}\)</span> for a liquid
+component can be expressed as: <span class="math display">\[
+dM^t = \frac{\partial M^t}{\partial P}\bigg|_{T, n} dP + \frac{\partial
+M^t}{T}\bigg|_{P, n} dT + \sum_i \frac{\partial M^t}{\partial
+n_i}\bigg|_{P, T, n_{j \neq i}} dn_i
+\]</span> <span class="math display">\[
+d(n M^t) = \frac{\partial (n M^t)}{\partial P}\bigg|_{T, n} dP +
+\frac{\partial (n M^t)}{T}\bigg|_{P, n} dT + \sum_i \frac{\partial (n
+M^t)}{\partial n_i}\bigg|_{P, T, n_{j \neq i}} d(x_in)
+\]</span> Rewriting in terms of mole fractions: <span
+class="math display">\[
+d(n M^t) = \frac{\partial (n M^t)}{\partial P}\bigg|_{T, n} dP +
+\frac{\partial (n M^t)}{T}\bigg|_{P, n} dT + \sum_i \bar{M_i} d(x_in)
+\]</span> <span class="math display">\[
+ndM + Mdn = n \frac{\partial M^t}{\partial P}\bigg|_{T} dP + n
+\frac{\partial M^t}{\partial T}\bigg|_{P} dT + \sum_i \bar{M_i} n dx_i +
+\sum_i \bar{M_i} x_i dn
+\]</span> Hence from this we get, <span class="math display">\[
+n\left[dM - \left(\frac{\partial M}{\partial T}\right)_{P,n} dT -
+\left(\frac{\partial M}{\partial P}\right)_{T, n} dP - \Sigma \bar{M_i}
+dx_i \right] + \left[M - \Sigma \bar{M_i} x_i\right] dn = 0
+\]</span></p>
+<p>We assume that the first term in the bracket is negligible, leading
+us to the expression <span class="math inline">\(M = \Sigma \bar{M_i}
+x_i\)</span>. However, this assumption is not entirely accurate due to
+the presence of the mixing contribution <span
+class="math inline">\(\Delta_{mix} M\)</span>.</p>
+<section id="final-form-of-gibbs-duhem-equation" class="level3">
+<h3>Final Form of Gibbs-Duhem Equation:</h3>
+<p>The Gibbs-Duhem equation is thus derived as: <span
+class="math display">\[
+\boxed{
+\left( \frac{\partial M}{\partial T} \right)_{P, n} dT + \left(
+\frac{\partial M}{\partial P} \right)_{T, n} dP - \sum_i x_i d\bar{M_i}
+= 0
+}
+\]</span></p>
+<p>The Gibbs-Duhem Equation in Differential form is : <span
+class="math display">\[
+dG^{t} = \left( \frac{\partial G^{t}}{\partial P} \right)_{T, n} dP +
+\left( \frac{\partial G^{t}}{\partial T} \right)_{P, n} dT + \sum_i
+\left( \frac{\partial G^{t}}{\partial n_i} \right)_{P, T, n_{j \neq i}}
+dn_i
+\]</span> Simplifying this: <span class="math display">\[ \boxed{
+dG^{t} = V^{t} dP - S^{t} dT + \sum_{i=1}^n \left( \frac{\partial
+G^{t}}{\partial n_i} \right)_{P, T, n_{j \neq i}} dn_i}
+\]</span></p>
+</section>
+<section id="chemical-potential" class="level3">
+<h3>Chemical Potential</h3>
+<p>The <strong>chemical potential</strong> of a species is a measure of
+the change in the system’s energy when the number of particles of that
+species is varied, particularly in processes like <strong>chemical
+reactions</strong> or <strong>phase transitions</strong>. When
+<strong>temperature</strong> and <strong>pressure</strong> are held
+constant, the chemical potential <span
+class="math inline">\(\mu_i\)</span> is equivalent to the
+<strong>partial molar Gibbs free energy for <span
+class="math inline">\(i^{th}\)</span> component</strong>: <span
+class="math display">\[
+\mu_i = \left( \frac{\partial G}{\partial n_i} \right)_{T, P, n_{j \neq
+i}}
+\]</span> This relationship is fundamental to understanding
+<strong>chemical equilibrium</strong> and <strong>phase
+equilibrium</strong>. It acts as the driving force behind diffusion,
+phase changes, and reactions, linking <strong>thermodynamics</strong>
+with the behavior of individual components in a mixture. - <strong>In
+phase equilibrium</strong>, the chemical potential of a component must
+be the same in all phases. - <strong>In chemical reactions</strong>,
+equilibrium is achieved when the chemical potentials of reactants and
+products are balanced. Chemical potential plays a key role in
+determining the direction and extent of reactions and phase
+transformations. Hence, <span class="math display">\[
+dG^{t} =  -\ S^{t} dT + V^{t} dP + \sum_{i=1}^n \mu_{i} dn_i
+\]</span> ### Enthalpy Relationship The enthalpy can be expressed in
+terms of entropy (S) and pressure (P): <span class="math display">\[
+dH = \left( \frac{\partial H}{\partial P} \right)_{S,N_i} dP + \left(
+\frac{\partial H}{\partial S} \right)_{P,N_i} dS + \sum_{i=1}^C \left(
+\frac{\partial H}{\partial N_i} \right)_{P,S,N_j} dN_i
+\]</span> This leads us to:</p>
+<p><span class="math display">\[
+dH = V dP + T dS + \sum_{i=1}^C \left( \frac{\partial H}{\partial N_i}
+\right)_{P,S,N_j} dN_i
+\]</span></p>
+<p>The term <span class="math inline">\(\left( \frac{\partial
+H}{\partial N_i} \right)_{P,S,N_j}\)</span> is <em>not</em> the partial
+molar enthalpy, which is defined as <span class="math inline">\(H_i =
+\left( \frac{\partial H}{\partial N_i} \right)_{T,P,N_j}\)</span>.</p>
+<p>From the relation <span class="math inline">\(H = G + TS\)</span>, we
+can derive:</p>
+<p><span class="math display">\[
+dH = dG + T dS + S dT = -S dT + V dP + \sum_{i=1}^c \bar{G_i} dN_i + T
+dS + S dT
+\]</span> Simplifying leads to:</p>
+<p><span class="math display">\[
+dH = V dP + T dS + \sum_{i=1}^c \bar{G_i} dN_i
+\]</span></p>
+<p>Comparing equations, we find:</p>
+<p><span class="math display">\[
+\left( \frac{\partial H}{\partial N_i} \right)_{P,S,N_j} = G_i = \left(
+\frac{\partial G}{\partial N_i} \right)_{T,P,N_j}
+\]</span> Similarly, we can derive:</p>
+<p><span class="math display">\[
+dU = T dS - P dV + \sum_{i} G_i dN_i
+\]</span></p>
+<p><span class="math display">\[
+dA = -P dV - S dT + \sum_{i} G_i dN_i
+\]</span></p>
+<p><span class="math display">\[
+\bar{G}_i = \left( \frac{\partial U}{\partial N_i} \right)_{S,V,N_j} =
+\left( \frac{\partial A}{\partial N_i} \right)_{T,V,N_j}
+\]</span></p>
+<hr />
+</section>
+<section id="summability-relationship" class="level3">
+<h3>Summability Relationship:</h3>
+<p>If the second term is zero, we get the <strong>summability
+relationship</strong>:</p>
+<p><span class="math display">\[
+M = \sum_i \bar{M_i} x_i
+\]</span></p>
+<p>Which states that the extensive property per mole of a mixture is the
+mole-fraction-weighted sum of the partial molar properties of the
+components.</p>
+<p>However, note that in reality: <span class="math display">\[
+M \neq \sum_i M_i x_i
+\]</span> There exists a mixing term:</p>
+<p><span class="math display">\[M = \Delta_{mix} M + \sum_i M_i
+x_i\]</span></p>
+<hr />
+</section>
+</section>
+<section id="redlich-kister-expansion" class="level2">
+<h2>Redlich-Kister Expansion</h2>
+<p><span class="math display">\[
+\Delta_{mix}M = \sum_{i=1}^n x_i(\bar{M_i} - M_i)
+\]</span></p>
+<p>For a binary mixture, the excess property due to mixing, <span
+class="math inline">\(\Delta_{mix}M\)</span>, can be expressed as:</p>
+<p><span class="math display">\[
+\Delta_{mix}M = x_1(\bar{M_1} - M_1) + x_2(\bar{M_2} - M_2)
+\]</span> Since <span class="math inline">\(x_2 = 1 - x_1\)</span>:
+<span class="math display">\[
+\Delta_{mix}M = x_1(\bar{M_1} - \bar{M_2} - (M_1 - M_2)) + \bar{M_2} -
+M_2
+\]</span></p>
+<p>Differentiating with respect to <span
+class="math inline">\(x_1\)</span>: <span class="math display">\[
+\frac{\partial \Delta_{mix}M}{\partial x_1} = (\bar{M_1} - \bar{M_2} -
+(M_1 - M_2))
+\]</span></p>
+<p>Multiplying by <span class="math inline">\(x_1\)</span> and
+rearranging, we get: <span class="math display">\[
+\bar{M_2} - M_2 = \Delta_{mix}M - x_1 \frac{\partial
+\Delta_{mix}M}{\partial x_1}
+\]</span></p>
+<p>Similarly: <span class="math display">\[
+\bar{M_1} - M_1 = \Delta_{mix}M + x_2 \frac{\partial
+\Delta_{mix}M}{\partial x_1}
+\]</span></p>
+<section id="general-property-change-due-to-mixing" class="level3">
+<h3>General Property Change Due to Mixing:</h3>
+<p>For any property change due to mixing, we can use a polynomial
+expansion, namely the <strong>Redlich-Kister expansion</strong>:</p>
+<p><span class="math display">\[
+\Delta_{mix}M = x_1x_2 \left[ A + B(x_1 - x_2) + C(x_1 - x_2)^2 + D(x_1
+- x_2)^3 + \dots \right]
+\]</span></p>
+<p>For a binary mixture, often a second-degree polynomial is sufficient:
+<span class="math display">\[
+\Delta_{mix}M = x_1x_2 \left[ A + B(x_1 - x_2) \right]
+\]</span> Substituting <span class="math inline">\(x_2 = 1 -
+x_1\)</span>: <span class="math display">\[
+\Delta_{mix}M = x_1(1 - x_1) \left[ A + B(2x_1 - 1) \right]
+\]</span> ### Differentiating with Respect to <span
+class="math inline">\(x_1\)</span>:</p>
+<p><span class="math display">\[
+\frac{\partial \Delta_{mix}M}{\partial x_1} = 2B(x_1 - x_1^2) + (1-2x_1)
+\left[ (A - B) + 2x_1B \right]
+\]</span></p>
+<p>From this, we can express the partial molar properties: <span
+class="math display">\[
+\bar{M_1} - M_1 = (A + 3B)x_2^2 - 4Bx_2^3
+\]</span> Similarly: <span class="math display">\[
+\bar{M_2} - M_2 = (A - 3B)x_1^2 - 4Bx_1^3
+\]</span></p>
+<hr />
+</section>
+<section id="infinite-dilution-properties" class="level3">
+<h3>Infinite Dilution Properties</h3>
+<p>The concentration does not change on adding more solvent at infinite
+dilution. For infinite dilution conditions, we define the partial molar
+properties at infinite dilution:</p>
+<p><span class="math display">\[
+\lim_{x_1 \to 0} (\bar{M_1} - M_1) = \bar{M_1}^\infty - M_1
+\]</span> <span class="math display">\[
+\lim_{x_2 \to 0} (\bar{M_2} - M_2) = \bar{M_2}^\infty - M_2
+\]</span> Here, <span class="math inline">\(\bar{M_1}^\infty\)</span>
+and <span class="math inline">\(\bar{M_2}^\infty\)</span> are called
+<strong>infinite dilution partial molar properties</strong>.</p>
+<hr />
+</section>
+<section
+id="the-differential-form-of-the-equations-of-change-for-a-multicomponent-system"
+class="level3">
+<h3>The Differential Form of the Equations of Change for a
+Multicomponent System</h3>
+<section id="species-balance" class="level4">
+<h4>Species Balance</h4>
+<p><span class="math display">\[
+\frac{dN_i}{dt} = \sum_{k=1}^{K} (\dot{N}_i)_k + \sum_{j=1}^{M} \nu_{ij}
+\dot{X}_j
+\]</span> #### Mass Balance</p>
+<p><span class="math display">\[
+\frac{dN}{dt} = \sum_{k=1}^{K} \dot{N}_k + \sum_{i=1}^{C} \sum_{j=1}^{M}
+\nu_{ij} \dot{X}_j
+\]</span> #### Energy Balance</p>
+<p><span class="math display">\[
+\frac{dU}{dt} = \sum_{k=1}^{K} (\dot{N} H)_k + \dot{Q} + \dot{W_s} - P
+\frac{dV}{dt}
+\]</span></p>
+</section>
+<section id="entropy-balance" class="level4">
+<h4>Entropy Balance</h4>
+<p><span class="math display">\[
+\frac{dS}{dt} = \sum_{k=1}^{K} (N \dot{S})_k + \frac{\dot{Q}}{T} +
+\dot{S}_{\text{gen}}
+\]</span></p>
+<p>Where: <span class="math display">\[
+\dot{N}_k = \sum_{i=1}^{C} (\dot{N}_i)_k, \quad (\dot{N} H)_k =
+\sum_{i=1}^{C} (\dot{N}_i H_i)_k, \quad (\dot{N} S)_k = \sum_{i=1}^{C}
+(\dot{N}_i S_i)_k
+\]</span></p>
+<hr />
+</section>
+</section>
+</section>
+<section id="chemical-potential-at-equilibrium-between-phases"
+class="level2">
+<h2>Chemical Potential at Equilibrium between Phases</h2>
+<p>For a Control Volume, the Gibbs-Duhem Equation is given by: <span
+class="math display">\[
+dG^{CV} = -\ S^{CV} dT + V^{CV} dP + \sum_{i=1}^n \left( \frac{\partial
+G^{tV}}{\partial n_i} \right)_{P, T, n_{j \neq i}} dn_i^V + \sum_{i=1}^n
+\left( \frac{\partial G^{tL}}{\partial n_i} \right)_{P, T, n_{j \neq i}}
+dn_i^L
+\]</span> But we know that for any Control Volume at Equilibrium, <span
+class="math display">\[
+dG^{CV} = -\ S^{CV} dT + V^{CV} dP
+\]</span> Thus, <span class="math display">\[\sum \bar{G_i}^L dn_i^L +
+\sum \bar{G}_i^L dn_i^V = 0\]</span> and <span
+class="math inline">\(dn_i^L  =  -dn_i^V\)</span>, hence: <span
+class="math display">\[\therefore \bar{G}_i^L = \bar{G}_i^V\]</span>
+Hence the Chemical Potential for a component is same at <strong>Phase
+Equilibrium</strong>.</p>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisubstrate - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Biochemical Arya</div>
+        <a href="BiSubstrate.html" class="sidebar-link sidebar-link-active">BiSubstrate</a>
+        <a href="BioChemical Industry.html" class="sidebar-link ">BioChemical Industry</a>
+        <a href="BioPolymers.html" class="sidebar-link ">BioPolymers</a>
+        <a href="Co-Factors & Co-Enzymes.html" class="sidebar-link ">Co-Factors & Co-Enzymes</a>
+        <a href="Group Discussion About Projects.html" class="sidebar-link ">Group Discussion About Projects</a>
+        <a href="Inhibition.html" class="sidebar-link ">Inhibition</a>
+        <a href="Organic Chemistry.html" class="sidebar-link ">Organic Chemistry</a>
+        <a href="Physical Chemistry.html" class="sidebar-link ">Physical Chemistry</a>
+        <a href="Protein & Protein Folding.html" class="sidebar-link ">Protein & Protein Folding</a>
+        <a href="Proteins as Catalytic Agents - Enzymes.html" class="sidebar-link ">Proteins as Catalytic Agents - Enzymes</a>
+        <a href="Something something ....html" class="sidebar-link ">Something something ...</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<section id="ternary" class="level1">
+<h1>Ternary</h1>
+<p>Hypothesized Reactions with respective dissociation rate constants
+<span class="math display">\[
+[E]+[A] \ce{&lt;--&gt;[K_A]} [EA] \quad \quad \text{Enzyme Combines with
+Substrate A}
+\]</span> <span class="math display">\[
+[E]+[B] \ce{&lt;--&gt;[K_B]} [EB] \quad \quad \text{Enzyme Combines with
+Substrate B}
+\]</span> <span class="math display">\[
+[EA]+[B] \ce{&lt;--&gt;[K_AB]} [EAB] \quad \quad \text{Enzyme COmplex
+Combines with Substrate B}
+\]</span> <span class="math display">\[
+[EB]+[A] \ce{&lt;--&gt;[K_BA]} [EBA] \quad \quad \text{Enzyme Complex
+Combines with Substrate A}
+\]</span> Assumption: <span class="math inline">\(K_A K_{AB} = K_B
+K_{BA}\)</span> i.e. complex [EAB] is the same as [EBA]. <span
+class="math display">\[
+[EAB] \ce{-&gt;[k_2]}[P]+[E] \quad \quad \text{Enzyme-A-B complex forms
+product}
+\]</span> Balancing the total Enzyme concentration give, <span
+class="math display">\[
+[E_T] = [E] + [EA] + [EB] + [EAB]
+\]</span> <span class="math display">\[
+[E] =
+\frac{[E_T]}{1+\frac{[A]}{K_A}+\frac{[B]}{K_B}+\frac{[A][B]}{K_{AB}K_A}}
+\]</span> rate <span class="math inline">\(= \frac{dP}{dt} =
+\frac{k_2[E][A][B]}{K_AK_{AB}} = k_2[EAB]\)</span> <span
+class="math display">\[
+v = \frac{v_{max}[A][B]}{K_AK_{AB} + K_{AB}[A]+K_{BA}[B]+[A][B]}
+\]</span> which in a special form turns out to be very handy(bring out
+the linearity in the velocity and subs conc relation) for model fitting,
+<span class="math display">\[
+\frac{1}{v} =
+\bigg(\frac{K_AK_{AB}}{v_{max}}\frac{1}{[B]}+\frac{K_{BA}}{v_{max}}\bigg)\frac{1}{[A]}+\frac{K_{AB}}{v_{max}}\frac{1}{[B]}+\frac{1}{v_{max}}
+\]</span></p>
+<p><span class="math display">\[
+W = \frac{a}{[A][B]} + \frac{b}{[B]}+\frac{c}{[A]}+d
+\]</span> <span class="math display">\[
+W = aX + bY +cZ + d
+\]</span> <span class="math display">\[
+\varepsilon = (W - aX -bY-cZ-d)
+\]</span> For N experiments, <span class="math display">\[
+SSE = E = \sum_N(W_i-aX_i-bY_i-cZ_i-d)^2
+\]</span> for minimum, <span class="math inline">\(\frac{\partial
+E}{\partial a} = \frac{\partial E}{\partial b} = \frac{\partial
+E}{\partial c} = \frac{\partial E}{\partial d} = 0\)</span> The
+parameters a, b, c, d is as a solution to this system of linear equation
+of form <span class="math inline">\(AX = b\)</span> <span
+class="math display">\[
+\begin{bmatrix}
+\sum X_i^2 &amp; \sum X_iY_i &amp; \sum X_iZ_i &amp; \sum X_i \\
+\sum Y_iX_i &amp; \sum Y_i^2 &amp; \sum Y_iZ_i &amp; \sum Y_i \\
+\sum Z_iX_i &amp; \sum Z_iY_i &amp; \sum Z_i^2 &amp; \sum Z_i \\
+\sum X_i &amp; \sum Y_i &amp; \sum Z_i &amp; N \\
+\end{bmatrix}
+\begin{bmatrix}
+a \\
+b\\
+c\\
+d
+\end{bmatrix}
+=
+\begin{bmatrix}
+\sum W_iX_i\\
+\sum W_i Y_i\\
+\sum W_i Z_i\\
+\sum W_i
+\end{bmatrix}
+\]</span> where, <span class="math inline">\(v_{max} =
+\frac{1}{d}\)</span>, <span class="math inline">\(K_{AB} =
+\frac{b}{d}\)</span>, <span
+class="math inline">\(K_{BA}=\frac{c}{d}\)</span>, <span
+class="math inline">\(K_A = \frac{a}{b}\)</span></p>
+</section>
+<section id="ping-pong-bi-bi" class="level1">
+<h1>Ping Pong Bi Bi</h1>
+<p>examples: Trasnminase, Nucleoside, Diphosphokinase Here the same
+enzyme is found to be in different states/configuration(wrt eg:
+geometry, charge, etc) after every reaction and therefore facilitation
+different reactions in different configuration. Hypothesized reaction:
+<span class="math display">\[
+[E]
++[A]\ce{&lt;=&gt;[K_A]}[EA]\ce{-&gt;[k_2]}[P]+[E^*]+[B]\ce{&lt;=&gt;[K_B]}[E^*B]\ce{-&gt;[k_4]}
+[E]+[Q]\]</span> Further on i am dropping “[]” for denoting
+concentration(being a bit lazy; oops fast i mean), <span
+class="math display">\[
+E + A \ce{&lt;=&gt;[K_A]}EA \quad \quad \text{enzyme E complexes with
+substrate A}
+\]</span> <span class="math display">\[
+EA \ce{-&gt;[k_2]}P+E^* \quad \quad \text{The complex gives product P
+adn enzyme E*}
+\]</span> <span class="math display">\[
+E^* + B \ce{&lt;=&gt;[K_B]}E^*B \quad \quad \text{enzyme E* complexes
+with substrate B}
+\]</span> <span class="math display">\[
+E^*B \ce{-&gt;[k_4]}Q+E \quad \quad \text{The complex gives product Q
+and enzyme E}
+\]</span></p>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

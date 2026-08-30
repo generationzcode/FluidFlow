@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complexity - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Discrete Mathematics Arya</div>
+        <a href="Basics.html" class="sidebar-link ">Basics</a>
+        <a href="Complexity.html" class="sidebar-link sidebar-link-active">Complexity</a>
+        <a href="Congruence and Modulo.html" class="sidebar-link ">Congruence and Modulo</a>
+        <a href="Graph Theory.html" class="sidebar-link ">Graph Theory</a>
+        <a href="plime numbel.html" class="sidebar-link ">plime numbel</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<section id="computational-compexity" class="level2">
+<h2>Computational Compexity</h2>
+<section id="asymptotic-computational-complexity" class="level3">
+<h3>Asymptotic Computational Complexity</h3>
+<p>In <a
+href="https://en.wikipedia.org/wiki/Computational_complexity_theory"
+title="Computational complexity theory">computational complexity
+theory</a>, <strong>asymptotic computational complexity</strong> is the
+usage of <a href="https://en.wikipedia.org/wiki/Asymptotic_analysis"
+title="Asymptotic analysis">asymptotic analysis</a> for the estimation
+of computational complexity of <a
+href="https://en.wikipedia.org/wiki/Algorithm"
+title="Algorithm">algorithms</a> and <a
+href="https://en.wikipedia.org/wiki/Computational_problem"
+title="Computational problem">computational problems</a>, commonly
+associated with the usage of the <a
+href="https://en.wikipedia.org/wiki/Big_O_notation"
+title="Big O notation">big O notation</a>.</p>
+</section>
+<section id="worst-case-complexity" class="level3">
+<h3>Worst Case Complexity</h3>
+<ul>
+<li>For each n, worst case input forces algorithm to take the maximum
+amount of time required.</li>
+<li>Upper Bound for overall running Time.</li>
+<li>It is a function of Algorithm Itself.</li>
+<li>Maybe Rare: Very Pessimistic .</li>
+</ul>
+</section>
+<section id="average-case-complexity" class="level3">
+<h3>Average Case Complexity</h3>
+<ul>
+<li>Compute Average time taken over all inputs</li>
+<li>Parameters: Average wrt, Likelihood of all Inputs, Probability
+Distribution over all inputs.</li>
+</ul>
+</section>
+</section>
+<section id="big-o-notation" class="level2">
+<h2>Big O Notation</h2>
+<p>Big O notation describes an upper bound on the growth rate of a
+function. For functions <span class="math inline">\(f(n)\)</span> and
+<span class="math inline">\(g(n)\)</span>, we say:</p>
+<p><span class="math inline">\(f(n) = O(g(n)) \text{ as } n \to
+\infty\)</span></p>
+<p>if there exist positive constants <span
+class="math inline">\(M\)</span> and <span
+class="math inline">\(n_0\)</span> such that:</p>
+<p><span class="math inline">\(|f(n)| \leq M \cdot |g(n)| \quad
+\text{for all } n \geq n_0.\)</span></p>
+<section id="key-points" class="level3">
+<h3>Key Points:</h3>
+<ul>
+<li><span class="math inline">\(g(n)\)</span> must be non-zero for
+sufficiently large <span class="math inline">\(n\)</span>.</li>
+<li>The notation captures the <strong>asymptotic behavior</strong> of
+<span class="math inline">\(f(n)\)</span>, focusing on its growth rate
+relative to <span class="math inline">\(g(n)\)</span>.</li>
+<li>Often used in computer science to classify algorithms based on their
+worst-case performance.</li>
+</ul>
+<p>In simpler terms, <span class="math inline">\(f(n)\)</span> is “Big O
+of <span class="math inline">\(g(n)\)</span>” if <span
+class="math inline">\(f(n)\)</span> grows no faster than a constant
+multiple of <span class="math inline">\(g(n)\)</span> for large <span
+class="math inline">\(n\)</span>.</p>
+<ul>
+<li><p><span class="math inline">\(n^3\)</span> is not <span
+class="math inline">\(O(n^2)\)</span> as no matter what <span
+class="math inline">\(c\)</span> we choose, <span
+class="math inline">\(cn^2\)</span> will always be dominated by <span
+class="math inline">\(n^3\)</span> for <span class="math inline">\(n
+\geq c\)</span></p></li>
+<li><p>If <span class="math inline">\(f_1(n)\)</span> is <span
+class="math inline">\(O(g_1(n))\)</span> and <span
+class="math inline">\(f_2(n)\)</span> is <span
+class="math inline">\(O(g_2(n))\)</span>,</p></li>
+<li><p>then <span class="math inline">\(f_1(n)+f_2(n)\)</span> is <span
+class="math inline">\(O(max(g_1(n),g_2(n)))\)</span></p></li>
+<li><p>For Algorithm with many phases the least efficient phase is the
+Upper Bound for the whole Algorithm.</p></li>
+</ul>
+</section>
+</section>
+<section id="omega-notation-definition" class="level2">
+<h2>Omega Notation: Definition</h2>
+<p>Omega notation describes a lower bound on the growth rate of a
+function. For functions <span class="math inline">\(f(n)\)</span> and
+<span class="math inline">\(g(n)\)</span>, we say:</p>
+<p><span class="math inline">\(f(n) = \Omega(g(n)) \text{ as } n \to
+\infty\)</span></p>
+<p>if there exist positive constants <span
+class="math inline">\(M\)</span> and <span
+class="math inline">\(n_0\)</span> such that:</p>
+<p><span class="math inline">\(|f(n)| \geq M \cdot |g(n)| \quad
+\text{for all } n \geq n_0.\)</span></p>
+<section id="key-points-1" class="level3">
+<h3>Key Points:</h3>
+<ul>
+<li><span class="math inline">\(g(n)\)</span> must be non-zero for
+sufficiently large <span class="math inline">\(n\)</span>.</li>
+<li>The notation captures the <strong>asymptotic minimum growth
+rate</strong> of <span class="math inline">\(f(n)\)</span>, ensuring
+that <span class="math inline">\(f(n)\)</span> grows at least as fast as
+a constant multiple of <span class="math inline">\(g(n)\)</span> for
+large <span class="math inline">\(n\)</span>.</li>
+<li>Often used in computer science to classify algorithms based on their
+best-case performance or guaranteed lower bounds.</li>
+</ul>
+<p>In simpler terms, <span class="math inline">\(f(n)\)</span> is “Omega
+of <span class="math inline">\(g(n)\)</span>” if <span
+class="math inline">\(f(n)\)</span> grows at least as fast as <span
+class="math inline">\(g(n)\)</span> for large <span
+class="math inline">\(n\)</span>.</p>
+<ul>
+<li>Typically we establish lower bound for problem as a whole rather
+than individual algorithms, eg: Sorting requirest <span
+class="math inline">\(\Omega (n\log n)\)</span> comparisons, no matter
+how clever the algorithm is.</li>
+</ul>
+</section>
+</section>
+<section id="theta-notation-definition" class="level2">
+<h2>Theta Notation: Definition</h2>
+<p>Theta notation describes a tight bound on the growth rate of a
+function. For functions <span class="math inline">\(f(n)\)</span> and
+<span class="math inline">\(g(n)\)</span>, we say:</p>
+<p><span class="math inline">\(f(n) = \Theta(g(n)) \text{ as } n \to
+\infty\)</span></p>
+<p>if there exist positive constants <span
+class="math inline">\(M_1\)</span>, <span
+class="math inline">\(M_2\)</span>, and <span
+class="math inline">\(n_0\)</span> such that:</p>
+<p><span class="math inline">\(M_1 \cdot |g(n)| \leq |f(n)| \leq M_2
+\cdot |g(n)| \quad \text{for all } n \geq n_0.\)</span></p>
+<section id="key-points-2" class="level3">
+<h3>Key Points:</h3>
+<ul>
+<li><span class="math inline">\(g(n)\)</span> must be non-zero for
+sufficiently large <span class="math inline">\(n\)</span>.</li>
+<li>The notation captures the <strong>asymptotic tight bound</strong>,
+meaning <span class="math inline">\(f(n)\)</span> grows at the same rate
+as <span class="math inline">\(g(n)\)</span> within constant
+factors.</li>
+<li>Often used in computer science to classify algorithms when their
+growth rate is tightly constrained between upper and lower bounds.</li>
+</ul>
+<p>In simpler terms, <span class="math inline">\(f(n)\)</span> is “Theta
+of <span class="math inline">\(g(n)\)</span>” if <span
+class="math inline">\(f(n)\)</span> grows at the same rate as <span
+class="math inline">\(g(n)\)</span> for large <span
+class="math inline">\(n\)</span>, within a constant factor.</p>
+</section>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

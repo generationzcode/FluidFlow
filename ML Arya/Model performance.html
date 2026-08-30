@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Performance - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Ml Arya</div>
+        <a href="Bit of Philosophy.html" class="sidebar-link ">Bit of Philosophy</a>
+        <a href="ML Strategy.html" class="sidebar-link ">ML Strategy</a>
+        <a href="Model performance.html" class="sidebar-link sidebar-link-active">Model performance</a>
+        <a href="k-NN.html" class="sidebar-link ">k-NN</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<section id="testing-null-hypothesis" class="level3">
+<h3>Testing NUll Hypothesis</h3>
+<p>Coefficient being “0” implies that that term has no effect on the
+result with corresponding confidence, else Reject value and we accept
+the NUll hypothesis</p>
+<p>Think of the Null Hypothesis as an inate assumption we have pre
+analysis saying that a particular parameter has no effect on the
+result/value to be predicted</p>
+<p><span class="math display">\[
+\begin{align*}
+\text{Intercept}\quad &amp; H_0: b_0=0 &amp; H_a : b_0\neq 0 &amp;\quad
+\text{if}\quad p_{value} &lt; 0.001 \implies \text{Reject Null
+hypothesis with 99.9\% confidence, else Reject}\\
+\text{Coeff of }x^1\quad &amp; H_0: b_1=0 &amp; H_a : b_1\neq 0
+&amp;\quad \text{if}\quad p_{value} &lt; 0.001 \implies \text{Reject
+Null hypothesis with 99.9\% confidence, else Reject}\\
+\text{Coeff of }x^2\quad &amp; H_0: b_2=0 &amp; H_a : b_2\neq 0
+&amp;\quad \text{if}\quad p_{value} &lt; 0.001 \implies \text{Reject
+Null hypothesis with 99.9\% confidence, else Reject}\\
+\text{Coeff of }x^3\quad &amp; H_0: b_3=0 &amp; H_a : b_3\neq 0
+&amp;\quad \text{if}\quad p_{value} &lt; 0.001 \implies \text{Reject
+Null hypothesis with 99.9\% confidence, else Reject}\\
+&amp;\vdots&amp;\\
+\text{Coeff of }x^p\quad &amp; H_0: b_p=0 &amp; H_a : b_p\neq 0
+&amp;\quad \text{if}\quad p_{value} &lt; 0.001 \implies \text{Reject
+Null hypothesis with 99.9\% confidence, else Reject}\\
+\end{align*}
+\]</span></p>
+<p>Model variation is give by: <span class="math display">\[
+\begin{align*}
+\sum(y_i - \bar y)^2 &amp;= \sum[y_i - \hat y_i +\hat y_i - \bar y]^2\\
+&amp;= \sum^n_{i=1}[y_i - \hat y_i]^2 + \sum^n_{i=1}[\hat y_i - \bar y]
++0\\
+&amp;= \text{ESS + MSS +0}
+\end{align*}
+\]</span> <span class="math display">\[
+R^2 = \text{proportion of variation} = \frac{MSS}{TSS} = 1 -
+\frac{ESS}{TSS}
+\]</span> where TSS = <span class="math inline">\(\sum[y_i - \bar
+y]^2\)</span></p>
+<p>There is a drawback tot this, as this doesn’t give us any insight
+into model complexity and variation of data</p>
+<p>The standard error give the 95% confidence interval for Expected y
+for given x</p>
+<p>This shows that <span class="math inline">\(R^2\)</span> is not a
+good measure/indicator of performance and model selection<br />
+It is Monotonically increasing function of model complexity</p>
+<p><span class="math inline">\(\because\)</span> from numerical
+interpolation for a polynomial of degree <span
+class="math inline">\(w_n(x)\)</span> that polynomial will pass through
+all the points <span class="math inline">\((x_i, y_i)\)</span><br />
+This will give the <span class="math inline">\(R^2\)</span> term to be
+one and the curve will pass thorugh all the points</p>
+<p>Some measure which will penalized the system if the model is getting
+“unnecessarily complex” The “Statisticians” addressed this issue by
+adjusting the <span class="math inline">\(R^2\)</span> <span
+class="math display">\[R^2_{\text{adj}} = 1 -
+\frac{\text{ESS}/(n-p-1)}{\text{TSS}/(n-1)}\]</span> For the same data
+different people can come up with different Conclusions</p>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

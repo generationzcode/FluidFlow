@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control System - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Instrumentation And Process Dynamics Arya</div>
+        <a href="Control System.html" class="sidebar-link sidebar-link-active">Control System</a>
+        <a href="Controller Designing.html" class="sidebar-link ">Controller Designing</a>
+        <a href="Instruments.html" class="sidebar-link ">Instruments</a>
+        <a href="Laplace Transform.html" class="sidebar-link ">Laplace Transform</a>
+        <a href="Second Order System.html" class="sidebar-link ">Second Order System</a>
+        <a href="Systems in Series.html" class="sidebar-link ">Systems in Series</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p>For a Jacketed Continuous Flow Stirred Tank - Volume - Height : -
+Impeller Speed : - Temperature &amp; Pressure of Steam &amp; Condensate
+: - Temperature inside the (required) CV : - Change in Pressure in side
+the CV : - Temperature &amp; Pressure of Fluid incoming and outgoing CV
+: -</p>
+<figure>
+<img src="../images/Screenshot_20250225_120708.png"
+alt="Screenshot_20250225_120708.png" />
+<figcaption
+aria-hidden="true">Screenshot_20250225_120708.png</figcaption>
+</figure>
+<p>Enthalpy of Vessel at time t = <span class="math inline">\(V\rho C_p
+(T-T_{ref}) = V\rho C_pT|_t\)</span> Enthalpy of Vessel at time <span
+class="math inline">\(t+\Delta t\)</span> = <span
+class="math inline">\(V\rho C_p T|_{t+\Delta t}\)</span> Enthalpy in by
+Flow = <span class="math inline">\(F\Delta t \rho C_p T_{in}\)</span>
+Enthalpy out by Flow = <span class="math inline">\(F\Delta t \rho C_p
+T\)</span> Enthalpy Transferref by Steam = <span
+class="math inline">\(Q\Delta t = m_{steam}\Delta t \lambda = UA(T_{in}
+-T)\)</span></p>
+<p><span class="math inline">\(\frac{V\rho C_p T|_{t+\Delta t}-V\rho C_p
+T|_{t}}{\Delta t} = F\Delta t \rho C_p T_{in} -F\Delta t \rho C_p T +
+m\Delta t\lambda\)</span></p>
+<p><span class="math inline">\(\frac{dT(t)}{dt} =
+\frac{F}{V}(T_{in}(t)-T(t))+\frac{\lambda}{V\rho C_p}m(T)\)</span> <span
+class="math inline">\(0 =
+\frac{F}{V}(T_{in,s}(t)-T_s(t))+\frac{\lambda}{V\rho C_p}m_s(T)\)</span>
+at Steady State Condition</p>
+<p><span class="math inline">\(\therefore\)</span> Subtracting to get
+Deviation variable form we get, <span
+class="math inline">\(\frac{d(T-T_s)}{dt} =
+\frac{F}{V}((T_{in}-T_{in,s})-(T-T_s))+\frac{\lambda}{V\rho
+C_p}(m-m_s)\)</span> <span class="math inline">\(\frac{d\bar T(t)}{dt} =
+\frac{F}{V}(\bar T_{in}(t)-\bar T(t))+\frac{\lambda}{V\rho C_p}\bar
+m(T)\)</span></p>
+<p>Taking The Laplace of the Above equation, <span
+class="math inline">\(s\bar T(s) - \bar T(0)= \frac{F}{V}(\bar
+T_{in}(s)-\bar T(s))+\frac{\lambda}{V\rho C_p}\bar m(s)\)</span> <span
+class="math inline">\(\left(s+\frac{F}{V}\right)\bar T(s) =
+\frac{F}{V}\bar T_i(s) + \frac{\lambda}{V\rho C_p}\bar m(s)\)</span></p>
+<p>Rearranging the Equation, <span class="math inline">\(\bar T(s) =
+\frac{1}{\frac{V}{F}s+1}\bar T_i(s)+\frac{\frac{\lambda}{F\rho
+C_p}}{\frac{V}{F}s+1}\bar m(s)\)</span> <span class="math inline">\(\bar
+T(s) = \frac{1}{\tau s+1}\bar T_i(s)+\frac{\frac{\lambda}{F\rho
+C_p}}{\tau s+1}\bar m(s)\)</span></p>
+<p><span class="math inline">\(G_1(s) = \frac{\bar T(s)}{\bar T_i(s)} =
+\frac{K_{p1}}{\tau s+1}\)</span> <span class="math inline">\(G_2(s) =
+\frac{\bar T(s)}{\bar m(s)} = \frac{K_{p2}}{\tau s+1}\)</span></p>
+<blockquote>
+<p><span class="math display">\[\bar T(s) = G_1\bar T_i(s) +G_2 \bar
+m(s)\]</span></p>
+</blockquote>
+<blockquote>
+<p>[!Question] Question For the above system <span
+class="math inline">\(T_i = 30 \degree C,\ \ \ F_s = 10 \ m^3/hr,\ \ \
+\rho = 1000\ kg/m^3\)</span> <span class="math inline">\(T_{st} = 105
+\degree C,\ \ \rho_{st} = 0.6\ kg/m^3,\ \ \lambda = 500 kcal/kg\)</span>
+<span class="math inline">\(T_s = 60 \degree C\)</span> 1. <span
+class="math inline">\(10\%\)</span> change on steam flow rate and <span
+class="math inline">\(3\degree C\)</span> change in inlet temperature 2.
+After new SS is achieved then, <span class="math inline">\(T_i =
+2\degree C\)</span> and mass flow Rate Decrease by <span
+class="math inline">\(5\%\)</span></p>
+</blockquote>
+<p><span class="math inline">\(F_{st} = 600 kg/hr = 1000
+m^3/hr\)</span></p>
+<p><span class="math inline">\(G_1 = \frac{1}{0.2s+1}\)</span> <span
+class="math inline">\(G_2 = \frac{\frac{500\times 4.18\times
+1000}{10000\times4.18\times 1000}}{\frac{2}{10}s+1} =
+\frac{0.05}{0.2s+1}\)</span> <span class="math inline">\(\bar T(s) =
+\frac{1}{0.2s+1}\bar T_i(s)+\frac{0.05}{0.2s+1}\bar m(s)\)</span> <span
+class="math inline">\(\bar T(s) =
+\frac{1}{0.2s+1}\frac{3}{s}+\frac{0.05}{0.2s+1}\frac{60}{s}\)</span>
+<span class="math inline">\(\bar T(s) = \frac{15}{s(0.2s+1)} =
+\frac{30}{s(s+5)} = \frac{6}{s}-\frac{6}{s+5}\)</span> <span
+class="math inline">\(\bar T (t) = 6(1-e^{-5t})\)</span> <img
+src="../images/Screenshot_20250304_112207.png"
+alt="Screenshot_20250304_112207.png" /></p>
+<p>New steady State <span class="math inline">\(\bar T_i(S) =
+2/s\)</span> <span class="math inline">\(\bar m(s) = -33/s\)</span>
+<span class="math inline">\(\bar T(s) = \frac{1.75}{s(s+5)}\)</span>
+<span class="math inline">\(\bar T(t) = 0.35(1-e^{-5t})\)</span> <img
+src="../images/Screenshot_20250304_113341.png"
+alt="Screenshot_20250304_113341.png" /></p>
+<p><span class="math inline">\(m_s\times 4.18 = 10\times 100\times 4.18
+\times(66.35-35)\)</span> <span class="math inline">\(m_s = 500
+kg/hr\)</span></p>
+<section id="closed-loop-transfer-function-with-feedback-loop"
+class="level2">
+<h2>Closed Loop Transfer Function with Feedback Loop</h2>
+<p><span class="math display">\[
+\begin{align*}
+C(s) &amp;= G_p(s)+G_Ld(s)\\
+&amp;=G_pG_Vp(s)+G_Ld(s)\\
+&amp;=G_pG_VG_C(R-B)+G_Ld(s)\\
+&amp;=G_pF_VG_C(R-HC(s))+G_Ld(s)\\
+C(s)&amp;=\frac{G_pG_VG_CR+G_Ld(s)}{1+G_pG_VG_CH}
+\end{align*}
+\]</span> &gt;<span class="math display">\[
+\boxed{\bar C(s)=\frac{G_pG_VG_C}{1+G_pG_VG_CH}\bar R(s)
++\frac{G_L}{1+G_pG_VG_CH}\bar d(s)}
+\]</span></p>
+<p>For <span class="math inline">\(K_C = 1 , 5, 10\)</span></p>
+<p><span class="math display">\[
+\begin{align*}
+\bar
+C(s)&amp;=\frac{\frac{3}{s}\times\frac{1}{0.2s+1}}{1+\times\frac{0.05}{0.2s+1}\times100\times
+K_c\times 1}\\
+&amp;\bigg|_{K_c=1}=&amp;\frac{15}{s(s+30)}\\
+\end{align*}
+\]</span></p>
+<figure>
+<img src="../images/Screenshot_20250311_105613.png"
+alt="Screenshot_20250311_105613.png" />
+<figcaption
+aria-hidden="true">Screenshot_20250311_105613.png</figcaption>
+</figure>
+<p><span class="math display">\[
+\begin{align*}
+\frac{\bar C(s)}{\bar R(s)}&amp;=\frac{G_pG_VG_C}{1+G_pG_VG_CH} \\
+&amp;=\frac{K_cK_v \frac{K_p}{\tau s+1}}{1+k_cK_vK_p\frac{1}{\tau
+s+1}}\\
+&amp;=
+\frac{\frac{K_cK_vK_p}{1+K_pK_vK_c}}{\frac{\tau}{1+K_cK_vK_p}+1}\\
+\therefore \frac{\bar C(s)}{\bar R(s)} &amp;= \frac{K_p&#39;}{\tau&#39;
+s+1}
+\end{align*}
+\]</span></p>
+<p>For a unit step change in <span class="math inline">\(\bar
+R(s)\)</span> <span class="math inline">\(\bar C(s) =
+\frac{1}{s}\frac{K_p&#39;}{\tau&#39; s +1}\)</span> <span
+class="math inline">\(\bar C(t) = K_p&#39;(1-e^{-t/\tau&#39;})\)</span>
+<span class="math inline">\(\bar C(\infty) = 1\)</span> Difference
+between the change in the set value <span
+class="math inline">\(R\)</span> and change in the Output <span
+class="math inline">\(C\)</span> = <span class="math inline">\(1-
+K_p&#39;\)</span> = OFFSET</p>
+<section id="proportional-integral-controller" class="level4">
+<h4>Proportional Integral Controller</h4>
+<p>For a PI Controller, <span class="math inline">\(K_c =
+1+\frac{1}{s}\)</span> <span class="math inline">\(p(t) = K_c\epsilon(t)
++\frac{K_c}{\tau_I}\int^t_0\epsilon(t)dt\)</span> <span
+class="math inline">\(p(s) = K_c\epsilon (s)
++\frac{K_c}{\tau_I}\frac{1}{s}\epsilon(s)\)</span> <span
+class="math inline">\(\frac{p(s)}{\epsilon (s)} =
+K_c\left(1+\frac{1}{\tau_I s}\right)\)</span></p>
+<p><span class="math inline">\(\frac{\bar C(s)}{\bar R(s)} =
+\frac{(1+\frac{1}{s})\times 100 \times
+\frac{0.05}{0.2s+1}}{1+(1+\frac{1}{s})\times 100 \frac{0.05}{0.2s+1}} =
+\frac{(s+1)\times25}{s(s+5) +(1+s)\times 25} =
+\frac{25(s+1)}{s^2+30s+25}\)</span> <span
+class="math inline">\(\frac{\bar C(s)}{\bar R(s)} =
+\frac{(1+\frac{1}{s})\times 100 \times
+\frac{0.05}{0.2s+1}}{1+(1+\frac{1}{s})\times 100 \frac{0.05}{0.2s+1}} =
+\frac{(s+1)\times25}{s(s+5) +(1+s)\times 25} =
+\frac{25(s+1)}{s^2+30s+25} =
+25\frac{s+1}{(s+15-10\sqrt{2})(s+15+10\sqrt{2})}\)</span> <span
+class="math inline">\(\bar C(s) = 25\left[\frac{1}{\frac{1}{5}^2
+s^2+2\frac{1}{5}3s+1}+
+\frac{1}{s(s+15-10\sqrt{2})(s+15+10\sqrt{2})}\right]\)</span></p>
+<p><span class="math inline">\(\bar C(s) = \left[\frac{25}{\frac{1}{5}^2
+s^2+2\frac{1}{5}3s+1}-
+\frac{1}{s}+\frac{1}{(s+15-10\sqrt{2})}+\frac{1}{(s+15+10\sqrt{2})}\right]\)</span>
+<span class="math inline">\(\bar C(t) = 25[1+e^{15t}\left[...\right]] 1
++e^{(-15+10\sqrt{2})t}+e^{(-15-10\sqrt{2})t}\)</span></p>
+<p><span class="math display">\[
+\frac{\bar C(s)}{\bar d(s)}=\frac{G_L}{1+G_pG_VG_CH}
+\]</span> <span class="math inline">\(\bar C(s) =
+\frac{2}{s}\frac{\frac{1}{0.2s+1}}{1+(1+\frac{1}{s})\times100\times\frac{0.05}{0.2s+1}}\)</span>
+<span class="math inline">\(\bar C(s) = 2\frac{5}{s(s+5)+(s+1)25} =
+\frac{10}{s^2+30s+25}\)</span> <span class="math inline">\(\bar C(s) =
+\frac{10}{\sqrt{200}}\sinh(\sqrt{200}t)e^{-15t}\)</span> <em> <img
+src="../images/Screenshot_20250311_120406.png"
+alt="Screenshot_20250311_120406.png" /> </em> <span
+class="math display">\[
+\bar C(s)=\frac{G_pG_VG_C}{1+G_pG_VG_CH}\bar R(s)
++\frac{G_L}{1+G_pG_VG_CH}\bar d(s) = \frac{\bar Q(s)}{\bar P(s)}
+\]</span> <span class="math inline">\(\frac{\bar Q(s)}{\bar P(s)} =
+\frac{Q(s)}{(s-a_1)(s-a_2)\ldots(s-a_n)} =
+\frac{A_1}{s-a_1}+\frac{A_2}{s-a_2}+\ldots+\frac{A_n}{s-a_n}\)</span>
+<span class="math inline">\(\frac{1}{s-a}\)</span> for +ve a <span
+class="math inline">\(\to e^{at} \implies\)</span> unstable <span
+class="math inline">\(\frac{1}{s-a}\)</span> for -ve a <span
+class="math inline">\(\to e^{-at} \implies\)</span> stable <span
+class="math inline">\(\frac{1}{s-a}\)</span> for +ve a in <span
+class="math inline">\(a+ib\)</span> <span class="math inline">\(\to
+e^{at}e^{ibt} \implies\)</span> unstable <span
+class="math inline">\(\frac{1}{s-a}\)</span> for -ve a in <span
+class="math inline">\(a+ib\)</span> <span class="math inline">\(\to
+e^{-at}e^{ibt} \implies\)</span> stable</p>
+<ul>
+<li>Proportional Time = <span
+class="math inline">\(\frac{100}{K_c}\)</span></li>
+<li>Rate = <span class="math inline">\(\frac{1}{\tau_I}\)</span></li>
+<li>first Order System Capacity = <span class="math inline">\(G_{p} =
+\frac{K_p}{\tau s+1}\)</span></li>
+<li>Second Order System = <span class="math inline">\(G_p =
+\frac{K_p}{\tau^2 s^2+2\xi\tau s+1} = f(K_p,\tau,\xi)\)</span></li>
+</ul>
+<figure>
+<img src="../images/Screenshot_20250401_112327.png"
+alt="Screenshot_20250401_112327.png" />
+<figcaption
+aria-hidden="true">Screenshot_20250401_112327.png</figcaption>
+</figure>
+<p><span class="math inline">\(y(t) = x(t-t_d)\)</span> <span
+class="math inline">\(y(s) = e^{-\tau_d s}x(s)\)</span> <span
+class="math inline">\(\frac{y(s)}{x(s)} = e^{-\tau_d s}\)</span> ###
+Pade’s Approximation <span class="math display">\[
+\frac{C(s)}{R(s)} =
+\frac{G_cG_vG_pe^{-\tau_ds}}{1+G_cG_vG_pe^{-\tau_ds}H}
+\]</span> <span class="math inline">\(e^{-\tau_ds} \approx
+\frac{1-\frac{\tau_s}{2}s}{1+\frac{\tau_s}{2}s}\)</span></p>
+</section>
+<section id="zeigler-nichols-method" class="level4">
+<h4>Zeigler Nichols Method</h4>
+<ol type="1">
+<li><span class="math inline">\(\tau_i \to \infty, \tau_d =0\)</span> so
+that <span class="math inline">\(G_C=K\)</span> and Increase the <span
+class="math inline">\(K_C\)</span> so as to get sustained oscillation;
+this <span class="math inline">\(K_U\)</span> is the <strong>Ultimate
+Gain of Controller</strong> and the corresponding time period of
+oscillation is the ultimate period .</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><span class="math inline">\(Z_N\)</span> Setting</th>
+<th><span class="math inline">\(P\)</span></th>
+<th><span class="math inline">\(PI\)</span></th>
+<th><span class="math inline">\(PID\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(K_c\)</span></td>
+<td><span class="math inline">\(0.5K_U\)</span></td>
+<td><span class="math inline">\(0.45K_U\)</span></td>
+<td><span class="math inline">\(0.6K_U\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_I\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(P_U/1.2\)</span></td>
+<td><span class="math inline">\(P_U/2\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_D\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(P_U/8\)</span></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>With no overshoot</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><span class="math inline">\(Z_N\)</span> Setting</th>
+<th>no overshoot</th>
+<th>Slight Overshoot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(K_c\)</span></td>
+<td><span class="math inline">\(0.2K_U\)</span></td>
+<td><span class="math inline">\(0.3K_U\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_I\)</span></td>
+<td><span class="math inline">\(P_U/2\)</span></td>
+<td><span class="math inline">\(P_U/2\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_D\)</span></td>
+<td><span class="math inline">\(P_U/2\)</span></td>
+<td><span class="math inline">\(P_U/3\)</span></td>
+</tr>
+</tbody>
+</table>
+<section id="using-process-reaction-curve-methods" class="level5">
+<h5>Using process reaction curve methods</h5>
+<table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th><span class="math inline">\(Z_N\)</span> Tuning Parameters - Open
+Loop</th>
+<th><span class="math inline">\(P\)</span></th>
+<th><span class="math inline">\(PI\)</span></th>
+<th><span class="math inline">\(PID\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(K_c\)</span></td>
+<td><span class="math inline">\((\tau/\tau_d)K_p\)</span></td>
+<td><span class="math inline">\(0.9(\tau/\tau_d)K_p\)</span></td>
+<td><span class="math inline">\(1.2(\tau/\tau_d)K_p\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_I\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(\tau/0.3\)</span></td>
+<td><span class="math inline">\(\tau_d/0.5\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_D\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(0.5\tau_d\)</span></td>
+</tr>
+</tbody>
+</table>
+<pre class="mermaid"><code>mindmap
+        root((mindmap))
+          Origins
+            Long history
+            Popularisation
+              British popular psychology author Tony Buzan
+          Research
+            On effectiveness&lt;br/&gt;and features
+            On Automatic creation
+              Uses
+                  Creative techniques
+                  Strategic planning
+                  Argument mapping
+          Tools
+            Pen and paper
+            Mermaid</code></pre>
+<pre class="mermaid"><code>stateDiagram-v2
+        [*] --&gt; Still
+        Still --&gt; [*]
+    
+        Still --&gt; Moving
+        Moving --&gt; Still
+        Moving --&gt; Crash
+        Crash --&gt; [*]</code></pre>
+</section>
+</section>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>

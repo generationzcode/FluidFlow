@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Theory - Notes</title>
+    <link rel="stylesheet" href="../css/tufte.css">
+    <link rel="stylesheet" href="../css/retro.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</head>
+<body>
+    <div class="retro-header">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-45T9Q3PW3Y"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-45T9Q3PW3Y');
+
+</script>
+    <div class="header-content">
+        <img src="../images/construction.gif" alt="Under Construction" class="header-icon">
+        <a href="../index.html" class="header-title-link">
+            <span class="header-title">⚡  Thoughts on ChemE and Stuff ⚡</span>
+        </a>
+        <img src="../images/computer.gif" alt="Computer" class="header-icon">
+    </div>
+    
+    <nav class="header-nav">
+        <div class="dropdown">
+            <button class="dropbtn">Test ▼</button>
+            <div class="dropdown-content">
+                <a href="../test/test.html">Test</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Archived Notes ▼</button>
+            <div class="dropdown-content">
+                <a href="../archive notes/Index.html">Index</a>
+                <a href="../archive notes/Fluid mechanics.html">Fluid Mechanics</a>
+                <a href="../archive notes/Engineering thermodynamics.html">Engineering Thermodynamics</a>
+                <a href="../archive notes/Statistics models.html">Statistics Models</a>
+                <a href="../archive notes/Chemical Engineering Operations.html">Chemical Engineering Operations</a>
+                <a href="../archive notes/Instrumentation and process control.html">Process Control</a>
+                <a href="../archive notes/Momentum Transfer.html">Momentum Transfer</a>
+                <a href="../archive notes/mathematical modelling.html">Mathematical Modelling</a>
+                <a href="../archive notes/Technological Economics.html">Technological Economics</a>
+                <a href="../archive notes/Chemical Reaction Engineering.html">Chemical Reaction Engineering</a>
+                <a href="../archive notes/Polymers.html">Polymers</a>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="main-container">
+        <div class="sidebar">
+    <div class="sidebar-header">📚 NAVIGATION</div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">🏠 MAIN</div>
+        <a href="../index.html" class="sidebar-link ">Home</a>
+    </div>
+    <div class="sidebar-section">
+        <div class="sidebar-section-title">Discrete Mathematics Arya</div>
+        <a href="Basics.html" class="sidebar-link ">Basics</a>
+        <a href="Complexity.html" class="sidebar-link ">Complexity</a>
+        <a href="Congruence and Modulo.html" class="sidebar-link ">Congruence and Modulo</a>
+        <a href="Graph Theory.html" class="sidebar-link sidebar-link-active">Graph Theory</a>
+        <a href="plime numbel.html" class="sidebar-link ">plime numbel</a>
+    </div>
+    <div class="sidebar-decoration">
+        <img src="../images/hgttg.gif" alt="Thanks for coming!">
+    </div>
+</div>
+
+        <article>
+            
+<p>Diagonal Subset : <span class="math inline">\(\Delta(V) = \{(v,v)\mid
+v\in V\} \subseteq V \times V\)</span> Undirected Graph : <span
+class="math inline">\((v_i, v_{j\neq i})=(v_j, v_{i\neq j})\)</span>
+Directed Graph : <span class="math inline">\((v_i, v_{j\neq i})\neq(v_j,
+v_{i\neq j})\)</span></p>
+<p><span class="math inline">\(T = (V,E)\)</span> <span
+class="math inline">\(\Phi = V,\)</span> assume: <span
+class="math inline">\(|V|&lt;\infty\)</span> <span
+class="math inline">\(E\subseteq \mathcal{P}_2(V) = \{A\subseteq
+V\big|\mid A \mid =2\}\)</span></p>
+<p><span class="math inline">\(u\in V;\ \deg(u) :=\{e\in E | u\in
+e\}\)</span> <span class="math inline">\(\forall u \in V,\
+0\leq\deg(u)\leq n-1\)</span></p>
+<p>if <span class="math inline">\(v_i\neq v_j,\)</span> then <span
+class="math inline">\(\deg(v_i) \neq \deg(v_j)\)</span> is False Implies
+<span class="math inline">\(\exists v_i,v_j\in V\)</span> s.t. 1. <span
+class="math inline">\(v_i \neq v_j\)</span> 2. <span
+class="math inline">\(\deg(v_i) = \deg(v_j)\)</span></p>
+<section id="isomorphism" class="level2">
+<h2>Isomorphism</h2>
+<p><span class="math inline">\(\Gamma_1,\Gamma_2 =\)</span> graphs <span
+class="math inline">\(\Gamma_1\cong \Gamma_2 \implies\Gamma_1\)</span>
+is isomorphic to <span class="math inline">\(\Gamma_2\)</span> if <span
+class="math inline">\(f: V(\Gamma_1)\to V(\Gamma_2)\)</span> 1. <span
+class="math inline">\(f\)</span> is a bijective function 2. <span
+class="math inline">\(\{v_i,v_j\}\in E(\Gamma_1) \iff
+\{f(v_i),f(v_j)\}\in E(\Gamma_2)\)</span> 3. <span
+class="math inline">\(\deg(v_i)=\deg(f(v_i))\forall i \in
+\{1,\ldots,n\}\)</span></p>
+</section>
+<section id="regular-graphs" class="level2">
+<h2>Regular Graphs</h2>
+<p>Given <span class="math inline">\(v_i,v_j \in V\)</span> <span
+class="math inline">\(\deg(v_i) = \deg(v_j)\)</span> <span
+class="math inline">\(\deg:V\to \{0,\ldots n-1\}\)</span> is a constant
+function <span class="math inline">\(\forall v \in V, \deg(v) =
+n-1\)</span> Complete Graph</p>
+</section>
+
+        </article>
+    </div>
+    <div class="retro-footer">
+    <div class="footer-links">
+        <a href="../index.html">HOME</a> |
+        <a href="https://github.com/generationzcode">SOURCE</a> |
+        <span>LAST UPDATED: 2026</span>
+    </div>
+    <div class="footer-counter">
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com/character-counter" target="_blank" rel="noopener" title="https://www.hitwebcounter.com/character-counter">
+<img src="https://www.hitwebcounter.com/counter/counter.php?page=21501560&amp;style=0001&amp;nbdigits=7&amp;type=page" alt="https://www.hitwebcounter.com/character-counter" decoding="async" style="border:0;max-width:100%;height:auto;" />
+</a>
+<br />
+<a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener" style="font-family:Geneva, Arial, Helvetica;font-size:11px;color:#85948C;text-decoration:underline;font-weight:em;">Total-Visits</a>
+<!-- hitwebcounter Code END -->
+    </div>
+</div>
+</body>
+</html>
